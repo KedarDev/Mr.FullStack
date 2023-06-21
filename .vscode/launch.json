@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MrfullstackBackendApplication<mrfullstack>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mrfullstack.resumeapp.mrfullstackbackend.MrfullstackBackendApplication",
+            "projectName": "mrfullstack",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

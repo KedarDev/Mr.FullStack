@@ -1,0 +1,34 @@
+# Tomcat Server Port
+server:
+  port: 8081
+
+
+ # Logger
+logging.level:
+  web: DEBUG
+  '[com.mrfullstack.resumeapp]': DEBUG
+  '[org.hibernate.type]': INFO
+  
+# Actuator Enabled
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+        
+ # Active Profile
+spring:
+  profiles:
+    active: visitor   
+    
+    # Banner Text
+  banner:
+    charset: UTF-8
+    location: classpath:/banner/MrFullStackBanner.txt  
+
+    
+# Date format config settings Used by the controller     
+# Jackson Settings
+  jackson:
+    time-zone: America/Toronto
+    date-format: "yyyy-MM-dd HH:mm:ss" 
