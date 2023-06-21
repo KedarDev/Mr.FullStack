@@ -6,7 +6,7 @@ server:
  # Logger
 logging.level:
   web: DEBUG
-  '[com.mrfullstack.resumeapp]': DEBUG
+  '[com.resumeapp.mrfullstackbackend]': DEBUG
   '[org.hibernate.type]': INFO
   
 # Actuator Enabled
