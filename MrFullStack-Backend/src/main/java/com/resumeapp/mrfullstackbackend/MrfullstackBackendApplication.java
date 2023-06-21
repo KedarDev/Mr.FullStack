@@ -1,4 +1,4 @@
-package com.mrfullstack.resumeapp.mrfullstackbackend;
+package com.resumeapp.mrfullstackbackend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
