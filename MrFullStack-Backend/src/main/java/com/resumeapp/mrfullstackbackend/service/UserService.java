@@ -19,7 +19,7 @@ public List<UserBean> listUsers() {
     return this.userDao.listUsers();
 }
 
-public UserBean findUserByUsername(String username) {
+public UserBean findByUsername(String username) {
 
     return this.userDao.findByUsername(username);
 }
