@@ -1,8 +1,15 @@
 package com.resumeapp.mrfullstackbackend.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.resumeapp.mrfullstackbackend.jdbc.UserBean;
+import com.resumeapp.mrfullstackbackend.service.UserService;
+
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +18,9 @@ import org.slf4j.LoggerFactory;
 public class UserController {
 
     final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    @Autowired
+    UserService userService;
 
     @GetMapping("/test")
     public String testController() {
@@ -21,4 +31,11 @@ public class UserController {
 
     }
 
+    @GetMapping("/")
+    public List<UserBean> listUsers() {
+
+        logger.debug("The listUsers() method was invoked!");
+
+        return this.userService.listUsers();
+    }
 }

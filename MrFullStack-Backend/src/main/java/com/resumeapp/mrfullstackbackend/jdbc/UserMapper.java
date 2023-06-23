@@ -11,10 +11,9 @@ public class UserMapper implements RowMapper<UserBean> {
     @Override
     @Nullable
     public UserBean mapRow(ResultSet rs, int rowNum) throws SQLException {
-        
         /* Create a UserBean object */
         UserBean user = new UserBean();
-        
+
         /* Populates the UserBean object with data from the resultSet */
         user.setUserId(rs.getInt("userId"));
         user.setFirstName(rs.getString("firstName"));
@@ -25,10 +24,10 @@ public class UserMapper implements RowMapper<UserBean> {
         user.setEmailId(rs.getString("emailId"));
         user.setEmailVerified(rs.getBoolean("emailVerified"));
         user.setCreatedOn(rs.getTimestamp("createdOn"));
-        
+
         /* Return the populated UserBean object */
         return user;
-        
+
     }
 
 }

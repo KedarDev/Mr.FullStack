@@ -3,8 +3,8 @@ package com.resumeapp.mrfullstackbackend.jdbc;
 import java.sql.Timestamp;
 
 public class UserBean {
-    
-    // variables 
+
+    // variables
     private Integer userId;
 
     private String firstName;
@@ -28,7 +28,6 @@ public class UserBean {
         return userId;
     }
 
-    
     public void setUserId(Integer userId) {
         this.userId = userId;
     }
@@ -92,17 +91,17 @@ public class UserBean {
     public Timestamp getCreatedOn() {
         return createdOn;
     }
-    
+
     public void setCreatedOn(Timestamp createdOn) {
         this.createdOn = createdOn;
-    } 
-    
-    // toString()
+    }
+
+    // toString
     @Override
     public String toString() {
         return "UserBean [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", username="
                 + username + ", password=" + password + ", phone=" + phone + ", emailId=" + emailId + ", emailVerified="
                 + emailVerified + ", createdOn=" + createdOn + "]";
     }
-    
+
 }

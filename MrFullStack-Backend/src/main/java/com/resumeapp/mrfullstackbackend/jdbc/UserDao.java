@@ -1,11 +1,12 @@
 package com.resumeapp.mrfullstackbackend.jdbc;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import java.util.List;
+
 
 @Repository
 public class UserDao {
@@ -33,6 +34,7 @@ public class UserDao {
          * list
          */
         return users.isEmpty() ? null : users.get(0);
+
     }
 
     public void createUser(UserBean user) {

@@ -56,11 +56,11 @@ spring:
 spring:
   config:
     activate:
-      on-profile: default 
+      on-profile: visitor
        
 # Database Settings
   datasource:
-    url: jdbc:postgresql://localhost:5432/feedApp
+    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
     username: postgres
     password: pg123
     hikari:
