@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 
 public class UserBean {
     
+    // variables 
     private Integer userId;
 
     private String firstName;
@@ -22,6 +23,7 @@ public class UserBean {
 
     private Timestamp createdOn;
 
+    // Getter & Setters
     public Integer getUserId() {
         return userId;
     }
@@ -95,6 +97,7 @@ public class UserBean {
         this.createdOn = createdOn;
     } 
     
+    // toString()
     @Override
     public String toString() {
         return "UserBean [userId=" + userId + ", firstName=" + firstName + ", lastName=" + lastName + ", username="
