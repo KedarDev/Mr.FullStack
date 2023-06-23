@@ -10,23 +10,22 @@ import com.resumeapp.mrfullstackbackend.jdbc.UserBean;
 @Service
 public class UserService {
 
+    @Autowired
+    UserDao userDao; 
 
-@Autowired
-UserDao userDao; // from the UserDao class
+    public List<UserBean> listUsers() {
 
-public List<UserBean> listUsers() {
+        return this.userDao.listUsers();
+    }
 
-    return this.userDao.listUsers();
-}
+    public UserBean findByUsername(String username) {
 
-public UserBean findByUsername(String username) {
+        return this.userDao.findByUsername(username);
+    }
 
-    return this.userDao.findByUsername(username);
-}
+    public void createUser(UserBean user) {
 
-public void createUser(UserBean user) {
-
-    this.userDao.createUser(user);
-}
+        this.userDao.createUser(user);
+    }
 
 }
