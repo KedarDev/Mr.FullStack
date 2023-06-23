@@ -7,18 +7,16 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @RestController
-@RequestMapping("/visitor")
-public class VisitorController {
-
+@RequestMapping("/canvas")
+public class Canvas {
+    
     final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping("/test")
     public String testController() {
 
-        logger.debug("The VisitorController() method was invoked!");
+        logger.debug("The CanvasController() method was invoked!");
 
-        return "The VisitorController is up and running";
-
+        return "The CanvasController is up and running";
     }
-
 }
