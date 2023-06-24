@@ -1,0 +1,25 @@
+
+POST https://postman-echo.com/user/signup 
+content-type: application/json
+
+{
+   "firstName":"King",
+    "lastName":"Kong",
+    "username":"KingKong",
+    "phone":"897-345-9087",
+    "emailId":"Kingofthejungle@example.com",
+    "password":"bape",
+}
+
+###
+
+ http://postman-echo.com/GET?firstName=mr
+
+###
+ http://postman-echo.com/get?username=mrfullstack
+
+###
+ http://postman-echo.com/POST
+
+###
+PUT http://localhost:8081/user/yy/fulylstack/mrfullstayck/fulylstack/+1-555-5555/mrfullsytack@example.com
