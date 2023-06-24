@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
 
-import org.springframework.context.annotation.Profile;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

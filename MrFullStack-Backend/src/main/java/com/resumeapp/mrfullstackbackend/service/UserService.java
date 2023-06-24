@@ -1,8 +1,9 @@
 package com.resumeapp.mrfullstackbackend.service;
 
+import java.time.Instant;
 import java.util.List;
 import java.util.Optional;
-
+import java.sql.Timestamp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.resumeapp.mrfullstackbackend.jpa.User;
@@ -31,4 +32,13 @@ public class UserService {
         this.userRepository.save(user);
     }
 
+    public User signup(User user) {
+
+        user.setUsername(user.getUsername().toLowerCase());
+        user.setEmailId(user.getEmailId().toLowerCase());
+        user.setEmailVerified(false);
+        user.setCreatedOn(Timestamp.from(Instant.now()));
+        this.userRepository.save(user);
+        return user;
+    }
 }
