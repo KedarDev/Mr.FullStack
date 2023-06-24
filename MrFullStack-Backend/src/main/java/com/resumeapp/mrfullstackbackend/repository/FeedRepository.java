@@ -1,4 +1,4 @@
-package repository;
+package com.resumeapp.mrfullstackbackend.repository;
 
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties.Pageable;
 import org.springframework.data.domain.Page;

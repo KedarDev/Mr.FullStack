@@ -1,4 +1,4 @@
-package repository;
+package com.resumeapp.mrfullstackbackend.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

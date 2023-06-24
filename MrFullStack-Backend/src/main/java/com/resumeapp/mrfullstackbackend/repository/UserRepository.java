@@ -1,4 +1,4 @@
-package repository;
+package com.resumeapp.mrfullstackbackend.repository;
 
 import java.util.Optional;
 

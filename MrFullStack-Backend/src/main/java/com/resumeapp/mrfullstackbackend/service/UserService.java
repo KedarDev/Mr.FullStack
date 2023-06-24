@@ -7,8 +7,7 @@ import java.sql.Timestamp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.resumeapp.mrfullstackbackend.jpa.User;
-
-import repository.UserRepository;
+import com.resumeapp.mrfullstackbackend.repository.UserRepository;
 
 @Service
 public class UserService {
