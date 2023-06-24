@@ -23,7 +23,7 @@ public class Blog implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "\"blog\"")
+    @Column(name = "\"blogId\"")
     @JsonProperty(access = Access.WRITE_ONLY)
     private Integer blogId;
 
