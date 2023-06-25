@@ -33,6 +33,21 @@ spring:
     time-zone: America/Toronto
     date-format: "yyyy-MM-dd HH:mm:ss" 
 
+
+    # Email Settings
+  mail:
+    username: <add your gmail ID>
+    password: <add your password>
+    host: smtp.gmail.com
+    port: 587
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
     # Common Database Settings
   sql:
     init:
@@ -68,3 +83,4 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+
