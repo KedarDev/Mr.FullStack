@@ -4,6 +4,8 @@ import java.io.Serializable;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+// import org.springframework.context.annotation.Profile;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,6 +17,7 @@ import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
 
+// @Profile("Member")
 @Entity
 @Table(name = "\"Blog\"")
 public class Blog implements Serializable {

@@ -23,3 +23,16 @@ content-type: application/json
 
 ###
 PUT http://localhost:8081/user/yy/fulylstack/mrfullstayck/fulylstack/+1-555-5555/mrfullsytack@example.com
+
+
+###
+POST http://localhost:8081/user/signup HTTP/1.1
+Body: application/json
+{
+    "firstName":"Kedar",
+    "lastName":"Hall",
+    "username":"KHall",
+    "emailId":"mrfullstacksoftwaredeveloper@gmail.com",
+    "phone":"555-555-5555",
+    "password":"fullstack"
+}

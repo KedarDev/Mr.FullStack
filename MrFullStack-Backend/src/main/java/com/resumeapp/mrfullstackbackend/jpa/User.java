@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
 
+// import org.springframework.context.annotation.Profile;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -25,6 +26,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 import jakarta.persistence.CascadeType;
 
+// @Profile("Member")
 @Entity
 @Table(name = "\"User\"")
 public class User implements Serializable {

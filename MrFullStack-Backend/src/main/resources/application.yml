@@ -2,42 +2,38 @@
 server:
   port: 8081
 
-
- # Logger
+  # Logger
 logging.level:
   web: DEBUG
-  '[com.resumeapp.mrfullstackbackend]': DEBUG
-  '[org.hibernate.type]': INFO
-  
-# Actuator Enabled
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-        
- # Active Profile
+  "[com.resumeapp.mrfullstackbackend]": DEBUG
+  "[org.hibernate.type]": INFO
+
+# # Actuator Enabled
+#   management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: "*"
+
+# Active Profile
 spring:
   profiles:
-    active: visitor   
-    
+    active: Visitor
     # Banner Text
   banner:
     charset: UTF-8
-    location: classpath:/banner/MrFullStackBanner.txt  
+    location: classpath:/banner/MrFullStackBanner.txt
 
-    
-# Date format config settings Used by the controller     
-# Jackson Settings
+  # Date format config settings Used by the controller
+  # Jackson Settings
   jackson:
     time-zone: America/Toronto
-    date-format: "yyyy-MM-dd HH:mm:ss" 
-
+    date-format: "yyyy-MM-dd HH:mm:ss"
 
     # Email Settings
   mail:
-    username: <add your gmail ID>
-    password: <add your password>
+    username: mrfullstacksoftwaredeveloper@gmail.com
+    password: jitiitvkrpgyonyd
     host: smtp.gmail.com
     port: 587
     protocol: smtp
@@ -51,29 +47,49 @@ spring:
     # Common Database Settings
   sql:
     init:
-      continue-on-error: false # Tells Spring to abort starting the application if any of our database configurations fails. 
+      continue-on-error: false # Tells Spring to abort starting the application if any of our database configurations fails.
   jpa:
     show-sql: true # Tells Hibernate to print out SQL statements
     open-in-view: false
-    properties:  
+    properties:
       jakarta:
         persistence:
           sharedCache:
             mode: ENABLE_SELECTIVE
       hibernate:
-        '[format_sql]': true        
+        "[format_sql]": true
     hibernate: # allows hibernate to use camelCase
       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
 ---
-
 # Default Profile
 spring:
   config:
     activate:
-      on-profile: visitor
-       
-# Database Settings
+      on-profile: Visitor
+
+  # Database Settings
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    username: postgres
+    password: pg123
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    hibernate:
+      ddl-auto: validate
+---
+
+# Test Profile
+server:
+  port: 8080
+
+
+spring:
+  config:
+    activate:
+      on-profile: test
+
   datasource:
     url: jdbc:postgresql://localhost:5432/MRFULLSTACK
     username: postgres
@@ -84,3 +100,36 @@ spring:
     hibernate:
       ddl-auto: validate
 
+---
+# Member Profile
+spring:
+  config:
+    activate:
+      on-profile: Member
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    username: postgres
+    password: pg123
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+# Admin Profile
+---
+spring:
+  config:
+    activate:
+      on-profile: Admin
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    username: postgres
+    password: pg123
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    hibernate:
+      ddl-auto: validate

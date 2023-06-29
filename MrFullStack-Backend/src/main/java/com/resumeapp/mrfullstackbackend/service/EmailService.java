@@ -8,7 +8,6 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
-
 import com.resumeapp.mrfullstackbackend.jpa.User;
 import com.resumeapp.mrfullstackbackend.provider.ResourceProvider;
 import com.resumeapp.mrfullstackbackend.security.JwtService;

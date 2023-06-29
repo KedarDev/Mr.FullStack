@@ -3,7 +3,7 @@ package com.resumeapp.mrfullstackbackend.jpa;
 import java.io.Serializable;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-
+// import org.springframework.context.annotation.Profile;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
@@ -19,6 +19,7 @@ import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
 
+// @Profile("Member")
 @Entity
 @Table(name = "\"Feed\"")
 public class Feed implements Serializable {
