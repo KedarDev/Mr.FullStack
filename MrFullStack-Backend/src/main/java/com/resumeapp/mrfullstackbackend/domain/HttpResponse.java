@@ -1,4 +1,4 @@
-package domain;
+package com.resumeapp.mrfullstackbackend.domain;
 
 import java.util.Date;
 import org.springframework.http.HttpStatus;

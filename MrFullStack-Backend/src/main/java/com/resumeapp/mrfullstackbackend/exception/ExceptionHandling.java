@@ -17,6 +17,7 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.authentication.LockedException;
 import static org.springframework.http.HttpStatus.UNAUTHORIZED;
 import com.auth0.jwt.exceptions.TokenExpiredException;
+
 import static org.springframework.http.HttpStatus.METHOD_NOT_ALLOWED;
 import java.util.Objects;
 
@@ -28,6 +29,7 @@ import static org.springframework.http.HttpStatus.NOT_FOUND;
 import jakarta.persistence.NoResultException;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import com.resumeapp.mrfullstackbackend.domain.HttpResponse;
 import com.resumeapp.mrfullstackbackend.exception.domain.EmailExistException;
 import com.resumeapp.mrfullstackbackend.exception.domain.UsernameExistException;
 import com.resumeapp.mrfullstackbackend.exception.domain.LikeExistException;
@@ -36,7 +38,6 @@ import com.resumeapp.mrfullstackbackend.exception.domain.EmailNotVerifiedExcepti
 import com.resumeapp.mrfullstackbackend.exception.domain.UserNotFoundException;
 import com.resumeapp.mrfullstackbackend.exception.domain.FeedNotFoundException;
 import com.resumeapp.mrfullstackbackend.exception.domain.FeedNotUserException;
-import domain.HttpResponse;
 
 @RestController // indicates that the annotated class is a RESTful web service controller,
                 // combines @RestController & @ResponseBody annotations
