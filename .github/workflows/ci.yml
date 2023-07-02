@@ -20,7 +20,7 @@ jobs:
       - name: Build and test with Maven
         env:
           SPRING_PROFILES_ACTIVE: test
-        run: mvn -B clean test --file mrfullstackresumeapp/mrfullstackbackend/pom.xml
+        run: mvn -B clean test --file mrfullstackbackend/pom.xml
 
       - name: Publish test results
         uses: EnricoMi/publish-unit-test-result-action@v1
