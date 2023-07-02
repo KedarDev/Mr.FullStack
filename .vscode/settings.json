@@ -2,9 +2,21 @@
     "java.configuration.updateBuildConfiguration": "interactive",
     "java.compile.nullAnalysis.mode": "automatic",
     "cSpell.words": [
+        "hamcrest",
+        "janedoe",
+        "johndoe",
+        "letmein",
         "mrfullstackbackend",
+        "mypassword",
         "resumeapp",
         "Servlet",
         "springframework"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "maven.terminal.favorites": [
+        {
+            "command": "mockmvc",
+            "debug": false
+        }
     ]
 }

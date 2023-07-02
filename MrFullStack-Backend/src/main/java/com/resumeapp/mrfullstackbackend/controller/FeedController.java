@@ -2,6 +2,7 @@ package com.resumeapp.mrfullstackbackend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.resumeapp.mrfullstackbackend.domain.PageResponse;
 import com.resumeapp.mrfullstackbackend.jpa.Feed;
+import com.resumeapp.mrfullstackbackend.jpa.FeedMetaData;
 import com.resumeapp.mrfullstackbackend.service.FeedService;
 
 import org.slf4j.Logger;
@@ -56,6 +58,22 @@ public class FeedController {
         logger.debug("Getting Other Users Feeds List, pageNum: {}, pageSize: {}", pageNum, pageSize);
 
         return this.feedService.getOtherUsersFeeds(pageNum, pageSize);
+    }
+
+    @PostMapping("/meta/{feedId}")
+    public FeedMetaData createFeedMetaData(@PathVariable int feedId, @RequestBody FeedMetaData meta) {
+
+        logger.debug("Creating FeedMetaData, feedId: {}", feedId);
+
+        return this.feedService.createFeedMetaData(feedId, meta);
+    }
+
+    @DeleteMapping("/{feedId}")
+    public void deleteFeed(@PathVariable int feedId) {
+
+        logger.debug("Deleting Feed, feedId: {}", feedId);
+
+        this.feedService.deleteFeed(feedId);
     }
 
 }
