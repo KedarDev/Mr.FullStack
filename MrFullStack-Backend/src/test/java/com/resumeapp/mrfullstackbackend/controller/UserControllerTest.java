@@ -63,6 +63,7 @@ public class UserControllerTest {
 	@BeforeEach
 	public void setup() {
 
+		// rerun test when you open this application again
 		this.user = new User();
 
 		this.user.setFirstName("John");
@@ -97,7 +98,6 @@ public class UserControllerTest {
 
 		assertTrue(opt.isPresent(), "User Should Exist");
 
-		// assertEquals(37, opt.get().getUserId());
 		assertEquals(this.user.getFirstName(), opt.get().getFirstName());
 		assertEquals(this.user.getLastName(), opt.get().getLastName());
 		assertEquals(this.user.getUsername(), opt.get().getUsername());
