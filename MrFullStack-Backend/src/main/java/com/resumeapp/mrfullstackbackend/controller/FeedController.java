@@ -34,7 +34,7 @@ public class FeedController {
         logger.debug("Creating Feed");
 
         return this.feedService.createFeed(feed);
-    }
+    } 
 
     @GetMapping("/{feedId}")
     public Feed getFeed(@PathVariable int feedId) {
