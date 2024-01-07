@@ -23,7 +23,7 @@ public class Visitor  implements Serializable{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "\"visitorId\"")
-    private Integer visitorId;
+    private Long visitorId;
 
     @Column(name = "\"ipAddress\"")
     private String ipAddress;
@@ -36,11 +36,11 @@ public class Visitor  implements Serializable{
 
     }
 
-    public Integer getVisitorId() {
+    public Long getVisitorId() {
         return visitorId;
     }
 
-    public void setVisitorId(Integer visitorId) {
+    public void setVisitorId(Long visitorId) {
         this.visitorId = visitorId;
     }
 

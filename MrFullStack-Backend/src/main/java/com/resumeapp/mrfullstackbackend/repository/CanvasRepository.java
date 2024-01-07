@@ -10,5 +10,5 @@ import com.resumeapp.mrfullstackbackend.jpa.Canvas;
 
 // @Profile("Visitor")
 public interface CanvasRepository  extends JpaRepository<Canvas, Long>{
-        Optional<Canvas> findByCanvasId(Integer canvasId);
+        Optional<Canvas> findByCanvasId(Long canvasId);
 }

@@ -11,6 +11,6 @@ import com.resumeapp.mrfullstackbackend.jpa.Visitor;
 // @Profile("Visitor")
 public interface VisitorRepository extends JpaRepository<Visitor, Long> {
     
-    Optional<Visitor> findByVisitorId(Integer visitorId);
+    Optional<Visitor> findByVisitorId(Long visitorId);
     
 }

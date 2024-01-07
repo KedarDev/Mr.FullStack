@@ -19,7 +19,7 @@ public class Canvas implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "\"canvasId\"")
-    private Integer canvasId;
+    private Long canvasId;
 
     @Column(name = "\"initial\"")
     private String initial;
@@ -39,12 +39,12 @@ public class Canvas implements Serializable {
     }
 
 
-    public Integer getCanvasId() {
+    public Long getCanvasId() {
         return canvasId;
     }
 
 
-    public void setCanvasId(Integer canvasId) {
+    public void setCanvasId(Long canvasId) {
         this.canvasId = canvasId;
     }
 

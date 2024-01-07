@@ -6,6 +6,7 @@ jwt:
   audience: ResumeApp
   prefix: 'Bearer '
   excluded.urls: > 
+    /home,
     /user/login,
     /user/signup,
     /user/reset/*,
@@ -13,8 +14,9 @@ jwt:
     /error,
     
 # Client Configuration  
+# 5173
 client:
-  url: http://localhost:3000
+  url: http://localhost:3000 
   email:
     verify: 
       param: user/verifyEmail
