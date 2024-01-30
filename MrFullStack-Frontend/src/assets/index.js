@@ -28,9 +28,13 @@ import futureCondos from "../../src/assets/futureCondos.png";
 import STEM from "../../src/assets/STEM.png";
 import FeedApp from "../../src/assets/FeedApp.png";
 import WeatherApp from "../../src/assets/WeatherApp.png";
+import menu from "../../src/assets/menu.png";
+import closeMenu from "../../src/assets/closeMenu.png";
 
 
 export {
+  closeMenu,
+  menu,
   css,
   apache,
   aws,
