@@ -1,31 +1,36 @@
-import React from "react";
-import Tilt from "react-parallax-tilt";
-import { motion } from "framer-motion";
-import { styles } from "../styles";
-import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
-import { SectionWrapper } from "../hoc";
-
+import React from 'react'
+import Tilt from 'react-parallax-tilt';
+import { motion } from 'framer-motion';
+import { styles } from '../styles';
+import { services } from '../constants';
+import { SectionWrapper } from '../hoc';
+import {fadeIn, textVariant} from '../utils/motion';
 
 const ServiceCard = ({index, title, icon}) => {
-  return(
-    <Tilt className="xs:w-[25px] w-full">
+  return (
+    <Tilt className='xs:w-[250px] w-fit'>
     <motion.div
-      variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-      className="w-[40%]  p-[1px] rounded-[25px] shadow-card">
-        <div
-          
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
-          className="black-gradient rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
-          >
-            <img src={icon} alt={title} 
-            className="w-30 h-30 object-contain" />
-            <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
-        </div>
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+      className='w-[200px] black-gradient p-[1px] rounded-[20px] shadow-card'
+    >
+      <div
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+      >
+        <img
+          src={icon}
+          alt='web-development'
+          className='w-20 h-20 object-contain'
+        />
+
+        <h3 className='text-white text-[20px] font-bold text-center'>
+          {title}
+        </h3>
+      </div>
     </motion.div>
   </Tilt>
   )
@@ -34,13 +39,15 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   return (
     <>
-      <motion.div 
-      variants={textVariant()}>
-        <p className={styles.sectionSubText}>INTRODUCTION</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
-      <motion.p className=" mt-4 text-[17px] text-[#fff] text-center  p-2 leading-[30px]" variants={fadeIn("", "", 0.1, 0,1)}>
-        Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer 
+    <motion.div variants={textVariant()}>
+      <p className={styles.sectionSubText}>Introduction</p>
+      <h2 className={styles.sectionHeadText}>Overview.</h2>
+    </motion.div>
+    <motion.p
+    variants={fadeIn("", "", 0.1, 1)}
+    className='mt-4 text-white text-[17px] max-w-3x1 leading-[30px] text-center'
+    >
+        Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
         position . My experience with both the back-end and front-end stacks, as
         well as my proficiency in Java , HTML, CSS, and JavaScript would be a
         great contribution to your team and company. I started as a self-taught
@@ -57,15 +64,14 @@ const About = () => {
         always looking at new ways on how i can add new tools, & methods.
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
-      </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service}  />
-        ))}
-      </div>
+    </motion.p>
+    <div className="mt-20 flex flex-wrap gap-10 justify-center ">
+      {services.map((service, index) => (
+        <ServiceCard key={service.title} index={index} {...service} />
+      ))}
+    </div>
     </>
-  );
-};
+  )
+}
 
-export default SectionWrapper (About, "about")
-
+export default SectionWrapper(About, "about");
