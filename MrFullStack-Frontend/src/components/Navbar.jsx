@@ -13,11 +13,13 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex items-center py-0 fixed top-0 bg-white z-20">
-      <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
+    <nav
+      className={`${styles.paddingX} sticky-top-0 w-full h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
+    >
+      <div className="w-full flex justify-between items-center max-w-7x1">
         <Link
           to="/"
-          className="flex w-[80%] items-center justify-center gap-2"
+          className="flex items-center justify-center mx-auto gap-2"
           onClick={() => {
             setActive(""); // keeps track of where the user is on the page
             window.scrollTo(0, 0);
@@ -27,18 +29,19 @@ const Navbar = () => {
             // onClick={}
             src={darkflash}
             alt="darkflash"
-            className=" w-6 h-6 top-1 left-0 object-cover flex justify-center items-center"
+            className="fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
           />
-  &nbsp; <span className="flex mx-auto justify-center item">
-          <img
-            // onClick={}
-            src={mflogo}
-            alt="mflogo"
-            className=" mx-auto flex w-full h-8 justify-content items-center object-contain"
-          />
+          &nbsp;
+          <span className="flex justify-center">
+            <img
+              // onClick={}
+              src={mflogo}
+              alt="mflogo"
+              className="w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
+            />
           </span>
         </Link>
-        <ul className="list-none hidden sm:flex mx-auto flex-row gap-6">
+        <ul className=" list-none hidden sm:flex  flex-row gap-5">
           {navLink.map((Link) => (
             <li
               key={Link.id}
@@ -51,9 +54,9 @@ const Navbar = () => {
             </li>
           ))}
           <a href="">
-            <div className="Button w-28 h-6 relative right-1 bottom-[3px] ">
-              <div className="Buttonbox w-28 h-8 left-0  absolute mix-blend-hard-light bg-black rounded-xl shadow border-2 border-zinc-800" />
-              <div className="Login w-28 h-8 left-[3px] top-[3px] absolute text-center text-white text-[18px] font-normal font-['Inter']">
+            <div className="Button w-28 h-6 relative bottom-[3px] ">
+              <div className="Buttonbox w-28 h-8 left-0  absolute mix-blend-hard-light bg-black rounded-xl shadow border-2 border-zinc-800 " />
+              <div className="Login w-28 h-8 left-[2px] top-[3px] absolute text-center text-white text-[18px] font-normal font-['Inter']">
                 Login
               </div>
             </div>
@@ -68,10 +71,9 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           />
           <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 absolute top-8 right-[-15px] mx-4 my-2 min-w[140px] 
-          z-10  rounded-xl  border-[3px] border-solid  [background:linear-gradient(180deg,rgb(64,64,64)_99.99%,rgba(255,255,255,0)_100%)]`}
+            className={`${!toggle ? "hidden" : "flex"} 
+            p-6 absolute top-8 right-[-15px] mx-4 my-2 min-w[140px] 
+            z-10  rounded-xl  border-[3px] border-solid  [background:linear-gradient(180deg,rgb(64,64,64)_99.99%,rgba(255,255,255,0)_100%)]`}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLink.map((Link) => (
@@ -88,9 +90,9 @@ const Navbar = () => {
                   <a href={`#${Link.id}`}>{Link.title}</a>
                 </li>
               ))}
-              <a href="">
+              <a href="/">
                 <div className="Button w-28 h-6 relative">
-                  <div className="Buttonbox w-28 h-8 left-0 top-0 absolute mix-blend-hard-light bg-black rounded-xl shadow border-4 border-zinc-800" />
+                  <div className="Buttonbox w-28 h-8 left-0 top-0 absolute mix-blend-hard-light bg-black rounded-xl shadow border-5 border-zinc-800" />
                   <div className="Login w-28 h-8 left-[3px] top-[3px] absolute text-center text-white text-[18px] font-normal font-['Inter']">
                     Login
                   </div>
