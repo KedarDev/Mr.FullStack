@@ -30,9 +30,13 @@ import FeedApp from "../../src/assets/FeedApp.png";
 import WeatherApp from "../../src/assets/WeatherApp.png";
 import menu from "../../src/assets/menu.png";
 import closeMenu from "../../src/assets/closeMenu.png";
+import mrstackup from "../../src/assets/mrstackup.png";
+import mrstackdown from "../../src/assets/mrstackdown.png";
 
 
 export {
+  mrstackdown,
+  mrstackup,
   closeMenu,
   menu,
   css,

@@ -3,7 +3,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
@@ -13,6 +13,7 @@ import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
+    style={{ color: "#000" }}
     contentStyle={{ background: "#020202", color: "#FFF" }}
     contentArrowStyle={{ borderRight: "7px solid #000" }}
     date={experience.date}
@@ -40,7 +41,7 @@ const ExperienceCard = ({ experience }) => (
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
-          className="text-white text-[14px] pl-1 -tracking-wider"
+          className="text-white text-[14px] pl-1 tracking-wider"
         >
           {point}
         </li>
@@ -57,7 +58,7 @@ const Experience = () => {
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline lineColor="black">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}

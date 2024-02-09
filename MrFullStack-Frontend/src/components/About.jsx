@@ -5,6 +5,8 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
 import {fadeIn, textVariant} from '../utils/motion';
+import mrstackup from "../assets/mrstackup.png";
+import  mrstackdown  from '../assets/mrstackdown.png';
 
 const ServiceCard = ({index, title, icon}) => {
   return (
@@ -19,17 +21,23 @@ const ServiceCard = ({index, title, icon}) => {
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
+        <div className="w-[40px] h-[40px]">
+<img className="fixed w-[40px] h-[40px] top-0 left-0 object-cover" alt="Mrstackdown" src={mrstackup} />
+</div>
         <img
           src={icon}
           alt='web-development'
-          className='w-20 h-20 object-contain'
+          className='w-30 h-30 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
+        <div className="w-[40px] h-[40px]">
+<img className="fixed w-[40px] h-[40px] bottom-0 right-0 bject-cover" alt="Mrstackdown" src={mrstackdown} />
+</div>
       </div>
     </motion.div>
   </Tilt>
