@@ -8,8 +8,8 @@ import WhiteArrow from "../assets/WhiteArrow.png";
 import Callicon from "../assets/Callicon.png";
 import HomeIndicator from "../assets/HomeIndicator.png";
 import StatusBar from "../assets/StatusBar.png";
-import { iPhone15ProMax } from "../assets";
-import  stuff  from "../assets/stuff.png";
+import { iPhone15ProMax, mrstackdown, mrstackup } from "../assets";
+import stuff from "../assets/stuff.png";
 const Tech = () => {
   return (
     <>
@@ -26,32 +26,21 @@ const Tech = () => {
           />
         </div>
       </motion>
-      {/* <div className=" relative">
-        <img className=" absolute w-screen  top-7" src={stuff} alt="" />
-        <img className="absolute mx-auto justify-center content-center items-center h-screen" src={iPhone15ProMax} alt="" />
-     
-      </div> */}
-
-
-
-
-
-
-
-
       <div className="w-full h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPhone15ProMax.png)]  mx-auto  justify-center items-center content-center bg-contain   bg-no-repeat my-3 overflow-hidden">
-      <img className="h-auto max-w-[92%] mt-4 ml-[3%] justify-center content-center items-center" src={stuff} alt="" />
-      <div className='main-container w-[1510px] h-[748.757px] bg-[url(../assets/images/9002d886-d00c-40ce-a3b4-ad55f40b9726.png)] bg-cover bg-no-repeat relative rotate-[-179.74deg] mx-auto my-0' />
-        
-
-        <div className="flex top-[20px] flex-row  overflow-hidden flex-wrap justify-center gap-10 ">
-          <div className="flex justify-center items-center pt-40">
-            {/* {technologies.map((technology) => (
-              <div className="w-28  key={technology.name}">
-                <CardCanvas icon={technology.icon} />
-              </div>
-            ))} */}
-          </div>
+        <img
+          className="h-auto max-w-[92%] mt-[4%] ml-[3%] justify-center content-center items-center"
+          src={stuff}
+          alt=""
+        />
+      <div className="Backgroundcard" style={{width: 223, height: 356,  position: 'absolute', background: 'linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0) 100%)', boxShadow: '4px 4px 4px ', borderRadius: 17, border: '3px black solid', filter: 'blur(1px)'}}>
+          <img
+            className="Mrstackup absolute mt-[-36%] ml-10 origin-top-left"
+            src={mrstackup}
+          />
+          <img
+            className="Mrstackdown absolute mt-[-10%] ml-20 pl-[10%] origin-bottom-right"
+            src={mrstackdown}
+          />
         </div>
       </div>
     </>
