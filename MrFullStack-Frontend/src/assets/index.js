@@ -32,9 +32,19 @@ import menu from "../../src/assets/menu.png";
 import closeMenu from "../../src/assets/closeMenu.png";
 import mrstackup from "../../src/assets/mrstackup.png";
 import mrstackdown from "../../src/assets/mrstackdown.png";
-
+import iPhone15ProMax from "../../src/assets/iPhone15ProMax.png";
+import WhiteArrow from "../../src/assets/WhiteArrow.png";
+import StatusBar from "../../src/assets/StatusBar.png";
+import HomeIndicator from "../../src/assets/HomeIndicator.png";
+import stuff from "../../src/assets/stuff.png";
 
 export {
+
+  stuff,
+  StatusBar,
+  HomeIndicator,
+  WhiteArrow,
+  iPhone15ProMax,
   mrstackdown,
   mrstackup,
   closeMenu,

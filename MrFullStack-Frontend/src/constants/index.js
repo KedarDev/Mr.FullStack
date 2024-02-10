@@ -310,4 +310,4 @@ const projects = [
   // },
 ];
 
-export { services, experiences, projects, navLink };
+export { services, experiences, projects, navLink, technologies };
