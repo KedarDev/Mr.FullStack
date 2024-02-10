@@ -1,10 +1,10 @@
 import React from "react";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import Card from "./canvas/Card";
 import { styles } from "../styles";
 import WhiteArrow from "../assets/WhiteArrow.png";
 import stuff from "../assets/stuff.png";
+import CardCanvas from "./canvas/Card";
 const Tech = () => {
   return (
     <>
@@ -30,7 +30,7 @@ const Tech = () => {
                     <div className="flex justify-center items-center content-center gap-[5%]">
               {technologies.map((technology, index) => (
              <div className="w-full  h-2 mt-[-20%]" key={technology.name}>
-              <Card icon={technology.icon} />
+              <CardCanvas icon={technology.icon} />
              </div>
               ))}
             </div>
