@@ -78,12 +78,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-
   {
     name: "ReactJS",
     icon: reactjs,
   },
-
   {
     name: "Tailwind",
     icon: tailwind,
