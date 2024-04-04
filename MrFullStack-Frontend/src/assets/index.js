@@ -37,7 +37,8 @@ import WhiteArrow from "../../src/assets/WhiteArrow.png";
 import StatusBar from "../../src/assets/StatusBar.png";
 import HomeIndicator from "../../src/assets/HomeIndicator.png";
 import stuff from "../../src/assets/stuff.png";
-import BackgroundCard from '../../src/assets/BackgroundCard.png'
+import BackgroundCard from '../../src/assets/BackgroundCard.png';
+
 export {
 
   BackgroundCard,

@@ -45,10 +45,13 @@ const Card = () => {
   );
 };
 
-const CardCanvas = () => {
+const CardCanvas = ({index, name, icon}) => {
   return (
-    <div className=" absolute w-10 m-10 mt-[10%]">
-      <Card  icon={technologies.name}  />
+    <div className=" absolute w-10 mt-[10%]">
+      <Card>
+        <h1 src={technologies.name}></h1>
+        <img src={technologies.icon} alt="" />
+      </Card>
     </div>
   );
 };

@@ -152,6 +152,7 @@ const technologies = [
   },
 ];
 
+
 const experiences = [
   {
     title: "React Developer",
@@ -308,4 +309,4 @@ const projects = [
   // },
 ];
 
-export { services, experiences, projects, navLink, technologies };
+export { services, technologies, experiences, projects, navLink};

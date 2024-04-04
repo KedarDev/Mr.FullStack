@@ -9,6 +9,7 @@ import Feedbacks from "./components/Feedbacks";
 import Contact from './components/Contact';
 
 const App = () => {
+
   return (
     <BrowserRouter>
     <div className="relative z-0 ">
@@ -20,7 +21,7 @@ const App = () => {
       </div>
       <About />
       <Experience />
-      <Tech  />
+      <Tech />
       <Works />
       <Feedbacks />
       <div className="relative z-0">
