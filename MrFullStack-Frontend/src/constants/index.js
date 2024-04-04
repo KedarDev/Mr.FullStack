@@ -31,6 +31,8 @@ import {
   WeatherApp,
 } from '../assets';
 
+import { styles } from '../styles';
+
 const navLink = [
   {
     id: "about",
@@ -221,71 +223,71 @@ const projects = [
     source_code_link: "https://github.com/KedarDev/FeedApp",
     liveSiteButton: "",
   },
-  {
-    name: "WeatherApp",
-    description:
-      "Web-based Weather application that allows users to view weather conditions in a selected city.",
-    tags: [
-      {
-        name: "REACT",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SPRINGBOOT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JAVA",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: WeatherApp,
-    source_code_link: "https://github.com/KedarDev/WeatherApp",
-    liveSiteButton: "",
-  },
-  {
-    name: "TKQP-Landing-Page",
-    description:
-      "Landing page for The Kings & Queens Project, provides information on services provided.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JAVASCRIPT",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tkqplogo,
-    source_code_link: "https://github.com/KedarDev/TKQP-OFFICIAL-WEBSITE",
-    liveSiteButton: "",
-  },
-  {
-    name: "SHOP-TKQP",
-    description: "E-commerce store for the The Kings & Queens project",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "JAVASCRIPT",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tkqplogo,
-    source_code_link: "https://github.com/KedarDev/TKQP-SHOP-M.E.R.N-STACK",
-    liveSiteButton: "",
-  },
+  // {
+  //   name: "WeatherApp",
+  //   description:
+  //     "Web-based Weather application that allows users to view weather conditions in a selected city.",
+  //   tags: [
+  //     {
+  //       name: "REACT",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "SPRINGBOOT",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JAVA",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: WeatherApp,
+  //   source_code_link: "https://github.com/KedarDev/WeatherApp",
+  //   liveSiteButton: "",
+  // },
+  // {
+  //   name: "TKQP-Landing-Page",
+  //   description:
+  //     "Landing page for The Kings & Queens Project, provides information on services provided.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JAVASCRIPT",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tkqplogo,
+  //   source_code_link: "https://github.com/KedarDev/TKQP-OFFICIAL-WEBSITE",
+  //   liveSiteButton: "",
+  // },
+  // {
+  //   name: "SHOP-TKQP",
+  //   description: "E-commerce store for the The Kings & Queens project",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "JAVASCRIPT",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tkqplogo,
+  //   source_code_link: "https://github.com/KedarDev/TKQP-SHOP-M.E.R.N-STACK",
+  //   liveSiteButton: "",
+  // },
   // {
   //   name: "KINGPIZZA",
   //   description: "Online store for fast food pizza resterant",

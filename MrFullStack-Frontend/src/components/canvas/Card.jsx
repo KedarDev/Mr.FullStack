@@ -12,6 +12,7 @@ import { mrstackdown } from "../../assets";
 import { mrstackup } from "../../assets";
 import { technologies } from "../../constants";
 
+
 const Card = () => {
   return (
     <div
