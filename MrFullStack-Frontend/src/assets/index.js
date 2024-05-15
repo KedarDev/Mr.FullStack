@@ -39,8 +39,12 @@ import HomeIndicator from "../../src/assets/HomeIndicator.png";
 import stuff from "../../src/assets/stuff.png";
 import BackgroundCard from '../../src/assets/BackgroundCard.png';
 import github from "../../src/assets/github.png";
+import githublogo from "../../src/assets/githublogo.png";
+import stacklogo from "../../src/assets/stacklogo.png";
 export {
 
+  stacklogo,
+  githublogo,
   github,
   BackgroundCard,
   stuff,

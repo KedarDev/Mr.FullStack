@@ -1,7 +1,8 @@
 import React from "react";
 import { github } from "../assets";
 import { projects } from "../constants";
-const GitCard = () => {
+
+const ProjectCard = () => {
   return (
     <div className="flex overflow-scroll">
       {projects.map((project, index) => (
@@ -30,4 +31,4 @@ const GitCard = () => {
   );
 };
 
-export default GitCard;
+export default ProjectCard;
