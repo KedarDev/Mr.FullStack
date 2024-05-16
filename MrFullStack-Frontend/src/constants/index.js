@@ -29,6 +29,10 @@ import {
   STEM,
   FeedApp,
   WeatherApp,
+  coverLetter,
+  fullStackResume,
+  frontendResume,
+  backendResume,
 } from '../assets';
 
 import { styles } from '../styles';
@@ -308,6 +312,29 @@ const projects = [
     image: "",
     source_code_link: "https://github.com/KedarDev/KING-PIZZA",
     liveSiteButton: "",
+  },
+];
+
+export const Resumes = [
+  {
+      imgURL: coverLetter,
+      name: "Cover Letter",
+      // download: "",
+  },
+  {
+      imgURL: fullStackResume,
+      name: "Full Stack",
+      // downlaod: "",
+  },
+  {
+      imgURL: frontendResume,
+      name: "Frontend",
+      // downlad "",
+  },
+  {
+      imgURL: backendResume,
+      name: "Backend",
+      // downlaod: "",
   },
 ];
 

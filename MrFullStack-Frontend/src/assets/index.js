@@ -41,8 +41,20 @@ import BackgroundCard from '../../src/assets/BackgroundCard.png';
 import github from "../../src/assets/github.png";
 import githublogo from "../../src/assets/githublogo.png";
 import stacklogo from "../../src/assets/stacklogo.png";
+import Macbook from "../../src/assets/Macbook.png";
+import coverLetter from "../../src/assets/coverLetter.png";
+import fullStackResume from "../../src/assets/fullStackResume.png";
+import frontendResume from "../../src/assets/frontendResume.png";
+import backendResume from "../../src/assets/backendResume.png"
+
+
 export {
 
+  coverLetter,
+  fullStackResume,
+  frontendResume,
+  backendResume,
+  Macbook,
   stacklogo,
   githublogo,
   github,
