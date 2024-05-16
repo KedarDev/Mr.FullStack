@@ -1,14 +1,10 @@
-import {React , useState} from "react";
+import { React, useState } from "react";
 import Button from "./Button";
-import { Macbook, WhiteArrow, coverLetter } from "../assets";
-import { Resumes } from "../constants";
+import { Macbook, WhiteArrow, coverLetter, } from "../assets";
+import { resumes } from "../constants";
 import ResumeCard from "./ResumeCard";
-
-
 const Resume = () => {
-
-    const [bigResumeImg, setBigResumeImg] = useState(coverLetter);
-
+  const [bigResumeImg, setBigResumeImg] = useState(coverLetter);
 
   return (
     <section
@@ -30,21 +26,28 @@ const Resume = () => {
           alt="macbook"
           className=" relative object-contain z-10 "
         />
-        <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40  bg-hero bg-cover bg-center">
-            <img src={bigResumeImg} alt="resume collection" width={350} height={500} className="object-contain z-10 mt-[-1000px] rounded-[1.5%]" />
-            <div className="flex ml-[-400px]">
-                {Resumes.map((resume) => (
-                <div key={resume}>
-                    <ResumeCard
-                    imgURL={resume}
-                    changeBigResumeImage={(resume) => setBigResumeImg (resume)}
-                    bigResumeImg={bigResumeImg}
-                    />
-                </div>
-                ))}
-            </div>
+        <div className="relative mt-[-75%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center   ">
+          <img
+            src={bigResumeImg}
+            alt="resume collection"
+            width={500}
+            height={600}
+            className="object-contain relative z-10"
+            />
+   </div>
+          <div className="flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
+            {resumes.map((resume) => (
+              <div className="" key={resume}>
+                <ResumeCard
+                  imgURL={resume}
+                  changeBigResumeImage={(resume) => setBigResumeImg  (resume)}
+                  bigResumeImg={resume}
+                  />
+                  <h1 className=" flex mx-auto py-auto justify-center items-center   text-[25px]">{resume.name}</h1>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
     </section>
   );
 };

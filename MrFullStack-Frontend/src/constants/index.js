@@ -315,27 +315,46 @@ const projects = [
   },
 ];
 
-export const Resumes = [
+export const resumes = [
   {
       imgURL: coverLetter,
       name: "Cover Letter",
-      // download: "",
+      thumbnail: coverLetter,
+      bigResumeImg: coverLetter
   },
   {
       imgURL: fullStackResume,
       name: "Full Stack",
-      // downlaod: "",
+     thumbnail: fullStackResume,
+     bigResumeImg:fullStackResume
   },
   {
       imgURL: frontendResume,
       name: "Frontend",
-      // downlad "",
+      thumbnail: frontendResume,
+      bigResumeImg: frontendResume,
   },
   {
       imgURL: backendResume,
       name: "Backend",
-      // downlaod: "",
+      thumbnail:backendResume,
+      bigResumeImg:backendResume,
   },
 ];
 
+
+// export const shoes = [
+//   {
+//       thumbnail: thumbnailShoe1,
+//       bigShoe: bigShoe1,
+//   },
+//   {
+//       thumbnail: thumbnailShoe2,
+//       bigShoe: bigShoe2,
+//   },
+//   {
+//       thumbnail: thumbnailShoe3,
+//       bigShoe: bigShoe3,
+//   },
+// ];
 export { services, technologies, experiences, projects, navLink};
