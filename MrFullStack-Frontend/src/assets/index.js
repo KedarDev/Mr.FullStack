@@ -45,11 +45,13 @@ import Macbook from "../../src/assets/Macbook.png";
 import coverLetter from "../../src/assets/coverLetter.png";
 import fullStackResume from "../../src/assets/fullStackResume.png";
 import frontendResume from "../../src/assets/frontendResume.png";
-import backendResume from "../../src/assets/backendResume.png"
+import backendResume from "../../src/assets/backendResume.png";
+import upArrow from "../../src/assets/upArrow.png";
 
 
 export {
 
+  upArrow,
   coverLetter,
   fullStackResume,
   frontendResume,

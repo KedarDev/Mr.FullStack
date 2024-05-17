@@ -7,6 +7,7 @@ import Tech from "./components/Tech";
 import Works from "./components/Works";
 import Contact from './components/Contact';
 import Resume from "./components/Resume";
+import ScrollToTop from "./components/scrollToTop";
 const App = () => {
 
   return (
@@ -25,6 +26,7 @@ const App = () => {
       <Resume />
       <div className="relative z-0">
       <Contact />
+      <ScrollToTop />
       </div>
     </div>
     </BrowserRouter>

@@ -11,7 +11,7 @@ const Tech = (props) => {
   // console.log(technologies);
   return (
     <>
-      <motion className="">
+      <motion className="relative top-[500px]">
         <p className={styles.sectionSubText}>Full Stack</p>
         <div className="inline-flex  justify-center items-center">
           <h2 className={`${styles.sectionHeadText} pl-10 mx-auto`}>
@@ -24,7 +24,7 @@ const Tech = (props) => {
           />
         </div>
       </motion>
-      <div className="iPhone15  z-[0] p-3  relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPhone15ProMax.png)]  mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden">
+      <div className="iPhone15 top-[600px]  z-[0] p-3  relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPhone15ProMax.png)]  mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden">
         <img
           className=" relative object-center overflow-hidden z-1 flex h-auto max-w-[92%] mt-[3%]  ml-3  justify-center content-center items-center"
           src={stuff}
