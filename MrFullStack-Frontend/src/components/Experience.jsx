@@ -57,8 +57,8 @@ const Experience = () => {
         <p className={styles.sectionSubText}>My Work So Far</p>
         <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
-      <div className="mt-20 flex flex-col">
-        <VerticalTimeline lineColor="black">
+      <div className=" mt-20 flex flex-col">
+        <VerticalTimeline lineColor="black" className="mobile-s:w-full">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}

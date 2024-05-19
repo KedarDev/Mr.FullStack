@@ -10,10 +10,10 @@ import  mrstackdown  from '../assets/mrstackdown.png';
 
 const ServiceCard = ({index, title, icon}) => {
   return (
-    <Tilt className='xs:w-[250px] w-fit'>
+    <Tilt className=' xs:w-[250px] w-fit'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-[200px] black-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -21,7 +21,7 @@ const ServiceCard = ({index, title, icon}) => {
           scale: 1,
           speed: 450,
         }}
-        className='rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='  mobile-s:w- rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <div className="w-[40px] h-[40px]">
 <img className="fixed w-[40px] h-[40px] top-0 left-0 object-cover" alt="Mrstackdown" src={mrstackup} />
@@ -47,7 +47,7 @@ const ServiceCard = ({index, title, icon}) => {
 const About = () => {
   return (
     <>
-    <motion.div variants={textVariant()}>
+    <motion.div variants={textVariant()} className='mobile-s:text-center'>
       <p className={styles.sectionSubText}>Introduction</p>
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>

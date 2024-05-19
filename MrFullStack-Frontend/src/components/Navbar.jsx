@@ -37,11 +37,11 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className="w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className=" mobile-s:w-[200px] mobile-s:ml-[10px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
-        <ul className=" list-none hidden sm:flex  flex-row gap-5">
+        <ul className=" list-none hidden sm:flex laptop:flex laptop-l:flex desktop:flex  flex-row gap-5">
           {navLink.map((Link) => (
             <li
               key={Link.id}
@@ -63,9 +63,9 @@ const Navbar = () => {
           </a>
         </ul>
         {/* Hamberger Menu */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        <div className="sm:hidden laptop:hidden laptop-l:hidden desktop:hidden flex flex-1 justify-end items-center">
           <img
-            className="h-10 w-10 top-0 left-0 object-contain cursor-pointer"
+            className=" mobile-s:h-[35px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? closeMenu : menu}
             alt="menu"
             onClick={() => setToggle(!toggle)}

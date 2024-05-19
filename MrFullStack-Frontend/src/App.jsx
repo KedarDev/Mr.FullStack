@@ -11,13 +11,13 @@ import ScrollToTop from "./components/scrollToTop";
 const App = () => {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter className="w-full mobile-s:w-full">
     <div className="relative z-0 ">
       <div className="bg-hero-patttern bg-cover bg-no-repeat bg-center">
-      <Navbar />
+      <Navbar  />
       <br />
       <br />
-      <Hero />
+      <Hero  className="mobile-s:w-[100%]"/>
       </div>
       <About />
       <Experience />

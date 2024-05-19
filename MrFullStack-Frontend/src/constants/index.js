@@ -250,7 +250,7 @@ const projects = [
     liveSiteButton: "",
   },
   {
-    name: "TKQP-Landing-Page",
+    name: "TKQP HomePage",
     description:
       "Landing page for The Kings & Queens Project, provides information on services provided.",
     tags: [

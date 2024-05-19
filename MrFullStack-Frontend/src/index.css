@@ -9,7 +9,7 @@
     all: unset;
   }
   .max-container {
-    max-width: 1440px;
+    max-width: 2560px;
     margin: 0 auto;
   }
 }
@@ -28,7 +28,7 @@
 } 
 
 :root {
-  --media-qeries-device-width: 1440px;
+  --media-qeries-device-width: 2560px;
   --media-qeries-isdesktop: initial;
   --media-qeries-ismobile: none;
   --media-qeries-istablet: none;
@@ -41,6 +41,10 @@
   --theme-light-grey: rgba(133, 133, 133, 1);
   --theme-slider: 1000px;
   --theme-white: rgba(255, 255, 255, 1);
+}
+
+.body {
+  width: 100%;
 }
 
 * {
