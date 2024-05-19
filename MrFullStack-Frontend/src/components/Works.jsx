@@ -27,9 +27,9 @@ const Works = () => {
             scale: 0.8,
             speed: 450,
           }}
-          className="relative left-[20px]  mobile-s:mt-[-410px] mt-[-510px] object-contain flex-wrap  bg- rounded-2xl mobile-s:w-[50px] mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
+          className="relative left-[20px]  mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg- rounded-2xl mobile-s:w-[50px] mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
-          <div className="relative w-full mobile-s:p-1 mobile-s:w-[130px] mobile-s:h-[90px] h-[280px]">
+          <div className="relative w-full mobile-s:p-1 mobile-s:w-[130px] mobile-s:h-[100px] h-[280px]">
             <img
               src={image}
               alt={name}
@@ -55,11 +55,11 @@ const Works = () => {
                 </div>
               </div>
             </div>
-            <div className="  mt-5 mobile-s:m-1  mobile-s:mt-[10px] mobile-s:w-full">
+            <div className="  mt-5 mobile-s:m-0  mobile-s:mt-[10px] mobile-s:w-full">
               <h3 className="text-white font-bold mobile-s:text-[10px] text-[24px]">{name}</h3>
-              <p className=" mobile-s:text-[6px] mt-2 text-white text-[14px]">{description}</p>
+              <p className=" mobile-s:text-[7px] mobile-s:mt-1 mt-2 text-white text-[14px]">{description}</p>
             </div>
-            <div className=" mt-4 mobile-s:mt-0 flex flex-wrap gap-1 mobile-s:gap-0">
+            <div className=" mt-4 mobile-s:mt-[-1px] flex flex-wrap gap-1 mobile-s:gap-1">
               {tags.map((tag) => (
                 <p key={tag.name} className={` mobile-s:text-[6px] mobile-s: text-[12px] ${tag.color}`}>
                   #{tag.name}
@@ -96,7 +96,7 @@ const Works = () => {
         </motion>
       </motion.div>
       <div className=" mobile-s:w-[118%] mobile-s:ml-[-25px] mobile-s:mt-[20px]   iPad flex  p-[5%] w-[105%] gap-16 items-center no-scrollbar z-[0] relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPad.png)]    justify-center  bg-contain bg-no-repeat   overflow-hidden">
-        <div className=" w-full h-full overflow-x-scroll no-scrollbar flex items-center gap-x-20">
+        <div className=" w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-s:gap-x-24 gap-x-20">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index} `} index={index} {...project}  className="" />
           ))}

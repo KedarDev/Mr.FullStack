@@ -301,7 +301,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "STYLED-COMPONENTS",
+        name: "TAILWIND",
         color: "green-text-gradient",
       },
       {
