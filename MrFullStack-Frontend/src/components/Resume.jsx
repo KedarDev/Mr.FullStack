@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="mobile-s:mt-[-400px] mobile-m:mt-[-500px]  mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
+      className="mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
     >
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Cover Letter</p>
@@ -30,13 +30,13 @@ const Resume = () => {
           alt="macbook"
           className=" relative object-contain z-10 "
         />
-        <div className=" mobile-s:w-[120px] mobile-s:ml-[90px] mobile-s:mt-[-185px] mobile-m:mt-[-225px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
+        <div className=" mobile-s:w-[120px] mobile-s:ml-[90px] mobile-s:mt-[-185px] mobile-m:mt-[-225px] mobile-l:mt-[-245px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
           <img
             src={bigResumeImg}
             alt="resume collection"
             width={430}
             height={200}
-            className=" mobile-s:w-[150px] mobile-m:w-[150px] object-contain relative z-10"
+            className=" mobile-s:w-[150px] mobile-m:w-[150px] mobile-l:w-[160px] object-contain relative z-10"
           />
         </div>
         <div className=" mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
@@ -47,7 +47,7 @@ const Resume = () => {
                 changeBigResumeImage={(resume) => setBigResumeImg(resume)}
                 bigResumeImg={resume}
               />
-              <h1 className=" flex mx-auto py-auto justify-center items-center  mobile-s:text-[10px] mobile-m:text-[10px]  text-[25px]">
+              <h1 className=" flex mx-auto py-auto justify-center items-center  mobile-s:text-[10px] mobile-m:text-[10px] mobile-l:text-[12px]  text-[25px]">
                 {resume.name}
               </h1>
             </div>

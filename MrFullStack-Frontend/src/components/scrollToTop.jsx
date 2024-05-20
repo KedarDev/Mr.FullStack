@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const scrollToTop = () => {
   return (
-<div className="mobile-s:mt-[0px] mobile-s:left-[-0px] mobile-m:left-[3px] absolute  w-full flex justify-center items-center">
+<div className="mobile-s:mt-[0px] mobile-s:left-[-0px] mobile-m:left-[3px] mobile-l:left-[2px] absolute  w-full flex justify-center items-center">
 <a href="#hero" className="">
   <div className=" mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
     <motion.dev

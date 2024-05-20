@@ -27,7 +27,7 @@ const Hero = () => {
       </div>
       {/* <Computers /> */}
 
-      <div className=" mobile-m:mt-[550px] mobile-s:mt-[550px] mobile-s:left-[-0px] mobile-m:ml-[-5px] absolute  w-full flex justify-center items-center">
+      <div className=" mobile-m:mt-[550px] mobile-l:mt-[650px] mobile-s:mt-[550px] mobile-s:left-[-0px] mobile-m:ml-[-5px] mobile-l:ml-[-23px] absolute  w-full flex justify-center items-center">
         <a href="#about" className="">
           <div className=" mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
             <motion.dev

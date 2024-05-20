@@ -16,7 +16,7 @@ module.exports = {
       colors: {
         // Primary Secondary Tertiary
         "theme-black": "var(--theme-black)",
-        "theme-dark-grey": "var(--theme-dark-grey)",
+        "themeUnU-dark-grey": "var(--theme-dark-grey)",
         "theme-grey-100": "var(--theme-grey-100)",
         "theme-grey-200": "var(--theme-grey-200)",
         "theme-light-grey": "var(--theme-light-grey)",
