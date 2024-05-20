@@ -37,7 +37,7 @@ import WhiteArrow from "../../src/assets/WhiteArrow.png";
 import StatusBar from "../../src/assets/StatusBar.png";
 import HomeIndicator from "../../src/assets/HomeIndicator.png";
 import stuff from "../../src/assets/stuff.png";
-import BackgroundCard from '../../src/assets/BackgroundCard.png';
+import BackgroundCard from "../../src/assets/BackgroundCard.png";
 import github from "../../src/assets/github.png";
 import githublogo from "../../src/assets/githublogo.png";
 import stacklogo from "../../src/assets/stacklogo.png";
@@ -47,10 +47,10 @@ import fullStackResume from "../../src/assets/fullStackResume.png";
 import frontendResume from "../../src/assets/frontendResume.png";
 import backendResume from "../../src/assets/backendResume.png";
 import upArrow from "../../src/assets/upArrow.png";
-
+import arrow from "../../src/assets/arrow.png";
 
 export {
-
+  arrow,
   upArrow,
   coverLetter,
   fullStackResume,

@@ -37,7 +37,7 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className=" mobile-s:w-[200px] mobile-s:ml-[10px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className=" mobile-m:w-[220px] mobile-m:ml-[34px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
         {/* Hamberger Menu */}
         <div className="sm:hidden laptop:hidden laptop-l:hidden desktop:hidden flex flex-1 justify-end items-center">
           <img
-            className=" mobile-s:h-[35px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
+            className=" mobile-m:h-[32px] mobile-s:h-[30px] mobile-s:w-[30px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? closeMenu : menu}
             alt="menu"
             onClick={() => setToggle(!toggle)}

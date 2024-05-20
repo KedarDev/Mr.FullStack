@@ -1,13 +1,28 @@
 import React from 'react'
 import { upArrow } from '../assets'
+import { motion } from "framer-motion";
 
 const scrollToTop = () => {
   return (
-    <div className='h-[100px]'>
-        <a href="#">
-        <img src={upArrow} alt="" className='mobile-s:left-[146px] absolute left-[600px] w-[25px] h-[25px]' />
-        </a>
-    </div>
+<div className="mobile-s:mt-[0px] mobile-s:left-[-0px] mobile-m:left-[3px] absolute  w-full flex justify-center items-center">
+<a href="#hero" className="">
+  <div className=" mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
+    <motion.dev
+    animate={{y: [ 0, 24, 0]}}
+    transition={{
+      duration: 1.5,
+      repeat: Infinity,
+      repeatType:'loop'
+    }}
+    >
+    <img src={upArrow} alt="" className="w-[30px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
+    </motion.dev>
+  </div>
+</a>
+</div>
+
+
+
   )
 }
 

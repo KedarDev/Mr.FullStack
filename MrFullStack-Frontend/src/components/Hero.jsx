@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import Computers from "./canvas/Computers";
 import { SectionWrapper } from "../hoc";
+import { WhiteArrow, arrow } from "../assets";
 
 const Hero = () => {
   return (
@@ -26,9 +27,9 @@ const Hero = () => {
       </div>
       {/* <Computers /> */}
 
-      <div className="mobile-s:mt-[550px] mobile-s:left-[-0px] absolute  w-full flex justify-center items-center">
+      <div className=" mobile-m:mt-[550px] mobile-s:mt-[550px] mobile-s:left-[-0px] mobile-m:ml-[-5px] absolute  w-full flex justify-center items-center">
         <a href="#about" className="">
-          <div className="  w-[90%] h-[64px] rounded-3xl border-4 border-[#FFF] flex justify-center items-start p-2 ">
+          <div className=" mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
             <motion.dev
             animate={{y: [ 0, 24, 0]}}
             transition={{
@@ -36,8 +37,10 @@ const Hero = () => {
               repeat: Infinity,
               repeatType:'loop'
             }}
-            className="  w-3 h-3 rounded-full bg-black mb-1"
-            />
+            // className="w-3 h-3 rounded-full bg-black mb-1"
+            >
+            <img src={arrow} alt="" className="w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
+            </motion.dev>
           </div>
         </a>
       </div>
