@@ -21,7 +21,6 @@ module.exports = {
         "theme-grey-200": "var(--theme-grey-200)",
         "theme-light-grey": "var(--theme-light-grey)",
         "theme-white": "var(--theme-white)",
-        
         boxShadow: {
           card: "0px 35px 120px -15px #808080",
         },

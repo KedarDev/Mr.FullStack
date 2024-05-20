@@ -57,7 +57,7 @@ const Works = () => {
             </div>
             <div className="  mt-5 mobile-s:m-0  mobile-s:mt-[10px] mobile-s:w-full">
               <h3 className="text-white font-bold mobile-s:text-[10px] text-[24px]">{name}</h3>
-              <p className=" mobile-s:text-[7px] mobile-s:mt-1 mt-2 text-white text-[14px]">{description}</p>
+              <p className=" mobile-s:text-[8px] mobile-s:mt-1 mt-2 text-white text-[14px]">{description}</p>
             </div>
             <div className=" mt-4 mobile-s:mt-[-1px] flex flex-wrap gap-1 mobile-s:gap-1">
               {tags.map((tag) => (
@@ -74,11 +74,11 @@ const Works = () => {
 
   return (
     <>
-      <motion.div className="w-full mobile-s:mt-[-500px]">
+      <motion.div className="w-full mobile-s:mt-[-400px]">
         <p className={styles.sectionSubText}>Github Repo</p>
         <div className="inline-flex   justify-center items-center">
           <h2
-            className={`${styles.sectionHeadText} mobile-s:text-[20px]  w-full mobile-s:p-3 p-5 inline-flex grid-flex-col pl-10 mx-auto`}
+            className={`${styles.sectionHeadText} mobile-s:text-[20.6px]  w-full mobile-s:p-3 p-5 inline-flex grid-flex-col pl-10 mx-auto`}
           >
             Enter Website
           </h2>

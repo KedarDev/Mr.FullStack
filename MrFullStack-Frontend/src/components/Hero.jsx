@@ -26,9 +26,9 @@ const Hero = () => {
       </div>
       {/* <Computers /> */}
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[90%] h-[64px] rounded-3xl border-4 border-[#FFF] flex justify-center items-start p-2 ">
+      <div className="mobile-s:mt-[550px] mobile-s:left-[-0px] absolute  w-full flex justify-center items-center">
+        <a href="#about" className="">
+          <div className="  w-[90%] h-[64px] rounded-3xl border-4 border-[#FFF] flex justify-center items-start p-2 ">
             <motion.dev
             animate={{y: [ 0, 24, 0]}}
             transition={{
@@ -36,7 +36,7 @@ const Hero = () => {
               repeat: Infinity,
               repeatType:'loop'
             }}
-            className=" w-3 h-3 rounded-full bg-black mb-1"
+            className="  w-3 h-3 rounded-full bg-black mb-1"
             />
           </div>
         </a>

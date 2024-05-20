@@ -61,7 +61,7 @@ const Contact = () => {
   };
 
   return (
-    <div className=" mt-[-80%]h-screen xl:mt-12 xl:flex-row flex-col-reverse flex gap 10 overflow-hidden">
+    <div className="   mobile-s:mt-[-400px] mt-[-80%] h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0, 2, 1)}
         className="flex-[0.75] bg-white p-8 rounded-2x1"
@@ -74,31 +74,31 @@ const Contact = () => {
           className="mt-5 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className=" text-[#000000] font-medium mb-4">Your Name</span>
+            <span className="mobile-s:text-[15px] text-[#000000] font-medium mb-4">Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="Whats your name?"
-              className="bg-[#000] py-4 px-6 placeholder:text-[#FFFFFF] text-{#FFFFFF} rounded-lg outline-none border-none font-medium"
+              className=" mobile-s:text-[10px] bg-[#000] py-4 px-6 placeholder:text-[#FFFFFF] text-{#FFFFFF} rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <label className="flex flex-col">
-            <span className="text-black font-medium mb-4">Your email</span>
+            <span className= " mobile-s:text-[15px] text-black font-medium mb-4">Your email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className="bg-black py-4 px-6 placeholder:text-[#FFF] text-white rounded-lg outline-none border-none font-medium"
+              className=  " mobile-s:text-[10px] bg-black py-4 px-6 placeholder:text-[#FFF] text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <label className="flex flex-col">
-            <span className="text-[#000000] font-medium mb-4">
+            <span className=" mobile-s:text-[15px] text-[#000000] font-medium mb-4">
               {" "}
               Your Message
             </span>
@@ -108,14 +108,16 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder=" What would you like to say? "
-              className="placeholder:text-[#FFF] bg-[#000] py-4 px-6 text-{#FFF} rounded-lg outline-none border-none font-medium"
+              className=" mobile-s:text-[10px] placeholder:text-[#FFF] bg-[#000] py-4 px-6 text-{#FFF} rounded-lg outline-none border-none font-medium"
             />
           </label>
           <button
             type="submit"
-            className="bg-[#000] py-3 px-8 outline-none w-fit text-[#FFF] font-bold shadow-md shadow-[#FFF] rounded-xl"
+            className=" mobile-s:text-start  mobile-s:w-[80px] mobile-s:ml-[62px] mobile-s:h-[30px] bg-[#000] py-3 px-8 outline-none w-fit text-[#FFF] font-bold shadow-md shadow-[#FFF] rounded-xl"
           >
+            <div className="mobile-s:ml-[-11px] mobile-s:mt-[-6px]">
             {loading ? "Sending..." : "Send"}
+            </div>
           </button>
         </form>
       </motion.div>
