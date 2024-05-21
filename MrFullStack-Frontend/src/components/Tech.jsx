@@ -17,22 +17,32 @@ const Tech = (props) => {
             Technologies
           </h2>
           <img
-            className=" laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  mobile-s:h-2 w-[45%] ml-2 h-5 justify-center items-center content-center "
+            className=" laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
+            laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  
+            mobile-s:h-2 w-[45%] ml-2 h-5 justify-center items-center content-center "
             src={WhiteArrow}
             alt="whitearrow"
           />
         </div>
       </motion>
-      <div className="iPhone15 laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1024px] laptop:ml-[-18px] top-[150px] mobile-l:w-[425px] tablet:w-[768px] mobile-m:w-[376px] mobile-l:ml-[-23px] tablet:ml-[-24px]   mobile-m:ml-[-25px] mobile-s:w-[315px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPhone15ProMax.png)]  mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden">
+      <div className="iPhone15 laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1024px] laptop:ml-[-18px] top-[150px] 
+      mobile-l:w-[425px] tablet:w-[768px] mobile-m:w-[376px] mobile-l:ml-[-23px] tablet:ml-[-24px]   mobile-m:ml-[-25px] 
+      mobile-s:w-[315px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPhone15ProMax.png)] 
+       mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden">
         <img
-          className="  tablet:w-[900px] mobile-m:mt-[-1px] relative object-center overflow-hidden z-0 flex h-auto max-w-[92%] mt-[3%]  ml-3  justify-center content-center items-center"
+          className="  tablet:w-[900px] mobile-m:mt-[-1px] relative object-center overflow-hidden z-0 flex h-auto max-w-[92%] 
+          mt-[3%]  ml-3  justify-center content-center items-center"
           src={stuff}
           alt="iphoneicons"
         />
-        <div className="relative shrink-0 z-50 gap-[200px] laptop:w-[98%] laptop:mt-[-350px] laptop-l:mt-[-490px] laptop-l:ml-[20px] laptop-l:w-[97%]  mobile-m:w-full mobile-m:h-[100px]  mobile-m:mt-[-120px] mobile-m:gap-[50px] mobile-l:gap-[30px] laptop:gap-[100px]  tablet:gap-[100px] mobile-s:gap-[30px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex justify-start items-center content-center">
+        <div className="relative shrink-0 z-50 gap-[200px] laptop:w-[98%] laptop:mt-[-350px] laptop-l:mt-[-490px] laptop-l:ml-[20px] 
+        laptop-l:w-[97%]  mobile-m:w-full mobile-m:h-[100px]  mobile-m:mt-[-120px] mobile-m:gap-[50px] mobile-l:gap-[30px] 
+        laptop:gap-[100px]  tablet:gap-[100px] mobile-s:gap-[30px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex 
+        justify-start items-center content-center">
           {technologies.map((technology, index) => (
             <li className="relative flex text-[25px] shrink-0 over"  key={technology.name}>
-              <img className="z-50  shrink-0 mobile-m:w-[100px]  laptop-l:w-[350px] mobile-s:w-[80px] mobile-l:w-[120px] tablet:w-[190px] tablet:mt-[40px] mobile-l:mt-[150px] mobile-s:h-[80px]  mobile-s:mt-[195px]" src={technology.icon} alt="" />
+              <img className="z-50  shrink-0 mobile-m:w-[100px]  laptop-l:w-[350px] mobile-s:w-[80px] mobile-l:w-[120px] 
+              tablet:w-[190px] tablet:mt-[40px] mobile-l:mt-[150px] mobile-s:h-[80px]  mobile-s:mt-[195px]" src={technology.icon} alt="" />
             </li>
           ))}
         </div>
