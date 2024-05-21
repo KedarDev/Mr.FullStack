@@ -13,7 +13,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className=' xs:w-[250px] w-fit'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className=' tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
+      className=' laptop-l:w-[300px] laptop-l:h-[350px] tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -21,7 +21,7 @@ const ServiceCard = ({index, title, icon}) => {
           scale: 1,
           speed: 450,
         }}
-        className='  mobile-s:w- rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='mobile-s:w- rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <div className="w-[40px] h-[40px]">
 <img className="fixed w-[40px] h-[40px] top-0 left-0 object-cover" alt="Mrstackdown" src={mrstackup} />
@@ -29,7 +29,7 @@ const ServiceCard = ({index, title, icon}) => {
         <img
           src={icon}
           alt='web-development'
-          className='w-30 h-30 object-contain'
+          className=' laptop-l:w-40 laptop-l:h-40 w-30 h-30 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
@@ -48,12 +48,12 @@ const About = () => {
   return (
     <>
     <motion.div variants={textVariant()} className='mobile-s:text-center'>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <p className={`${styles.sectionSubText} laptop-l:text-[50px]  `}>Introduction</p>
+      <h2 className={`${styles.sectionHeadText} laptop-l:text-[70px] `}>Overview.</h2>
     </motion.div>
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
-    className='mt-4 text-white text-[17px] max-w-3x1 leading-[30px] text-center'
+    className='mt-4 laptop-l:text-[30px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
     >
         Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
         position . My experience with both the back-end and front-end stacks, as
@@ -73,7 +73,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
     </motion.p>
-    <div className="mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+    <div className=" laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
       ))}
