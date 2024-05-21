@@ -29,7 +29,7 @@ const Navbar = () => {
             // onClick={}
             src={darkflash}
             alt="darkflash"
-            className="fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
+            className=" tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
           />
           &nbsp;
           <span className="flex justify-center">
@@ -37,7 +37,7 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className=" mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className=" tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>

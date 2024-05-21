@@ -13,7 +13,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className=' xs:w-[250px] w-fit'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
+      className=' tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -73,7 +73,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
     </motion.p>
-    <div className="mt-20 flex flex-wrap gap-10 justify-center ">
+    <div className="mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
       ))}
