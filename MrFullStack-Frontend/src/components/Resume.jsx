@@ -13,11 +13,11 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className=" tablet:mt-[-400px] mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
+      className=" laptop:mt-[-700px] tablet:mt-[-400px] mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
     >
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Cover Letter</p>
-        <h2 className={styles.sectionHeadText}>Resume.</h2>
+      <motion.div variants={textVariant()} className="ml-[30px]">
+        <p className={`${styles.sectionSubText} laptop:text-[50px] `}>Cover Letter</p>
+        <h2 className={`${styles.sectionHeadText} laptop:text-[70px]  `}>Resume.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
@@ -30,7 +30,7 @@ const Resume = () => {
           alt="macbook"
           className=" relative object-contain z-10 "
         />
-        <div className=" mobile-s:w-[120px] mobile-s:ml-[90px] mobile-s:mt-[-185px] mobile-m:mt-[-225px] mobile-l:mt-[-255px] tablet:mt-[-455px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
+        <div className=" laptop:mt-[-650px] mobile-s:w-[120px] mobile-s:ml-[90px] mobile-s:mt-[-185px] mobile-m:mt-[-225px] mobile-l:mt-[-255px] tablet:mt-[-455px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
           <img
             src={bigResumeImg}
             alt="resume collection"
@@ -39,15 +39,15 @@ const Resume = () => {
             className=" mobile-s:w-[150px] mobile-m:w-[150px] mobile-l:w-[160px] tablet:w-[300px] object-contain relative z-10"
           />
         </div>
-        <div className="  tablet:mt-[150px] mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
+        <div className="  tablet:mt-[150px] laptop:mt-[300px] mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
           {resumes.map((resume) => (
-            <div className=" tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] " key={resume}>
+            <div className=" laptop:mt-[50px] tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] " key={resume}>
               <ResumeCard
                 imgURL={resume}
                 changeBigResumeImage={(resume) => setBigResumeImg(resume)}
                 bigResumeImg={resume}
               />
-              <h1 className="  tablet:mt-[20px] flex mx-auto py-auto justify-center items-center  mobile-s:text-[10px] mobile-m:text-[10px] mobile-l:text-[12px]  text-[25px]">
+              <h1 className="  laptop:p-5 tablet:mt-[20px] flex mx-auto py-auto justify-center items-center  mobile-s:text-[10px] mobile-m:text-[10px] mobile-l:text-[12px] laptop:text-[35px]  text-[25px]">
                 {resume.name}
               </h1>
             </div>

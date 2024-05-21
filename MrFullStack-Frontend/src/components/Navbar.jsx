@@ -29,7 +29,7 @@ const Navbar = () => {
             // onClick={}
             src={darkflash}
             alt="darkflash"
-            className=" tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
+            className=" laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
           />
           &nbsp;
           <span className="flex justify-center">
@@ -37,7 +37,7 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className=" tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className=" laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
@@ -47,14 +47,14 @@ const Navbar = () => {
               key={Link.id}
               className={`${
                 active === Link.title ? "text-[#808080]" : "text-black"
-              } hover:text-[#FF0000] text-[18px] font-medium cursor-pointer`}
+              } hover:text-[#FF0000] laptop:text-[20px] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(Link.title)}
             >
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
           <a href="">
-            <div className="Button w-28 h-6 relative bottom-[3px] ">
+            <div className=" laptop:mt-[3px] Button w-28 h-6 relative bottom-[3px] ">
               <div className="Buttonbox w-28 h-8 left-0  absolute mix-blend-hard-light bg-black rounded-xl shadow border-2 border-zinc-800 " />
               <div className="Login w-28 h-8 left-[2px] top-[3px] absolute text-center text-white text-[18px] font-normal font-['Inter']">
                 Login
@@ -81,7 +81,7 @@ const Navbar = () => {
                   key={Link.id}
                   className={`${
                     active === Link.title ? "text-[#808080]" : "text-white"
-                  } font-poppins text-[16px] font-medium cursor-pointer`}
+                  } font-poppins   text-[16px] font-medium cursor-pointer`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(Link.title);
