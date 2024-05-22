@@ -13,7 +13,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className=' xs:w-[250px] w-fit'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className=' laptop-l:w-[300px] laptop-l:h-[350px] tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
+      className=' desktop:w-[400px] desktop:h-[500px] laptop-l:w-[300px] laptop-l:h-[350px] tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -29,10 +29,10 @@ const ServiceCard = ({index, title, icon}) => {
         <img
           src={icon}
           alt='web-development'
-          className=' laptop-l:w-40 laptop-l:h-40 w-30 h-30 object-contain'
+          className='  desktop:mt-[40px] desktop:w-60 desktop:h-60 laptop-l:w-40 laptop-l:h-40 w-30 h-30 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className=' desktop:text-[40px] text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
         <div className="w-[40px] h-[40px]">
@@ -48,12 +48,12 @@ const About = () => {
   return (
     <>
     <motion.div variants={textVariant()} className='mobile-s:text-center'>
-      <p className={`${styles.sectionSubText} laptop-l:text-[50px]  `}>Introduction</p>
-      <h2 className={`${styles.sectionHeadText} laptop-l:text-[70px] `}>Overview.</h2>
+      <p className={`${styles.sectionSubText} desktop:text-[70px]  laptop-l:text-[50px]   `}>Introduction</p>
+      <h2 className={`${styles.sectionHeadText} desktop:text-[100px]  laptop-l:text-[70px] `}>Overview.</h2>
     </motion.div>
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
-    className='mt-4 laptop-l:text-[30px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
+    className='mt-4 desktop:text-[50px] laptop-l:text-[30px] desktop:leading-[100px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
     >
         Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
         position . My experience with both the back-end and front-end stacks, as

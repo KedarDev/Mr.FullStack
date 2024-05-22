@@ -39,7 +39,7 @@ const Hero = () => {
             }}
             // className="w-3 h-3 rounded-full bg-black mb-1"
             >
-            <img src={arrow} alt="" className=" laptop-l:mt-[100em] laptop-l:w-full laptop-l:h-[60px] w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
+            <img src={arrow} alt="" className=" laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-full laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
             </motion.dev>
           </div>
         </a>

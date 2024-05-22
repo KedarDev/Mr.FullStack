@@ -61,44 +61,44 @@ const Contact = () => {
   };
 
   return (
-    <div className=" laptop-l:mt-[-900px] laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
+    <div className=" desktop:mt-[-50em] desktop:w-[60%] desktop:h-[80%] laptop-l:mt-[-900px] desktop:ml-[30em]  laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0, 2, 1)}
         className="flex-[0.75] bg-white p-8 rounded-2x1 "
       >
-        <p className={styles.sectionSubText1}>Get in touch</p>
-        <h3 className={styles.heroHeadText1}>Contact.</h3>
+        <p className={`${styles.sectionSubText1} desktop:text-[50px]  `}>Get in touch</p>
+        <h3 className={`${styles.heroHeadText1} desktop:text-[80px]  `}>Contact.</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-5 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="mobile-s:text-[15px] text-[#000000] font-medium mb-4">Your Name</span>
+            <span className=" desktop:text-[40px] mobile-s:text-[15px] text-[#000000] font-medium mb-4">Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="Whats your name?"
-              className=" mobile-s:text-[10px] bg-[#000] py-4 px-6 placeholder:text-[#FFFFFF] text-{#FFFFFF} rounded-lg outline-none border-none font-medium"
+              className=" desktop:text-[30px]  mobile-s:text-[10px] bg-[#000] py-4 px-6 placeholder:text-[#FFFFFF] text-{#FFFFFF} rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <label className="flex flex-col">
-            <span className= " mobile-s:text-[15px] text-black font-medium mb-4">Your email</span>
+            <span className= " desktop:text-[40px]  mobile-s:text-[15px] text-black font-medium mb-4">Your email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className=  " mobile-s:text-[10px] bg-black py-4 px-6 placeholder:text-[#FFF] text-white rounded-lg outline-none border-none font-medium"
+              className=  " desktop:text-[30px]  mobile-s:text-[10px] bg-black py-4 px-6 placeholder:text-[#FFF] text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
 
           <label className="flex flex-col">
-            <span className=" mobile-s:text-[15px] text-[#000000] font-medium mb-4">
+            <span className=" desktop:text-[40px]  mobile-s:text-[15px] text-[#000000] font-medium mb-4">
               {" "}
               Your Message
             </span>
@@ -108,12 +108,12 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder=" What would you like to say? "
-              className=" mobile-s:text-[10px] placeholder:text-[#FFF] bg-[#000] py-4 px-6 text-{#FFF} rounded-lg outline-none border-none font-medium"
+              className=" desktop:text-[30px]  mobile-s:text-[10px] placeholder:text-[#FFF] bg-[#000] py-4 px-6 text-{#FFF} rounded-lg outline-none border-none font-medium"
             />
           </label>
           <button
             type="submit"
-            className=" mobile-s:text-start  mobile-s:w-[80px] mobile-s:ml-[62px] mobile-s:h-[30px] bg-[#000] py-3 px-8 outline-none w-fit text-[#FFF] font-bold shadow-md shadow-[#FFF] rounded-xl"
+            className=" desktop:text-[50px]  mobile-s:text-start  mobile-s:w-[80px] mobile-s:ml-[62px] mobile-s:h-[30px] bg-[#000] py-3 px-8 outline-none w-fit text-[#FFF] font-bold shadow-md shadow-[#FFF] rounded-xl"
           >
             <div className="mobile-s:ml-[-11px] mobile-s:mt-[-6px]">
             {loading ? "Sending..." : "Send"}

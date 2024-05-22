@@ -66,7 +66,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Full Stack Developer",
+    title: "Full Stack",
     icon: fullstack,
   },
 ];
@@ -189,7 +189,7 @@ const experiences = [
     ],
   },
   {
-    title: "WordPress Developer Intern",
+    title: "WordPress Intern",
     company_name: "STEM Academy Of Canada",
     icon: STEM,
     iconBg: "#FFF",
