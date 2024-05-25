@@ -72,7 +72,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/MRFULLSTACK
     username: postgres
-    password: Blessed4life$
+    password: 
     hikari:
       maximum-pool-size: 2
   jpa:
@@ -93,7 +93,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/MRFULLSTACK
     username: postgres
-    password: Blessed4life$
+    password: 
     hikari:
       maximum-pool-size: 2
   jpa:
@@ -110,7 +110,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/MRFULLSTACK
     username: postgres
-    password: Blessed4life$
+    password: 
     hikari:
       maximum-pool-size: 2
   jpa:
@@ -127,7 +127,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/MRFULLSTACK
     username: postgres
-    password: Blessed4life$
+    password:
     hikari:
       maximum-pool-size: 2
   jpa:

@@ -38,6 +38,4 @@ public class VisitorController {
 
         return this.visitorService.listVisitors();
     }
-    
-
 }
