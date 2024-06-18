@@ -6,7 +6,7 @@ jwt:
   audience: ResumeApp
   prefix: 'Bearer '
   excluded.urls: > 
-    # /homepage,
+    /home,
     /user/login,
     /user/signup,
     /user/reset/*,
