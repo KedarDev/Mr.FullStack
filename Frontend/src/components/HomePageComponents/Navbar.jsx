@@ -90,7 +90,7 @@ const Navbar = () => {
                   <a href={`#${Link.id}`}>{Link.title}</a>
                 </li>
               ))}
-              <a href="/">
+              <a href="/user/Login">
                 <div className="Button w-28 h-6 relative">
                   <div className="Buttonbox w-28 h-8 left-0 top-0 absolute mix-blend-hard-light bg-black rounded-xl shadow border-5 border-zinc-800" />
                   <div className="Login w-28 h-8 left-[3px] top-[3px] absolute text-center text-white text-[18px] font-normal font-['Inter']">

@@ -33,11 +33,10 @@ const userData = appContext.getUserData();
 const [isAuthenticated, setIsAuthenticated] = useState(null);
 
 const pageTitles = {
-    "/app/Dashboard": "Dashboard",
+    "/app/dashboard": "Dashboard",
     "/app/profile": "Profile",
     "/app/myFeeds": "My Feeds",
-
-}
+};
 
 const getSession = async () => {
     const apiResponse = await sessionApi(token);

@@ -1,5 +1,15 @@
 import axios from "axios";
 
+// const axiosInstance = axios.create({
+//   baseURL: `${VITE_API_BASE_URL}`,
+//   headers: {
+//     "Access-Control-Allow-Origin": "*",
+//     "Content-Type": "application/json", //this line solved cors
+//   },
+// });
+
+
+
 const VITE_API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const frameToken = (token) => `Bearer ${token}`;
@@ -177,7 +187,7 @@ const frameResponse = (
 
     try {
       const url = `${VITE_API_BASE_URL}/user/update/profile`;
-      const apiResponse = await axios.post(
+      const apiResponse = await axios.get(
         url,
         {
           bio,

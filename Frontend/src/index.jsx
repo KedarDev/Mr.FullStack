@@ -5,6 +5,9 @@ import { BrowserRouter as Router } from "react-router-dom";
 import AppContextProvider from "./context/applicationContext";
 import AppRoutes from "./appRoutes/AppRoutes";
 
+
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <AppContextProvider>

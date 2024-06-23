@@ -12,7 +12,7 @@ import ScrollToTop from "../../components/HomePageComponents/scrollToTop";
 
 const HomePage = () => {
   return (
-    <div className="relative z-0 ">
+    <div className="relative z-0 black-gradient ">
       <div className="bg-hero-patttern bg-cover bg-no-repeat bg-center">
       <Navbar  />
       <br />

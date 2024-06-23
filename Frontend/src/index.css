@@ -314,7 +314,7 @@ You can apply the theme on any DOM node, not just the `body`
 }
 
 .cropper {
-  width: 50vw;
-  height: 50vh;
+  width: 60vw;
+  height: 60vh;
   background: #ddd;
 } 

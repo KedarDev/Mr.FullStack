@@ -10,7 +10,7 @@ const Field = ({ label, ...props }) => {
     return (
 
         <>
-        <label className="block mb-2 text-sm text-black">{label}</label>
+        <label className="block mb-2 text-sm text-white">{label}</label>
         <input
           {...field}
           {...props}

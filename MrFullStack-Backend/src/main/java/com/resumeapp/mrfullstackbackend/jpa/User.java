@@ -62,11 +62,11 @@ public class User implements Serializable {
 
     @JsonInclude(Include.NON_NULL)
     @OneToOne(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private Blog blog;
+    private Profile profile;
 
     @JsonIgnore
     @OneToMany(mappedBy = "user")
-    private List<Feed> feeds;
+    private List<Feed> feeds; 
 
     @JsonIgnore
     @OneToMany(mappedBy = "user")
@@ -82,12 +82,12 @@ public class User implements Serializable {
         return userId;
     }
 
-    public Blog getBlog() {
-        return blog;
+    public Profile getProfile() {
+        return profile;
     }
 
-    public void setBlog(Blog blog) {
-        this.blog = blog;
+    public void setProfile(Profile profile) {
+        this.profile = profile;
     }
 
     public List<Feed> getFeeds() {

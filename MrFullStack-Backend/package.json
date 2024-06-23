@@ -1,5 +1,8 @@
 {
   "dependencies": {
-    "mvn": "^3.5.0"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mvn": "^3.5.0",
+    "pre-flight": "^1.1.1"
   }
 }

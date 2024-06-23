@@ -11,9 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import java.sql.Timestamp;
 import java.time.Instant;
-
+import com.resumeapp.mrfullstackbackend.jpa.Profile;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.resumeapp.mrfullstackbackend.jpa.Blog;
 import com.resumeapp.mrfullstackbackend.jpa.User;
 import com.resumeapp.mrfullstackbackend.service.UserService;
 import static org.springframework.http.HttpStatus.OK;
@@ -24,10 +23,13 @@ import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+
+
+
 @CrossOrigin(exposedHeaders = "Authorization")
 @RestController
 @RequestMapping("/user")
-public class UserController {
+public class UserController {// blog
 
     final Logger logger = LoggerFactory.getLogger(this.getClass());
 
@@ -147,12 +149,12 @@ public User updateUser(@RequestBody User user) {
 	return this.userService.updateUser(user);
 }
 
-@PostMapping("/update/blog")
-public User updateUserBlog(@RequestBody Blog blog) {
-		
-	logger.debug("Updating User Profile Data, Profile: {}", blog.toString());
-		
-	return this.userService.updateUserBlog(blog);
-}
+	@PostMapping("/update/profile")
+	public User updateUserProfile(@RequestBody Profile profile) {
+			
+		logger.debug("Updating User Profile Data, Profile: {}", profile.toString());
+			
+		return this.userService.updateUserProfile(profile);
+	}
 
 }

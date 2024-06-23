@@ -6,7 +6,6 @@ jwt:
   audience: ResumeApp
   prefix: 'Bearer '
   excluded.urls: > 
-    /home,
     /user/login,
     /user/signup,
     /user/reset/*,
@@ -24,3 +23,6 @@ client:
     reset: 
       param: user/resetPassword
       expiration: 600_000 # 10 minutes 
+
+
+      
