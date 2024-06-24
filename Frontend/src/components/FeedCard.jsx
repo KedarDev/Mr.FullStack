@@ -32,7 +32,7 @@ const FeedCard = ({
   const [noOfLikes, setNoOfLikes] = useState(0);
   const [userLiked, setUserLiked] = useState(false);
   const [comments, setComments] = useState([]);
-
+ const [loadOnDelete, setLoadOnDelete] = useState();
   useEffect(() => {
     // declare an empty array to store all the comments
     const commentsData = [];
@@ -137,8 +137,8 @@ const FeedCard = ({
   });
 
   return (
-    <div className="bg-white shadow rounded-lg mb-5">
-      <div className="flex w-full border-t border-gray-100">
+    <div className=" shadow rounded-lg mb-5">
+      <div className=" black-gradient flex w-full border- border-white">
         <div className="flex flex-row w-full py-2">
           {/* {#CardHeader Section} */}
           <div className="flex flex-row px-2 py-3 mx-3">
@@ -148,14 +148,14 @@ const FeedCard = ({
               src={profilePicture}
             />
             <div className="flex flex-col mb-2 ml-4 mt-1">
-              <div className="text-gray-600 text-sm font-semibold">
+              <div className="text-white text-sm font-semibold">
                 {firstName} {lastName}
               </div>
               <div className="flex w-full mt-1">
-                <div className="text-purple-700 font-base text-xs mr-1 cursor-pointer">
+                <div className="text-red-800 font-base text-xs mr-1 cursor-pointer">
                   @{username}
                 </div>
-                <div className="text-gray-600 font-thin text-xs">
+                <div className="text-white font-thin text-xs">
                   • <Moment format="LLL">{createdOn}</Moment>
                 </div>
               </div>
@@ -183,21 +183,21 @@ const FeedCard = ({
             </span>
           </div>
 )} */}
-      <div className="border-b border-gray-100"></div>
+      <div className="border-b border-gray"></div>
       {/* {#CardBody Section} */}
       <div className="text-gray-400 font-medium text-sm mb-7 mt-6 mx-3 px-2">
         <img className="rounded w-full" src={picture} />
       </div>
 
-      <div className="text-gray-800 text-sm mb-6 mx-3 px-2">{content}</div>
+      <div className="text-white text-sm mb-6 mx-3 px-2">{content}</div>
 
-      <div className="flex w-full border-t border-gray-100">
+      <div className=" bg-black shadow-inner flex w-full border-t border-gray-100">
         {/* {#LikeAndCommentCount Section} */}
         <div className="mt-3 mx-5 flex flex-row text-xs" onClick={addLike}>
-          <span className="transition ease-out duration-300 hover:bg-gray-50 bg-gray-100 h-8 px-2 py-2 text-center rounded-full text-gray-100 cursor-pointer">
+          <span className="transition ease-out duration-300 hover:bg-gray-50 bg-black h-8 px-2 py-2 text-center rounded-full text-gray-100 cursor-pointer">
             <svg
               className={`h-4 w-4 ${
-                userLiked ? "text-red-500" : "text-gray-500"
+                userLiked ? "text-red-500" : "text-white"
               }`}
               fill="none"
               viewBox="0 0 24 24"
@@ -213,13 +213,13 @@ const FeedCard = ({
           </span>
         </div>
         <div className="mt-3 mx-5 w-full flex justify-end text-xs">
-          <div className="flex text-gray-700  rounded-md mb-2 mr-4 items-center">
+          <div className="flex text-red-600 rounded-md mb-2 mr-4 items-center">
             Likes:{" "}
-            <div className="ml-1 text-gray-400 text-ms"> {noOfLikes}</div>
+            <div className="ml-1 text-red-600 text-ms"> {noOfLikes}</div>
           </div>
-          <div className="flex text-gray-700 font-normal rounded-md mb-2 mr-4 items-center">
+          <div className="flex text-red-600 font-normal rounded-md mb-2 mr-4 items-center">
             Comments:
-            <div className="ml-1 text-gray-400 text-ms"> {comments.length}</div>
+            <div className="ml-1 text-red-600 text-ms"> {comments.length}</div>
           </div>
         </div>
       </div>
@@ -252,11 +252,11 @@ const FeedCard = ({
       >
         {() => (
           <Form>
-            <div className="relative flex items-center self-center w-full max-w-l p-4 overflow-hidden text-gray-600 focus-within:text-gray-400">
+            <div className="relative flex items-center self-center w-full max-w-l p-4 overflow-hidden text-white focus-within:text-black">
               <span className="absolute inset-y-0 right-0 flex items-center pr-6">
                 <button
                   type="submit"
-                  className="p-1 focus:outline-none focus:shadow-none hover:text-purple-500"
+                  className="p-1 focus:outline-none focus:shadow-none hover:text-red-800"
                 >
                   <svg
                     className="ml-1"
@@ -278,7 +278,7 @@ const FeedCard = ({
                 id="comment"
                 name="comment"
                 type="search"
-                className="w-full py-2 pl-4 pr-10 text-sm bg-gray-100 border border-transparent appearance-none rounded-tg placeholder-gray-400 focus:bg-white focus:outline-none focus:border-purple-500 focus:text-gray-900 focus:shadow-outline-blue custom-br-25"
+                className="w-full py-2 pl-4 pr-10 text-sm bg-[#808080] border border-transparent appearance-none rounded-tg placeholder-black focus:bg-white focus:outline-none focus:border-red-600 focus:text-gray-900 focus:shadow-outline-blue custom-br-25"
                 placeholder="Post a comment..."
               />
             </div>

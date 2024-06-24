@@ -13,10 +13,10 @@ const MyProfile = () => {
   return (
 
       <aside className="">
-      <div className="bg-white shadow rounded-lg p-10">
+      <div className="black-gradient shadow rounded-lg p-10">
         <div className="flex flex-col gap-1 text-center items-center">
           <img
-            className="h-32 w-32 bg-white p-2 rounded-full shadow mb-4"
+            className="h-32 w-32 bg-black p-2 rounded-full shadow mb-4"
             src={userData.profile.picture || NoProfileImage}
             alt=""
           />
@@ -30,10 +30,10 @@ const MyProfile = () => {
             </div>
           )}
 
-          <div className="text-xs leading-normal text-gray-400 flex justify-center items-center">
+          <div className="text-xs leading-normal text-white flex justify-center items-center">
             <svg
               viewBox="0 0 24 24"
-              className="mr-1 text-purple-600"
+              className="mr-1 text-white"
               width="16"
               height="16"
               stroke="currentColor"
@@ -50,10 +50,10 @@ const MyProfile = () => {
         </div>
       </div>
 
-      <div className="bg-white shadow mt-6  rounded-lg p-6">
-        <h3 className="text-purple-600 text-sm font-semibold mb-4">Bio</h3>
+      <div className="bg-[#808080] shadow mt-6  rounded-lg p-6">
+        <h3 className="text-white text-sm font-semibold mb-4">Bio</h3>
 
-        <div className="text-gray-500 text-sm mb-6">{userData.profile.bio}</div>
+        <div className="text-white text-sm mb-6">{userData.profile.bio}</div>
       </div>
     </aside>
   );

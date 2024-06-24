@@ -54,7 +54,7 @@ const MyFeeds = () => {
   }
 
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 mx-0 md:mx-12 w-2xl container px-2 mx-auto">
+    <main className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-12  md:mx-12 w-2xl container px-2 mx-auto">
       {/* {#MyProfile Component} */}
       <MyProfile />
       <article>
@@ -65,17 +65,17 @@ const MyFeeds = () => {
           hasMore={hasMore}
           endMessage={
             <p className="text-center">
-              <b>Yay! You have seen it all.</b>
+              <b>Scroll to the top.</b>
             </p>
           }
           refreshFunction={() => getMyFeeds(0)}
           pullDownToRefresh
           pullDownToRefreshThreshold={50}
           pullDownToRefreshContent={
-            <h3 className="text-center">&#8595; Pull down to refresh</h3>
+            <h3 className="text-center text-[#fff]"> Pull down to refresh</h3>
           }
           releaseToRefreshContent={
-            <h3 className="text-center">&#8593; Release to refresh</h3>
+            <h3 className="text-center text-[#fff]"> Release to refresh</h3>
           }
         >
           <div className="mt-3">

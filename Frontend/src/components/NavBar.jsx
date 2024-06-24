@@ -17,16 +17,16 @@ const logout = () => {
 };
 
     return (
-        <nav className="w-full">
+        <nav className="bg-black w-full">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <h4 className="text-gray-600 text-3xl font-semibold">
+            <h4 className="text-white text-3xl font-semibold">
               {pageTitle}
             </h4>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-white rounded-md outline-none focus:border-red-800 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -68,10 +68,10 @@ const logout = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <ul className="mt-[-80px] pl-[40px] ml-[250px] grid grid-cols-4 w-[50%]  items-center justify-center space-y-0 md:flex md:space-x-6  md:space-y-0">
               <li>
                 <Link
-                  className="text-sm text-gray-500 hover:text-purple-600"
+                  className="text-sm text-white hover:text-red-800"
                   to="/app/dashboard"
                 >
                   Home
@@ -79,7 +79,7 @@ const logout = () => {
               </li>
               <li>
                 <Link
-                  className="text-sm text-gray-500 hover:text-purple-600"
+                  className="text-sm text-white hover:text-red-800"
                   to="/app/myFeeds"
                 >
                   My Feeds
@@ -87,7 +87,7 @@ const logout = () => {
               </li>
               <li>
                 <Link
-                  className="text-sm text-gray-500 hover:text-purple-600"
+                  className="text-sm  text-white hover:text-red-800"
                   to="/app/profile"
                 >
                   Profile
@@ -95,14 +95,14 @@ const logout = () => {
               </li>
               <li>
                 <a
-                  className="text-sm text-gray-500 hover:text-purple-600 cursor-pointer"
+                  className="text-sm text-white hover:text-red-800 cursor-pointer"
                   onClick={() => logout()}
                 >
                   Logout
                 </a>
               </li>
-              <li>
-                <img src={MFLogo} width={500} />
+              <li className="">
+                <img className="ml-[440px] mt-[-19px]" src={MFLogo} width={300} />
               </li>
             </ul>
           </div>

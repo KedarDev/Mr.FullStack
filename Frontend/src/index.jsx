@@ -11,7 +11,7 @@ import AppRoutes from "./appRoutes/AppRoutes";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <AppContextProvider>
-    <Router>
+    <Router className="">
         <AppRoutes />
     </Router>
   </AppContextProvider>

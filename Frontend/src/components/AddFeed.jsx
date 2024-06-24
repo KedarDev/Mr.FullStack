@@ -97,7 +97,7 @@ const AddFeedSchema = Yup.object().shape({
       onSubmit={onFormSubmit}
     >
       {({ values }) => (
-        <Form className="bg-white shadow rounded-lg mb-6 p-4">
+        <Form className="black-gradient shadow rounded-lg mb-6 p-4">
           {values.formMessage && (
             <div>
               <Badge text={values.formMessage} />
@@ -106,7 +106,7 @@ const AddFeedSchema = Yup.object().shape({
 
           {imageSrc && (
             <img
-              className="h-36 w-36 bg-white p-1 rounded-md shadow mb-4"
+              className="h-36 w-36 black-gradient p-1 rounded-md shadow mb-4"
               src={imageSrc}
             />
           )}
@@ -131,7 +131,7 @@ const AddFeedSchema = Yup.object().shape({
           <footer className="flex justify-between mt-2">
             <div className="flex gap-2">
               <span
-                className="flex items-center transition ease-out duration-300 hover:bg-purple-500 hover:text-white bg-purple-100 w-8 h-8 px-2 rounded-full text-purple-400 cursor-pointer"
+                className="flex items-center transition ease-out duration-300 hover:bg-red-600 hover:text-white bg-black w-8 h-8 px-2 rounded-full text-white cursor-pointer"
                 onClick={(e) => {
                   e.preventDefault();
                   imageSelectRef.current.click();
@@ -163,7 +163,7 @@ const AddFeedSchema = Yup.object().shape({
             </div>
             <button
               type="submit"
-              className="flex items-center py-2 px-4 rounded-lg text-sm bg-purple-600 text-white shadow-lg"
+              className="flex items-center py-2 px-4 rounded-lg text-sm bg-black text-white shadow-lg"
             >
               Send
               <svg

@@ -71,9 +71,16 @@ body,
 }
 
 
+.main {
+  background-color: black;
+}
 
+.app {
+  background-color: black
+}
 
 .body {
+  background-color: #808080;
   width: 100%;
 }
 

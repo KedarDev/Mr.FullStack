@@ -125,8 +125,8 @@ const UpdatePublicProfile = ({
         onSubmit={onFormSubmit}
       >
         {({ values }) => (
-          <Form className="bg-white shadow rounded-lg mb-6 p-5">
-            <div className="text-gray-600 text-lg font-semibold mt-2 mb-7">
+          <Form className="black-gradient shadow rounded-lg mb-6 p-5">
+            <div className="text-white text-lg font-semibold mt-2 mb-7">
               Public Profile
             </div>
             {values.formMessage && (
@@ -144,7 +144,7 @@ const UpdatePublicProfile = ({
               />
 
               <button
-                className="mx-auto px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-purple-600 rounded-md hover:bg-purple-400 focus:outline-none focus:bg-purple-400 focus:ring focus:ring-purple-300 focus:ring-opacity-50"
+                className="mx-auto px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-800 focus:ring focus:ring-purple-300 focus:ring-opacity-50"
                 //onchange is an event that effects onSelectfile fuction when a single file is selected
                 onClick={(e) => {
                   // e.preventDefault stops the browser from going back to its defualt settings
