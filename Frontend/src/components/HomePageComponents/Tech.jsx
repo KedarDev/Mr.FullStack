@@ -25,9 +25,9 @@ const Tech = (props) => {
           />
         </div>
       </motion>
-      <div className="iPhone15 desktop:w-[2560px] desktop:ml-[-24px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1024px] laptop:ml-[-18px] top-[150px] 
+      <div className="bg-iPhoneProMax iPhone15 desktop:w-[2560px] desktop:ml-[-24px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1024px] laptop:ml-[-18px] top-[150px] 
       mobile-l:w-[425px] tablet:w-[768px] mobile-m:w-[376px] mobile-l:ml-[-23px] tablet:ml-[-24px]   mobile-m:ml-[-25px] 
-      mobile-s:w-[315px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPhone15ProMax.png)] 
+      mobile-s:w-[315px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen  
        mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden">
         <img
           className=" desktop:ml-[60px] desktop:w-[100%] tablet:w-[900px] mobile-m:mt-[-1px] relative object-center overflow-hidden z-0 flex h-auto max-w-[92%] 

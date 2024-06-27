@@ -51,7 +51,7 @@ const LoginSchema = Yup.object().shape({
 return (
   <div className="bg-white">
     <div className="flex justify-center h-screen">
-      <div className="bg-cover  w-full h-screen Landingpage-container">
+      <div className=" mobile-s:hidden bg-cover  w-full h-screen Landingpage-container">
         {/* {#Section 1 Çontent} */}
         <div className="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
           <div>

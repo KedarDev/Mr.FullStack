@@ -102,9 +102,10 @@ const Works = () => {
         >
         </motion>
       </motion.div>
-      <div className="iPad desktop:w-[2560px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1024px] laptop:ml-[-25px] mobile-m:w-[115%] mobile-l:w-[425px] mobile-l:ml-[-25px] 
+      <div ></div>
+      <div className="bg-iPad desktop:w-[2560px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1024px] laptop:ml-[-25px] mobile-m:w-[115%] mobile-l:w-[425px] mobile-l:ml-[-25px] 
       mobile-m:mt-[30px]  mobile-m:ml-[-25px] mobile-m:bg-contain mobile-s:w-[118%] mobile-s:ml-[-25px] mobile-s:mt-[20px] tablet:w-[768px] 
-      tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen bg-[url(C:\Users\kadar\Mr.FullStack\MrFullStack-Frontend\src\assets\iPad.png)]    
+      tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen     
       justify-center  bg-contain bg-no-repeat   overflow-hidden">
         <div className=" w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
         mobile-s:gap-x-24 gap-x-20">

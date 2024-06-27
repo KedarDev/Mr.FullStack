@@ -17,6 +17,11 @@ module.exports = {
       'desktop':{'min':'2560px'}, 
     },
     extend: {
+      backgroundImage:  {
+        "hero-pattern": "url('../src/assets/herobg.png')",
+        "iPhoneProMax": "url('../src/assets/iPhone15ProMax.png')",
+        "iPad": "url('../src/assets/iPad.png')"
+      },
       colors: {
         // Primary Secondary Tertiary
         "theme-black": "var(--theme-black)",
@@ -30,9 +35,6 @@ module.exports = {
         },
         screens: {
           xs: "450px",
-        },
-        backgroundImage: {
-          "hero-pattern": "url('/src/assets/herobg.png')",
         },
       },
     },

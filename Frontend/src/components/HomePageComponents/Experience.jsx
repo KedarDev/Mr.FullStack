@@ -30,7 +30,7 @@ const ExperienceCard = ({ experience }) => (
     }
   >
     <div className=" p-5 desktop:w-[600px] desktop:h-[600px]">
-      <h3 className=" p-5 desktop:text-[70px] laptop-l:text-[40px] desktop:mt-[-60px] laptop-l:mt-[-20px] text-white text-[24px] font-bold">{experience.title}</h3>
+      <h3 className=" mobile-s:text-[15px] mobile-s:ml-[-30px] mobile-s:w-[250px] p-5 desktop:text-[70px] laptop-l:text-[40px] desktop:mt-[-60px] laptop-l:mt-[-20px] text-white text-[24px] font-bold">{experience.title}</h3>
       <p
         className="  text-white text-[16px] font-semibold"
         style={{ margin: 0 }}

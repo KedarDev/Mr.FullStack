@@ -194,7 +194,7 @@ const FeedCard = ({
       <div className=" bg-black shadow-inner flex w-full border-t border-gray-100">
         {/* {#LikeAndCommentCount Section} */}
         <div className="mt-3 mx-5 flex flex-row text-xs" onClick={addLike}>
-          <span className="transition ease-out duration-300 hover:bg-gray-50 bg-black h-8 px-2 py-2 text-center rounded-full text-gray-100 cursor-pointer">
+          <span className=" mobile-s:mt-[-9px] transition ease-out duration-300 hover:bg-black bg-black h-8 px-2 py-2 text-center rounded-full text-gray-100 cursor-pointer">
             <svg
               className={`h-4 w-4 ${
                 userLiked ? "text-red-500" : "text-white"
