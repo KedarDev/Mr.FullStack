@@ -24,7 +24,7 @@ const Resume = () => {
         className="mt-4 text-white text-[17px] max-w-3x1 leading-[30px] text-center"
       ></motion.p>
       {/* NOTE: This is the start */}
-      <div className=" laptop:w-[1030px] laptop:ml-[2px] mobile-m:w-[385px]  mobile-m:ml-[-3.5px] mobile-l:ml-[-3px]  mobile-s:w-[335px] mobile-l:w-[425px] relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
+      <div className="  laptop-l:ml-[10px] laptop:w-[1030px] laptop:ml-[2px] mobile-m:w-[385px]  mobile-m:ml-[-3.5px] mobile-l:ml-[-3px]  mobile-s:w-[335px] mobile-l:w-[425px] relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
         <img
           src={Macbook}
           alt="macbook"

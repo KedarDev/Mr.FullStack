@@ -37,7 +37,7 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className=" desktop:ml-[26em] desktop:mt-[px] destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[60px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className=" desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-full flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>

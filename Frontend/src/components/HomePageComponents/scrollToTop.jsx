@@ -15,7 +15,7 @@ const scrollToTop = () => {
       repeatType:'loop'
     }}
     >
-    <img src={upArrow} alt="" className=" laptop:ml-[24px] tablet:ml-[26px] mobile-l:ml-[14px]  mobile-m:ml-[22px] mobile-s:ml-[25px] w-[30px] desktop:w-[60px] desktop:h-[60px] laptop:w-[40px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
+    <img src={upArrow} alt="" className=" laptop-l:ml-[24px] laptop:ml-[24px] tablet:ml-[26px] mobile-l:ml-[14px]  mobile-m:ml-[22px] mobile-s:ml-[25px] w-[30px] desktop:w-[60px] desktop:h-[60px] laptop:w-[40px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
     </motion.dev>
   </div>
 </a>
