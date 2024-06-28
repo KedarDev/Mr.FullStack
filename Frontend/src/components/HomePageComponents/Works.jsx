@@ -28,7 +28,7 @@ const Works = () => {
             scale: 0.8,
             speed: 450,
           }}
-          className="relative left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-780px] mobile-m:mt-[-415px] mobile-l:mt-[-390px] mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg- rounded-2xl mobile-m:w-[200px] tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] mobile-s:w-[50px] mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
+          className="relative laptop:mt-[]  left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-680px] mobile-m:mt-[-415px] mobile-l:mt-[-390px] mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg-rounded-2xl mobile-m:w-[200px] tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
           <div className=" desktop:h-[800px] desktop:w-[800px] laptop-l:h-[400px] relative w-full mobile-s:p-1 mobile-m:p-1 mobile-s:w-[130px] mobile-m:w-[200px] mobile-l:w-[200px] mobile-l:h-[110px] tablet:w-[300px]  mobile-m:h-[110px] mobile-s:h-[100px] h-[280px]">
             <img
@@ -78,7 +78,7 @@ const Works = () => {
 
   return (
     <>
-      <motion.div className=" laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[-600px]">
+      <motion.div className="laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
         <p className={`${styles.sectionSubText} desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
         <div className="inline-flex justify-center items-center">
           <h2
@@ -103,18 +103,18 @@ const Works = () => {
         </motion>
       </motion.div>
       <div ></div>
-      <div className=" bg-iPad desktop:w-[2560px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1024px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
+      <div className=" bg-iPad  desktop:w-[2560px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
       mobile-m:mt-[34px]  mobile-m:ml-[-25px] mobile-m:bg-contain mobile-s:w-[345px] mobile-s:ml-[-24px] mobile-s:mt-[20px] tablet:w-[790px] 
       tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen     
       justify-center  bg-contain bg-no-repeat   overflow-hidden">
-        <div className=" tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
+        <div className=" laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
         mobile-s:gap-x-24 gap-x-20">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index} `} index={index} {...project}  className="" />
           ))}
         </div>
       </div>
-          <img className=" absolute flex-wrap w-[90%] h-[1.5%] desktop:h-fit desktop:w-[94%] desktop:mt-[-211.5em] laptop:h-fit laptop-l:h-fit mobile-s:mt-[-279%] mobile-s:ml-[-14px]  
+          <img className="absolute flex-wrap w-[90%] h-[1.5%] desktop:h-fit desktop:w-[94%] desktop:mt-[-211.5em]  laptop-l:h-fit mobile-s:mt-[-279%] mobile-s:ml-[-14px]  
           mobile-s:w-[700px] mobile-s:p-10 mobile-s:h-fit mobile-m:mt-[-238%] mobile-l:mt-[-213%] tablet:ml-[-2px] 
           tablet:mt-[-143%] laptop:ml-[60px] laptop:w-[90%] laptop-l:mt-[-132%] laptop-l:w-[98%] laptop:mt-[-171%] tablet:h-fit tablet:w-[800px]  mobile-m:ml-[-14px] 
           mobile-l:ml-[-16px]  mobile-m:w-[800px] mobile-l:w-[120%]  laptop-l:ml-[-2px]  mobile-m:p-10 mobile-m:h-fit   mt-[-101%] p-[60px]  ml-[3%]" src={iPadStatusbar} alt="img" />

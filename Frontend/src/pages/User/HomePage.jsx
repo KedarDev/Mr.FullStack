@@ -21,7 +21,7 @@ const HomePage = () => {
       </div>
       <About />
       <Experience />
-      <Tech />
+      <Tech  />
       <Works />
       <Resume />
       <div className="relative z-0">
