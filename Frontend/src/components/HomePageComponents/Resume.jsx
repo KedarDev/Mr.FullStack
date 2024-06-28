@@ -24,7 +24,7 @@ const Resume = () => {
         className="mt-4 text-white text-[17px] max-w-3x1 leading-[30px] text-center"
       ></motion.p>
       {/* NOTE: This is the start */}
-      <div className="mobile-m:w-[385px] mobile-m:ml-[-3.5px]  mobile-s:w-[335px] mobile-l:w-[422px] mobile-l:ml-[-6px]  relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
+      <div className="mobile-m:w-[385px]  mobile-m:ml-[-3.5px] mobile-l:ml-[-3px]  mobile-s:w-[335px] mobile-l:w-[425px] relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
         <img
           src={Macbook}
           alt="macbook"
@@ -39,7 +39,7 @@ const Resume = () => {
             className=" desktop:w-[1200px] desktop:h-[1300px] laptop-l:w-[600px] mobile-s:w-[150px] mobile-m:w-[150px] mobile-l:w-[160px] tablet:w-[300px] object-contain relative z-10"
           />
         </div>
-        <div className=" desktop:mt-[40em]   tablet:mt-[150px] laptop:mt-[300px] mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
+        <div className="desktop:mt-[40em]   tablet:mt-[150px] laptop:mt-[300px] mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
           {resumes.map((resume) => (
             <div className=" desktop:w-full desktop:h-[400px] laptop-l:w laptop-l:mt-[150px] laptop:mt-[50px] tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] " key={resume}>
               <ResumeCard

@@ -73,7 +73,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
     </motion.p>
-    <div className="mobile-s:ml-[25px] mobile-m:ml-[15px] laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+    <div className="mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
       ))}

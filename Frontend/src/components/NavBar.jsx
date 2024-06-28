@@ -6,7 +6,7 @@ import MFLogo from "../../src/assets/MFLogo.png";
 import { AppContext } from "../context/applicationContext";
 
 
-const NavBar = ({ pageTitle = "Feed App" }) => {
+const NavBar = ({ pageTitle = "MrFullStack Portfolio APP" }) => {
 
     const appContext = useContext(AppContext);
 const [navbar, setNavbar] = useState(false);
@@ -68,7 +68,7 @@ const logout = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className=" mobile-s:grid mobile-m:grid mobile-m:w-[115%] mobile-s:w-[110%] mobile-s:mt-[20px] mobile-m:mt-[-20px] mobile-m:ml-[-25px]  mobile-s:ml-[-20px] mt-[-80px] pl-[40px] ml-[250px] grid grid-cols-4 w-[50%]  items-center justify-center space-y-0 md:flex md:space-x-6  md:space-y-0">
+            <ul className=" mobile-s:grid mobile-m:grid mobile-l:grid mobile-l:w-[120%] mobile-m:w-[115%] mobile-s:w-[110%] mobile-s:mt-[20px] mobile-m:mt-[-20px] mobile-l:mt-[-20px] mobile-l:ml-[-28px] mobile-m:ml-[-25px]  mobile-s:ml-[-20px] mt-[-80px] pl-[40px] ml-[250px] grid grid-cols-4 w-[50%]  items-center justify-center space-y-0 md:flex md:space-x-6  md:space-y-0">
               <li>
                 <Link
                   className="text-[12px] text-white hover:text-red-800"
@@ -102,7 +102,7 @@ const logout = () => {
                 </a>
               </li>
               <li className="">
-                <img className=" mobile-s:ml-[100px] mobile-s:mt-[20px] mobile-m:ml-[110px] mobile-m:mt-[20px]  ml-[440px] mt-[-19px]" src={MFLogo} width={300} />
+                <img className=" mobile-s:ml-[100px] mobile-s:mt-[20px] mobile-m:ml-[110px] mobile-m:mt-[20px] mobile-l:ml-[140px] mobile-l:mt-[20px]  ml-[440px] mt-[-19px]" src={MFLogo} width={300} />
               </li>
             </ul>
           </div>
