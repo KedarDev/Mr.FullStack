@@ -102,7 +102,7 @@ const logout = () => {
                 </a>
               </li>
               <li className="">
-                <img className=" mobile-s:ml-[100px] mobile-s:mt-[20px] mobile-m:ml-[110px] mobile-m:mt-[20px] mobile-l:ml-[140px] mobile-l:mt-[20px]  ml-[440px] mt-[-19px]" src={MFLogo} width={300} />
+                <img className=" tablet:ml-[100px] mobile-s:ml-[100px] mobile-s:mt-[20px] tablet:mt-[20px] mobile-m:ml-[110px] mobile-m:mt-[20px] mobile-l:ml-[140px] mobile-l:mt-[20px]  ml-[440px] mt-[-19px]" src={MFLogo} width={300} />
               </li>
             </ul>
           </div>
