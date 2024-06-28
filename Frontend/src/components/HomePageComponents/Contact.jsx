@@ -61,7 +61,7 @@ const Contact = () => {
   };
 
   return (
-    <div className=" desktop:mt-[-50em] desktop:w-[60%] desktop:h-[80%] laptop-l:mt-[-900px] desktop:ml-[30em]  laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
+    <div className=" mobile-s:ml-[28px] mobile-m:ml-[24px] desktop:mt-[-50em] desktop:w-[60%] desktop:h-[80%] laptop-l:mt-[-900px] desktop:ml-[30em]  laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0, 2, 1)}
         className="flex-[0.75] bg-white p-8 rounded-2x1 "
@@ -113,7 +113,7 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className=" desktop:text-[50px]  mobile-s:text-start  mobile-s:w-[80px] mobile-s:ml-[62px] mobile-s:h-[30px] bg-[#000] py-3 px-8 outline-none w-fit text-[#FFF] font-bold shadow-md shadow-[#FFF] rounded-xl"
+            className="desktop:text-[50px]  mobile-s:text-start  mobile-s:w-[80px] mobile-s:ml-[46px] mobile-s:h-[30px] bg-[#000] py-3 px-8 outline-none w-fit text-[#FFF] font-bold shadow-md shadow-[#FFF] rounded-xl"
           >
             <div className="mobile-s:ml-[-11px] mobile-s:mt-[-6px]">
             {loading ? "Sending..." : "Send"}

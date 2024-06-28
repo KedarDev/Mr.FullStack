@@ -24,13 +24,13 @@ const Resume = () => {
         className="mt-4 text-white text-[17px] max-w-3x1 leading-[30px] text-center"
       ></motion.p>
       {/* NOTE: This is the start */}
-      <div className="mobile-l:w-[422px] mobile-l:ml-[-6px]  relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
+      <div className="mobile-m:w-[385px] mobile-m:ml-[-3.5px]  mobile-s:w-[335px] mobile-l:w-[422px] mobile-l:ml-[-6px]  relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
         <img
           src={Macbook}
           alt="macbook"
           className=" desktop:w-[2560px] relative object-contain z-10 "
         />
-        <div className="desktop:mt-[-100em] laptop-l:mt-[-900px]  laptop:mt-[-650px] mobile-s:w-[120px] mobile-s:ml-[90px] mobile-s:mt-[-185px] mobile-m:mt-[-225px] mobile-l:mt-[-255px] tablet:mt-[-455px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
+        <div className=" mobile-m:w-[390px] desktop:mt-[-100em] laptop-l:mt-[-900px]  laptop:mt-[-650px] mobile-s:w-[140px] mobile-s:ml-[105px] mobile-s:mt-[-210px] mobile-m:mt-[-235px] mobile-l:mt-[-255px] tablet:mt-[-455px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
           <img
             src={bigResumeImg}
             alt="resume collection"

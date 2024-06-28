@@ -53,7 +53,7 @@ const About = () => {
     </motion.div>
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
-    className='mt-4 desktop:text-[50px] laptop-l:text-[30px] desktop:leading-[100px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
+    className=' mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:text-[50px] laptop-l:text-[30px] desktop:leading-[100px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
     >
         Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
         position . My experience with both the back-end and front-end stacks, as
@@ -73,7 +73,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
     </motion.p>
-    <div className=" laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+    <div className="mobile-s:ml-[25px] mobile-m:ml-[15px] laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
       ))}

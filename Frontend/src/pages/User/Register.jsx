@@ -81,8 +81,8 @@ const Register = () => {
           <div className="text-center">
 
             {/* {#Section2 Header} */}
-            <img src={MFLogo} width={400} className="mx-auto mb-2" />
-            <h2 className="text-4xl font-bold text-center text-gray-700">
+            <img src={MFLogo} width={400} className=" mobile-s:mt-[-80px] mobile-m:mt-[-80px] mx-auto mb-2" />
+            <h2 className="text-4xl mobile-m:text-[30px] mobile-s:text-[25px]  font-bold text-center text-green-600">
               Create an account
             </h2>
 
@@ -113,7 +113,7 @@ const Register = () => {
                       <Badge text={values.formMessage} />
                     </div>
                   )}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className=" mobile-m:mt-[-30px] grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
                       <Field
                         label="First Name"

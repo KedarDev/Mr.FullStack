@@ -25,9 +25,9 @@ const Tech = (props) => {
           />
         </div>
       </motion>
-      <div className="bg-iPhoneProMax iPhone15 desktop:w-[2560px] desktop:ml-[-24px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1024px] laptop:ml-[-18px] top-[150px] 
-      mobile-l:w-[425px] tablet:w-[768px] mobile-m:w-[376px] mobile-l:ml-[-23px] tablet:ml-[-24px]   mobile-m:ml-[-25px] 
-      mobile-s:w-[315px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen  
+      <div className=" bg-iPhoneProMax desktop:w-[2560px] desktop:ml-[-24px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1024px] laptop:ml-[-18px] top-[150px] 
+      mobile-l:w-[425px] tablet:w-[768px] mobile-m:w-[394px] mobile-l:ml-[-23px] tablet:ml-[-24px]   mobile-m:ml-[-25px] 
+      mobile-s:w-[340px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen  
        mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden">
         <img
           className=" desktop:ml-[60px] desktop:w-[100%] tablet:w-[900px] mobile-m:mt-[-1px] relative object-center overflow-hidden z-0 flex h-auto max-w-[92%] 
@@ -35,12 +35,12 @@ const Tech = (props) => {
           src={stuff}
           alt="iphoneicons"
         />
-        <div className="relative shrink-0 z-50 gap-[200px] laptop:w-[98%] desktop:w-[97%] laptop:mt-[-350px] desktop:mt-[-880px] desktop:ml-[40px] laptop-l:mt-[-490px] laptop-l:ml-[20px] 
+        <div className=" relative shrink-0 z-50 gap-[200px] laptop:w-[98%] desktop:w-[97%] laptop:mt-[-350px] desktop:mt-[-880px] desktop:ml-[40px] laptop-l:mt-[-490px] laptop-l:ml-[20px] 
         laptop-l:w-[97%]  mobile-m:w-full mobile-m:h-[100px]  mobile-m:mt-[-120px] mobile-m:gap-[50px] mobile-l:gap-[30px] 
         laptop:gap-[100px]  tablet:gap-[100px] mobile-s:gap-[30px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex 
         justify-start items-center content-center">
           {technologies.map((technology, index) => (
-            <li className="relative flex text-[25px] shrink-0 over"  key={technology.name}>
+            <li className="mobile-s:mt-[-5px] relative flex text-[25px] shrink-0 over"  key={technology.name}>
               <img className="z-50  shrink-0 mobile-m:w-[100px] desktop:w-[600px] desktop:h-[]  laptop-l:w-[350px] mobile-s:w-[80px] mobile-l:w-[120px] 
               tablet:w-[190px] tablet:mt-[40px] mobile-l:mt-[150px] mobile-s:h-[80px]  mobile-s:mt-[195px]" src={technology.icon} alt="" />
             </li>
