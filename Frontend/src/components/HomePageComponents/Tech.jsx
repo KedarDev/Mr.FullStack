@@ -10,7 +10,7 @@ import { ImageLoader } from "three";
 const Tech = (props) => {
   return (
     <>
-      <motion className="relative laptop:top-[150px] top-[120px]">
+      <motion className="relative desktop-s:top-[500px] laptop:top-[150px] top-[120px]">
         <p
           className={`${styles.sectionSubText} desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px] tablet:text-[30px]`}
         >
@@ -32,19 +32,19 @@ const Tech = (props) => {
         </div>
       </motion>
       <div
-        className="  bg-iPhoneProMax  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2560px] desktop:ml-[-24px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
+        className="  bg-iPhoneProMax desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2560px] desktop:ml-[-24px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
       mobile-l:w-[425px] tablet:w-[785px] mobile-m:w-[394px] mobile-l:ml-[-23px] tablet:ml-[-20px]   mobile-m:ml-[-25px] 
       mobile-s:w-[340px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen  
        mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden"
       >
         <img
-          className=" desktop:ml-[60px] desktop:w-[100%] tablet:w-[900px] mobile-m:mt-[-1px] relative object-center overflow-hidden z-0 flex h-auto max-w-[92%] 
+          className=" desktop-s:w-[150%] desktop-s:ml-[50px] desktop:ml-[60px] desktop:w-[100%] tablet:w-[900px] mobile-m:mt-[-1px] relative object-center overflow-hidden z-0 flex h-auto max-w-[92%] 
           mt-[3%]  ml-3  justify-center content-center items-center"
           src={stuff}
           alt="iphoneicons"
         />
         <div
-          className="laptop:ml-[10px] tablet:w-[94%] tablet:ml-[6px] relative shrink-0 z-50 gap-[200px] laptop:w-[93%] desktop:w-[97%] laptop:mt-[-340px] desktop:mt-[-880px] desktop:ml-[40px] laptop-l:mt-[-490px] laptop-l:ml-[20px] 
+          className=" desktop-s:mt-[-580px] laptop:ml-[10px] tablet:w-[94%] tablet:ml-[6px] relative shrink-0 z-50 gap-[200px] laptop:w-[93%] desktop:w-[97%] laptop:mt-[-340px] desktop:mt-[-880px] desktop:ml-[40px] laptop-l:mt-[-490px] laptop-l:ml-[20px] 
         laptop-l:w-[97%]  mobile-m:w-full mobile-m:h-[100px]  mobile-m:mt-[-120px] mobile-m:gap-[50px] mobile-l:gap-[30px] 
         laptop:gap-[100px]  tablet:gap-[100px] mobile-s:gap-[30px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex 
         justify-start items-center content-center"

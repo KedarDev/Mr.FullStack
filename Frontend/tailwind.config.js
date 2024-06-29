@@ -13,7 +13,7 @@ module.exports = {
       'tablet':{'min':'768px', 'max':'1023px'}, 
       'laptop':{'min':'1024px', 'max':'1439px'},  
       'laptop-l':{'min':'1440px', 'max':'2559px'}, 
-      // 'destop-s':{'min': '2045px', 'max':'2559px'}, // My screen device
+      'desktop-s':{'min': '2045px', 'max':'2559px'}, 
       'desktop':{'min':'2560px'}, 
     },
     extend: {
