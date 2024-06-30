@@ -13,7 +13,7 @@ const ServiceCard = ({index, title, icon}) => {
     <Tilt className=' xs:w-[250px] w-fit'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className=' desktop:w-[400px] desktop:h-[500px] laptop-l:w-[300px] laptop-l:h-[350px] tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
+      className=' desktop:w-[500px] desktop:h-[500px] laptop-l:w-[300px] laptop-l:h-[350px] tablet:w-[170px] w-[200px]  mobile-s:w-[160px] black-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
         options={{
@@ -53,7 +53,7 @@ const About = () => {
     </motion.div>
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
-    className=' mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:text-[50px] laptop-l:text-[30px] desktop:leading-[100px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
+    className='desktop:text-center desktop:ml-[0px] desktop:p-5 desktop:text-[70px] mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:w-[105%] laptop-l:text-[30px] desktop:leading-[100px] desktop:mt-[200px]  laptop-l:leading-[70px]  text-white text-[17px] max-w-3x1 leading-[30px] text-center'
     >
         Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
         position . My experience with both the back-end and front-end stacks, as
@@ -73,7 +73,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
     </motion.p>
-    <div className="mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+    <div className=" desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
       ))}

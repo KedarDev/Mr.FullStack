@@ -3,16 +3,13 @@ import NoProfileImage from "../assets/no-profile.png";
 import { AppContext } from "../context/applicationContext";
 
 const MyProfile = () => {
-
   //names spacing so that child component can access the AppContext using useContext hook
   const appContext = useContext(AppContext);
 
   const userData = appContext.getUserData();
 
-
   return (
-
-      <aside className="">
+    <aside className="">
       <div className="black-gradient shadow rounded-lg p-10">
         <div className="flex flex-col gap-1 text-center items-center">
           <img

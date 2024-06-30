@@ -68,7 +68,7 @@ const logout = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className=" desktop-s:ml-[604px] laptop-l:ml-[400px] laptop-l:mt-[.2px] mobile-s:grid mobile-m:grid mobile-l:grid mobile-l:w-[120%] mobile-m:w-[115%] mobile-s:w-[110%] mobile-s:mt-[20px] mobile-m:mt-[-20px] mobile-l:mt-[-20px] mobile-l:ml-[-28px] mobile-m:ml-[-25px]  mobile-s:ml-[-20px] mt-[-80px] pl-[40px] ml-[250px] grid grid-cols-4 w-[50%]  items-center justify-center space-y-0 md:flex md:space-x-6  md:space-y-0">
+            <ul className=" desktop:ml-[700px] desktop:mt-[20px] desktop-s:ml-[604px] laptop-l:ml-[400px] laptop-l:mt-[.2px] mobile-s:grid mobile-m:grid mobile-l:grid mobile-l:w-[120%] mobile-m:w-[115%] mobile-s:w-[110%] mobile-s:mt-[20px] mobile-m:mt-[-20px] mobile-l:mt-[-20px] mobile-l:ml-[-28px] mobile-m:ml-[-25px]  mobile-s:ml-[-20px] mt-[-80px] pl-[40px] ml-[250px] grid grid-cols-4 w-[50%]  items-center justify-center space-y-0 md:flex md:space-x-6  md:space-y-0">
               <li>
                 <Link
                   className=" laptop-l:text-[20px] text-[12px] text-white hover:text-red-800"
@@ -102,7 +102,7 @@ const logout = () => {
                 </a>
               </li>
               <li className="">
-                <img className=" laptop-l:ml-[200px] desktop-s:ml-[955px] desktop-s:mt-[-32px] laptop-l:mt-[30px] tablet:ml-[100px] mobile-s:ml-[100px] mobile-s:mt-[20px] tablet:mt-[20px] mobile-m:ml-[110px] mobile-m:mt-[20px] mobile-l:ml-[140px] mobile-l:mt-[20px]  ml-[440px] mt-[-19px] " src={MFLogo} width={300} />
+                <img className=" laptop-l:ml-[200px] desktop:mt-[50px] desktop:h-[25px] desktop:ml-[360px] desktop-s:ml-[955px] desktop-s:mt-[-32px] laptop-l:mt-[30px] tablet:ml-[100px] mobile-s:ml-[100px] mobile-s:mt-[20px] tablet:mt-[20px] mobile-m:ml-[110px] mobile-m:mt-[20px] mobile-l:ml-[140px] mobile-l:mt-[20px]  ml-[440px] mt-[-19px] " src={MFLogo} width={300} />
               </li>
             </ul>
           </div>
