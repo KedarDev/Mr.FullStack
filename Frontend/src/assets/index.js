@@ -48,8 +48,13 @@ import frontendResume from "../../src/assets/frontendResume.png";
 import backendResume from "../../src/assets/backendResume.png";
 import upArrow from "../../src/assets/upArrow.png";
 import arrow from "../../src/assets/arrow.png";
+import lightFlash from "../../src/assets/lightFlash.png";
+import hambergerLight from "../../src/assets/hambergerLight.png";
+
 
 export {
+  hambergerLight,
+  lightFlash,
   arrow,
   upArrow,
   coverLetter,

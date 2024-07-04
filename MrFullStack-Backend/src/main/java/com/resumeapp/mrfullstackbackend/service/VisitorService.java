@@ -1,6 +1,7 @@
 package com.resumeapp.mrfullstackbackend.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,15 +11,23 @@ import org.springframework.stereotype.Service;
 import com.resumeapp.mrfullstackbackend.repository.VisitorRepository;
 import com.resumeapp.mrfullstackbackend.jpa.Visitor;
 
+// VisitorService.java
 @Service
 public class VisitorService {
-    
-    final Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final VisitorRepository visitorRepository;
 
     @Autowired
-    VisitorRepository visitorRepository;
-
-    public List<Visitor> listVisitors() {
-        return this.visitorRepository.findAll();
+    public VisitorService(VisitorRepository visitorRepository) {
+        this.visitorRepository = visitorRepository;
     }
+
+    public Visitor createVisitor(Visitor visitor) {
+        return visitorRepository.save(visitor);
+    }
+
+    public List<Visitor> getAllVisitors() {
+        return visitorRepository.findAll();
+    }
+
+    // Other methods...
 }

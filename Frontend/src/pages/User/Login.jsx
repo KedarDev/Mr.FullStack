@@ -18,7 +18,7 @@ const appContext = useContext(AppContext);
 const [isFetching, setIsFetching] = useState(false);
 
 useEffect(() => {
-  document.title = "Login | MrFullStack";
+  document.title = "Login | Portfolio APP";
 },[]);
 
 const onFormSubmit = async (values) => {

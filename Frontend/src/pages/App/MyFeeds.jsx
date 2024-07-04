@@ -17,7 +17,7 @@ const MyFeeds = () => {
   const [hasMore, setHasMore] = useState(true);
 
   useEffect(() => {
-    document.title = "My Feeds | Feed App";
+    document.title = "My Posts | Portfolio APP";
     getMyFeeds(0);
   }, []);
 

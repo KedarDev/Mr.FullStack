@@ -1,43 +1,43 @@
-package com.resumeapp.mrfullstackbackend.controller;
+// package com.resumeapp.mrfullstackbackend.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.web.bind.annotation.CrossOrigin;
+// import org.springframework.web.bind.annotation.GetMapping;
+// import org.springframework.web.bind.annotation.RequestMapping;
+// import org.springframework.web.bind.annotation.RestController;
 
-import com.resumeapp.mrfullstackbackend.jpa.Canvas;
-import com.resumeapp.mrfullstackbackend.service.CanvasService;
+// import com.resumeapp.mrfullstackbackend.jpa.Canvas;
+// import com.resumeapp.mrfullstackbackend.service.CanvasService;
 
-import java.util.List;
+// import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
-@CrossOrigin(exposedHeaders = "Authorization")
-@RestController
-@RequestMapping("/canvas")
-public class CanvasController {
+// @CrossOrigin(exposedHeaders = "Authorization")
+// @RestController
+// @RequestMapping("/canvas")
+// public class CanvasController {
 
-    final Logger logger = LoggerFactory.getLogger(this.getClass());
+//     final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @Autowired
-    CanvasService canvasService;
+//     @Autowired
+//     CanvasService canvasService;
 
-    @GetMapping("/test")
-    public String testController() {
+//     @GetMapping("/test")
+//     public String testController() {
 
-        logger.debug("The CanvasController() method was invoked!");
+//         logger.debug("The CanvasController() method was invoked!");
 
-        return "The CanvasController is up and running";
-    }
+//         return "The CanvasController is up and running";
+//     }
 
-    @GetMapping("/{canvasId}")
-    public List<Canvas> listCanvas() {
+//     @GetMapping("/{canvasId}")
+//     public List<Canvas> listCanvas() {
 
-        logger.debug("the listVisitors() was invoked!");
+//         logger.debug("the listVisitors() was invoked!");
 
-        return this.canvasService.listCanvas();
-    }
+//         return this.canvasService.listCanvas();
+//     }
 
-}
+// }

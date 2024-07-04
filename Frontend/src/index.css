@@ -12,7 +12,7 @@ body,
 #app > div {
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: white;
 }
 
 .Landingpage-container {
@@ -31,6 +31,9 @@ body,
   height: 50vh;
   background: #ddd;
 } 
+
+
+
 
 @layer components {
   .all-\[unset\] {
@@ -73,11 +76,11 @@ body,
 
 
 .main {
-  background-color: black;
+  background-color: white;
 }
 
 .app {
-  background-color: black
+  background-color: white
 }
 
 .body {
@@ -91,7 +94,7 @@ body,
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: white;
 }
 
 .hash-span {
@@ -310,7 +313,7 @@ You can apply the theme on any DOM node, not just the `body`
 
 
 
-.splash-container {
+/* .splash-container {
   background-image: url(./assets/images/MFLogo.png);
 }
 
@@ -325,4 +328,4 @@ You can apply the theme on any DOM node, not just the `body`
   width: 60vw;
   height: 60vh;
   background: #ddd;
-} 
+}  */

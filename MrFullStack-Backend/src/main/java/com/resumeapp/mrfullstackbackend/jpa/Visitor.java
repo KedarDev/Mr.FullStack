@@ -2,8 +2,6 @@ package com.resumeapp.mrfullstackbackend.jpa;
 
 import java.sql.Timestamp;
 
-
-
 import java.io.Serializable;
 
 import jakarta.persistence.Column;
@@ -13,10 +11,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-
 @Entity
 @Table(name = "\"Visitor\"")
-public class Visitor  implements Serializable{
+public class Visitor implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -28,9 +25,15 @@ public class Visitor  implements Serializable{
     @Column(name = "\"ipAddress\"")
     private String ipAddress;
 
+    @Column(name = "\"city\"")
+    private String city;
+
+    @Column(name = "\"country\"")
+    private String country;
 
     @Column(name = "\"createdOn\"")
     private Timestamp createdOn;
+
 
     public Visitor() {
 
@@ -52,9 +55,20 @@ public class Visitor  implements Serializable{
         this.ipAddress = ipAddress;
     }
 
-    @Override
-    public String toString() {
-        return "Visitor [visitorId=" + visitorId + ", ipAddress=" + ipAddress + "]";
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public Timestamp getCreatedOn() {
@@ -64,4 +78,12 @@ public class Visitor  implements Serializable{
     public void setCreatedOn(Timestamp createdOn) {
         this.createdOn = createdOn;
     }
+
+    @Override
+    public String toString() {
+        return "Visitor [visitorId=" + visitorId + ", ipAddress=" + ipAddress + ", city=" + city + ", country="
+                + country + ", createdOn=" + createdOn + ", getCity()=" + getCity() + ", getCountry()=" + getCountry()
+                + "]";
+    }
+
 }

@@ -20,6 +20,7 @@ import Dashboard from "../pages/App/Dashboard";
 import Profile from "../pages/App/Profile";
 import CompleteProfile from "../pages/App/CompleteProfile";
 import MyFeeds from "../pages/App/MyFeeds";
+// import Visitors from "../pages/User/Visitors";
 
 const AppRoutes = () => {
 
@@ -70,6 +71,7 @@ const getSession = async () => {
   if (isAuthenticated === false) {
     return (
       <Routes>
+        {/* <Route exact path="/visitor" element={<Visitors />} /> */}
         <Route path="*" element={<Navigate to="/user/Homepage" replace />} />
         <Route exact path="/user/HomePage" element={<HomePage />} />
         <Route exact path="/user/login" element={<Login />} />

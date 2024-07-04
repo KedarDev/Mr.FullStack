@@ -1,15 +1,5 @@
 import axios from "axios";
 
-// const axiosInstance = axios.create({
-//   baseURL: `${VITE_API_BASE_URL}`,
-//   headers: {
-//     "Access-Control-Allow-Origin": "*",
-//     "Content-Type": "application/json", //this line solved cors
-//   },
-// });
-
-
-
 const VITE_API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 const frameToken = (token) => `Bearer ${token}`;
@@ -23,6 +13,38 @@ const frameResponse = (
       payLoad: reqPayLoad,
     };
   };
+
+
+
+
+  export const trackVisitorApi = async (token) => {
+    let response = frameResponse();
+
+    try {
+        const url = `${VITE_API_BASE_URL}/track-visitor`; // Adjust the actual endpoint
+        const apiResponse = await axios.get(url, {
+            headers: { Authorization: frameToken(token) },
+        });
+
+        if (apiResponse.status === 200) {
+            response = frameResponse(1, apiResponse.data);
+        }
+    } catch (err) {
+        if (err.response) {
+            response = frameResponse(0, err.response.data.message);
+        }
+        console.log(err);
+    } finally {
+        return response;
+    }
+};
+
+
+
+
+
+
+
 
   export const registerApi = async (
     username,

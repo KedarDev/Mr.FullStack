@@ -11,7 +11,7 @@ const VerifyEmail = () => {
   const [message, setMessage] = useState("Verifying your account...");
 
   useEffect(() => {
-    document.title = "Verify Email | Feed App";
+    document.title = "Verify Email | Portfolio APP";
 
     const verifyToken = searchParams.get("token");
 

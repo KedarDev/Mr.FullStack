@@ -1,5 +1,0 @@
-SELECT * FROM "User";
-
-DROP USER IF EXISTS KHall;
-
-DELETE FROM "User" WHERE "userId"=3;

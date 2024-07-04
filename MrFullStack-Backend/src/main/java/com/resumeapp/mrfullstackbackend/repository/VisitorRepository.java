@@ -9,8 +9,7 @@ import com.resumeapp.mrfullstackbackend.jpa.Visitor;
 // import org.springframework.context.annotation.Profile;
 
 // @Profile("Visitor")
-public interface VisitorRepository extends JpaRepository<Visitor, Long> {
-    
-    Optional<Visitor> findByVisitorId(Long visitorId);
-    
+// VisitorRepository.java
+public interface VisitorRepository extends JpaRepository<Visitor, Integer> {
+    // Custom queries if needed
 }

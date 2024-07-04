@@ -20,7 +20,7 @@ const formikRef = useRef();
 const [isFetching, setIsFetching] = useState(false);
   
 useEffect(() => {
-  document.title = "Reset Password | Feed App";
+  document.title = "Reset Password | Portfolio App";
 }, []);
 
 const onFormSubmit = async (values) => {
