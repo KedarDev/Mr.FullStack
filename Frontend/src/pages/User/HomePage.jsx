@@ -19,8 +19,8 @@ const HomePage = () => {
   
 
   return (
-    <div className="relative z-0 black-gradient ">
-      <div className=" bg-white bg-hero-patttern bg-cover bg-no-repeat bg-center">
+    <div className="relative z-0">
+      <div className=" bg-white bg-hero-patttern bg-cover  bg-center">
       <Navbar  />
       <br />
       <br />

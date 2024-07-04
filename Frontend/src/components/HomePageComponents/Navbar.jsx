@@ -13,6 +13,8 @@ const Navbar = () => {
 
   const [toggle, setToggle] = useState(false);
 
+  const [toggle2, setToggle2] = useState(false);
+
   const [currentTheme, setTheme] = useState(getInitialTheme());
  
   useEffect(() => {
@@ -121,7 +123,7 @@ const Navbar = () => {
                 <li
                   key={Link.id}
                   className={`${
-                    active === Link.title ?   "text-red-800"  : "text-black"  
+                    active === Link.title ? "text-red-800"  : "text-black"  
                   } font-poppins   dark:text-white text-[16px] font-medium cursor-pointer`}
                   onClick={() => {
                     setToggle(!toggle);
@@ -132,7 +134,7 @@ const Navbar = () => {
                     active === Link.title ?   "dark:text-red-600"  : "text-black"  
                   } font-poppins   dark:text-white text-[16px] font-bold cursor-pointer`}
                   onClick={() => {
-                    setToggle(!toggle);
+                    setToggle2(!toggle2);
                     setActive(Link.title);
                   }}>{Link.title}   </a>
                 </li>

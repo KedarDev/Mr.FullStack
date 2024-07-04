@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="laptop-l:mt-[-100px] laptop:mt-[-800px] tablet:mt-[-400px] mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
+      className=" bg-white laptop-l:mt-[-100px] laptop:mt-[-800px] tablet:mt-[-400px] mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container "
     >
       <motion.div variants={textVariant()} className="ml-[30px]">
         <p className={`${styles.sectionSubText} desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px]`}>Cover Letter</p>
