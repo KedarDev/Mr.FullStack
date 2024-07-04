@@ -50,9 +50,13 @@ import upArrow from "../../src/assets/upArrow.png";
 import arrow from "../../src/assets/arrow.png";
 import lightFlash from "../../src/assets/lightFlash.png";
 import hambergerLight from "../../src/assets/hambergerLight.png";
+import upArrowDark from "../../src/assets/upArrowDark.png";
+import arrowDark from "../../src/assets/arrowDark.png";
 
 
 export {
+  arrowDark,
+  upArrowDark,
   hambergerLight,
   lightFlash,
   arrow,

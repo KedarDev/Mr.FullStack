@@ -9,16 +9,16 @@ import { ImageLoader } from "three";
 
 const Tech = (props) => {
   return (
-    <>
+    <div className="dark:bg-black">
       <motion className="relative desktop-s:top-[500px] laptop:top-[150px] top-[120px]">
         <p
-          className={`${styles.sectionSubText} desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px] tablet:text-[30px]`}
+          className={`${styles.sectionSubText} dark:text-white desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px] tablet:text-[30px]`}
         >
           Full Stack
         </p>
         <div className="inline-flex  justify-center items-center">
           <h2
-            className={`${styles.sectionHeadText} desktop:text-[100px] laptop-l:text-[70px] text-[30px] laptop:text-[70px] tablet:text-[50px] pl- mx-auto`}
+            className={`${styles.sectionHeadText}  dark:text-white desktop:text-[100px] laptop-l:text-[70px] text-[30px] laptop:text-[70px] tablet:text-[50px] pl- mx-auto`}
           >
             Technologies
           </h2>
@@ -64,7 +64,7 @@ const Tech = (props) => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

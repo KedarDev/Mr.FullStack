@@ -79,10 +79,10 @@ const Works = () => {
   return (
     <>
       <motion.div className=" desktop-s:mt-[-600px] laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
-        <p className={`${styles.sectionSubText} desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
+        <p className={`${styles.sectionSubText}  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
         <div className="inline-flex justify-center items-center">
           <h2
-            className={`${styles.sectionHeadText} desktop-s:ml-[-40px] desktop:ml-[30px] desktop:text-[100px] laptop:w-full laptop:pl-0 laptop:p-1 laptop-l:text-[80px] laptop:text-[70px] 
+            className={`${styles.sectionHeadText}  dark:text-white desktop-s:ml-[-40px] desktop:ml-[30px] desktop:text-[100px] laptop:w-full laptop:pl-0 laptop:p-1 laptop-l:text-[80px] laptop:text-[70px] 
             tablet:text-[50px] mobile-m:text-[25px] mobile-l:text-[23px] mobile-m:p-1 mobile-s:text-[20.6px]  w-full mobile-s:p-3 
             p-5 inline-flex pl-10 mx-auto`}
           >
@@ -103,7 +103,7 @@ const Works = () => {
         </motion>
       </motion.div>
       <div ></div>
-      <div className=" bg-iPad  desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
+      <div className=" bg-iPad dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
       mobile-m:mt-[34px]  mobile-m:ml-[-25px] mobile-m:bg-contain mobile-s:w-[345px] mobile-s:ml-[-24px] mobile-s:mt-[20px] tablet:w-[790px] 
       tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen     
       justify-center  bg-contain bg-no-repeat   overflow-hidden">

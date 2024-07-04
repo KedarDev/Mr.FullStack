@@ -19,8 +19,8 @@ const HomePage = () => {
   
 
   return (
-    <div className="relative z-0">
-      <div className=" bg-white bg-hero-patttern bg-cover  bg-center">
+    <div className="relative z-0 ">
+      <div className="dark:bg-black bg-white bg-hero-patttern bg-cover  bg-center">
       <Navbar  />
       <br />
       <br />
@@ -30,7 +30,7 @@ const HomePage = () => {
       <Experience />
       <Tech  />
       <Works />
-      <Resume />
+      <Resume  className="bg-black"/>
       <div className="relative z-0">
       <Contact />
       <ScrollToTop />

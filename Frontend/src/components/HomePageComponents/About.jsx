@@ -55,21 +55,21 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className=" bg-white mobile-s:text-center">
+      <motion.div variants={textVariant()} className=" bg-white dark:bg-black mobile-s:text-center">
         <p
-          className={`${styles.sectionSubText} text-black desktop:text-[70px]  laptop-l:text-[50px]   `}
+          className={`${styles.sectionSubText} text-black dark:text-white desktop:text-[70px]  laptop-l:text-[50px]   `}
         >
           Introduction
         </p>
         <h2
-          className={`${styles.sectionHeadText} text-black desktop:text-[100px]  laptop-l:text-[70px] `}
+          className={`${styles.sectionHeadText} text-black dark:text-white desktop:text-[100px]  laptop-l:text-[70px] `}
         >
           Overview.
         </h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="bg-white   desktop:text-center desktop:ml-[0px] desktop:p-5 desktop:text-[70px] mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:w-[105%] laptop-l:text-[30px] desktop:leading-[100px] desktop:mt-[200px]  laptop-l:leading-[70px]  text-black text-[17px] max-w-3x1 leading-[30px] text-center"
+        className="bg-white  dark:bg-black dark:text-white  desktop:text-center desktop:ml-[0px] desktop:p-5 desktop:text-[70px] mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:w-[105%] laptop-l:text-[30px] desktop:leading-[100px] desktop:mt-[200px]  laptop-l:leading-[70px]  text-black text-[17px] max-w-3x1 leading-[30px] text-center"
       >
         Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
         position . My experience with both the back-end and front-end stacks, as
@@ -89,7 +89,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
       </motion.p>
-      <div className="bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+      <div className="dark:bg-black bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

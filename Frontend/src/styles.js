@@ -21,9 +21,9 @@ const styles = {
     "sm:text-[18px] text-[14px] text-black uppercase tracking-wider",
 
   sectionHeadText1:
-    "text-[#000000] font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+    "text-[#fff] font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText1:
-    "sm:text-[18px] text-[14px] text-[#000000] uppercase tracking-wider",
+    "sm:text-[18px] text-[14px] text-[#fff] uppercase tracking-wider",
 
     contain:
     "w-full h-full overflow-x-scroll flex items-center gap-x-28"
