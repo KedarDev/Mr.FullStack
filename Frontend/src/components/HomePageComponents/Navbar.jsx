@@ -6,7 +6,7 @@ import darkflash from "../../../src/assets/darkflash.png";
 import menu from "../../../src/assets/menu.png";
 import closeMenu from "../../../src/assets/closeMenu.png";
 import { navLink } from "../../constants";
-import { lightFlash } from "../../assets";
+import { lightClose, lightFlash } from "../../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -15,8 +15,10 @@ const Navbar = () => {
 
   const [toggle2, setToggle2] = useState(false);
 
+  const [toggle3, setToggle3] = useState(false);
+
   const [currentTheme, setTheme] = useState(getInitialTheme());
- 
+
   useEffect(() => {
     applyTheme();
   }, [currentTheme]);
@@ -40,7 +42,7 @@ const Navbar = () => {
       document.documentElement.classList.remove("dark");
       localStorage.setItem("theme", "light");
     }
-  } 
+  }
 
   function toggleTheme() {
     setTheme(currentTheme === "dark" ? "light" : "dark");
@@ -108,7 +110,13 @@ const Navbar = () => {
         {/* Hamberger Menu */}
         <div className="sm:hidden laptop:hidden laptop-l:hidden desktop:hidden flex flex-1 justify-end items-center">
           <img
-            className=" mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[30px] mobile-s:w-[30px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
+            className=" dark:hidden mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[40px] mobile-s:mt-[5px] mobile-s:pl-[3px] mobile-s:mr-[-3px] mobile-s:w-[40px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
+            src={toggle ? lightClose : menu}
+            onClick={() => setToggle(!toggle)}
+            alt="lightmenu"
+          />
+          <img
+            className="hidden dark:block mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[30px] mobile-s:w-[30px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? closeMenu : menu}
             alt="menu"
             onClick={() => setToggle(!toggle)}
@@ -123,20 +131,26 @@ const Navbar = () => {
                 <li
                   key={Link.id}
                   className={`${
-                    active === Link.title ? "text-red-800"  : "text-black"  
+                    active === Link.title ? "text-red-800" : "text-black"
                   } font-poppins   dark:text-white text-[16px] font-medium cursor-pointer`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(Link.title);
                   }}
                 >
-                  <a key={Link.id} href={`#${Link.id}`}  className={`${
-                    active === Link.title ?   "dark:text-red-600"  : "text-black"  
-                  } font-poppins   dark:text-white text-[16px] font-bold cursor-pointer`}
-                  onClick={() => {
-                    setToggle2(!toggle2);
-                    setActive(Link.title);
-                  }}>{Link.title}   </a>
+                  <a
+                    key={Link.id}
+                    href={`#${Link.id}`}
+                    className={`${
+                      active === Link.title ? "dark:text-red-600" : "text-black"
+                    } font-poppins   dark:text-white text-[16px] font-bold cursor-pointer`}
+                    onClick={() => {
+                      setToggle2(!toggle2);
+                      setActive(Link.title);
+                    }}
+                  >
+                    {Link.title}{" "}
+                  </a>
                 </li>
               ))}
               <a href="/user/Login">

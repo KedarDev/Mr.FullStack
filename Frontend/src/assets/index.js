@@ -52,9 +52,11 @@ import lightFlash from "../../src/assets/lightFlash.png";
 import hambergerLight from "../../src/assets/hambergerLight.png";
 import upArrowDark from "../../src/assets/upArrowDark.png";
 import arrowDark from "../../src/assets/arrowDark.png";
+import lightClose from "../../src/assets/lightClose.png";
 
 
 export {
+  lightClose,
   arrowDark,
   upArrowDark,
   hambergerLight,

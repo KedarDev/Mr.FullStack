@@ -17,7 +17,7 @@ const Hero = () => {
           <div className=" w-1 sm:h-80 h-40 black-gradient " />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-black`}>
+          <h1 className={`${styles.heroHeadText} text-black dark:text-white`}>
             Hi, I'm <span className=" dark:text-white text-black">MrFullStack</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-black dark:text-white`}>
@@ -39,7 +39,7 @@ const Hero = () => {
             }}
             >
               <img src={arrowDark} alt="" className="desktop:ml-[55px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-fit  shadow-2xl  drop-shadow-2xl h-[30px]" />
-            <img src={arrow} alt="" className=" desktop:ml-[55px] mobile-s:ml-[25px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]" />
+            <img src={arrow} alt="" className="hidden dark:block desktop:ml-[55px] mobile-s:ml-[25px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]" />
             </motion.dev>
           </div>
         </a>
