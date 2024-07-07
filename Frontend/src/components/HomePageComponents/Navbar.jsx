@@ -55,14 +55,14 @@ const Navbar = () => {
       {currentTheme === "dark" ? (
         <img
           src={darkflash}
-          className=" desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
+          className=" cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
           alt=""
           onClick={toggleTheme}
         />
       ) : (
         <img
           src={lightFlash}
-          className="desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
+          className=" cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
           alt=""
           onClick={toggleTheme}
         />

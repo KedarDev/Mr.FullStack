@@ -53,7 +53,7 @@ import hambergerLight from "../../src/assets/hambergerLight.png";
 import upArrowDark from "../../src/assets/upArrowDark.png";
 import arrowDark from "../../src/assets/arrowDark.png";
 import lightClose from "../../src/assets/lightClose.png";
-import Video from "../../src/assets/video/Video.mp4";
+import Video from "../../src/assets/video/Video.webm";
 
 export {
   Video,

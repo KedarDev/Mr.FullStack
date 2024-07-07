@@ -10,14 +10,14 @@ module.exports = {
   theme: {
     
         screens: {
-      'mobile-s':{'min':'320px', 'max': '374px'}, 
-      'mobile-m':{'min':'375px', 'max':'424px'}, 
-      'mobile-l':{'min':'425px', 'max':'767px'},
-      'tablet':{'min':'768px', 'max':'1023px'}, 
-      'laptop':{'min':'1024px', 'max':'1439px'},  
-      'laptop-l':{'min':'1440px', 'max':'2559px'}, 
-      'desktop-s':{'min': '2045px', 'max':'2559px'}, 
-      'desktop':{'min':'2560px'}, 
+      // 'mobile-s':{'min':'320px', 'max': '374px'}, 
+      // 'mobile-m':{'min':'375px', 'max':'424px'}, 
+      // 'mobile-l':{'min':'425px', 'max':'767px'},
+      // 'tablet':{'min':'768px', 'max':'1023px'}, 
+      // 'laptop':{'min':'1024px', 'max':'1439px'},  
+      // 'laptop-l':{'min':'1440px', 'max':'2559px'}, 
+      // 'desktop-s':{'min': '2045px', 'max':'2559px'}, 
+      // 'desktop':{'min':'2560px'}, 
     },
     extend: {
       backgroundImage:  {

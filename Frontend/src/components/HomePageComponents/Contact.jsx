@@ -6,6 +6,11 @@ import { SectionWrapper } from "../../hoc";
 import { slideIn } from "../../utils/motion";
 
 const Contact = () => {
+
+  const VITE_APP_EMAILJS_RECEIVERID = import.meta.env.VITE_APP_EMAILJS_RECEIVERID;
+  const VITE_APP_EMAILJS_TEMPLATEID = import.meta.env.VITE_APP_EMAILJS_TEMPLATEID;
+
+
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -27,18 +32,18 @@ const Contact = () => {
 
     emailjs.send(
       emailjs
-        .send(
-          "service_unb3dob",
-          "template_p6gqlfq",
-          {
-            from_name: form.name,
-            to_name: "Kedar",
-            from_email: form.email,
-            to_email: "kedar.h.dev@gmail.com",
-            message: form.message,
-          },
-          "gg10l-qDPbf_z9ZMT"
-        )
+      .send(
+        "service_c6iynxs",
+        VITE_APP_EMAILJS_TEMPLATEID,
+        {
+          from_name: form.name,
+          to_name: "Mr.Fullstack",
+          from_email: form.email,
+          to_email: "mrfullstacksoftwaredeveloper@gmail.com",
+          message: form.message,
+        },
+      VITE_APP_EMAILJS_RECEIVERID
+      )
         .then(
           () => {
             setLoading(false);

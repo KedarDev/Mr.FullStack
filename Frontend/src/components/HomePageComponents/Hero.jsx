@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../../styles";
-import Computers from "./canvas/Computers";
 import { SectionWrapper } from "../../hoc";
 import { Video, arrow } from "../../../src/assets";
 import { arrowDark } from "../../../src/assets";
@@ -27,10 +26,10 @@ const Hero = () => {
         </div>
       </div> */}
       <video
-        class="w-full border-none"
-        controls=""
-        autoPlay={"autoplay"}
+        className="dark:opacity-[90%] w-full h-fit border-none"
+        controls
         muted
+        autoPlay={"autoplay"}
         loop
         preLoad="auto"
       >
