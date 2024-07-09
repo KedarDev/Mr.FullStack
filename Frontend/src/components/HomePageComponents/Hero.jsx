@@ -7,9 +7,9 @@ import { arrowDark } from "../../../src/assets";
 
 const Hero = () => {
   return (
-    <section className="w-screen dark:xs:ml-[-20px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto">
+    <section className="w-screen dark:md:ml-[-45px] dark:xs:ml-[-20px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto">
       <video
-        className=" dark:xs:ml-[4px] dark:xs:w-[px]  dark:opacity-[90%] xs:ml-[-12px] w-screen xs:h-[1000px] h-[600px] border-none"
+        className=" md:ml-[-20px] dark:xs:ml-[4px] dark:xs:w-[px]  dark:opacity-[90%] xs:ml-[-12px] w-screen md:h-[900px] xs:h-[1000px] h-[600px] border-none"
         controls
         muted
         // autoPlay={"autoplay"}
@@ -33,7 +33,7 @@ const Hero = () => {
               <img
                 src={arrowDark}
                 alt=""
-                className="sm:mt-[50px] desktop:ml-[55px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-fit  shadow-2xl  drop-shadow-2xl h-[30px]"
+                className="dark:md:mt-[-10px] dark:md:ml-[-90px] md:mt-[10px] md:h-10 sm:mt-[50px] desktop:ml-[55px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-fit  shadow-2xl  drop-shadow-2xl h-[30px]"
               />
               <img
                 src={arrow}
