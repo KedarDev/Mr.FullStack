@@ -57,7 +57,7 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()} className=" desktop:mt-[500px] laptop-l:mt-[200px]">
-        <p className={`${styles.sectionSubText} desktop:text-[70px] laptop-l:text-[50px] dark:text-white `}>My Work So Far</p>
+        <p className={`${styles.sectionSubText} xs:text-[25px] desktop:text-[70px] laptop-l:text-[50px] dark:text-white `}>My Work So Far</p>
         <h2 className={`${styles.sectionHeadText} desktop:text-[100px] laptop-l:text-[70px] dark:text-white `}>Work Experience</h2>
       </motion.div>
       <div className=" desktop:ml-[20em] mt-20 flex flex-col">
