@@ -24,7 +24,7 @@ const Tech = (props) => {
             Technologies
           </h2>
           <img
-            className="dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
+            className="dark:xs:ml-[310px] dark:xs:w-[120px] dark:xs:mt-[-30px] dark:xs:h-3  dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
             laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  
             mobile-s:h-2 w-[45%] ml-2 h-5 justify-center items-center content-center "
             src={WhiteArrow}

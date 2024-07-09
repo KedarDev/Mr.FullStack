@@ -5,7 +5,7 @@ import { upArrowDark } from '../../assets/index';
 
 const scrollToTop = () => {
   return (
-<div className=" xs:ml-[15px] dark:bg-black desktop:ml-[-1px]  tablet:ml-[-2px] mobile-m:ml-[-1%] mobile-l:ml-[-1%] mobile-s:mt-[0px] mobile-s:left-[-0px] tablet:left-0.5 mobile-m:left-[3px] mobile-l:left-[2px] absolute  w-full flex justify-center items-center">
+<div className=" dark:xs:ml-[10px] xs:ml-[15px] dark:bg-black desktop:ml-[-1px]  tablet:ml-[-2px] mobile-m:ml-[-1%] mobile-l:ml-[-1%] mobile-s:mt-[0px] mobile-s:left-[-0px] tablet:left-0.5 mobile-m:left-[3px] mobile-l:left-[2px] absolute  w-full flex justify-center items-center">
 <a href="#hero" className="">
   <div className="mobile-s:bg-white dark:bg-black mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
     <motion.dev

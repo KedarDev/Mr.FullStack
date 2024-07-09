@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="w-screen dark:xs:ml-[-20px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto">
       <video
-        className="dark:opacity-[90%] xs:ml-[-12px] w-screen xs:h-[1000px] h-[600px] border-none"
+        className=" dark:xs:ml-[4px] dark:xs:w-[px]  dark:opacity-[90%] xs:ml-[-12px] w-screen xs:h-[1000px] h-[600px] border-none"
         controls
         muted
         // autoPlay={"autoplay"}
@@ -19,7 +19,7 @@ const Hero = () => {
         <source className="w-screen"  src={Video}   autoPlay type="video/mp4" />
       </video>
 
-      <div className=" mobile-m:mt-[550px] tablet:mt-[950px] mobile-l:mt-[650px] mobile-s:mt-[550px] mobile-s:left-[-0px] mobile-m:ml-[-5px] mobile-l:ml-[-23px] absolute  w-full flex justify-center items-center">
+      <div className="mobile-m:mt-[550px] tablet:mt-[950px] mobile-l:mt-[650px] mobile-s:mt-[550px] mobile-s:left-[-0px] mobile-m:ml-[-5px] mobile-l:ml-[-23px] absolute  w-full flex justify-center items-center">
         <a href="#about">
           <div className=" mt-[80px] mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
             <motion.dev

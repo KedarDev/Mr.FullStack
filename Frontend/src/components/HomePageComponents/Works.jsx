@@ -82,14 +82,14 @@ const Works = () => {
         <p className={`${styles.sectionSubText} relative xs:text-[25px]  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
         <div className="inline-flex justify-center items-center">
           <h2
-            className={`${styles.sectionHeadText} relative xs:w-[460px] xs:ml-[-50px]  sm:w-[200px]  dark:text-white desktop-s:ml-[-40px] desktop:ml-[30px] desktop:text-[100px] laptop:w-full laptop:pl-0 laptop:p-1 laptop-l:text-[80px] laptop:text-[70px] 
+            className={`${styles.sectionHeadText} relative dark:xs:w-[490px] xs:w-[460px] xs:ml-[-50px]  sm:w-[200px]  dark:text-white desktop-s:ml-[-40px] desktop:ml-[30px] desktop:text-[100px] laptop:w-full laptop:pl-0 laptop:p-1 laptop-l:text-[80px] laptop:text-[70px] 
             tablet:text-[50px] mobile-m:text-[25px] mobile-l:text-[23px] mobile-m:p-1 mobile-s:text-[20.6px]  w-full mobile-s:p-3 
             p-5 inline-flex pl-10 mx-auto`}
           >
             Enter Website
           </h2>
           <img
-            className=" hidden dark:block desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
+            className=" hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
             mobile-l:w-[41%] mobile-l:h-3  mobile-m:w-[41%] mobile-m:ml-[2.5px] mobile-m:h-3 mobile-s:h-2 relative w-[45%] 
             ml- h-5 justify-center items-center content-center "
             src={WhiteArrow}
