@@ -28,9 +28,14 @@ const Works = () => {
             scale: 0.8,
             speed: 450,
           }}
-          className="relativex  left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-680px] mobile-m:mt-[-415px] mobile-l:mt-[-390px] mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg-rounded-2xl mobile-m:w-[200px] tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] desktop-s:w-[800px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
+          className="relative left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-680px] mobile-m:mt-[-415px] 
+          mobile-l:mt-[-390px] mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg-rounded-2xl mobile-m:w-[200px] 
+          tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] desktop-s:w-[800px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
-          <div className="md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px] xs:h-[120px] xs:mt-[-620px] desktop-s:mt-[-1100px] desktop-s:h-[600px] desktop:h-[800px] desktop:w-[800px] laptop-l:h-[400px] relative w-full mobile-s:p-1 mobile-m:p-1 mobile-s:w-[130px] mobile-m:w-[200px] mobile-l:w-[200px] mobile-l:h-[110px] tablet:w-[300px]  mobile-m:h-[110px] mobile-s:h-[100px] h-[280px]">
+          <div className=" lg:w-[300px] lg:h-[300px] lg:mt-[-800px]  md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px] 
+          xs:h-[120px] xs:mt-[-620px] desktop-s:mt-[-1100px] desktop-s:h-[600px] desktop:h-[800px] desktop:w-[800px] laptop-l:h-[400px] 
+          relative w-full mobile-s:p-1 mobile-m:p-1 mobile-s:w-[130px] mobile-m:w-[200px] mobile-l:w-[200px] mobile-l:h-[110px] 
+          tablet:w-[300px]  mobile-m:h-[110px] mobile-s:h-[100px] h-[280px]">
             <img
               src={image}
               alt={name}
@@ -57,14 +62,14 @@ const Works = () => {
               </div>
             </div>
             <div className="mt-5 w-full xs:mt-0 mobile-s:m-0   mobile-m:m-0 mobile-s:mt-[10px] mobile-m:mt-[-10px]  mobile-s:w-full">
-              <h3 className="xs:text-[18px] md:text-[25px]  text-white font-bold mobile-s:text-[10px] mobile-m:mt-[20px] mobile-l:mt-[-18px] laptop:text-[30px] laptop-l:text-[30px] desktop:text-[80px]
+              <h3 className="lg:text-[35px] xs:text-[18px] md:text-[25px]  text-white font-bold mobile-s:text-[10px] mobile-m:mt-[20px] mobile-l:mt-[-18px] laptop:text-[30px] laptop-l:text-[30px] desktop:text-[80px]
               mobile-m:text-[12px] mobile-l:text-[12px] tablet:mt-[-18px] tablet:text-[20px] text-[24px]">{name}</h3>
-              <p className="xs:text-[10px] md:text-[14px]  mobile-s:text-[8px] mobile-m:text-[11px]  mobile-l:text-[11px] mobile-m:mt-[-1px] laptop:text-[25px] laptop-l:text-[30px]
+              <p className=" lg:text-[25px] xs:text-[10px] md:text-[14px]  mobile-s:text-[8px] mobile-m:text-[11px]  mobile-l:text-[11px] mobile-m:mt-[-1px] laptop:text-[25px] laptop-l:text-[30px]
               mobile-l:mt-[-1px] mobile-s:mt-1 mt-2 text-white text-[14px] desktop:text-[45px]">{description}</p>
             </div>
-            <div className="xs:mt-0   mt-4 mobile-s:mt-[-1px] mobile-l:mt-[-1px] flex flex-wrap gap-1 mobile-s:gap-1">
+            <div className="xs:mt-0 mt-4 mobile-s:mt-[-1px] mobile-l:mt-[-1px] flex flex-wrap  gap-1 mobile-s:gap-1">
               {tags.map((tag) => (
-                <p key={tag.name} className={` md:text-[12px] xs:text-[9px] desktop:text-[40px] laptop-l:text-[25px] tablet:mt-[-10px] tablet:text-[12px]  mobile-m:mt-[-10px] mobile-s:text-[6px] 
+                <p key={tag.name} className={` lg:text-[18px] md:text-[12px] xs:text-[9px] desktop:text-[40px] laptop-l:text-[25px] tablet:mt-[-10px] tablet:text-[12px]  mobile-m:mt-[-10px] mobile-s:text-[6px] 
                 mobile-l:text-[9px] mobile-m:text-[9px] ${tag.color}`}>
                   #{tag.name}
                 </p>
@@ -89,7 +94,7 @@ const Works = () => {
             Enter Website
           </h2>
           <img
-            className=" hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
+            className="dark:lg:h-[20px] dark:lg:ml-[-150px] hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
             mobile-l:w-[41%] mobile-l:h-3  mobile-m:w-[41%] mobile-m:ml-[2.5px] mobile-m:h-3 mobile-s:h-2 relative w-[45%] 
             ml- h-5 justify-center items-center content-center "
             src={WhiteArrow}
@@ -108,11 +113,11 @@ const Works = () => {
         </motion>
       </motion.div>
       <div ></div>
-      <div className=" bg-iPad sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
+      <div className=" bg-iPad  lg:w-[1070px] sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
       mobile-m:mt-[34px]  mobile-m:ml-[-25px] mobile-m:bg-contain mobile-s:w-[345px] mobile-s:ml-[-24px] mobile-s:mt-[20px] tablet:w-[790px] 
       tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen     
       justify-center  bg-contain bg-no-repeat   overflow-hidden">
-        <div className=" md:ml-[10px] md:w-[98%] laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
+        <div className=" lg:gap-[200px] md:ml-[10px] md:w-[98%] laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
         mobile-s:gap-x-24 gap-x-20">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index} `} index={index} {...project}  className="" />

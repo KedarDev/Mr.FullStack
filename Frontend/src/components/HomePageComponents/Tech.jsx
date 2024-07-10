@@ -24,24 +24,21 @@ const Tech = (props) => {
             Technologies
           </h2>
           <img
-            className=" dark:md:ml-[500px] dark:md:h-4 dark:md:mt-[-50px] dark:xs:ml-[310px] dark:xs:w-[120px] dark:xs:mt-[-30px] dark:xs:h-3  dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
+            className="dark:lg:h-[20px] dark:md:ml-[500px] dark:md:h-4 dark:md:mt-[-50px] dark:xs:ml-[310px] dark:xs:w-[120px] dark:xs:mt-[-30px] dark:xs:h-3  dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
             laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  
             mobile-s:h-2 w-[45%] ml-2 h-5 justify-center items-center content-center "
             src={WhiteArrow}
             alt="whitearrow"
           />
           <img
-            className=" md:ml-[500px] dark:hidden rotate-[270deg] xs:ml-[330px] xs:mt-[-110px] ml-[10px] w-[100px] h-[130px]"
+            className="md:ml-[500px] dark:hidden rotate-[270deg] xs:ml-[330px] xs:mt-[-110px] ml-[10px] w-[100px] h-[130px]"
             src={arrowDark}
             alt="darkarrow"
           />
         </div>
       </motion>
-      <br />
-      <br />
-      <br />
       <div
-        className="bg-iPhoneProMax md:w-[800px] xs:w-screen xs:ml-[-10px] sm:w-[460px] sm:ml-[-60px] desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2600px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
+        className="bg-iPhoneProMax lg:w-[1024px] lg:ml-[-35px] md:w-[800px] xs:w-screen xs:ml-[-10px] sm:w-[460px] sm:ml-[-60px] desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2600px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
       mobile-l:w-[425px] tablet:w-[785px] mobile-m:w-[394px] mobile-l:ml-[-23px] tablet:ml-[-20px]   mobile-m:ml-[-25px] 
       mobile-s:w-[340px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen  
        mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden"
@@ -64,7 +61,7 @@ const Tech = (props) => {
               key={technology.name}
             >
               <img
-                className=" md:w-[200px] md:h-[200px] md:mt-[30px]  xs:w-[150px] xs:h-[150px] xs:mt-[130px] sm:w-[120px] sm:h-[120px] sm:mt-[150px]  shrink-0 mobile-m:w-[100px] desktop:w-[600px] desktop:h-[]  laptop-l:w-[350px] mobile-s:w-[80px] mobile-l:w-[120px] 
+                className=" lg:w-[220px] lg:h-[220px] lg:mt-[-2px]   md:w-[200px] md:h-[200px] md:mt-[30px]  xs:w-[150px] xs:h-[150px] xs:mt-[130px] sm:w-[120px] sm:h-[120px] sm:mt-[150px]  shrink-0 mobile-m:w-[100px] desktop:w-[600px] desktop:h-[]  laptop-l:w-[350px] mobile-s:w-[80px] mobile-l:w-[120px] 
               tablet:w-[190px] tablet:mt-[40px] mobile-l:mt-[150px] mobile-s:h-[80px]  mobile-s:mt-[195px]"
                 src={technology.icon}
                 alt=""

@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX}   sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
+      className={`${styles.paddingX}  sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
       <div className=" bg-white h-fit ">
 
@@ -83,11 +83,11 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className=" md:ml-[190px] sm:w-[1000px] sm:ml-[20px]   desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-[90%] flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className="lg:ml-[200px] sm:w-[1000px] sm:ml-[20px]   desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-[90%] flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
-        <ul className=" list-none hidden sm:hidden laptop:flex laptop-l:flex desktop:flex  flex-row gap-5">
+        <ul className="list-none hidden lg:flex sm:hidden laptop:flex laptop-l:flex desktop:flex  flex-row gap-5">
           {navLink.map((Link) => (
             <li
               key={Link.id}
@@ -100,8 +100,8 @@ const Navbar = () => {
             </li>
           ))}
           <a href="/user/Login">
-            <div className=" desktop:mt-[6px] laptop-l:mt-[8px] laptop:mt-[3px] Button w-28 h-6 relative bottom-[3px] ">
-              <div className="Buttonbox w-28 laptop-l:h-10 laptop-l:mt-[-3px] h-8 left-0  absolute mix-blend-hard-light bg-black rounded-xl shadow border-2 border-zinc-800 " />
+            <div className="desktop:mt-[6px] laptop-l:mt-[8px] laptop:mt-[3px] Button w-28 h-6 relative bottom-[3px] ">
+              <div className="Buttonbox w-28 laptop-l:h-10 laptop-l:mt-[-3px] h-8 left-0  absolute mix-blend-hard-light bg-black rounded-[5%] shadow border-2 border-[#FF0000] " />
               <div className="Login w-28 h-8 left-[2px] top-[3px] absolute text-center text-white laptop-l:text-[30px] laptop-l:mt-[-10px] text-[18px] font-normal font-['Inter']">
                 Login
               </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
           </a>
         </ul>
         {/* Hamberger Menu */}
-        <div className="sm:w-full  laptop:hidden laptop-l:hidden desktop:hidden flex  justify-end items-center">
+        <div className="sm:w-full lg:hidden  laptop:hidden laptop-l:hidden desktop:hidden flex  justify-end items-center">
           <img
             className=" sm:w-[35px] sm:h-[35px] sm:mt-[px]  dark:hidden mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[40px] mobile-s:mt-[5px] mobile-s:pl-[3px] mobile-s:mr-[-3px] mobile-s:w-[40px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? lightClose : menu}

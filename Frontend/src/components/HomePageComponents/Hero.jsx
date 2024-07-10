@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section className="w-screen dark:md:ml-[-45px] dark:xs:ml-[-20px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto">
       <video
-        className=" md:ml-[-20px] dark:xs:ml-[4px] dark:xs:w-[px]  dark:opacity-[90%] xs:ml-[-12px] w-screen md:h-[900px] xs:h-[1000px] h-[600px] border-none"
+        className=" dark:lg:ml-[8px] md:h-[1500px] lg:ml-[-12px]  md:ml-[-20px] dark:xs:ml-[4px] dark:xs:w-[px]  dark:opacity-[90%] xs:ml-[-12px] w-screen  xs:h-[1000px] h-[600px] border-none"
         controls
         muted
         // autoPlay={"autoplay"}
