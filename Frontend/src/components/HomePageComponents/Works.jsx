@@ -28,11 +28,11 @@ const Works = () => {
             scale: 0.8,
             speed: 450,
           }}
-          className="relative left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-680px] mobile-m:mt-[-415px] 
+          className="relative xl:mt-[5px]  left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-680px] mobile-m:mt-[-415px] 
           mobile-l:mt-[-390px] mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg-rounded-2xl mobile-m:w-[200px] 
           tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] desktop-s:w-[800px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
-          <div className=" lg:w-[300px] lg:h-[300px] lg:mt-[-800px]  md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px] 
+          <div className="xl:w-[400px] xl:h-[400px] lg:w-[300px] lg:h-[300px] lg:mt-[-800px]  md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px] 
           xs:h-[120px] xs:mt-[-620px] desktop-s:mt-[-1100px] desktop-s:h-[600px] desktop:h-[800px] desktop:w-[800px] laptop-l:h-[400px] 
           relative w-full mobile-s:p-1 mobile-m:p-1 mobile-s:w-[130px] mobile-m:w-[200px] mobile-l:w-[200px] mobile-l:h-[110px] 
           tablet:w-[300px]  mobile-m:h-[110px] mobile-s:h-[100px] h-[280px]">
@@ -113,7 +113,7 @@ const Works = () => {
         </motion>
       </motion.div>
       <div ></div>
-      <div className=" bg-iPad  lg:w-[1070px] sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
+      <div className=" bg-iPad  xl:ml-[1px] xl:w-screen lg:w-[1070px] sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
       mobile-m:mt-[34px]  mobile-m:ml-[-25px] mobile-m:bg-contain mobile-s:w-[345px] mobile-s:ml-[-24px] mobile-s:mt-[20px] tablet:w-[790px] 
       tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen     
       justify-center  bg-contain bg-no-repeat   overflow-hidden">

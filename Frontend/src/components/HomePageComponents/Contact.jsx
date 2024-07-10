@@ -66,7 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="dark:lg:mt-[-500px] lg:mt-[-800px] md:ml-[50px] md:mt-[100px] xs:mt-[-900px] dark:bg-black laptop-l:ml-[25px] laptop:ml-[25px] mobile-s:ml-[28px] mobile-m:ml-[24px] mobile-l:ml-[10px] desktop:mt-[-50em] desktop:w-[60%] desktop:h-[80%] desktop-s:h-fit laptop-l:mt-[-900px] desktop:ml-[35em]  laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
+    <div className=" dark:xl:mt-[400px] lg:h-fit lg:ml-[400px] dark:lg:mt-[-500px] lg:mt-[-800px] md:ml-[50px] md:mt-[100px] xs:mt-[-900px] dark:bg-black laptop-l:ml-[25px] laptop:ml-[25px] mobile-s:ml-[28px] mobile-m:ml-[24px] mobile-l:ml-[10px] desktop:mt-[-50em] desktop:w-[60%] desktop:h-[80%] desktop-s:h-fit laptop-l:mt-[-900px] desktop:ml-[35em]  laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden">
       <motion.div
         variants={slideIn("left", "tween", 0, 2, 1)}
         className="flex-[0.75] black-gradient mobile-s:rounded-e-3xl rounded-e-3xl p-8 rounded-2x1 "

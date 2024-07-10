@@ -15,7 +15,7 @@ module.exports = {
       "sm": "640px",
       "md":"768px",
       "lg": "1024px",
-      // "xl": "1280px",
+      "xl": "1280px",
       // "2xl": "1536px",
       // 'mobile-s':{'min':'320px', 'max': '374px'},
       // 'mobile-m':{'min':'375px', 'max':'424px'}, 

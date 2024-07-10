@@ -38,7 +38,7 @@ const Tech = (props) => {
         </div>
       </motion>
       <div
-        className="bg-iPhoneProMax lg:w-[1024px] lg:ml-[-35px] md:w-[800px] xs:w-screen xs:ml-[-10px] sm:w-[460px] sm:ml-[-60px] desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2600px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
+        className="bg-iPhoneProMax xl:ml-[120px] lg:w-[1024px] lg:ml-[-35px] md:w-[800px] xs:w-screen xs:ml-[-10px] sm:w-[460px] sm:ml-[-60px] desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2600px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
       mobile-l:w-[425px] tablet:w-[785px] mobile-m:w-[394px] mobile-l:ml-[-23px] tablet:ml-[-20px]   mobile-m:ml-[-25px] 
       mobile-s:w-[340px] mobile-s:ml-[-20px]  z-[0] p-3   relative h-screen  
        mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden"
