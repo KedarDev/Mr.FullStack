@@ -60,8 +60,8 @@ const Experience = () => {
         <p className={`${styles.sectionSubText} md:text-[25px] xs:text-[25px] desktop:text-[70px] laptop-l:text-[50px] dark:text-white `}>My Work So Far</p>
         <h2 className={`${styles.sectionHeadText} desktop:text-[100px] laptop-l:text-[70px] dark:text-white `}>Work Experience</h2>
       </motion.div>
-      <div className="xl:ml-[150px] desktop:ml-[20em] mt-20 flex flex-col">
-        <VerticalTimeline lineColor="black"  className="desktop:w-full mobile-s:w-full  laptop-l:text-[40px]">
+      <div className=" xl:ml-[150px] desktop:ml-[20em] mt-20 flex flex-col">
+        <VerticalTimeline lineColor="black"  className=" 2xl:ml-[100px] desktop:w-full mobile-s:w-full  laptop-l:text-[40px]">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}

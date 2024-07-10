@@ -89,7 +89,7 @@ const About = () => {
         Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
         98%.
       </motion.p>
-      <div className=" xl:ml-[100px] lg:grid lg:grid-cols-4 lg:ml-[-6px] xs:ml-[0px] sm:ml-[84px] dark:bg-black bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+      <div className=" 2xl:ml-[180px] xl:ml-[100px] lg:grid lg:grid-cols-4 lg:ml-[-6px] xs:ml-[0px] sm:ml-[84px] dark:bg-black bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

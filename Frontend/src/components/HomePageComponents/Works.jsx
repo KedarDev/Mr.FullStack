@@ -83,7 +83,7 @@ const Works = () => {
 
   return (
     <>
-      <motion.div className=" md:mt-[300px] xs:mt-[200px]  relative sm:mt-[-500px] desktop-s:mt-[-600px] laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
+      <motion.div className="md:mt-[300px] xs:mt-[200px]  relative sm:mt-[-500px] desktop-s:mt-[-600px] laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
         <p className={`${styles.sectionSubText} md:text-[25px] relative xs:text-[25px]  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
         <div className="inline-flex justify-center items-center">
           <h2
@@ -113,7 +113,7 @@ const Works = () => {
         </motion>
       </motion.div>
       <div ></div>
-      <div className=" bg-iPad  xl:ml-[1px] xl:w-screen lg:w-[1070px] sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
+      <div className=" bg-iPad dark:2xl:mt-[100px]  xl:ml-[1px] xl:w-screen lg:w-[1070px] sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 
       mobile-m:mt-[34px]  mobile-m:ml-[-25px] mobile-m:bg-contain mobile-s:w-[345px] mobile-s:ml-[-24px] mobile-s:mt-[20px] tablet:w-[790px] 
       tablet:ml-[-26px] flex p-[5%] w-[105%]  gap-16 items-center no-scrollbar z-[0] relative h-screen     
       justify-center  bg-contain bg-no-repeat   overflow-hidden">

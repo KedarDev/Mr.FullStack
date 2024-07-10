@@ -6,28 +6,28 @@ module.exports = {
   content: ["./src/**/*.{html,js,ts,jsx,tsx}"],
   darkMode: ["class"],
   assetsInclude: ["**/*.mov"],
-   mode: "jit",
+  mode: "jit",
   theme: {
     // OVERRIDE DEFULT SCREENS
-        screens: {
-      // you can use max to effect element from device to device 
+    screens: {
+      // you can use max to effect element from device to device
       // defult screens
-      "sm": "640px",
-      "md":"768px",
-      "lg": "1024px",
-      "xl": "1280px",
-      // "2xl": "1536px",
+      xs: "450px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
       // 'mobile-s':{'min':'320px', 'max': '374px'},
-      // 'mobile-m':{'min':'375px', 'max':'424px'}, 
+      // 'mobile-m':{'min':'375px', 'max':'424px'},
       // 'mobile-l':{'min':'425px', 'max':'767px'},
-      // 'tablet':{'min':'768px', 'max':'1023px'}, 
-      // 'laptop':{'min':'1024px', 'max':'1439px'},  
-      // 'laptop-l':{'min':'1440px', 'max':'2559px'}, 
-      // 'desktop-s':{'min': '2045px', 'max':'2559px'}, 
-      // 'desktop':{'min':'2560px'}, 
-    xs: "450px",
-      },
-      extend: { 
+      // 'tablet':{'min':'768px', 'max':'1023px'},
+      // 'laptop':{'min':'1024px', 'max':'1439px'},
+      // 'laptop-l':{'min':'1440px', 'max':'2559px'},
+      // 'desktop-s':{'min': '2045px', 'max':'2559px'},
+      // 'desktop':{'min':'2560px'},
+    },
+    extend: {
       // ADD TO DEFUALT SCREENS
       backgroundImage: {
         "hero-pattern": "url('../src/assets/herobg.png')",

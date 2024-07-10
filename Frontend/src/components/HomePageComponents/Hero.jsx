@@ -7,7 +7,7 @@ import { arrowDark } from "../../../src/assets";
 
 const Hero = () => {
   return (
-    <section className="w-screen dark:md:ml-[-45px] dark:xs:ml-[-20px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto">
+    <section className=" dark:2xl:ml-[-20px] 2xl:ml-[10px] 2xl:h-screen w-screen dark:md:ml-[-45px] dark:xs:ml-[-20px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto">
       <video
         className="xl:ml-[10px]  dark:lg:ml-[38px] md:h-[1500px] lg:ml-[-12px]  md:ml-[-20px] dark:xs:ml-[4px] dark:xs:w-[px]  dark:opacity-[90%] xs:ml-[-12px] w-screen  xs:h-[1000px] h-[600px] border-none"
         controls
@@ -33,7 +33,7 @@ const Hero = () => {
               <img
                 src={arrowDark}
                 alt=""
-                className="dark:md:mt-[-10px] dark:md:ml-[-90px] md:mt-[10px] md:h-10 sm:mt-[50px] desktop:ml-[55px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-fit  shadow-2xl  drop-shadow-2xl h-[30px]"
+                className=" 2xl:h-[50px] 2xl:mt-[200px] dark:md:mt-[-10px] dark:md:ml-[-90px] md:mt-[10px] md:h-10 sm:mt-[50px] desktop:ml-[55px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-fit  shadow-2xl  drop-shadow-2xl h-[30px]"
               />
               <img
                 src={arrow}
