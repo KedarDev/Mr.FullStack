@@ -1,11 +1,12 @@
 import { defineConfig, transformWithEsbuild, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
-
+// import { nodePolyfills } from 'vite-plugin-node-polyfills';
 
 
 export default defineConfig({
   assetsInclude: ['**/*.mov'],
   plugins: [
+    // nodePolyfills(),
     {
       name: 'treat-js-files-as-jsx',
       async transform(code, id) {

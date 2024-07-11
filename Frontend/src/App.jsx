@@ -3,7 +3,6 @@ require("dotenv").config();
 
 const App = () => {
 
-  
   return (
     <>
      MRFULLSTACK PORTFOLIO
