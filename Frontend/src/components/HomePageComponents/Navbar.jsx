@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { styles } from "../../styles";
+import { Styles } from "../../Styles";
 import mflogo from "../../../src/assets/MFLogo.png";
 import darkflash from "../../../src/assets/darkflash.png";
 import menu from "../../../src/assets/menu.png";
@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX}  sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
+      className={`${Styles.paddingX}  sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
       <div className=" bg-white h-fit ">
 

@@ -1,11 +1,10 @@
 import { React, useState } from "react";
-import Button from "./Button";
-import { Macbook, WhiteArrow, coverLetter } from "../../assets";
+import { Macbook, coverLetter } from "../../assets";
 import { resumes } from "../../constants/index";
 import ResumeCard from "./ResumeCard";
-import { styles } from "../../styles";
+import { Styles } from "../../Styles";
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../../utils/motion";
+import { fadeIn, textVariant } from "../../utils/Motion";
 
 const Resume = () => {
   const [bigResumeImg, setBigResumeImg] = useState(coverLetter);
@@ -17,8 +16,8 @@ const Resume = () => {
     >
       <motion.div variants={textVariant()} className="ml-[30px]">
         <div className="absolute">
-        <p className={`${styles.sectionSubText} xl:text-[40] xs:text-[25px]  dark:text-white  desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px]`}>Cover Letter</p>
-        <h2 className={`${styles.sectionHeadText} xs:text-[55px]  dark:text-white  desktop:text-[100px]  laptop-l:text-[80px] laptop:text-[70px]`}>Resume.</h2>
+        <p className={`${Styles.sectionSubText} xl:text-[40] xs:text-[25px]  dark:text-white  desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px]`}>Cover Letter</p>
+        <h2 className={`${Styles.sectionHeadText} xs:text-[55px]  dark:text-white  desktop:text-[100px]  laptop-l:text-[80px] laptop:text-[70px]`}>Resume.</h2>
         </div>
       </motion.div>
       <motion.p
@@ -30,10 +29,11 @@ const Resume = () => {
         <img
           src={Macbook}
           alt="macbook"
-          className=" xl:mt-[150px] lg:ml-[20px] lg:w-screen desktop:w-[2560px] desktop:ml-[50px] desktop-s:w-[2045px] desktop-s:ml-[5px]  relative object-contain z-10 "
+          className="xl:mt-[150px] lg:ml-[20px] lg:w-screen desktop:w-[2560px] desktop:ml-[50px] desktop-s:w-[2045px] desktop-s:ml-[5px]  relative object-contain z-10 "
         />
-        <div className=" xl:mt-[-1380px] lg:ml-[50px] desktop:ml-[60px] desktop:w-full mobile-m:w-[390px] desktop:mt-[-100em] laptop-l:mt-[-900px]  laptop:mt-[-650px] mobile-s:w-[140px] mobile-s:ml-[105px] mobile-s:mt-[-210px] mobile-m:mt-[-235px] mobile-l:mt-[-255px] tablet:mt-[-455px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
+        <div  className=" xl:mt-[-1380px] lg:ml-[50px] desktop:ml-[60px] desktop:w-full mobile-m:w-[390px] desktop:mt-[-100em] laptop-l:mt-[-900px]  laptop:mt-[-650px] mobile-s:w-[140px] mobile-s:ml-[105px] mobile-s:mt-[-210px] mobile-m:mt-[-235px] mobile-l:mt-[-255px] tablet:mt-[-455px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
           <img
+          
             src={bigResumeImg}
             alt="resume collection"
             width={430}
@@ -42,9 +42,10 @@ const Resume = () => {
           />
         </div>
         <div className=" 2xl:w-screen lg:w-[1024px] 2xl:ml-[-120px] lg:mt-[250px] md:w-screen md:ml-[10px] xs:w-full xs:ml-[10px] dark:bg-black desktop-s:mt-[20em] desktop:mt-[40em]   tablet:mt-[150px] laptop:mt-[300px] mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 ">
-          {resumes.map((resume) => (
-            <div className=" 2xl:w-[153px] 2xl:ml-[200px]  xl:w-[1280px] xl:ml-[150px]  xl:mt-[-500px] lg:w-[200px] lg:ml-[20px] align-middle content-center lg:justify-center md:mt-[80px] md:w-screen desktop:ml-[100px] desktop-s:w-full desktop:w-full desktop:h-[400px] laptop-l:mt-[150px] laptop:mt-[50px] tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] " key={resume}>
+          {resumes.map((resume, id) => (
+            <div   key={id} className=" 2xl:w-[153px] 2xl:ml-[200px]  xl:w-[1280px] xl:ml-[150px]  xl:mt-[-500px] lg:w-[200px] lg:ml-[20px] align-middle content-center lg:justify-center md:mt-[80px] md:w-screen desktop:ml-[100px] desktop-s:w-full desktop:w-full desktop:h-[400px] laptop-l:mt-[150px] laptop:mt-[50px] tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] ">
               <ResumeCard
+              
                 imgURL={resume}
                 changeBigResumeImage={(resume) => setBigResumeImg(resume)}
                 bigResumeImg={resume}

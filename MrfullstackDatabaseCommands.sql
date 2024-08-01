@@ -26,24 +26,24 @@
 	   SELECT * FROM "Visitor";
 	
 	
-	- Canvas -
-	CREATE TABLE "Canvas"(  
-	"canvasId"  INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
-	"initial" VARCHAR NOT NULL,
-	"ipAddress" VARCHAR(15),
-	"jobTitle" VARCHAR NOT NULL,
-	"picture" VARCHAR NOT NULL,
-	CONSTRAINT "Canvas_pkey" PRIMARY KEY ("initial"),
-	CONSTRAINT "Canvas_visitorIP_fkey" FOREIGN KEY ("ipAddress")
-	REFERENCES "Visitor" ("ipAddress")
-	);
+-- 	- Canvas -
+-- 	CREATE TABLE "Canvas"(  
+-- 	"canvasId"  INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+-- 	"initial" VARCHAR NOT NULL,
+-- 	"ipAddress" VARCHAR(15),
+-- 	"jobTitle" VARCHAR NOT NULL,
+-- 	"picture" VARCHAR NOT NULL,
+-- 	CONSTRAINT "Canvas_pkey" PRIMARY KEY ("initial"),
+-- 	CONSTRAINT "Canvas_visitorIP_fkey" FOREIGN KEY ("ipAddress")
+-- 	REFERENCES "Visitor" ("ipAddress")
+-- 	);
 	
--- INSERT DATA INTO "Canvas" TABLE
-    INSERT INTO "Canvas"("initial", "ipAddress", "jobTitle","picture")
-    VALUES ('F.S', '207.46.13.206', 'Freelance Dev', 'example.png'),
-                   ('M.S','555.55.55.555','Frontend Dev','example.png');
+-- -- INSERT DATA INTO "Canvas" TABLE
+--     INSERT INTO "Canvas"("initial", "ipAddress", "jobTitle","picture")
+--     VALUES ('F.S', '207.46.13.206', 'Freelance Dev', 'example.png'),
+--                    ('M.S','555.55.55.555','Frontend Dev','example.png');
 	
-	SELECT * FROM "Canvas";
+-- 	SELECT * FROM "Canvas";
 	
 	
 
@@ -95,17 +95,17 @@
       SELECT * FROM "User";
 
 
-	- Blog -
-	CREATE TABLE "Blog"(
-	"blogId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+	- Profile -
+	CREATE TABLE "Profile"(
+	"profileId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
 	"userId" INTEGER NOT NULL,
 	"headline" VARCHAR NOT NULL,
 	"bio" VARCHAR NOT NULL,
 	"city" VARCHAR,
 	"country" VARCHAR,
 	"picture" VARCHAR,
-	CONSTRAINT "Blog_pkey" PRIMARY KEY ("blogId"),
-	CONSTRAINT "Blog_userId_fkey" FOREIGN KEY ("userId")
+	CONSTRAINT "Profile_pkey" PRIMARY KEY ("profileId"),
+	CONSTRAINT "Profile_userId_fkey" FOREIGN KEY ("userId")
 	REFERENCES "User" ("userId")
 );
 

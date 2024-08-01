@@ -2,6 +2,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "hibernate": "^1.0.0",
     "mvn": "^3.5.0",
     "pre-flight": "^1.1.1"
   }

@@ -1,10 +1,9 @@
 import React from "react";
 import { SectionWrapper } from "../../hoc";
-import { styles } from "../../styles";
+import { Styles } from "../../Styles";
 import WhiteArrow from "../../../src/assets/WhiteArrow.png";
-import iPadStatusbar from "../../assets/iPadStatusbar.png";
 import { projects } from "../../constants";
-import { fadeIn, textVariant } from "../../../src/utils/motion";
+import { fadeIn } from "../../utils/Motion";
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 import { arrowDark, githublogo } from "../../assets/index";
@@ -84,10 +83,10 @@ const Works = () => {
   return (
     <>
       <motion.div className="md:mt-[300px] xs:mt-[200px]  relative sm:mt-[-500px] desktop-s:mt-[-600px] laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
-        <p className={`${styles.sectionSubText} md:text-[25px] relative xs:text-[25px]  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
+        <p className={`${Styles.sectionSubText} md:text-[25px] relative xs:text-[25px]  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}>Github Repo</p>
         <div className="inline-flex justify-center items-center">
           <h2
-            className={`${styles.sectionHeadText} dark:md:w-[700px]  md:w-[600px] relative dark:xs:w-[490px] xs:w-[460px] xs:ml-[-50px]  sm:w-[200px]  dark:text-white desktop-s:ml-[-40px] desktop:ml-[30px] desktop:text-[100px] laptop:w-full laptop:pl-0 laptop:p-1 laptop-l:text-[80px] laptop:text-[70px] 
+            className={`${Styles.sectionHeadText} dark:md:w-[700px]  md:w-[600px] relative dark:xs:w-[490px] xs:w-[460px] xs:ml-[-50px]  sm:w-[200px]  dark:text-white desktop-s:ml-[-40px] desktop:ml-[30px] desktop:text-[100px] laptop:w-full laptop:pl-0 laptop:p-1 laptop-l:text-[80px] laptop:text-[70px] 
             tablet:text-[50px] mobile-m:text-[25px] mobile-l:text-[23px] mobile-m:p-1 mobile-s:text-[20.6px]  w-full mobile-s:p-3 
             p-5 inline-flex pl-10 mx-auto`}
           >
@@ -106,11 +105,11 @@ const Works = () => {
             alt="darkarrow"
           />
         </div>
-        <motion
+        <motion.div
           variants={fadeIn("", "", 0.1, 1)}
           className=" text-white text-[17px] max-w-3x1 leading-[30px]"
         >
-        </motion>
+        </motion.div>
       </motion.div>
       <div ></div>
       <div className=" bg-iPad dark:2xl:mt-[100px]  xl:ml-[1px] xl:w-screen lg:w-[1070px] sm:w-[460px]  md:w-[810px] xs:ml-[-10px] xs:w-screen sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px] 

@@ -32,7 +32,7 @@ const FeedCard = ({
   const [noOfLikes, setNoOfLikes] = useState(0);
   const [userLiked, setUserLiked] = useState(false);
   const [comments, setComments] = useState([]);
- const [loadOnDelete, setLoadOnDelete] = useState();
+//  const [loadOnDelete, setLoadOnDelete] = useState();
   useEffect(() => {
     // declare an empty array to store all the comments
     const commentsData = [];

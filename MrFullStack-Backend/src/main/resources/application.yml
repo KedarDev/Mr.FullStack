@@ -2,7 +2,7 @@
 server:
   port: 8081
 
-  # Logger
+# Logger
 logging.level:
   web: DEBUG
   "[com.resumeapp.mrfullstackbackend]": DEBUG
@@ -19,7 +19,8 @@ logging.level:
 spring:
   profiles:
     active: Visitor
-    # Banner Text
+
+  # Banner Text
   banner:
     charset: UTF-8
     location: classpath:/banner/MrFullStackBanner.txt
@@ -30,7 +31,7 @@ spring:
     time-zone: America/Toronto
     date-format: "yyyy-MM-dd HH:mm:ss"
 
-    # Email Settings
+  # Email Settings
   mail:
     username: mrfullstacksoftwaredeveloper@gmail.com
     password: jitiitvkrpgyonyd
@@ -44,7 +45,7 @@ spring:
           starttls:
             enable: true
 
-    # Common Database Settings
+  # Common Database Settings
   sql:
     init:
       continue-on-error: false # Tells Spring to abort starting the application if any of our database configurations fails.
@@ -52,7 +53,7 @@ spring:
     show-sql: true # Tells Hibernate to print out SQL statements
     open-in-view: false
     properties:
-      jakarta:
+      jakarta: 
         persistence:
           sharedCache:
             mode: ENABLE_SELECTIVE
@@ -70,20 +71,18 @@ spring:
 
   # Database Settings
   datasource:
-    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
     username: postgres
-    password: 
+    password: postgres
     hikari:
-      maximum-pool-size: 2
+      maximum-pool-size: 100
   jpa:
     hibernate:
       ddl-auto: validate
 ---
-
 # Test Profile
 server:
   port: 8080
-
 
 spring:
   config:
@@ -91,11 +90,11 @@ spring:
       on-profile: test
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
     username: postgres
-    password: 
+    password: postgres
     hikari:
-      maximum-pool-size: 2
+      maximum-pool-size: 100
   jpa:
     hibernate:
       ddl-auto: validate
@@ -108,11 +107,11 @@ spring:
       on-profile: Member
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
     username: postgres
-    password: 
+    password: postgres
     hikari:
-      maximum-pool-size: 2
+      maximum-pool-size: 100
   jpa:
     hibernate:
       ddl-auto: validate
@@ -125,11 +124,14 @@ spring:
       on-profile: Admin
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/MRFULLSTACK
+    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
     username: postgres
-    password:
+    password: postgres
     hikari:
-      maximum-pool-size: 2
+      maximum-pool-size: 100
   jpa:
     hibernate:
       ddl-auto: validate
+# try changing it to localhost, then double check the user name and password. If those are good, and there's still an error, change it to the ip address of the instance.
+# Remember to compile the jar each time.
+# The video will be useless because he connected his database to a namecheap url. 😂

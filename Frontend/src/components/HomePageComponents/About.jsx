@@ -1,10 +1,10 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import { styles } from "../../styles";
+import { Styles } from "../../Styles";
 import { services } from "../../constants";
 import { SectionWrapper } from "../../hoc";
-import { fadeIn, textVariant } from "../../utils/motion";
+import { fadeIn, textVariant } from "../../utils/Motion";
 import mrstackup from "../../../src/assets/mrstackup.png";
 import mrstackdown from "../../../src/assets/mrstackdown.png";
 
@@ -57,12 +57,12 @@ const About = () => {
     <>
       <motion.div variants={textVariant()} className="w-full mt-[150px]  bg-white dark:bg-black mobile-s:text-center">
         <p
-          className={`${styles.sectionSubText} text-black dark:text-white md:text-[25px] xs:text-[25px] desktop:text-[70px]  laptop-l:text-[50px]   `}
+          className={`${Styles.sectionSubText} text-black dark:text-white md:text-[25px] xs:text-[25px] desktop:text-[70px]  laptop-l:text-[50px]   `}
         >
           Introduction
         </p>
         <h2
-          className={`${styles.sectionHeadText} text-black dark:text-white desktop:text-[100px]  laptop-l:text-[70px] `}
+          className={`${Styles.sectionHeadText} text-black dark:text-white desktop:text-[100px]  laptop-l:text-[70px] `}
         >
           Overview.
         </h2>

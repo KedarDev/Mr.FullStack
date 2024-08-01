@@ -5,7 +5,7 @@ import { projects } from "../constants";
 const ProjectCard = () => {
   return (
     <div className="flex overflow-scroll">
-      {projects.map((project, index) => (
+      {projects.map((project) => (
         <div
           key={project.index}
           className=" shrink-0  gap-3  w-[350px] justify-center bg-white h-[360px] ml-[10px]"

@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { styles } from "../../styles";
+import { Styles } from "../../Styles";
 import { SectionWrapper } from "../../hoc";
-import { slideIn } from "../../utils/motion";
+import { slideIn } from "../../utils/Motion";
 
 const Contact = () => {
 
@@ -71,8 +71,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0, 2, 1)}
         className="flex-[0.75] black-gradient mobile-s:rounded-e-3xl rounded-e-3xl p-8 rounded-2x1 "
       >
-        <p className={`${styles.sectionSubText1} desktop:text-[50px]  mobile-s:text-white  `}>Get in touch</p>
-        <h3 className={`${styles.heroHeadText1} desktop:text-[80px]   mobile-s:text-white `}>Contact.</h3>
+        <p className={`${Styles.sectionSubText1} desktop:text-[50px]  mobile-s:text-white  `}>Get in touch</p>
+        <h3 className={`${Styles.heroHeadText1} desktop:text-[80px]   mobile-s:text-white `}>Contact.</h3>
         <form
           ref={formRef}
           onSubmit={handleSubmit}

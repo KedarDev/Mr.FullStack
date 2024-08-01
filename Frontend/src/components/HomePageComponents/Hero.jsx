@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { styles } from "../../styles";
 import { SectionWrapper } from "../../hoc";
 import { Video, arrow } from "../../../src/assets";
 import { arrowDark } from "../../../src/assets";
@@ -22,7 +21,7 @@ const Hero = () => {
       <div className="mobile-m:mt-[550px] tablet:mt-[950px] mobile-l:mt-[650px] mobile-s:mt-[550px] mobile-s:left-[-0px] mobile-m:ml-[-5px] mobile-l:ml-[-23px] absolute  w-full flex justify-center items-center">
         <a href="#about">
           <div className=" mt-[80px] mobile-s:w-full  w-[90%] h-[64px] rounded-3xl  flex justify-center items-start p-2 ">
-            <motion.dev
+            <motion.div
               animate={{ y: [0, 24, 0] }}
               transition={{
                 duration: 1.5,
@@ -40,7 +39,7 @@ const Hero = () => {
                 alt=""
                 className="hidden  dark:lg:h-[50px] dark:lg:ml-[70px]  dark:block desktop:ml-[55px] mobile-s:ml-[25px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]"
               /> 
-            </motion.dev>
+            </motion.div>
           </div>
         </a>
       </div>

@@ -59,7 +59,8 @@ const Dashboard = () => {
   }
 
   return (
-    <main className=" desktop-s:max-w-[90%] desktop:max-w-[90%] black-gradient grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 mx-0 md:mx-12 w-2xl container px-2 mx-auto">
+    <main className=" desktop-s:max-w-[90%] desktop:max-w-[90%] black-gradient grid grid-cols-1 lg:grid-cols-2 gap-6 my-12 
+     md:mx-12 w-2xl container px-2 mx-auto">
       {/* {#MyProfile Component} */}
       <MyProfile />
       <article>
@@ -91,6 +92,7 @@ const Dashboard = () => {
                 <FeedCard
                   key={feedId}
                   feedId={feedId}
+                  // picture={picture}
                   content={content}
                   createdOn={createdOn}
                   username={user.username}

@@ -35,7 +35,6 @@ import {
   backendResume,
 } from '../assets';
 
-import { styles } from '../styles';
 
 const navLink = [
   {
@@ -317,24 +316,28 @@ const projects = [
 
 export const resumes = [
   {
+    id:1,
       imgURL: coverLetter,
       name: "Cover Letter",
       thumbnail: coverLetter,
       bigResumeImg: coverLetter
   },
   {
+    id:2,
       imgURL: fullStackResume,
       name: "Full Stack",
      thumbnail: fullStackResume,
      bigResumeImg:fullStackResume
   },
   {
+    id:3,
       imgURL: frontendResume,
       name: "Frontend",
       thumbnail: frontendResume,
       bigResumeImg: frontendResume,
   },
   {
+    id:4,
       imgURL: backendResume,
       name: "Backend",
       thumbnail:backendResume,

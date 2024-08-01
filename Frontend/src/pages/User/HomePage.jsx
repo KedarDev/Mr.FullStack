@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from 'react'
-import { BrowserRouter } from "react-router-dom";
+import React, {useEffect} from 'react'
 import Navbar from "../../components/HomePageComponents/Navbar";
 import Hero from "../../components/HomePageComponents/Hero";
 import About from "../../components/HomePageComponents/About";
@@ -8,7 +7,7 @@ import Tech from "../../components/HomePageComponents/Tech";
 import Works from '../../components/HomePageComponents/Works';
 import Resume from "../../components/HomePageComponents/Resume";
 import Contact from "../../components/HomePageComponents/Contact";
-import ScrollToTop from "../../components/HomePageComponents/scrollToTop";
+import ScrollToTop from '../../components/HomePageComponents/ScrollToTop';
 
 const HomePage = () => {
 
@@ -19,23 +18,23 @@ const HomePage = () => {
   
 
   return (
-    <div className="relative z-0 ">
-      <div className="dark:bg-black bg-white bg-hero-patttern bg-cover  bg-center">
+    <section className="relative z-0 ">
+      <section className="dark:bg-black bg-white bg-hero-patttern bg-cover  bg-center">
       <Navbar  />
       <br />
       <br />
       <Hero  className="mobile-s:w-[100%]"/>
-      </div>
+      </section>
       <About  className="bg-white"/>
       <Experience />
       <Tech  />
-      <Works />
+      <Works /> 
       <Resume  className="bg-black"/>
-      <div className="relative z-0">
+      <section className="relative z-0">
       <Contact />
       <ScrollToTop />
-      </div>
-    </div>
+      </section>
+    </section>
   )
 
 }

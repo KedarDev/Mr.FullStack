@@ -1,25 +1,25 @@
 import React from "react";
 import { SectionWrapper } from "../../hoc";
 import { technologies } from "../../constants";
-import { styles } from "../../styles";
+import { Styles } from "../../Styles";
 import { WhiteArrow } from "../../assets";
 import stuff from "../../../src/assets/stuff.png";
-import CardCanvas from "./canvas/Card";
-import { ImageLoader } from "three";
 import { arrowDark } from "../../assets";
+import { motion } from "framer-motion";
 
-const Tech = (props) => {
+
+const Tech = () => {
   return (
     <div className="dark:bg-black w-full xs:h-[700px]">
-      <motion className="relative desktop-s:top-[500px] laptop:top-[150px] top-[120px]">
+      <motion.div className="relative desktop-s:top-[500px] laptop:top-[150px] top-[120px]">
         <p
-          className={`${styles.sectionSubText} md:text-[25px] dark:text-white xs:text-[25px] desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px] tablet:text-[30px]`}
+          className={`${Styles.sectionSubText} md:text-[25px] dark:text-white xs:text-[25px] desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px] tablet:text-[30px]`}
         >
           Full Stack
         </p>
         <div className="relative selection:inline-flex  justify-center items-center">
           <h2
-            className={`${styles.sectionHeadText} xs:w-full sm:text-[45px]  dark:text-white desktop:text-[100px] laptop-l:text-[70px] text-[30px] laptop:text-[70px] tablet:text-[50px]  mx-auto`}
+            className={`${Styles.sectionHeadText} xs:w-full sm:text-[45px]  dark:text-white desktop:text-[100px] laptop-l:text-[70px] text-[30px] laptop:text-[70px] tablet:text-[50px]  mx-auto`}
           >
             Technologies
           </h2>
@@ -36,7 +36,7 @@ const Tech = (props) => {
             alt="darkarrow"
           />
         </div>
-      </motion>
+      </motion.div>
       <div
         className="bg-iPhoneProMax dark:2xl:ml-[300px] dark:2xl:mt-[100px] xl:ml-[120px] lg:w-[1024px] lg:ml-[-35px] md:w-[800px] xs:w-screen xs:ml-[-10px] sm:w-[460px] sm:ml-[-60px] desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2600px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px] 
       mobile-l:w-[425px] tablet:w-[785px] mobile-m:w-[394px] mobile-l:ml-[-23px] tablet:ml-[-20px]   mobile-m:ml-[-25px] 
@@ -55,7 +55,7 @@ const Tech = (props) => {
         laptop:gap-[100px]  tablet:gap-[100px] mobile-s:gap-[30px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex 
         justify-start items-center content-center"
         >
-          {technologies.map((technology, index) => (
+          {technologies.map((technology) => (
             <li
               className="mobile-s:mt-[-5px] relative flex text-[25px] shrink-0 over"
               key={technology.name}

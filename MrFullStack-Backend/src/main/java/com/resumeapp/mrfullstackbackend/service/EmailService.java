@@ -35,6 +35,21 @@ public class EmailService {
     @Autowired
     JavaMailSender javaMailSender;
 
+    @Async
+    public void sendVerificationEmail(User user) {
+
+        this.sendEmail(user, this.provider.getClientVerifyParam(), "verify_email",  
+                String.format("Welcome %s %s", user.getFirstName(), user.getLastName()),
+                this.provider.getClientVerifyExpiration());
+    }
+
+    @Async
+    public void sendResetPasswordEmail(User user) {
+
+        this.sendEmail(user, this.provider.getClientResetParam(), "reset_password", "Reset your password",
+                this.provider.getClientResetExpiration());
+    }
+
     private void sendEmail(User user, String clientParam, String templateName, String emailSubject, long expiration) {
 
         try {
@@ -53,7 +68,7 @@ public class EmailService {
             MimeMessageHelper helper = new MimeMessageHelper(mimeMessage);
 
             /* Set Email Information */
-            helper.setFrom(this.emailFrom, "ResumeApp - MrFullStack");
+            helper.setFrom(this.emailFrom, "Portfolio APP - MrFullStack");
             helper.setSubject(emailSubject);
             helper.setText(process, true);
             helper.setTo(user.getEmailId());
@@ -68,19 +83,4 @@ public class EmailService {
             this.logger.error("Error while Sending Email, Username: " + user.getUsername(), ex);
         }
     }
-
-    @Async
-    public void sendVerificationEmail(User user) {
-
-        this.sendEmail(user, this.provider.getClientVerifyParam(), "verify_email",
-                String.format("Welcome %s %s", user.getFirstName(), user.getLastName()),
-                this.provider.getClientVerifyExpiration());
-
-    }
-
-    @Async
-public void sendResetPasswordEmail(User user) {
-		
-	this.sendEmail(user, this.provider.getClientResetParam(), "reset_password", "Reset your password", this.provider.getClientResetExpiration());
-}	
 }
