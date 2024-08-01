@@ -1,7 +1,7 @@
 import { defineConfig, transformWithEsbuild } from "vite";
 import react from "@vitejs/plugin-react";
 // import { nodePolyfills } from 'vite-plugin-node-polyfills';
-// import {manualChunksPlugin} from 'vite-plugin-webpackchunkname'
+import {manualChunksPlugin} from 'vite-plugin-webpackchunkname'
 // import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill'
 // import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill'
 import { fileURLToPath, URL } from 'url'
@@ -20,11 +20,11 @@ export default defineConfig({
       chunkSizeWarningLimit: "10000000",
       rollupOptions: {
           output:{
-              // manualChunks(id) {
-              //     if (id.includes('node_modules')) {
-              //         return id.toString().split('node_modules/')[1].split('/')[0].toString();
-              //     }
-              // }
+              manualChunks(id) {
+                  if (id.includes('node_modules')) {
+                      return id.toString().split('node_modules/')[1].split('/')[0].toString();
+                  }
+              }
           }
       }
   },
@@ -45,15 +45,15 @@ export default defineConfig({
     //     region: 'us-east-2'
     //   },
     //   uploadOptions: {
-    //     Bucket: 'mrfullstack.tech'
+    //     Bucket: 'www.mrfullstack.tech'
     //   }
     // }),
     //  NodeGlobalsPolyfillPlugin({
     //             process: true,
     //             buffer: true
     //         }),
-    //         NodeModulesPolyfillPlugin(),
-    //  manualChunksPlugin(),
+            // NodeModulesPolyfillPlugin(),
+     manualChunksPlugin(),
     // nodePolyfills(),
     {
       name: 'treat-js-files-as-jsx',
@@ -74,9 +74,9 @@ export default defineConfig({
 
 
 resolve: {
+  mainFields: ['browser', 'module', 'main'],
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      util: 'rollup-plugin-node-polyfills/polyfills/util'
     }
   },
 
