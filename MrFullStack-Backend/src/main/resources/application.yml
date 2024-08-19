@@ -5,20 +5,21 @@ server:
 # Logger
 logging.level:
   web: DEBUG
-  "[com.resumeapp.mrfullstackbackend]": DEBUG
-  "[org.hibernate.type]": INFO
+  '[com.resumeapp.mrfullstackbackend]': DEBUG
+  '[org.hibernate.type]': INFO
 
-# # Actuator Enabled
-#   management:
-#   endpoints:
-#     web:
-#       exposure:
-#         include: "*"
+
+# Actuator Enabled
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 # Active Profile
 spring:
   profiles:
-    active: Visitor
+    active: Admin
 
   # Banner Text
   banner:
@@ -71,7 +72,7 @@ spring:
 
   # Database Settings
   datasource:
-    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: postgres
     hikari:
@@ -90,7 +91,7 @@ spring:
       on-profile: test
 
   datasource:
-    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: postgres
     hikari:
@@ -107,7 +108,7 @@ spring:
       on-profile: Member
 
   datasource:
-    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: postgres
     hikari:
@@ -124,7 +125,7 @@ spring:
       on-profile: Admin
 
   datasource:
-    url: jdbc:postgresql://mrdb.clu2sa4iq5fq.us-east-2.rds.amazonaws.com:5432/postgres
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: postgres
     hikari:
@@ -132,6 +133,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-# try changing it to localhost, then double check the user name and password. If those are good, and there's still an error, change it to the ip address of the instance.
-# Remember to compile the jar each time.
-# The video will be useless because he connected his database to a namecheap url. 😂

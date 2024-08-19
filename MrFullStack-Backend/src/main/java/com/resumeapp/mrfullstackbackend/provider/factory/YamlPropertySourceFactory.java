@@ -13,6 +13,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.StringUtils;
 
 public class YamlPropertySourceFactory implements PropertySourceFactory {
+
     @Override
     public PropertySource<?> createPropertySource(@Nullable String name, EncodedResource resource) throws IOException {
         Properties loadedProperties = this.loadYamlIntoProperties(resource.getResource());

@@ -12,7 +12,7 @@ import ScrollToTop from '../../components/HomePageComponents/ScrollToTop';
 const HomePage = () => {
 
   useEffect(() => {
-    document.title = "MRFULLSTACK| Portfolio APP";
+    document.title = "MRFULLSTACK | Portfolio APP";
   }, []);
 
   

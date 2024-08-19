@@ -18,7 +18,8 @@ import com.resumeapp.mrfullstackbackend.service.FeedService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@CrossOrigin(exposedHeaders = "Authorization")
+
+@CrossOrigin
 @RestController
 @RequestMapping("/feeds")
 public class FeedController {

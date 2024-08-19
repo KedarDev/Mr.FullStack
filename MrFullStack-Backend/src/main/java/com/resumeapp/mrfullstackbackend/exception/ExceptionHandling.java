@@ -8,6 +8,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import com.auth0.jwt.exceptions.JWTDecodeException;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.BadCredentialsException;

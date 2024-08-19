@@ -9,9 +9,9 @@ import BigTextField from "./BigTextField";
 import Button from "./Button";
 import ImageCropper from "./ImageCropper";
 
-import {updatePublicProfileApi} from "../utils/ApiUtils";
-import {AppContext} from "../context/applicationContext";
-import {convertBase64} from "../utils/Helper";
+import { updatePublicProfileApi } from "../utils/ApiUtils";
+import { AppContext } from "../context/applicationContext";
+import { convertBase64 } from "../utils/Helper";
 
 const UpdatePublicProfile = ({
   bio = "",
@@ -71,7 +71,7 @@ const UpdatePublicProfile = ({
         values.city,
         values.country,
         values.headline,
-        values.picture 
+        values.picture
       );
 
       if (apiResponse.status === 1) {
@@ -145,7 +145,7 @@ const UpdatePublicProfile = ({
 
               <button
                 className="mx-auto px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-black rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-800 focus:ring focus:ring-purple-300 focus:ring-opacity-50"
-                //onchange is an event that effects onSelectfile fuction when a single file is selected
+                //onclick is an event that effects onSelectfile fuction when a single file is selected
                 onClick={(e) => {
                   // e.preventDefault stops the browser from going back to its defualt settings
                   e.preventDefault();
@@ -162,7 +162,7 @@ const UpdatePublicProfile = ({
                 onChange={onSelectFile}
                 ref={imageSelectRef}
                 className="hidden"
-              /> 
+              />
 
               <div className="hidden">
                 <Field type="text" name="picture" id="picture" />

@@ -72,8 +72,8 @@ const getSession = async () => {
     return (
       <Routes>
         {/* <Route exact path="/visitor" element={<Visitors />} /> */}
-        <Route path="*" element={<Navigate to="/user/Homepage" replace />} />
-        <Route exact path="/user/HomePage" element={<HomePage />} />
+        <Route path="*" element={<Navigate to="/Homepage" replace />} />
+        <Route exact path="/HomePage" element={<HomePage />} />
         <Route exact path="/user/login" element={<Login />} />
         <Route exact path="/user/register" element={<Register />} />
         <Route exact path="/user/verifyEmail" element={<VerifyEmail />} />

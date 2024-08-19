@@ -29,13 +29,14 @@ import org.slf4j.LoggerFactory;
 @CrossOrigin(exposedHeaders = "Authorization")
 @RestController
 @RequestMapping("/user")
-public class UserController {// blog
+public class UserController {
 
     final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @Autowired
     UserService userService;
-
+    
+    @CrossOrigin
     @GetMapping("/test")
     public String testController() {
 
@@ -45,6 +46,7 @@ public class UserController {// blog
 
     }
 
+@CrossOrigin
     @GetMapping("/")
     public List<User> listUsers() {
 
@@ -54,6 +56,7 @@ public class UserController {// blog
 
     }
 
+@CrossOrigin
     @GetMapping("/{username}")
     public Optional<User> findByUsername(@PathVariable String username) {
 
@@ -63,6 +66,7 @@ public class UserController {// blog
 
     }
 
+@CrossOrigin
     @GetMapping("/{first}/{last}/{username}/{password}/{phone}/{emailId}")
     public String createUser(@PathVariable String first, @PathVariable String last, @PathVariable String username,
             @PathVariable String password, @PathVariable String phone, @PathVariable String emailId) {
@@ -85,6 +89,7 @@ public class UserController {// blog
         return "User Created Successfully";
     }
 
+@CrossOrigin
     @PostMapping("/signup")
     public User signup(@RequestBody User user) {
 
@@ -93,6 +98,7 @@ public class UserController {// blog
         return this.userService.signup(user);
     }
 
+@CrossOrigin
     @GetMapping("/verify/email")
     public void verifyEmail() {
 
@@ -101,6 +107,7 @@ public class UserController {// blog
         this.userService.verifyEmail();
     }
 
+@CrossOrigin
     @PostMapping("/login")
     public ResponseEntity<User> login(@RequestBody User user) {
 
@@ -117,6 +124,7 @@ public class UserController {// blog
         return new ResponseEntity<>(user, jwtHeader, OK);
     }
 
+@CrossOrigin
     @GetMapping("/reset/{emailId}")
     public void sendResetPasswordEmail(@PathVariable String emailId) {
 
@@ -125,6 +133,7 @@ public class UserController {// blog
         this.userService.sendResetPasswordEmail(emailId);
     }
 
+@CrossOrigin
     @PostMapping("/reset")
     public void passwordReset(@RequestBody JsonNode json) {
 
@@ -133,6 +142,7 @@ public class UserController {// blog
         this.userService.resetPassword(json.get("password").asText());
     }
 
+@CrossOrigin
     @GetMapping("/get")
     public User getUser() {
 
@@ -141,6 +151,7 @@ public class UserController {// blog
         return this.userService.getUser();
     }
 
+@CrossOrigin
     @PostMapping("/update")
 public User updateUser(@RequestBody User user) {
 		
@@ -149,6 +160,7 @@ public User updateUser(@RequestBody User user) {
 	return this.userService.updateUser(user);
 }
 
+@CrossOrigin
 	@PostMapping("/update/profile")
 	public User updateUserProfile(@RequestBody Profile profile) {
 			

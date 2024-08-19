@@ -1,10 +1,11 @@
 {
   "name": "frontend",
   "private": true,
+  "proxy": "http://localhost:8081/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "pnpm i && pnpm run build",
+    "start": "npm i && npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -30,7 +31,6 @@
     "katex": "^0.16.10",
     "moment": "^2.30.1",
     "moment-duration-format": "^2.3.2",
-    "pnpm": "^9.6.0",
     "pre-flight": "^1.1.1",
     "react": "^18.2.0",
     "react-advanced-cropper": "^0.20.0",
@@ -44,7 +44,6 @@
     "react-vertical-timeline-component": "^3.6.0",
     "rollup-plugin-node-polyfills": "^0.2.1",
     "three": "^0.165.0",
-    "uuid": "^10.0.0",
     "vite-plugin-node-polyfills": "^0.22.0",
     "vite-plugin-webpackchunkname": "^1.0.3",
     "yup": "^1.4.0"

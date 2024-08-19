@@ -186,11 +186,12 @@ export const updatePublicProfileApi = async (
   headline,
   picture
 ) => {
+
   let response = frameResponse();
 
   try {
     const url = `${VITE_API_BASE_URL}/user/update/profile`;
-    const apiResponse = await axios.get(
+    const apiResponse = await axios.post(
       url,
       {
         bio,
@@ -204,14 +205,14 @@ export const updatePublicProfileApi = async (
     if (apiResponse.status === 200) {
       response = frameResponse(1, apiResponse.data);
     }
-  } catch (err) {
+} catch (err) {
     if (err.response) {
       response = frameResponse(0, err.response.data.message);
     }
     console.log(err);
-  } finally {
+} finally {
     return response;
-  }
+}
 };
 
 export const getOthersFeedsApi = async (token, pageNumber) => {

@@ -6,17 +6,16 @@ jwt:
   audience: Portfolio APP
   prefix: 'Bearer '
   excluded.urls: > 
+    /homepage/**,
     /user/login,
     /user/signup,
     /user/reset/*,
-    /visitor/*,
     /test/**,
     /error,
     
 # Client Configuration  
-# 5173
 client:
-  url: http://mrfullstack.tech:3000 
+  url: http://localhost:3000 
   email:
     verify: 
       param: user/verifyEmail
@@ -24,6 +23,13 @@ client:
     reset: 
       param: user/resetPassword
       expiration: 600_000 # 10 minutes 
+
+# Globals:
+# Api:
+#   Cors:
+#     AllowMethods: "'OPTIONS, POST, GET, DELETE, PUT'"
+#     AllowHeaders: "'*'"
+#     AllowOrigin: "'localhost:8089'"
 
 # # configuration
 # config:

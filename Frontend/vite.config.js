@@ -1,4 +1,4 @@
-import { defineConfig, transformWithEsbuild } from "vite";
+import { defineConfig, transformWithEsbuild, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 // import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import {manualChunksPlugin} from 'vite-plugin-webpackchunkname'
@@ -10,8 +10,8 @@ import { fileURLToPath, URL } from 'url'
 import {esbuildCommonjs } from '@originjs/vite-plugin-commonjs';
 // const isGitIgnored = require('is-gitignored');
 
-
 export default defineConfig({
+
       build: {
         commonjsOptions: {
           esmExternals: true,
@@ -72,12 +72,11 @@ export default defineConfig({
     react(),
   ],
 
-
 resolve: {
   mainFields: ['browser', 'module', 'main'],
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-    }
+    // alias: {
+    //   '@': fileURLToPath(new URL('./src', import.meta.url)),
+    // }
   },
 
   optimizeDeps: {
@@ -89,30 +88,24 @@ resolve: {
     },
   },
 
-  // optimizeDeps: {
-  //   force: true,
-  //   esbuildOptions: {
-      // loader: {
-      //   '.js': 'jsx',
-      // },
-  //   },
-  // }, 
-  
   server: {
-    watch: {
-      usePolling:true
-    },
-    // host: 'mrfullstack.tech',
-    port:3000,
-    // - "mrfullstack.tech:3000:PORT",
-    cors:false,
-    proxy: {
-		'VITE_API_BASE_URL': {
-			target: "http://localhost:8081",
-      changeOrigin: true,
-      secure:false
-      }
-    },
+    // CORS: false,
+       port: 3000,
+    // hostname: "mrfullstack.tech",
+    // host: "http://localhost:8089",
+    // proxy: {
+    //     "http://localhost:3000/*": {
+    //         target: "http://localhost:8081/*", // Replace with your API URL
+    //         secure: false,
+    //         changeOrigin: true,
+    //         headers: true,
+            
+    //       },
+    //     },
+        
+        watch: {
+          usePolling:true
+        },
     fs: {
       // Allow serving files from one level up to the project root
       allow: ['..'],
@@ -120,5 +113,20 @@ resolve: {
   },
 })
 
+// export default defineConfig(({ mode }) => {
+//   const env = loadEnv(mode, process.cwd(), "");
 
-
+//   return {
+//     plugins: [],
+//     server: {
+//       proxy: {
+//         "/user": {
+//           target: env.VITE_API_BASE_URL,
+//           changeOrigin: true,
+//           secure: false,
+//           rewrite: (path) => path.replace(/^\/user/, ""),
+//         },
+//       },
+//     },
+//   };
+// });

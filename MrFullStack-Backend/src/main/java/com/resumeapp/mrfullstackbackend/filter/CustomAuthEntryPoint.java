@@ -8,8 +8,10 @@ import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.stereotype.Component;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 
+@CrossOrigin
 @Component
 public class CustomAuthEntryPoint implements AuthenticationEntryPoint {
 

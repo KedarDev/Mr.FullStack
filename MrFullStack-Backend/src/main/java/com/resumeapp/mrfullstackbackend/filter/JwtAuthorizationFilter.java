@@ -2,6 +2,7 @@ package com.resumeapp.mrfullstackbackend.filter;
 
 import java.io.IOException;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import jakarta.servlet.FilterChain;
@@ -25,6 +26,7 @@ import static org.springframework.http.HttpMethod.OPTIONS;
 import org.springframework.security.core.context.SecurityContextHolder;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 
+@CrossOrigin
 @Component // Spring-managed component
 public class JwtAuthorizationFilter extends OncePerRequestFilter {
 
