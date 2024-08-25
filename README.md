@@ -6,9 +6,10 @@
   <img width="1000" height="100" src="https://pouch.jumpshare.com/preview/fFSXyt2pftTDfqFErtV9PV0KM55Hn65U3TLnzoJS-kjT1YK5nahK3ebMkw9AjTRB1F_RNsf7GTwc1wuxI-0NNZwzATabfU0uRJp1cUZkjEA" alt="MrfullstackStamp">
   
  ##
- <br>
  
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=5500&pause=2500&color=000000&background=FFFFFF&center=true&vCenter=true&width=800&height=50&lines=PORTFOLIO+APP;Showcase+Your+Skills!)](https://git.io/typing-svg)
+
+##
 
 </div>
 
@@ -16,12 +17,13 @@
 
 <p>
  
-<h3>
-  
- Introducing [Mr.FullStack](http://www.mrfullstack.tech) Your [Open-Source](https://opensource.guide/starting-a-project/) Full Stack Application with a Personal AI
-Join a thriving community of developers dedicated to upskilling, showcasing their talents, and impressing hiring managers. Elevate your career with<span> Mr.FullStack.</span> today!    
+<h4>
 
-</h3
+
+ Introducing Mr.FullStack Your [Open-Source](https://opensource.guide/starting-a-project/) Full Stack Application with a Personal AI Avatar
+Join a thriving community of developers dedicated to upskilling, showcasing their talents, and impressing hiring managers. Elevate your career with Mr. FullStack, where innovation meets opportunity. Create and share your portfolio, receive feedback, and engage with peers. Like and comment on user profiles to cultivate a culture of collaboration and support. Welcome to <span> Mr.FullStack! </span>
+
+</h4>
 </p>
 
 
