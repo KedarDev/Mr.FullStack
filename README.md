@@ -79,7 +79,7 @@ All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands
 
 When in doubt, ask a Admin team member by mentioning us on the issue.
 
-<h3>Refactoring</h3>, which involves improving the code without modifying behavior, is a great place to help out! Refactors can touch many files, so we encourage breaking big changes into small PRs.
+<h3>Refactoring</h3> which involves improving the code without modifying behavior, is a great place to help out! Refactors can touch many files, so we encourage breaking big changes into small PRs.
 
 <h3>Fixing bugs</h3> is a super fast way to improve the experience for our users! When you're fixing bugs, we appreciate communication in a GitHub issue. If an issue exists, please claim that issue and link it in your PR, otherwise creating an issue is the best first step! Be sure to surround bug fixes with ample tests; bugs are magnets for other bugs. Write tests around bugs!
 
