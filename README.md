@@ -104,8 +104,11 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 <!-- GETTING STARTED -->
 
+<br>
+
 ### Prerequisites
 
+<br>
 
 1. Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
 
@@ -115,9 +118,19 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
   ```sh
   npm install npm@latest -g
   ```
+
+  <br>
+
+
+  <br>
+
+* You can confirm NodeJs was installed by running this commmand
+  ```sh
+  node --version
+  ```
+
   <br>
   
-<!-- cd -->
 2. Make sure to have [Java](https://www.oracle.com/ca-en/java/technologies/downloads/) downloaded & installed on your computer.
 
 <br>
@@ -126,7 +139,17 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
   ```sh
   npm install java@latest
   ```
-   <br>
+
+<br>
+
+<br>
+
+ * You can confirm Java was installed by running this commmand
+   ```sh
+   java --version
+    ```
+
+<br>
 
 3. Make sure to have [Maven](https://maven.apache.org/download.cgi) downloaded & installed on your computer. Maven is dependent on Java and will not work without it.
 
@@ -139,22 +162,15 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 <br>
 
-### FRONTEND
-
-### BACKEND
-
-
-
-
-Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
-
-
-* npm
+* You can confirm Maven was installed by running this commmand
   ```sh
-  npm install npm@latest -g
+  maven --version
   ```
 
+<br>
+
 ### Installation
+<!-- cd -->
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
@@ -180,6 +196,9 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### FRONTEND
+
+### BACKEND
 
 
 
