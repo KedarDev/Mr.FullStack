@@ -18,7 +18,7 @@
  
 <h3>
   
- Introducing [Mr.FullStack](http://www.mrfullstack.tech) Your [Open-Source](https://opensource.guide/starting-a-project/) Full Stack Application with Personal AI
+ Introducing [Mr.FullStack](http://www.mrfullstack.tech) Your [Open-Source](https://opensource.guide/starting-a-project/) Full Stack Application with a Personal AI
 Join a thriving community of developers dedicated to upskilling, showcasing their talents, and impressing hiring managers. Elevate your career with<span> Mr.FullStack.</span> today!    
 
 </h3
