@@ -72,7 +72,7 @@ For open discussions on features, sharing your ideas, or seeking help with gener
 
 ##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Contributing
 
-<h3>Where to Contribute.</h3>
+<h3>Where to Contribute</h3>
 
 Contributors must abide by our [Code of Conduct](https://github.com/KedarDev/Mr.FullStack?tab=coc-ov-file#). All activities involving Mr.Fullstack must be respectful and harassment-free.
 
