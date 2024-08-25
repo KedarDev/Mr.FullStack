@@ -87,31 +87,38 @@ When in doubt, ask a Admin team member by mentioning us on the issue.
 
 <br>
 
-## <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Getting Started
+## 
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Getting Started
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Installation Documentation
+##  
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Installation Documentation
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Developer Documentation
+##  
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Developer Documentation
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Vulnerability disclosure
+##  
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Vulnerability disclosure
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Acknowledgements
+##  
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Acknowledgements
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> License
+##  
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> License
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Resources
+##  
+<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Resources
 
 
 
