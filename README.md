@@ -38,10 +38,8 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 <div align="center">
 
- [![Discord](  https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZSVQ965q)  [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/MrfullStack_) 
- <a href="http://www.mrfullstack.tech" target="_blank">
-     <img src="https://img.shields.io/badge/MRFULLSTACK.TECH-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
-  </a>
+ [![Discord](  https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/ZSVQ965q) <a href="http://www.mrfullstack.tech" target="_blank">
+     <img src="https://img.shields.io/badge/MRFULLSTACK.TECH-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /></a> [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/MrfullStack_) 
 
 </div>
 
