@@ -20,7 +20,7 @@
 <h4>
 
 ## What is Mr.Fullstack?
-Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  full stack application with a personal AI avatar. It allows developers to create and share their portfolios, receive feedback, and engage with peers. Join a thriving community of developers dedicated to upskilling, displaying their talents, and impressing hiring managers from the biggest TECH giants like FANG. Elevate your career, where innovation meets opportunity. Help cultivate a culture of collaboration and support. 
+Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  full stack application with a personal AI avatar. It allows developers to create and share their portfolios, receive feedback, and engage with peers. Join a thriving community of developers dedicated to upskilling, displaying their talents, and impressing hiring managers from TECH giants like FANG. Elevate your career, where innovation meets opportunity. Help cultivate a culture of collaboration and support. Become a member today. 
 
 </h4>
 </p>
