@@ -73,7 +73,7 @@ For open discussions on features, sharing your ideas, or seeking help with gener
 
 Contributors must abide by our [Code of Conduct](https://github.com/KedarDev/Mr.FullStack?tab=coc-ov-file#). All activities involving Mr.Fullstack must be respectful and harassment-free.
 
-All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands on. Please not that issues with the [ADMIN](https://github.com/KedarDev/Mr.FullStack/labels/ADMIN) label are internal task that will be completed by the Admin team.
+All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands on. Please not that issues with the [ADMIN](https://github.com/KedarDev/Mr.FullStack/labels/ADMIN) label are internal tasks that will be completed by the Admin team.
 
 [New Contributor](https://github.com/KedarDev/Mr.FullStack/labels/New%20Contributors) issues are ment for newer Members.
 
