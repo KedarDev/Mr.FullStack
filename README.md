@@ -76,6 +76,8 @@ All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands
 
 [New Contributor](https://github.com/KedarDev/Mr.FullStack/labels/New%20Contributors) issues are ment for newer Members.
 
+When in doubt, ask a Admin team member by mentioning us on the issue.
+
 
 
 <br>
