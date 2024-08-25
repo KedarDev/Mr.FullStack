@@ -8,7 +8,7 @@
  <br>
  <br>
  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=5500&pause=2500&color=000000&background=FFFFFF&center=true&vCenter=true&width=800&height=50&lines=PORTFOLIO+APP;Showcase+Your+Skills!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=5500&pause=2500&color=000000&background=FFFFFF&center=true&vCenter=true&width=800&height=60&lines=PORTFOLIO+APP;Showcase+Your+Skills!)](https://git.io/typing-svg)
 
 ##
 
@@ -21,8 +21,7 @@
 <h4>
 
 
- Introducing Mr.FullStack Your [Open-Source](https://opensource.guide/starting-a-project/) Full Stack Application with a Personal AI Avatar
-Join a thriving community of developers dedicated to upskilling, showcasing their talents, and impressing hiring managers. Elevate your career with Mr. FullStack, where innovation meets opportunity. Create and share your portfolio, receive feedback, and engage with peers. Like and comment on user profiles to cultivate a culture of collaboration and support. Welcome to <span> Mr.FullStack! </span>
+Mr.FullStack is an [Open-Source](https://opensource.guide/starting-a-project/)  full stack application with a personal AI avatar. It allows developers to create and share their portfolios, receive feedback, and engage with peers. Join a thriving community of developers dedicated to upskilling, displaying their talents, and impressing hiring managers from the biggest TECH giants like FANG. Elevate your career, where innovation meets opportunity. Help cultivate a culture of collaboration and support. 
 
 </h4>
 </p>
