@@ -69,7 +69,7 @@ For open discussions on features, sharing your ideas, or seeking help with gener
 
 ##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Contributing
 
-Where to Contribute.
+<h3>Where to Contribute.</h3>
 
 Contributors must abide by our [Code of Conduct](https://github.com/KedarDev/Mr.FullStack?tab=coc-ov-file#). All activities involving Mr.Fullstack must be respectful and harassment-free.
 
@@ -79,11 +79,11 @@ All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands
 
 When in doubt, ask a Admin team member by mentioning us on the issue.
 
-Refactoring, which involves improving the code without modifying behavior, is a great place to help out! Refactors can touch many files, so we encourage breaking big changes into small PRs.
+<h3>Refactoring</h3>, which involves improving the code without modifying behavior, is a great place to help out! Refactors can touch many files, so we encourage breaking big changes into small PRs.
 
-Fixing bugs is a super fast way to improve the experience for our users! When you're fixing bugs, we appreciate communication in a GitHub issue. If an issue exists, please claim that issue and link it in your PR, otherwise creating an issue is the best first step! Be sure to surround bug fixes with ample tests; bugs are magnets for other bugs. Write tests around bugs!
+<h3>Fixing bugs</h3> is a super fast way to improve the experience for our users! When you're fixing bugs, we appreciate communication in a GitHub issue. If an issue exists, please claim that issue and link it in your PR, otherwise creating an issue is the best first step! Be sure to surround bug fixes with ample tests; bugs are magnets for other bugs. Write tests around bugs!
 
-Features tend to be subjective and might spur some debate. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature (or add your input in on a pre-existing discussion!).
+<h3>Features</h3> tend to be subjective and might spur some debate. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature (or add your input in on a pre-existing discussion!).
 
 <br>
 
