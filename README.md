@@ -83,9 +83,9 @@ When in doubt, ask a Admin team member by mentioning us on the issue.
 
 <h3>Fixing bugs</h3> is a super fast way to improve the experience for our users! When you're fixing bugs, we appreciate communication in a GitHub issue. If an issue exists, please claim that issue and link it in your PR, otherwise creating an issue is the best first step! Be sure to surround bug fixes with ample tests; bugs are magnets for other bugs. Write tests around bugs!
 
-<h3>Features</h3> tend to be subjective and might spur some debate. If you'd like to propose a new feature, please visit Mr.Fullstack 
+<h3>Features</h3> 
 
-[Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature or add your input in on a pre-existing discussion.
+App features are subjective and might start some debates. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature or add your input in on a pre-existing discussion.
 
 <br>
 
