@@ -8,7 +8,7 @@
  <br>
  <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=50&duration=5500&pause=2500&color=FFFFFF&background=000000&center=true&vCenter=true&border=fff&width=800&height=80&lines=PORTFOLIO+APP;Showcase+Your+Skill!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=50&duration=5500&pause=2500&color=FFFFFF&background=000000&center=true&vCenter=true&border=fff&width=800&height=80&lines=PORTFOLIO+APP;Showcase+Your+Skills!)](https://git.io/typing-svg)
 
 
 </div>
@@ -63,6 +63,9 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 <br>
 
 ##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Community
+
+
+For open discussions on features, sharing your ideas, or seeking help with general questions, please visit our [Discord](https://discord.gg/ZSVQ965q).
 
 <br>
 
