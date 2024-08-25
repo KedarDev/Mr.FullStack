@@ -79,7 +79,11 @@ All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands
 
 When in doubt, ask a Admin team member by mentioning us on the issue.
 
+Refactoring, which involves improving the code without modifying behavior, is a great place to help out! Refactors can touch many files, so we encourage breaking big changes into small PRs.
 
+Fixing bugs is a super fast way to improve the experience for our users! When you're fixing bugs, we appreciate communication in a GitHub issue. If an issue exists, please claim that issue and link it in your PR, otherwise creating an issue is the best first step! Be sure to surround bug fixes with ample tests; bugs are magnets for other bugs. Write tests around bugs!
+
+Features tend to be subjective and might spur some debate. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature (or add your input in on a pre-existing discussion!).
 
 <br>
 
