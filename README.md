@@ -90,6 +90,9 @@ When in doubt, ask a Admin team member by mentioning us on the issue.
 
 App features are subjective and might start some debates. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature or add your input in on a pre-existing discussion.
 
+<h3>New Members</h3>
+Start your very own AI Portfolio. Follow the steps in the next section, sign up to become a memeber. Make your changes & post your porfolio in app for feed back. 
+
 <br>
 
 ## 
