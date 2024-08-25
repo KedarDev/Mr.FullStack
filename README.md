@@ -25,6 +25,9 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 </h4>
 </p>
 
+## <h3>Built With 🏗️</h3>
+[![My Skills](https://skillicons.dev/icons?i=aws,bootstrap,css,express,figma,github,hibernate,html,java,js,jenkins,jest,maven,nextjs,nginx,nodejs,npm,postgres,postman,react,spring,tailwind,threejs,vite,vscode)](https://skillicons.dev)
+
 <br>
 
 <h2 align="">
