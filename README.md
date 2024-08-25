@@ -8,7 +8,7 @@
  <br>
  <br>
  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=50&duration=5500&pause=2500&color=000000&background=FFFFFF&center=true&vCenter=true&width=800&height=60&lines=PORTFOLIO+APP;Showcase+Your+Skills!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto&weight=900&size=50&duration=5500&pause=2500&color=FFFFFF&background=000000&center=true&vCenter=true&border=fff&width=800&height=80&lines=PORTFOLIO+APP;Showcase+Your+Skill!)](https://git.io/typing-svg)
 
 ##
 
