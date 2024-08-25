@@ -101,10 +101,53 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 </h3>
 
+
 <!-- GETTING STARTED -->
 
 ### Prerequisites
+
+
+1. Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
+
+<br>
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+  <br>
+  
+<!-- cd -->
+2. Make sure to have [Java](https://www.oracle.com/ca-en/java/technologies/downloads/) downloaded & installed on your computer.
+
+<br>
+
+* Java
+  ```sh
+  npm install java@latest
+  ```
+   <br>
+
+3. Make sure to have [Maven](https://maven.apache.org/download.cgi) downloaded & installed on your computer. Maven is dependent on Java and will not work without it.
+
+<br>
+
+* Maven
+  ```sh
+  npm install maven@latest
+  ```
+
+<br>
+
+### FRONTEND
+
+### BACKEND
+
+
+
+
 Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
+
 
 * npm
   ```sh
