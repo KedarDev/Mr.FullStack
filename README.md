@@ -496,6 +496,30 @@ DATABASE
 </div>
 
 
+<div align="center">
+
+   
+<h3>What's Next❔</h3>
+
+* Visit the Resources section to take a deep dive and customize every inch of your portfolio.
+
+- Make a Personal AI Avatar
+- Make a custom Banner in your terminal when running the backend
+- Video Background Remover
+- Mr.Fullstack FIGMA design file
+- Mr.Fullstack EDR
+- Mr.Fullstack Database
+- Frontend Portfolio Tutorial
+- Springboot tutorial
+- Figma Basics tutorial
+- Jar file
+- Draw.io tutorial 
+ 
+
+</div>
+
+
+
 
 <br>
 
@@ -504,6 +528,18 @@ DATABASE
  <h2>
 
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
+
+- Make a Personal AI Avatar
+- Make a custom Banner in your terminal when running the backend
+- Video Background Remover
+- Mr.Fullstack FIGMA design file
+- Mr.Fullstack EDR
+- Mr.Fullstack Database
+- Frontend Portfolio Tutorial
+- Springboot tutorial
+- Figma Basics tutorial
+- Jar file
+- Draw.io tutorial 
   
  </h2>
 
