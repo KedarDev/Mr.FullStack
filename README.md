@@ -317,6 +317,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
    * Create a FeedMetaData Table
+     
    ```sh
 
         CREATE TABLE "FeedMetaData"(
@@ -333,6 +334,23 @@ _Below is an example of how you can instruct your audience on installing and set
 	REFERENCES "Feed" ("feedId"));
 
      ```
+
+   * Create a Reop Table
+ 
+```sh
+
+	CREATE TABLE "Repo"(
+	"repoId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+	"userId" INTEGER NOT NULL,
+	"description" CHARACTER VARYING NOT NULL,
+	"tags" VARCHAR NOT NULL,
+	"demo" VARCHAR NOT NULL,
+	"github" VARCHAR NOT NULL,
+	CONSTRAINT "Repo_pkey" PRIMARY KEY ("repoId"),
+	CONSTRAINT "Repo_userId_fkey" FOREIGN KEY ("userId")
+	REFERENCES "User" ("userId"));
+
+```
      
       
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
