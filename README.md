@@ -407,15 +407,33 @@ DATABASE
    * If you would like to create your own [EMAILJS](https://www.emailjs.com/) account, make sure to swap UserID, 
      TemplatedID, & ReceiverID credentials for the default ones used in step 3
 
-     Now We are ready to run the project locally.
+    <h3> Now We are ready to run the project locally. </h3>
 
-4. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend
+4. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend, insure that the 
+   backend is started before the Frontend
+
    ```sh
    mvn spring-boot:run
    
    ```
 
-   *
+   <!-- add a picture for example -->
+
+
+5. Open another terminal and navigate to `Mr.FullStack\Frontend` run the npm command to start the frontend
+
+   ```sh
+
+   npm run dev
+
+   ```
+
+   <!-- add a picture for example -->
+
+   
+
+*  <h3> Congratulations Mr.Fullstack Should be up and running 👍🏿 </h3>
+  
     
 8. Change the git remote URL to avoid accidental pushes to the base project
    ```sh
