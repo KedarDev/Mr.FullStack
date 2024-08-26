@@ -529,7 +529,8 @@ DATABASE
 - Springboot tutorial
 - Figma Basics tutorial
 - Jar file
-- Draw.io tutorial 
+- Draw.io tutorial
+- EmailJS
   
  </h2>
 
