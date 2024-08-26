@@ -244,7 +244,12 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 
 ## 
 
-<h2>Running the project locally🏃🏿‍➡️</h2>
+<div align="center">
+
+<h2>Running the project Locally ...🏃🏿‍➡️</h2>
+ 
+</div>
+
 
 <h3>
 DATABASE
@@ -425,7 +430,7 @@ DATABASE
 
 <div align="center">
 	
-   <h3> Now We are ready to run the project Locally. 🏃🏿‍➡️ </h3> 
+   <h3> Now We are ready to run the project Locally ...🏃🏿‍➡️ </h3> 
    
 </div>
 
