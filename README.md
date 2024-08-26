@@ -422,9 +422,17 @@ DATABASE
    * If you would like to create your own [EMAILJS](https://www.emailjs.com/) account, make sure to switch `UserID`, 
      `TemplatedID`, & `ReceiverID` credentials from the default ones used in step 3
 
-    <h3> Now We are ready to run the project Locally. </h3> 🏃🏿‍➡️
+<br>
 
-4. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend, insure that the 
+<div align="center">
+	
+   <h3> Now We are ready to run the project Locally. 🏃🏿‍➡️ </h3> 
+   
+</div>
+
+<br>
+
+5. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend, insure that the 
    backend is started before the Frontend
 
    ```sh
@@ -435,7 +443,7 @@ DATABASE
    <!-- add a picture for example -->
 
 
-5. Open another terminal and navigate to `Mr.FullStack\Frontend` run the npm command to start the frontend
+6. Open another terminal and navigate to `Mr.FullStack\Frontend` run the npm command to start the frontend
 
    ```sh
 
