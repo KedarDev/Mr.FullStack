@@ -358,16 +358,55 @@ DATABASE
 
 <h3>BACKEND</h3> 
 
-1. Once all q
+1. Open the terminal, navigate to `Mr.FullStack\MrFullStack-Backend\src\main\resources\application.yml`
+
+   ```sh
+   
+   cd Mr.FullStack\MrFullStack-Backend\src\main\resources\application.yml
+
+   ```
      
       
-1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
+2. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
+
    ```sh
+   
    url: jdbc:postgresql://localhost:5432/postgres
+   
    ```
 
   * Make sure to do this to all datasources in the `application.yml` file
+
+
+## FRONTEND
+
+1. Open your terminal, navigate to the Frontend Folder
+
+   ```sh
+
+   cd Frontend
    
+   ```
+
+2. Create a `.env` file in the Frontend Directory
+
+3. Paste this code in your `.env` file
+
+   ```sh
+
+   VITE_API_BASE_URL="http://localhost:8081"
+
+   VITE_APP_EMAILJS_USERID="Mrfullstack"
+
+   VITE_APP_EMAILJS_TEMPLATEID="template_9l5cfkj"
+
+   VITE_APP_EMAILJS_RECEIVERID="2OhUJul8pNjqhUKFV"
+
+   ```
+
+   * If you would like to create your own [EMAILJS](https://www.emailjs.com/) account, make sure to swap UserID, 
+     TemplatedID, & ReceiverID credentials for the defualt ones used in step 3
+    
 8. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
