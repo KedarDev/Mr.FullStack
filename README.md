@@ -116,7 +116,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 <br>
 
 * npm
-  ```sh
+  ```jsx
   npm install npm@latest -g
   ```
 
@@ -244,7 +244,7 @@ DATABASE
 
    * Create a User Table
      
-   ```sh
+   ```SQL
 
    CREATE TABLE "User"(
 	   "userId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
@@ -264,7 +264,7 @@ DATABASE
 
    * Create a User Exists Procedure
   
-   ```sh
+    ```SQL
 
  	CREATE OR REPLACE PROCEDURE user_insert_feed("_userId" INTEGER,"_content" VARCHAR,"_picture" VARCHAR)
 	LANGUAGE plpgsql
@@ -286,7 +286,7 @@ DATABASE
 
    * Create a Profile Table
      
-   ```sh
+    ```SQL
 
      	CREATE TABLE "Profile"(
 	"profileId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
@@ -304,7 +304,7 @@ DATABASE
    ```
 
    * Create a Feed Table
-   ```sh
+   ```SQL
 
         CREATE TABLE "Feed"(
 	"feedId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
@@ -320,7 +320,7 @@ DATABASE
 
    * Create a FeedMetaData Table
      
-   ```sh
+    ```SQL
 
         CREATE TABLE "FeedMetaData"(
 	"feedMetaDataId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
@@ -339,7 +339,7 @@ DATABASE
 
    * Create a Reop Table
   
-   ```sh
+    ```SQL
 
 	CREATE TABLE "Repo"(
 	"repoId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
