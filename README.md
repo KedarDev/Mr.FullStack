@@ -529,9 +529,9 @@ Don't forget to give the project a star ⭐ Thanks again!
 		<tr>
             <td align="center">
                 <a href="https://github.com/KedarDev">
-                    <img src="https://avatars.githubusercontent.com/u/9919?v=4" width="100;" alt="KedarDev"/>
+                    <img src="https://avatars.githubusercontent.com/u/123585878?v=4" width="100;" alt="kedardev"/>
                     <br />
-                    <sub><b>Kedar H</b></sub>
+                    <sub><b>Kedar . H</b></sub>
                 </a>
 	    </td>
 		</tr>
