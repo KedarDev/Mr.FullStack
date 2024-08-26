@@ -63,14 +63,16 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 <br>
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Community
+##  
+<img src="https://imgur.com/GyBV9zU.png" width="" height="">  Community
 
 
 For open discussions on features, sharing your ideas, or seeking help with general questions, please visit our [Discord](https://discord.gg/ZSVQ965q).
 
 <br>
 
-##  <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Contributing 
+##  
+ <img src="https://imgur.com/GyBV9zU.png" width="" height=""> Contributing 
 
 <h3>Where to Contribute</h3>
 
@@ -96,8 +98,10 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 <br>
 
 ## 
+
 <h3>
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Getting Started
+
+<img src="https://imgur.com/GyBV9zU.png" width="" height="">  Getting Started
 
 </h3>
 
@@ -438,27 +442,32 @@ DATABASE
 <br>
 
 ##  
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Developer Documentation
+ 
+ <img src="https://imgur.com/GyBV9zU.png" width="" height=""> Developer Documentation
 
 <br>
 
 ##  
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Vulnerability disclosure
+ 
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Vulnerability disclosure
 
 <br>
 
 ##  
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Acknowledgements
+ 
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Acknowledgements
 
 <br>
 
 ##  
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> License
+ 
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  License
 
 <br>
 
 ##  
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Resources
+ 
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
 
 
 
