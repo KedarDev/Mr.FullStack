@@ -124,7 +124,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 
 <br>
 
-1. Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
+Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
 
 <br>
 
@@ -145,7 +145,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 
   <br>
   
-2. Make sure to have [Java](https://www.oracle.com/ca-en/java/technologies/downloads/) downloaded & installed on your computer.
+Make sure to have [Java](https://www.oracle.com/ca-en/java/technologies/downloads/) downloaded & installed on your computer.
 
 <br>
 
@@ -165,7 +165,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 
 <br>
 
-3. Make sure to have [Maven](https://maven.apache.org/download.cgi) downloaded & installed on your computer. Maven is dependent on Java and will not work without it.
+Make sure to have [Maven](https://maven.apache.org/download.cgi) downloaded & installed on your computer. Maven is dependent on Java and will not work without it.
 
 <br>
 
@@ -197,17 +197,17 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 
 ### BACKEND
 
-1. Navigate into the `Mrfullstack-Backend` folder.
+2. Navigate into the `Mrfullstack-Backend` folder.
    ```sh
    cd mrfullstack-backend
    ```
    
-2. Since we installed Maven previously we can run maven commands
+3. Since we installed Maven previously we can run maven commands
   ```sh
    mvn clean install
    ```
 
-3. You can now run the Backend
+4. You can now run the Backend
    ```sh
    mvn spring-boot:run
    ```
@@ -219,24 +219,41 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
    
 ### FRONTEND
 
-1. Navigate into the `Frontend` folder.
+5. Navigate into the `Frontend` folder.
    ```sh
    cd Frontend
    ```
 
-2. While in the `Frontend` folder Install NPM dependencies
+6. While in the `Frontend` folder Install NPM dependencies
    ```sh
    npm install
    ```
 
-3. You can now run the `Frontend`
+7. Create a `.env` file in the Frontend Directory
+
+8. Paste this code in your `.env` file
+
+   ```env
+
+   VITE_API_BASE_URL="http://3.21.104.21:8081"
+
+   VITE_APP_EMAILJS_USERID="Mrfullstack"
+
+   VITE_APP_EMAILJS_TEMPLATEID="template_9l5cfkj"
+
+   VITE_APP_EMAILJS_RECEIVERID="2OhUJul8pNjqhUKFV"
+
+   ```
+
+
+9. You can now run the `Frontend`
    ```sh
    npm run dev
    ```
 
- 4. Navigate to `Mr.FullStack\Frontend\src\assets` and swap your content with the default content.
+10. Navigate to `Mr.FullStack\Frontend\src\assets` and swap your content with the default content.
 
- 5. Navigate to `Mr.FullStack\Frontend\src\constants\index.js` and swap the data with your own.
+11. Navigate to `Mr.FullStack\Frontend\src\constants\index.js` and swap the data with your own.
 
  * Once you've completed all steps successfully log in to [Mrfullstack.tech](http://www.mrfullstack.tech) & post your 
     portfolio. 🧑🏿‍💻
@@ -381,7 +398,7 @@ DATABASE
 
 <h3>BACKEND</h3> 
 
-1. Open the terminal, navigate to `Mr.FullStack\MrFullStack-Backend\src\main\resources\application.yml`
+3. Open the terminal, navigate to `Mr.FullStack\MrFullStack-Backend\src\main\resources\application.yml`
 
    ```sh
    
@@ -390,7 +407,7 @@ DATABASE
    ```
      
       
-2. Edit the `application.yml` file, and make sure that the project is running locally by changing the data source URL
+4. Edit the `application.yml` file, and make sure that the project is running locally by changing the data source URL
 
    ```yaml
    
@@ -401,9 +418,17 @@ DATABASE
   * Make sure to do this to all data sources in the `application.yml` file
 
 
+5. Navigate to `MrFullStack-Backend\src\main\resources\config.yml` under Client Configuration replace the URL
+  ```yaml
+
+  url: http://localhost:3000 
+
+  ```
+
+
 ## FRONTEND
 
-1. Open your terminal, navigate to the Frontend Folder
+6. Open your terminal, navigate to the Frontend Folder
 
    ```sh
 
@@ -411,9 +436,9 @@ DATABASE
    
    ```
 
-2. Create a `.env` file in the Frontend Directory
+7. Create a `.env` file in the Frontend Directory
 
-3. Paste this code in your `.env` file
+8. Paste this code in your `.env` file
 
    ```env
 
@@ -440,7 +465,7 @@ DATABASE
 
 <br>
 
-5. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend, insure that the 
+9. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend, insure that the 
    backend is started before the Frontend
 
    ```sh
@@ -451,7 +476,7 @@ DATABASE
    <!-- add a picture for example -->
 
 
-6. Open another terminal and navigate to `Mr.FullStack\Frontend` run the npm command to start the frontend
+10. Open another terminal and navigate to `Mr.FullStack\Frontend` run the npm command to start the frontend
 
    ```sh
 
