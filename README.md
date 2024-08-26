@@ -20,7 +20,7 @@
 <h4>
 
 ## What is Mr.Fullstack?
-Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  full stack application with a personal AI avatar. It allows developers to create and share their portfolios, receive feedback, and engage with peers. Join a thriving community of developers dedicated to upskilling, displaying their talents, and impressing hiring managers from TECH giants like FANG. Elevate your career, where innovation meets opportunity. Help cultivate a culture of collaboration and support. Become a member today. 
+Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  full-stack application with a personal AI avatar. It allows developers to create and share their portfolios, receive feedback, and engage with peers. Join a thriving community of developers dedicated to upskilling, displaying their talents, and impressing hiring managers from TECH giants like FANG. Elevate your career, where innovation meets opportunity. Help cultivate a culture of collaboration and support. Become a member today. 
 
 </h4>
 </p>
@@ -76,11 +76,11 @@ For open discussions on features, sharing your ideas, or seeking help with gener
 
 Contributors must abide by our [Code of Conduct](https://github.com/KedarDev/Mr.FullStack?tab=coc-ov-file#). All activities involving Mr.Fullstack must be respectful and harassment-free.
 
-All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands on. Please not that issues with the [ADMIN](https://github.com/KedarDev/Mr.FullStack/labels/ADMIN) label are internal tasks that will be completed by the Admin team.
+All [issues](https://github.com/KedarDev/Mr.FullStack/issues) and bugs are hands-on. Please note that issues with the [ADMIN](https://github.com/KedarDev/Mr.FullStack/labels/ADMIN) label are internal tasks that will be completed by the Admin team.
 
-[New Contributor](https://github.com/KedarDev/Mr.FullStack/labels/New%20Contributors) issues are ment for newer Members.
+[New Contributor](https://github.com/KedarDev/Mr.FullStack/labels/New%20Contributors) issues are meant for newer Members.
 
-When in doubt, ask a Admin team member by mentioning us on the issue.
+When in doubt, ask an Admin team member by mentioning us on the issue.
 
 <h3>Refactoring</h3> which involves improving the code without modifying behavior, is a great place to help out! Refactors can touch many files, so we encourage breaking big changes into small PRs.
 
@@ -88,10 +88,10 @@ When in doubt, ask a Admin team member by mentioning us on the issue.
 
 <h3>Features</h3> 
 
-App features are subjective and might start some debates. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature or add your input in on a pre-existing discussion.
+App features are subjective and might start some debates. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature or add your input on a pre-existing discussion.
 
 <h3>New Members</h3>
-Start your very own AI Portfolio. Follow the steps in the next section, sign up to become a memeber. Make your changes & post your porfolio in app for feed back. 
+Start your very own AI Portfolio. Follow the steps in the next section, and sign up to become a member. Make your changes & post your portfolio in the app for feedback. 
 
 <br>
 
@@ -125,7 +125,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
   <br>
 
-* You can confirm NodeJs was installed by running this commmand
+* You can confirm NodeJs was installed by running this command
   ```sh
   node --version
   ```
@@ -145,7 +145,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 <br>
 
- * You can confirm Java was installed by running this commmand
+ * You can confirm Java was installed by running this command
    ```sh
    java --version
     ```
@@ -163,7 +163,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 <br>
 
-* You can confirm Maven was installed by running this commmand
+* You can confirm Maven was installed by running this command
   ```sh
   maven --version
   ```
@@ -190,7 +190,7 @@ _Below is an example of how you can instruct your audience on installing and set
    cd mrfullstack-backend
    ```
    
-2. Since we installed Maven priviously we can run maven commmands
+2. Since we installed Maven previously we can run maven commands
   ```sh
    mvn clean install
    ```
@@ -222,11 +222,11 @@ _Below is an example of how you can instruct your audience on installing and set
    npm run dev
    ```
 
- 4. Navagate to `Mr.FullStack\Frontend\src\assets` swap your content with the default content.
+ 4. Navigate to `Mr.FullStack\Frontend\src\assets` and swap your content with the default content.
 
- 5. Navagate to `Mr.FullStack\Frontend\src\constants\index.js` swap the data with your own.
+ 5. Navigate to `Mr.FullStack\Frontend\src\constants\index.js` and swap the data with your own.
 
- * Once you've completed all steps succsessfully login to [Mrfullstack.tech](http://www.mrfullstack.tech) & post your 
+ * Once you've completed all steps successfully log in to [Mrfullstack.tech](http://www.mrfullstack.tech) & post your 
     portfolio. 🧑🏿‍💻
 
 
@@ -236,11 +236,11 @@ _Below is an example of how you can instruct your audience on installing and set
 DATABASE
 </h3> 
 
-[PGAdmin](https://www.pgadmin.org/download/) is a database managment tool we can use to create our data base. PGAdmin is dependent on Postgresql.
+[PGAdmin](https://www.pgadmin.org/download/) is a database management tool we can use to create our database. PGAdmin is dependent on Postgresql.
 
 1. Once PGAdmin is installed [Create](https://www.youtube.com/watch?v=XLZSAWl8Upk) a database for Mr.Fullstack Application
 
-2. Insert Tables and Data into the Database with these command
+2. Insert Tables and Data into the Database with these commands
 
    * Create a User Table
      
@@ -367,7 +367,7 @@ DATABASE
    ```
      
       
-2. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
+2. Edit the `application.yml` file, and make sure that the project is running locally by changing the data source URL
 
    ```sh
    
@@ -375,7 +375,7 @@ DATABASE
    
    ```
 
-  * Make sure to do this to all datasources in the `application.yml` file
+  * Make sure to do this to all data sources in the `application.yml` file
 
 
 ## FRONTEND
@@ -405,9 +405,19 @@ DATABASE
    ```
 
    * If you would like to create your own [EMAILJS](https://www.emailjs.com/) account, make sure to swap UserID, 
-     TemplatedID, & ReceiverID credentials for the defualt ones used in step 3
+     TemplatedID, & ReceiverID credentials for the default ones used in step 3
+
+     Now We are ready to run the project locally.
+
+4. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend
+   ```sh
+   mvn spring-boot:run
+   
+   ```
+
+   *
     
-8. Change git remote url to avoid accidental pushes to base project
+8. Change the git remote URL to avoid accidental pushes to the base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
