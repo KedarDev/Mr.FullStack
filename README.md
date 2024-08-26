@@ -582,6 +582,9 @@ Don't forget to give the project a star ⭐ Thanks again!
  <h2>
 
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  License
+
+
+ You can find our license [here](https://github.com/KedarDev/Mr.FullStack?tab=MIT-1-ov-file)
   
  </h2>
 
