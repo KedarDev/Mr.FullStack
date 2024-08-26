@@ -256,13 +256,19 @@ Make sure to have [Maven](https://maven.apache.org/download.cgi) downloaded & in
    npm run dev
    ```
 
-10. Navigate to `Mr.FullStack\Frontend\src\assets` and swap your content with the default content.
+10. Navigate to `Mr.FullStack\Frontend\src\assets` and replace your content with the default content.
 
-11. Navigate to `Mr.FullStack\Frontend\src\constants\index.js` and swap the data with your own.
+11. Navigate to `Mr.FullStack\Frontend\src\constants\index.js` and replace the data with your own.
 
- * Once you've completed all steps successfully log in to [Mrfullstack.tech](http://www.mrfullstack.tech) & post your 
-    portfolio. 🧑🏿‍💻
+<br>
 
+<h3 align="center">
+	
+🧑🏿‍💻 Now you can visit [Mrfullstack.tech](http://www.mrfullstack.tech) become a <b>Member</b> & post your <b>Portfolio</b>.
+
+</h3>
+
+<br>
 
 ## 
 
