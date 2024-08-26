@@ -495,13 +495,15 @@ DATABASE
 
 </div>
 
+##
+
 
 <div align="center">
 
    
 <h3>What's Next❔</h3>
 
-* Visit the Resources section to take a deep dive and customize every inch of your portfolio.
+ Visit the Resources section to take a deep dive and customize every inch of your portfolio.
 
 
  
