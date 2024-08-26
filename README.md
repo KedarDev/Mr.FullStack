@@ -230,7 +230,7 @@ _Below is an example of how you can instruct your audience on installing and set
     portfolio. 🧑🏿‍💻
 
 
-## Running the project locally
+## Running the project locally 🏃🏿‍➡️
 
 <h3>
 DATABASE
