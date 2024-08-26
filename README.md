@@ -538,8 +538,6 @@ Don't forget to give the project a star ⭐ Thanks again!
 	<tbody>
 </table>
 
-<img src="https://github.com/KedarDev.png" width="60px;"/><br />
-
 
 <br>
 
