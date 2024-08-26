@@ -262,7 +262,7 @@ DATABASE
 
    ```
 
-   * Create a User Exist Procedure
+   * Create a User Exists Procedure
   
    ```sh
 
