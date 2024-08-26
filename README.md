@@ -552,9 +552,9 @@ Don't forget to give the project a star ⭐ Thanks again!
 - Custom [Banner](https://fsymbols.com/generators/) in your terminal when running the backend
 - Learn [Github](https://www.youtube.com/watch?v=Oaj3RBIoGFc)
 - [Figma](https://www.figma.com)
-- Mr.Fullstack [FIGMA design] file()
-- [Mr.Fullstack EDR]()
-- [Mr.Fullstack Database]()
+- Mr.Fullstack [FIGMA design]() file
+- Mr.Fullstack [EDR]()
+- Mr.Fullstack [Database]()
 - Frontend Portfolio [Tutorial](https://www.youtube.com/watch?v=0fYi8SGA20k)
 - [Springboot](https://www.youtube.com/watch?v=-mwpoE0x0JQ) tutorial
 - Jar file
