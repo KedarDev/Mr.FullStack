@@ -595,7 +595,7 @@ Don't forget to give the project a star ⭐ Thanks again!
 
 <br>
 
-- Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697)
+- Create a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697)
 
 <div align="center">
 
