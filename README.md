@@ -174,12 +174,20 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/KedarDev/Mr.FullStack.git
    ```
-3. Install NPM packages
+   
+### FRONTEND
+
+2. Navigate into the Frontend folder.
+   ```sh
+   cd Frontend
+   ```
+
+3. While in the Frontend folder Install NPM packages
    ```sh
    npm install
    ```
@@ -196,7 +204,6 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### FRONTEND
 
 ### BACKEND
 
