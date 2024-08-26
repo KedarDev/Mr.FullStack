@@ -108,6 +108,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 
 ### Prerequisites
 
+
 <br>
 
 1. Make sure to have [NodeJS](https://nodejs.org/en/download/package-manager/current) downloaded & installed on your device.
@@ -170,38 +171,15 @@ Start your very own AI Portfolio. Follow the steps in the next section, sign up 
 <br>
 
 ### Installation
-<!-- cd -->
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
 
-1. Clone the repo
+1.  Clone the repo
    ```sh
    git clone https://github.com/KedarDev/Mr.FullStack.git
    ```
-   
-### FRONTEND
 
-2. Navigate into the Frontend folder.
-   ```sh
-   cd Frontend
-   ```
-
-3. While in the `Frontend` folder Install NPM dependencies
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -209,11 +187,53 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Navigate into the `Mrfullstack-Backend` folder.
    ```sh
-   cd Frontend
+   cd mrfullstack-backend
+   ```
+   
+2. Since we installed Maven priviously we can run maven commmands
+  ```sh
+   mvn clean install
+   ```
+
+3. You can now run the Backend
+      ```sh
+   mvn spring-boot:run
    ```
 
 
 <br>
+
+
+   
+### FRONTEND
+
+1. Navigate into the `Frontend` folder.
+   ```sh
+   cd Frontend
+   ```
+
+2. While in the `Frontend` folder Install NPM dependencies
+   ```sh
+   npm install
+   ```
+
+3. You can now run the `Frontend`
+    ```sh
+   npm run dev
+   ```
+   
+5. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v # confirm the changes
+   ```
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 
 ##  
 <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Installation Documentation
