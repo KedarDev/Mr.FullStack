@@ -281,6 +281,24 @@ _Below is an example of how you can instruct your audience on installing and set
 	$$
 
    ```
+
+   * Create Profile Table
+   ```sh
+
+     	CREATE TABLE "Profile"(
+	"profileId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+	"userId" INTEGER NOT NULL,
+	"headline" VARCHAR NOT NULL,
+	"bio" VARCHAR NOT NULL,
+	"city" VARCHAR,
+	"country" VARCHAR,
+	"picture" VARCHAR,
+	CONSTRAINT "Profile_pkey" PRIMARY KEY ("profileId"),
+	CONSTRAINT "Profile_userId_fkey" FOREIGN KEY ("userId")
+	REFERENCES "User" ("userId"));
+
+
+   ```
      
       
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
