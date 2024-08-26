@@ -105,8 +105,6 @@ App features are subjective and might start some debates. If you'd like to propo
 Start your very own AI Portfolio. Follow the steps in the next section, and sign up to become a member. Make your changes & post your portfolio in the app for feedback. 
 
 
-<h3>Pull Request</h3>
-
 <br>
 
 ## 
@@ -524,7 +522,8 @@ DATABASE
 
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
 
-- Make a Personal AI Avatar
+- [Make a Personal AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
+- [Learn Github](https://www.youtube.com/watch?v=Oaj3RBIoGFc)
 - Make a custom Banner in your terminal when running the backend
 - Video Background Remover
 - Mr.Fullstack FIGMA design file
