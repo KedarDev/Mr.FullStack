@@ -513,7 +513,7 @@ DATABASE
  
  <h2>
 
- <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Extras
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">   Acknowledgements
   
  </h2>
 
@@ -523,14 +523,11 @@ DATABASE
  
  <h2>
 
- <img src="https://imgur.com/GyBV9zU.png" width="" height="">  More Extras
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  License
   
  </h2>
 
 <br>
-
-
-
 
 
 
