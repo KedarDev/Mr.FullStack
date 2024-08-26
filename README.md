@@ -102,10 +102,12 @@ When in doubt, ask an Admin team member by mentioning us on the issue.
 App features are subjective and might start some debates. If you'd like to propose a new feature, please visit Mr.Fullstack [Discord](https://discord.gg/ZSVQ965q) to start a discussion around a new feature or add your input on a pre-existing discussion.
 
 <h3>New Members</h3>
-Start your very own AI Portfolio. Follow the steps in the next section, and sign up to become a member. Make your changes & post your portfolio in the app for feedback. 
+Create your very own AI Portfolio. Follow the steps in the next section, and sign up to become a member. Make your changes & post your portfolio in the app for feedback. 
 
+<br>
+<br>
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+ Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Member".
 Don't forget to give the project a star! Thanks again!
