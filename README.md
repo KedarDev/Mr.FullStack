@@ -54,7 +54,7 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 - [Community](#community)
 - [Contributing](#contributing)
 - [Getting Started](#getting-started)
-- [Installation Documentation](#installation-documentation)
+- [Installation](#installation)
 - [Developer Documentation](#developer-documentation)
 - [Vulnerability disclosure](#vulnerability-disclosure)
 - [Acknowledgements](#acknowledgements)
@@ -181,11 +181,10 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
   maven --version
   ```
 
-<br>
+<be>
 
-### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+### <h2>Installation 📀<h2>
 
 
 1.  Clone the repo
