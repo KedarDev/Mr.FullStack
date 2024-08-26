@@ -232,7 +232,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ## Running the project locally
 
-## BACKEND 
+<h3>
+DATABASE
+</h3> 
 
 [PGAdmin](https://www.pgadmin.org/download/) is a database managment tool we can use to create our data base. PGAdmin is dependent on Postgresql.
 
@@ -351,6 +353,14 @@ _Below is an example of how you can instruct your audience on installing and set
 	REFERENCES "User" ("userId"));
 
    ```
+
+   <h3> You have Successfully created the Mr.fullstack DB 👍🏿 </h3>
+
+<h3>
+BACKEND
+</h3> 
+
+3. Once all quruies are ran succsessfully ra
      
       
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
