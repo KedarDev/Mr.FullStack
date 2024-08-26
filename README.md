@@ -557,7 +557,7 @@ Don't forget to give the project a star ⭐ Thanks again!
 - Mr.Fullstack [Database]()
 - Frontend Portfolio [Tutorial](https://www.youtube.com/watch?v=0fYi8SGA20k)
 - [Springboot](https://www.youtube.com/watch?v=-mwpoE0x0JQ) tutorial
-- Jar file
+- download [Jar](https://jdbc.postgresql.org/download/)  42.2.28.jre7, or the closest one to it
 - [Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48&t=47s) tutorial
 - [EmailJS]()
 - [JWT](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb)
