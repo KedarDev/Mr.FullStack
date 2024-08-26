@@ -433,15 +433,6 @@ DATABASE
    
 
 *  <h3> Congratulations Mr.Fullstack Should be up and running 👍🏿 </h3>
-  
-    
-8. Change the git remote URL to avoid accidental pushes to the base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
-   
-
 
 
 <br>
