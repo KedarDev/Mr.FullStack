@@ -590,6 +590,8 @@ https://github.com/user-attachments/assets/db72fda4-8977-426c-85e2-12cd9fde4a50
  
 </div>
 
+<br>
+
 
 - Video Background [Remover](https://vidbgrem.media.io/app/)
 - Custom [Banner](https://fsymbols.com/generators/) in your terminal when running the backend
