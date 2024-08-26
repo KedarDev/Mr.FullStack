@@ -3,7 +3,7 @@
  
   <br>
 
-  <img width="1000" height="100" src="https://imgur.com/pONbMNI" alt="MrfullstackStamp">
+  <img width="1000" height="100" src="https://i.imgur.com/pONbMNI.png" alt="MrfullstackStamp">
 
  <br>
  <br>
