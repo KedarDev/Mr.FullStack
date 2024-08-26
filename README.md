@@ -505,18 +505,20 @@ DATABASE
 
   Visit the [Resources](#resources) section to take a deep dive and customize every inch of your portfolio.
 
-</div>
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Contributors".
-Don't forget to give the project a star ⭐ Thanks again!
+</div>
 
 1. Replace images & data with your own
 2. Create your Portfolio Branch (`git checkout -b Mrfullstack/USERNAME`)
 3. Commit your Changes (`git commit -m 'Add your message'`)
 4. Push to the Branch (`git push origin Mrfullstack/USERNAME`)
 5. Open a Pull Request
+
+
+If you have a suggestion that would make this project better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Contributor".
+Don't forget to give the project a star ⭐ Thanks again!
 
 ### Top contributors:
 
