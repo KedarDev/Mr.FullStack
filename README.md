@@ -547,20 +547,20 @@ Don't forget to give the project a star ⭐ Thanks again!
 
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
 
-- [Make a Personal AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
+- Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
+- Video Background [Remover](https://vidbgrem.media.io/app/)
+- Make a custom [Banner](https://fsymbols.com/generators/) in your terminal when running the backend
 - [Learn Github](https://www.youtube.com/watch?v=Oaj3RBIoGFc)
 - [Figma](https://www.figma.com)
-- Make a custom Banner in your terminal when running the backend
-- Video Background Remover
-- Mr.Fullstack FIGMA design file
-- Mr.Fullstack EDR
-- Mr.Fullstack Database
-- Frontend Portfolio Tutorial
-- Springboot tutorial
-- Figma Basics tutorial
+- [Mr.Fullstack FIGMA design file]()
+- [Mr.Fullstack EDR]()
+- [Mr.Fullstack Database]()
+- Frontend Portfolio [Tutorial](https://www.youtube.com/watch?v=0fYi8SGA20k)
+- [Springboot](https://www.youtube.com/watch?v=-mwpoE0x0JQ) tutorial
 - Jar file
-- Draw.io tutorial
-- EmailJS
+- [Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48&t=47s) tutorial
+- [EmailJS]()
+- [JWT](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb)
   
  </h2>
 
