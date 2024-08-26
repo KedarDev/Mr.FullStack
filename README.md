@@ -196,7 +196,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 3. You can now run the Backend
-      ```sh
+   ```sh
    mvn spring-boot:run
    ```
 
@@ -218,11 +218,34 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 
 3. You can now run the `Frontend`
-    ```sh
+   ```sh
    npm run dev
    ```
+
+ 4. Navagate to `Mr.FullStack\Frontend\src\assets` swap your content with the default content.
+
+ 5. Navagate to `Mr.FullStack\Frontend\src\constants\index.js` swap the data with your own.
+
+ * Once you've completed all steps succsessfully login to [Mrfullstack.tech](http://www.mrfullstack.tech) & post you 
+    portfolio. 🧑🏿‍💻
+
+
+## Running the project locally
+
+## BACKEND 
+
+[PGAdmin](https://www.pgadmin.org/download/) is a database managment tool we can use to create our data base. PGAdmin is dependent on Postgresql.
+
+1. Once PGAdmin is installed [Create](https://www.youtube.com/watch?v=XLZSAWl8Upk) a database for Mr.Fullstack Application
+
+1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
+   ```sh
+   url: jdbc:postgresql://localhost:5432/postgres
+   ```
+
+  * Make sure to do this to all datasources in the `application.yml` file
    
-5. Change git remote url to avoid accidental pushes to base project
+8. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
