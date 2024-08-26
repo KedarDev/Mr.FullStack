@@ -32,7 +32,7 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 <h2 align="">
  
- <img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Socials
+ <img src="https://imgur.com/GyBV9zU" width="" height=""> Socials
 
  </h2>
 
