@@ -240,7 +240,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 2. Insert Tables and Data into the Database with these command
 
-   * Create User Table
+   * Create a User Table
      
    ```sh
 
@@ -260,7 +260,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
    ```
 
-   * Create User Exist Procedure
+   * Create a User Exist Procedure
   
    ```sh
 
@@ -282,7 +282,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
    ```
 
-   * Create Profile Table
+   * Create a Profile Table
+     
    ```sh
 
      	CREATE TABLE "Profile"(
@@ -298,6 +299,21 @@ _Below is an example of how you can instruct your audience on installing and set
 	REFERENCES "User" ("userId"));
 
 
+   ```
+
+   * Create a Feed Table
+   ```sh
+
+        CREATE TABLE "Feed"(
+	"feedId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+	"userId" INTEGER NOT NULL,
+	"content" VARCHAR NOT NULL,
+	"picture" VARCHAR NOT NULL,
+	"createdOn" TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+	CONSTRAINT "Feed_pkey" PRIMARY KEY ("feedId"),
+	CONSTRAINT "Feed_userId_fkey" FOREIGN KEY ("userId")
+	REFERENCES "User" ("userId"));
+     
    ```
      
       
