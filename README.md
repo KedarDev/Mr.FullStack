@@ -356,11 +356,9 @@ DATABASE
 
    <h3> You have Successfully created the Mr.fullstack DB 👍🏿 </h3>
 
-<h3>
-BACKEND
-</h3> 
+<h3>BACKEND</h3> 
 
-3. Once all quruies are ran succsessfully ra
+1. Once all q
      
       
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
