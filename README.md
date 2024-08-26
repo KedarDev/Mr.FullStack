@@ -34,7 +34,7 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
  
  <img src="https://imgur.com/GyBV9zU.png" width="" height=""> Socials
 
- </h2>
+</h2>
 
 
 
@@ -64,15 +64,24 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 <br>
 
 ##  
+<h2>
+	
 <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Community
 
+</h2>
 
 For open discussions on features, sharing your ideas, or seeking help with general questions, please visit our [Discord](https://discord.gg/ZSVQ965q).
 
 <br>
 
-##  
+## 
+
+<h2>
+	
  <img src="https://imgur.com/GyBV9zU.png" width="" height=""> Contributing 
+
+</h2>
+
 
 <h3>Where to Contribute</h3>
 
@@ -99,11 +108,11 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 
 ## 
 
-<h3>
+<h2>
 
 <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Getting Started
 
-</h3>
+</h2>
 
 
 <!-- GETTING STARTED -->
@@ -234,7 +243,9 @@ _Below is an example of how you can instruct your audience on installing and set
     portfolio. 🧑🏿‍💻
 
 
-## Running the project locally 🏃🏿‍➡️
+## 
+
+<h2>Running the project locally🏃🏿‍➡️</h2>
 
 <h3>
 DATABASE
