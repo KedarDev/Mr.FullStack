@@ -373,7 +373,11 @@ DATABASE
 
    ```
 
+<div align="center">
+	
    <h3> You have Successfully created the Mr.fullstack DB 👍🏿 </h3>
+
+</div>
 
 <h3>BACKEND</h3> 
 
@@ -461,7 +465,7 @@ DATABASE
 <div align="center">
 
    
-   *  <h3 align="center"> Congratulations Mr.Fullstack Should be up and running 👍🏿 </h3>
+  <h3> Congratulations Mr.Fullstack Should be up and running 👍🏿 </h3>
  
 
 </div>
