@@ -568,12 +568,6 @@ Don't forget to give the project a star ⭐ Thanks again!
 <br>
 
 ##  
- 
- <h2>
-
- <img src="https://imgur.com/GyBV9zU.png" width="" height="">   Acknowledgements
-  
- </h2>
 
 <br>
 
