@@ -520,45 +520,25 @@ Contributions are what make the open-source community such an amazing place to l
 If you have a suggestion that would make this project better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Contributor".
 Don't forget to give the project a star ⭐ Thanks again!
 
-### Top contributors:
+### 
 
 ## Contributors
 
-## Collaborators
-
-<!-- readme: collaborators -start -->
-<KedarDev>
-<!-- readme: collaborators -end -->
-
-## Contributors
-
-<!-- readme: contributors -start -->
-<!-- readme: contributors -end -->
-
-## Contributors
-
-<!-- readme: collaborators,contributors -start -->
-<!-- readme: collaborators,contributors -end -->
-
-<KedarDev>,collaborators,<Kadar-H>,contributors,<username3>
-<!-- readme: <username1>,collaborators,<username3>,contributors,<username3>/- -end -->
+<table>
+	<tbody>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/KedarDev">
+                    <img src="https://avatars.githubusercontent.com/u/9919?v=4" width="100;" alt="KedarDev"/>
+                    <br />
+                    <sub><b>Kedar H</b></sub>
+                </a>
+	    </td>
+		</tr>
+	<tbody>
+</table>
 
 <img src="https://github.com/KedarDev.png" width="60px;"/><br />
-
-<a href = "https://github.com/KedarDev/MrFullStack">
-  <img src = "https://contrib.rocks/image?repo =KedarDev/MrFullStack"/>
-</a>
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
- 
-
-
-
 
 
 <br>
