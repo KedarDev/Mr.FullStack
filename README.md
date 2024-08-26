@@ -548,8 +548,14 @@ Don't forget to give the project a star ⭐ Thanks again!
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
 
 - Mr.Fullstack [FIGMA design]() file
-- Mr.Fullstack [EDR]()
+<img src="https://imgur.com/bSJjMkk.png" alt="mrfullstack-figma-design">
+
 - Mr.Fullstack [Database]()
+  <img src="https://imgur.com/9AYXaB6.png" alt="mrfullstack-DB">
+
+- Mr.Fullstack [EDR]()
+ <img src="https://imgur.com/Z90N9dQ.png" alt="mrfullstackEDR">
+
 
 - Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
 - Video Background [Remover](https://vidbgrem.media.io/app/)
