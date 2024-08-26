@@ -336,8 +336,8 @@ _Below is an example of how you can instruct your audience on installing and set
      ```
 
    * Create a Reop Table
- 
-```sh
+  
+   ```sh
 
 	CREATE TABLE "Repo"(
 	"repoId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
@@ -350,7 +350,7 @@ _Below is an example of how you can instruct your audience on installing and set
 	CONSTRAINT "Repo_userId_fkey" FOREIGN KEY ("userId")
 	REFERENCES "User" ("userId"));
 
-```
+   ```
      
       
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
