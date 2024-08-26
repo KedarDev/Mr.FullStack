@@ -184,7 +184,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 <be>
 
 
-### <h2>Installation 📀<h2>
+###<h2>Installation 📀<h2>
 
 
 1.  Clone the repo
