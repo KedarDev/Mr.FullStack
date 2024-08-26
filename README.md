@@ -48,7 +48,7 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 
   ## Table of Contents
-
+<!-- MAKE CLICKABLE -->
 - [What is Mr.Fullstack?](#what-is-mr.fullstack)
 - [Table of Contents](#table-of-contents)
 - [Community](#community)
