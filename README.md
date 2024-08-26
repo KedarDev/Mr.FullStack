@@ -545,6 +545,13 @@ Don't forget to give the project a star ⭐ Thanks again!
                     <sub><b>Kedar . H</b></sub>
                 </a>
 	    </td>
+			<td align="center">
+                <a href="https://github.com/CShingiro">
+                    <img src="https://avatars.githubusercontent.com/u/84329410?v=4" width="100;" alt="CShingo"/>
+                    <br />
+                    <sub><b>Christian Shingiro</b></sub>
+                </a>
+	    </td>
 		</tr>
 	<tbody>
 </table>
