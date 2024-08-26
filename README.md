@@ -226,7 +226,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
  5. Navagate to `Mr.FullStack\Frontend\src\constants\index.js` swap the data with your own.
 
- * Once you've completed all steps succsessfully login to [Mrfullstack.tech](http://www.mrfullstack.tech) & post you 
+ * Once you've completed all steps succsessfully login to [Mrfullstack.tech](http://www.mrfullstack.tech) & post your 
     portfolio. 🧑🏿‍💻
 
 
