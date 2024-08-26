@@ -547,15 +547,35 @@ Don't forget to give the project a star ⭐ Thanks again!
 
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
 
+ </h2>
+
+<h3>
+	
+
+<br>
+
+<br>
+
 - Mr.Fullstack [FIGMA design]() file
-<img src="https://imgur.com/bSJjMkk.png" alt="mrfullstack-figma-design">
+<img src="https://imgur.com/bSJjMkk.png" width="1000" alt="mrfullstack-figma-design">
+
+<br>
+
+<br>
 
 - Mr.Fullstack [Database]()
-  <img src="https://imgur.com/9AYXaB6.png" alt="mrfullstack-DB">
+<img src="https://imgur.com/9AYXaB6.png" width="1000" alt="mrfullstack-DB">
+
+<br>
+
+<br>
 
 - Mr.Fullstack [EDR]()
- <img src="https://imgur.com/Z90N9dQ.png" alt="mrfullstackEDR">
+ <img src="https://imgur.com/Z90N9dQ.png" width="1000" alt="mrfullstackEDR">
 
+ <br>
+
+<br>
 
 - Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
 - Video Background [Remover](https://vidbgrem.media.io/app/)
@@ -569,7 +589,7 @@ Don't forget to give the project a star ⭐ Thanks again!
 - [EmailJS]()
 - [JWT](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb)
   
- </h2>
+</h3>
 
 <br>
 
