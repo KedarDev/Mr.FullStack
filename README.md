@@ -440,16 +440,9 @@ DATABASE
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
    ```
+   
 
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-##  
-<img src="https://pouch.jumpshare.com/preview/ZsPP6Eu24pQpUjt__IncD1cBIskG3gMw1gTfGEbbTeyIbvcgp2wJZWccYyisCh3RUmFtp3k_tcYz0ZFpt6rqp4JK_dNXiYBrm84nRopdW_I" width="" height=""> Installation Documentation
 
 <br>
 
