@@ -582,7 +582,15 @@ Don't forget to give the project a star ⭐ Thanks again!
 
 <br>
 
-- Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
+- Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697)
+
+<div align="center">
+
+https://github.com/user-attachments/assets/db72fda4-8977-426c-85e2-12cd9fde4a50
+ 
+</div>
+
+
 - Video Background [Remover](https://vidbgrem.media.io/app/)
 - Custom [Banner](https://fsymbols.com/generators/) in your terminal when running the backend
 - Learn [Github](https://www.youtube.com/watch?v=Oaj3RBIoGFc)
