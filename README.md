@@ -104,6 +104,9 @@ App features are subjective and might start some debates. If you'd like to propo
 <h3>New Members</h3>
 Start your very own AI Portfolio. Follow the steps in the next section, and sign up to become a member. Make your changes & post your portfolio in the app for feedback. 
 
+
+<h3>Pull Request</h3>
+
 <br>
 
 ## 
