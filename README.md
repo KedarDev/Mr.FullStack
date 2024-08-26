@@ -527,7 +527,7 @@ Don't forget to give the project a star ⭐ Thanks again!
 ## Collaborators
 
 <!-- readme: collaborators -start -->
-KedarDev
+<KedarDev>
 <!-- readme: collaborators -end -->
 
 ## Contributors
