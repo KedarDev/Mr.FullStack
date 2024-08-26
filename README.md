@@ -369,7 +369,7 @@ DATABASE
       
 2. Edit the `application.yml` file, and make sure that the project is running locally by changing the data source URL
 
-   ```sh
+   ```yaml
    
    url: jdbc:postgresql://localhost:5432/postgres
    
