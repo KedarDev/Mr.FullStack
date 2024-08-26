@@ -524,6 +524,7 @@ DATABASE
 
 - [Make a Personal AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
 - [Learn Github](https://www.youtube.com/watch?v=Oaj3RBIoGFc)
+- [Figma](https://www.figma.com)
 - Make a custom Banner in your terminal when running the backend
 - Video Background Remover
 - Mr.Fullstack FIGMA design file
