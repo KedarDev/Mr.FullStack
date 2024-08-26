@@ -549,7 +549,7 @@ Don't forget to give the project a star ⭐ Thanks again!
 
 - Make a Personal [AI Avatar](https://medium.com/@sydnee_sampson/build-and-enhance-your-digital-portfolio-with-a-personal-ai-avatar-a13df19d2697) 
 - Video Background [Remover](https://vidbgrem.media.io/app/)
-- Make a custom [Banner](https://fsymbols.com/generators/) in your terminal when running the backend
+- Custom [Banner](https://fsymbols.com/generators/) in your terminal when running the backend
 - [Learn Github](https://www.youtube.com/watch?v=Oaj3RBIoGFc)
 - [Figma](https://www.figma.com)
 - [Mr.Fullstack FIGMA design file]()
