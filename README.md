@@ -315,6 +315,24 @@ _Below is an example of how you can instruct your audience on installing and set
 	REFERENCES "User" ("userId"));
      
    ```
+
+   * Create a FeedMetaData Table
+   ```sh
+
+        CREATE TABLE "FeedMetaData"(
+	"feedMetaDataId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+	"actionUserId" INTEGER NOT NULL,
+	"feedId" INTEGER NOT NULL,
+	"isLike" BOOLEAN NOT NULL,
+	"comment" VARCHAR,
+	"createdOn" TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+	CONSTRAINT "FeedMetaData_pkey" PRIMARY KEY ("feedMetaDataId"),
+	CONSTRAINT "FeedMetaData_actionUserId_fkey" FOREIGN KEY ("actionUserId")
+	REFERENCES "User"("userId"),
+	CONSTRAINT "FeedMetaData_feedId_fkey" FOREIGN KEY ("feedId")
+	REFERENCES "Feed" ("feedId"));
+
+     ```
      
       
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
