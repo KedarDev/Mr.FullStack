@@ -116,7 +116,7 @@ Start your very own AI Portfolio. Follow the steps in the next section, and sign
 <br>
 
 * npm
-  ```jsx
+  ```sh
   npm install npm@latest -g
   ```
 
@@ -392,7 +392,7 @@ DATABASE
 
 3. Paste this code in your `.env` file
 
-   ```sh
+   ```env
 
    VITE_API_BASE_URL="http://localhost:8081"
 
