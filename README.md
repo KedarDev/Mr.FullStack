@@ -105,28 +105,6 @@ App features are subjective and might start some debates. If you'd like to propo
 Create your very own AI Portfolio. Follow the steps in the next section, and sign up to become a member. Make your changes & post your portfolio in the app for feedback. 
 
 <br>
-<br>
-
- Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Member".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Portfolio Branch (`git checkout -b Mrfullstack/USERNAME`)
-3. Commit your Changes (`git commit -m 'Add your message'`)
-4. Push to the Branch (`git push origin Mrfullstack/USERNAME`)
-5. Open a Pull Request
-
-### Top contributors:
-
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br>
 
 ## 
 
@@ -525,8 +503,26 @@ DATABASE
    
 <h3>What's Next❔</h3>
 
- Visit the Resources section to take a deep dive and customize every inch of your portfolio.
+ * Visit the Resources section to take a deep dive and customize every inch of your portfolio.
 
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Contributors".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Portfolio Branch (`git checkout -b Mrfullstack/USERNAME`)
+3. Commit your Changes (`git commit -m 'Add your message'`)
+4. Push to the Branch (`git push origin Mrfullstack/USERNAME`)
+5. Open a Pull Request
+
+### Top contributors:
+
+<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  
 
