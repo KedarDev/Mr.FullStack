@@ -404,8 +404,8 @@ DATABASE
 
    ```
 
-   * If you would like to create your own [EMAILJS](https://www.emailjs.com/) account, make sure to swap UserID, 
-     TemplatedID, & ReceiverID credentials for the default ones used in step 3
+   * If you would like to create your own [EMAILJS](https://www.emailjs.com/) account, make sure to swap `UserID`, 
+     `TemplatedID`, & `ReceiverID` credentials for the default ones used in step 3
 
     <h3> Now We are ready to run the project locally. </h3>
 
