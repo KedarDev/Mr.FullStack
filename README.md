@@ -238,6 +238,51 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Once PGAdmin is installed [Create](https://www.youtube.com/watch?v=XLZSAWl8Upk) a database for Mr.Fullstack Application
 
+2. Insert Tables and Data into the Database with these command
+
+   * Create User Table
+     
+   ```sh
+
+   CREATE TABLE "User"(
+	   "userId" INTEGER NOT NULL GENERATED ALWAYS AS IDENTITY,
+	   "firstName" VARCHAR NOT NULL,
+	   "lastName" VARCHAR NOT NULL,
+	   "username" VARCHAR NOT NULL,
+	   "phone" VARCHAR,
+	   "emailId" VARCHAR NOT NULL,
+	   "password" VARCHAR NOT NULL,
+	   "emailVerified" BOOLEAN NOT NULL,
+	   "createdOn" TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+	   CONSTRAINT "User_pkey" PRIMARY KEY("userId"),
+	   CONSTRAINT "User_emailId_key" UNIQUE ("emailId"),
+	   CONSTRAINT "User_username_key" UNIQUE ("username"));
+
+   ```
+
+   * Create User Exist Procedure
+  
+   ```sh
+
+ 	CREATE OR REPLACE PROCEDURE user_insert_feed("_userId" INTEGER,"_content" VARCHAR,"_picture" VARCHAR)
+	LANGUAGE plpgsql
+	AS
+	$$
+	DECLARE 
+	userExists INTEGER=0;
+	BEGIN
+	SELECT COUNT(*) FROM "User" into userExists WHERE "userId"="_userId";
+	IF userExists!=1 THEN
+	RAISE NOTICE 'Invalid User details';
+	ELSE
+	INSERT INTO "Feed"("userId","content","picture","createdOn") VALUES("_userId","_content","_picture",now());
+	END IF;
+	END;
+	$$
+
+   ```
+     
+      
 1. Edit the `application.yml` file, make sure that the project is running locally by changing the datasource URL
    ```sh
    url: jdbc:postgresql://localhost:5432/postgres
