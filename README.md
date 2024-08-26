@@ -475,32 +475,36 @@ DATABASE
 <br>
 
 ##  
- 
- <img src="https://imgur.com/GyBV9zU.png" width="" height=""> Developer Documentation
 
-<br>
+ <h2>
 
-##  
- 
- <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Vulnerability disclosure
-
-<br>
-
-##  
- 
- <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Acknowledgements
-
-<br>
-
-##  
- 
- <img src="https://imgur.com/GyBV9zU.png" width="" height="">  License
-
-<br>
-
-##  
- 
  <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Resources
+  
+ </h2>
+
+<br>
+
+##  
+ 
+ <h2>
+
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  Extras
+  
+ </h2>
+
+<br>
+
+##  
+ 
+ <h2>
+
+ <img src="https://imgur.com/GyBV9zU.png" width="" height="">  More Extras
+  
+ </h2>
+
+<br>
+
+
 
 
 
