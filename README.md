@@ -524,8 +524,8 @@ Don't forget to give the project a star ⭐ Thanks again!
 
 <img src="https://github.com/KedarDev.png" width="60px;"/><br />
 
-<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = KedarDev/MrFullStack"/>
+<a href = "https://github.com/KedarDev/MrFullStack">
+  <img src = "https://contrib.rocks/image?repo =KedarDev/MrFullStack"/>
 </a>
 
 <a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
