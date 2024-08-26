@@ -187,7 +187,7 @@ _Below is an example of how you can instruct your audience on installing and set
    cd Frontend
    ```
 
-3. While in the Frontend folder Install NPM packages
+3. While in the `Frontend` folder Install NPM dependencies
    ```sh
    npm install
    ```
@@ -207,7 +207,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### BACKEND
 
-
+1. Navigate into the `Mrfullstack-Backend` folder.
+   ```sh
+   cd Frontend
+   ```
 
 
 <br>
