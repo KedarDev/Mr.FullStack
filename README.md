@@ -579,21 +579,21 @@ Don't forget to give the project a star ⭐ Thanks again!
 
 <br>
 
-- Mr.Fullstack [FIGMA design]() file
+- Mr.Fullstack [FIGMA design](https://www.figma.com/design/Z0LRnhclDQVDwdKpocoL94/Mr.FullStack-Design?node-id=40-2&t=yC6T0q2yIf7ftzyb-1) file
 <img src="https://imgur.com/bSJjMkk.png" width="1000" alt="mrfullstack-figma-design">
 
 <br>
 
 <br>
 
-- Mr.Fullstack [Database]()
+- Mr.Fullstack [Database](https://drive.google.com/file/d/12rOH9fHv3-9z9wLWonpfsWnCrVTos_Xk/view?usp=drive_link)
 <img src="https://imgur.com/9AYXaB6.png" width="1000" alt="mrfullstack-DB">
 
 <br>
 
 <br>
 
-- Mr.Fullstack [EDR]()
+- Mr.Fullstack [EDR](https://www.figma.com/board/eMycYZ4KQ8eWTM2ixyJ4mo/MRFULLSTACK-ERD-Figma?node-id=0-1&t=jbsb9oDuOSXS3Q1r-1)
  <img src="https://imgur.com/Z90N9dQ.png" width="1000" alt="mrfullstackEDR">
 
  <br>
