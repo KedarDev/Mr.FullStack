@@ -67,19 +67,19 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 <br>
 
 > [!IMPORTANT]  
-> <h3>BEST VIEW ON DEVICES 🧑🏿‍💻</h3>
+> <div align="center"><h3> BEST VIEWED ON DEVICES WITH  🧑🏿‍💻</h3></div>
 >   <h4> - xs: 450px</h4> 
 >   <h4> - sm: 640px</h4>
 >   <h4> - md: 768px</h4>
 >   <h4> - lg: 1024px</h4>
 >   <h4> - xl: 1280px</h4>
 >   <h4> - 2xl: 1536px</h4>
->   <h4> - mobile-s: min:320px</h4> 
->   <h4> - mobile-m: min:375px</h4>
->   <h4> - mobile-l: min:425px</h4>
->   <h4> - laptop-l: min:1440px</h4>
->   <h4> - desktop-s: min:2045px</h4>
->   <h4> - desktop: min:2560px</h4>
+>   <h4> - mobile-s: 320px</h4> 
+>   <h4> - mobile-m: 375px</h4>
+>   <h4> - mobile-l: 425px</h4>
+>   <h4> - laptop-l: 1440px</h4>
+>   <h4> - desktop-s: 2045px</h4>
+>   <h4> - desktop: 2560px</h4>
 
 ##  
 
