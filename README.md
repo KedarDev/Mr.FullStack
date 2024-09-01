@@ -61,22 +61,20 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 - [What is Mr.Fullstack?](#what-is-mr.fullstack)
 - [Table of Contents](#table-of-contents)
-- [Community](#community)
+- [Community](#Community)
 - [Contributing](#contributing)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Developer Documentation](#developer-documentation)
-- [Vulnerability disclosure](#vulnerability-disclosure)
-- [Acknowledgements](#acknowledgements)
+- [Contrbutors]()
+- [Resources]()
 - [License](#license)
 
 <br>
 <br>
 
-##  
-<h2>
+##  <h2>
 	
-<img src="https://imgur.com/GyBV9zU.png" width="" height="">  Community
+<img name="Community" src="https://imgur.com/GyBV9zU.png" width="" height="">  Community
 
 </h2>
 
