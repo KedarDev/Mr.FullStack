@@ -72,7 +72,9 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 <br>
 <br>
 
-##  <h2>
+##  
+
+<h2>
 	
 <img name="Community" src="https://imgur.com/GyBV9zU.png" width="" height="">  Community
 
