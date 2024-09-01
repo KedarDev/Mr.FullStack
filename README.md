@@ -635,6 +635,7 @@ https://github.com/user-attachments/assets/db72fda4-8977-426c-85e2-12cd9fde4a50
 - [Draw.io](https://www.youtube.com/watch?v=lAtCySGDD48&t=47s) tutorial
 - [EmailJS]()
 - [JWT](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb)
+- Create a [VITE](https://www.youtube.com/watch?v=XMGOfJxnH7s&t=9s) project.
   
 </h3>
 
