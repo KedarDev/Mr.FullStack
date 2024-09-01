@@ -290,7 +290,7 @@ DATABASE
 
 [PGAdmin](https://www.pgadmin.org/download/) is a database management tool we can use to create our database. PGAdmin is dependent on Postgresql.
 
-1. Once PGAdmin is installed [Create](https://www.youtube.com/watch?v=XLZSAWl8Upk) a database for Mr.Fullstack Application
+1. Once PGAdmin is installed [Create](https://www.youtube.com/watch?v=XLZSAWl8Upk) a database for Mr.Fullstack 
 
 2. Insert Tables and Data into the Database with these commands
 
