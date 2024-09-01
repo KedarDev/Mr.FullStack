@@ -59,15 +59,15 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 <img align="right" src="https://imgur.com/zicHdJq.png" width="150" height="280" alt="mrfullstackmobile">
 
-- [What is Mr.Fullstack?](#what-is-mr.fullstack)
-- [Table of Contents](#table-of-contents)
-- [Community](#Community)
-- [Contributing](#contributing)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Contrbutors]()
-- [Resources]()
-- [License](#license)
+- What is Mr.Fullstack?
+- Table of Contents
+- Community
+- Contributing
+- Getting Started
+- Installation
+- Contributors
+- Resources
+- License
 
 <br>
 <br>
@@ -533,7 +533,7 @@ Contributions are what make the open-source community such an amazing place to l
 5. Open a Pull Request
 
 
-If you have a suggestion that would make this project better, please fork the repo and create a pull request. You can also simply open an issue with the tag "New Contributor".
+If you have a suggestion to improve this project, please fork the repo and create a pull request. You can also open an issue with the tag "New Contributor".
 Don't forget to give the project a star ⭐ Thanks again!
 
 ### 
