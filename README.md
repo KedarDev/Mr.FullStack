@@ -32,7 +32,6 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 ![My Skills](https://skillicons.dev/icons?i=aws,bootstrap,css,cypress,express,figma,github,hibernate,html,java,js,jenkins,jest,maven,nextjs,nginx,nodejs,npm,postgres,postman,react,spring,stackoverflow,tailwind,threejs,vite,vscode)
 
 
-
 <br>
 
 <h2 align="">
@@ -40,8 +39,6 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
  <img src="https://imgur.com/GyBV9zU.png" width="" height=""> Socials
 
 </h2>
-
-
 
 
 <div align="center">
@@ -53,9 +50,6 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 
   ## Table of Contents
-<!-- MAKE CLICKABLE -->
-
-
 
 <img align="right" src="https://imgur.com/zicHdJq.png" width="150" height="280" alt="mrfullstackmobile">
 
@@ -71,6 +65,21 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 <br>
 <br>
+
+> [!IMPORTANT]  
+> <h3>BEST VIEW ON DEVICES 🧑🏿‍💻</h3>
+>   <h4> - xs: 450px</h4> 
+>   <h4> - sm: 640px</h4>
+>   <h4> - md: 768px</h4>
+>   <h4> - lg: 1024px</h4>
+>   <h4> - xl: 1280px</h4>
+>   <h4> - 2xl: 1536px</h4>
+>   <h4> - mobile-s: min:320px</h4> 
+>   <h4> - mobile-m: min:375px</h4>
+>   <h4> - mobile-l: min:425px</h4>
+>   <h4> - laptop-l: min:1440px</h4>
+>   <h4> - desktop-s: min:2045px</h4>
+>   <h4> - desktop: min:2560px</h4>
 
 ##  
 
