@@ -636,6 +636,8 @@ https://github.com/user-attachments/assets/db72fda4-8977-426c-85e2-12cd9fde4a50
 - [EmailJS]()
 - [JWT](https://dev.to/kimmaida/signing-and-validating-json-web-tokens-jwt-for-everyone-25fb)
 - Create a [VITE](https://www.youtube.com/watch?v=XMGOfJxnH7s&t=9s) project.
+- Build & Deploy a Full Stack App with [AWS](https://www.youtube.com/watch?v=FHn8c4Rk_yo&t=1511s)
+- [VSCODE](https://www.youtube.com/watch?v=KMxo3T_MTvY)
   
 </h3>
 
