@@ -207,9 +207,9 @@ Make sure to have [Maven](https://maven.apache.org/download.cgi) downloaded & in
 
 ### BACKEND
 
-2. Navigate into the `Mrfullstack-Backend` folder.
+2. Navigate into the `Mrfullstack\Backend` folder.
    ```sh
-   cd mrfullstack-backend
+   cd backend
    ```
    
 3. Since we installed Maven previously we can run maven commands
@@ -414,11 +414,11 @@ DATABASE
 
 <h3>BACKEND</h3> 
 
-3. Open the terminal, navigate to `Mr.FullStack\MrFullStack-Backend\src\main\resources\application.yml`
+3. Open the terminal, navigate to `Mr.FullStack\Backend\src\main\resources\application.yml`
 
    ```sh
    
-   cd Mr.FullStack\MrFullStack-Backend\src\main\resources\application.yml
+   cd Mr.FullStack\Backend\src\main\resources\application.yml
 
    ```
      
@@ -434,7 +434,7 @@ DATABASE
   * Make sure to do this to all data sources in the `application.yml` file
 
 
-5. Navigate to `MrFullStack-Backend\src\main\resources\config.yml` under Client Configuration replace the URL
+5. Navigate to `MrFullStack\Backend\src\main\resources\config.yml` under Client Configuration replace the URL
   ```yaml
 
   url: http://localhost:3000 
@@ -481,7 +481,7 @@ DATABASE
 
 <br>
 
-9. Open the terminal and navigate to `Mrfullstack-Backend` run the mvn command to start the backend, insure that the 
+9. Open the terminal and navigate to `Mrfullstack\Backend` run the mvn command to start the backend, insure that the 
    backend is started before the Frontend
 
    ```sh
