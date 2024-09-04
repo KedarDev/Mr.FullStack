@@ -23,7 +23,7 @@ const HomePage = () => {
       <Navbar  />
       <br />
       <br />
-      <Hero  className="mobile-s:w-[100%]"/>
+      <Hero  className=""/>
       </section>
       <About  className="bg-white"/>
       <Experience />

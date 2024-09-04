@@ -48,24 +48,25 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${Styles.paddingX}  sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
+    className={`${Styles.paddingX} grid grid-cols-3 w-full sticky justify-center items-center mt-2 mx-auto px-5   `} 
+      // className={`${Styles.paddingX} sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
       <div className=" bg-white h-fit ">
-
-      {currentTheme === "dark" ? (
-        <img
-        src={darkflash}
-        className=" sm:bg-white sm:w-[30px] xs:w-[40px] xs:h-[40px] xs:mt-[-10px] sm:h-[40px] sm:mt-[-12px] cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
-        alt=""
-        onClick={toggleTheme}
-        />
+        {currentTheme === "dark" ? (
+          <img
+            src={darkflash}
+            // className="sm:bg-white sm:w-[30px] xs:w-[40px] xs:h-[40px] xs:mt-[-10px] sm:h-[40px] sm:mt-[-12px] cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
+            alt=""
+            onClick={toggleTheme}
+          />
         ) : (
-        <img
-        src={lightFlash}
-        className="xs:w-[40px] xs:h-[40px] xs:mt-[-10px]  sm:bg-white sm:w-[30px] sm:h-[40px] sm:mt-[-12px]  cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
-        alt=""
-        onClick={toggleTheme}
-        />
+          <img
+            src={lightFlash}
+            className="w-[30px] h-[30px] mt-0 ml-[-20px]"
+            // className="xs:w-[40px] xs:h-[40px] xs:mt-[-10px]  sm:bg-white sm:w-[30px] sm:h-[40px] sm:mt-[-12px]  cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
+            alt=""
+            onClick={toggleTheme}
+          />
         )}
       </div>
       <div className="w-full flex justify-between items-center max-w-7x1">
@@ -78,12 +79,13 @@ const Navbar = () => {
           }}
         >
           &nbsp;
-          <span className="flex justify-center">
+          <span className="flex-shrink-0 justify-center ">
             <img
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className="lg:ml-[200px] sm:w-[1000px] sm:ml-[20px]   desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-[90%] flex h-10 mx-auto justify-content justify-center items-center object-contain"
+              className="w-[200px] mt-0 h-auto"
+              // className="lg:ml-[200px] sm:w-[1000px] sm:ml-[20px]   desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-[90%] flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
@@ -111,7 +113,8 @@ const Navbar = () => {
         {/* Hamberger Menu */}
         <div className="sm:w-full lg:hidden  laptop:hidden laptop-l:hidden desktop:hidden flex  justify-end items-center">
           <img
-            className=" sm:w-[35px] sm:h-[35px] sm:mt-[px]  dark:hidden mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[40px] mobile-s:mt-[5px] mobile-s:pl-[3px] mobile-s:mr-[-3px] mobile-s:w-[40px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
+          className="  absolute right-2 w-[30px] h-[30px] mt-0 dark:hidden  object-contain ml-1"
+            // className=" sm:w-[35px] sm:h-[35px] sm:mt-[px]  dark:hidden mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[40px] mobile-s:mt-[5px] mobile-s:pl-[3px] mobile-s:mr-[-3px] mobile-s:w-[40px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? lightClose : menu}
             onClick={() => setToggle(!toggle)}
             alt="lightmenu"

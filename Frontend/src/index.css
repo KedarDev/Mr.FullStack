@@ -58,12 +58,12 @@ body,
 } 
 
 :root {
-  --media-qeries-device-width: 2560px;
+  /* --media-qeries-device-width: 2560px;
   --media-qeries-isdesktop: initial;
   --media-qeries-ismobile: none;
   --media-qeries-istablet: none;
   --media-qeries-mobile: 390px;
-  --media-qeries-tables: 750px;
+  --media-qeries-tables: 750px; */
   --theme-black: rgba(0, 0, 0, 1);
   --theme-dark-grey: rgba(51, 51, 51, 1);
   --theme-grey-100: rgba(246, 246, 246, 1);

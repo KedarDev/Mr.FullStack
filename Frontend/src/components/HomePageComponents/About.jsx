@@ -55,7 +55,11 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className="w-full mt-[150px]  bg-white dark:bg-black mobile-s:text-center">
+      <motion.div
+        variants={textVariant()}
+        className="grid grid-cols-1 w-full"
+        // className="w-full mt-[150px]  dark:xs:mt-[500px] xs:mt-[500px]  bg-white dark:bg-black mobile-s:text-center"
+      >
         <p
           className={`${Styles.sectionSubText} text-black dark:text-white md:text-[25px] xs:text-[25px] desktop:text-[70px]  laptop-l:text-[50px]   `}
         >
@@ -69,27 +73,25 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className=" xl:p-[20px] lg:text-center lg:p-[5px] lg:ml-[-60px] lg:text-[30px] md:text-center md:ml-[-40px] md:text-[20px] xs:w-full xs:ml-[20px] xs:justify-center  sm:w-[120%] sm:ml-[10px] bg-white dark:bg-black sm:text-center dark:text-white  desktop:text-center desktop:ml-[0px] desktop:p-5 desktop:text-[70px] mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:w-[105%] laptop-l:text-[30px] desktop:leading-[100px] desktop:mt-[200px]  laptop-l:leading-[70px]  text-black text-[17px] max-w-3x1 leading-[30px] text-center"
+        className="grid text-center mt-10 leading-[30px]"
+        // className=" dark:xs:mt-[100px] xs:mt-[100px] xl:p-[20px] lg:text-center lg:p-[5px] lg:ml-[-60px] lg:text-[30px] md:text-center md:ml-[-40px] md:text-[20px] xs:w-full xs:ml-[20px] xs:justify-center  sm:w-[120%] sm:ml-[10px] bg-white dark:bg-black sm:text-center dark:text-white  desktop:text-center desktop:ml-[0px] desktop:p-5 desktop:text-[70px] mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:w-[105%] laptop-l:text-[30px] desktop:leading-[100px] desktop:mt-[200px]  laptop-l:leading-[70px]  text-black text-[17px] max-w-3x1 leading-[30px] text-center"
       >
-        Dear Hiring Manager, I'm excited to apply for the Full-Stack Developer
-        position . My experience with both the back-end and front-end stacks, as
-        well as my proficiency in Java , HTML, CSS, and JavaScript would be a
-        great contribution to your team and company. I started as a self-taught
-        WordPress Developer, I had the opportunity to work as the CTO for a
-        Non-Profit startup The Kings & Queens Project. After a year with TKQP, I
-        decided to expand my knowledge, I attend Robertson Collage to obtain my
-        Full Stack Web Developer Diploma and graduated with honors. After
-        graduation I was picked up by STEM Canada as a WordPress Developer
-        Intern, & was recruited as a Jr Frontend React Developer by a startup
-        call FutureCondos. While working with the FC team, I started developing
-        from a WordPress Frontend developer, to a Full Stack Developer. Learning
-        new frameworks, languages, implementing and deploying them with a sense
-        of urgency. One of my strengths is i have a vast interest in Tech & I’m
-        always looking at new ways on how i can add new tools, & methods.
-        Recently I've graduated from Obisidi Academy Full Stack Bootcamp with
-        98%.
+        As a seasoned Full Stack Developer, I bring a wealth of experience and
+        expertise in crafting robust and scalable applications from design to
+        implementation. My technical toolkit includes modern frontend
+        technologies & languages such as JSX, JavaScript, React, and Vite, ensuring dynamic
+        and responsive user interfaces. On the backend, I leverage the power of
+        Spring Boot, Maven, and Java, coupled with PostgreSQL and JPA for
+        efficient database management. My design skills are honed using Figma,
+        allowing me to create intuitive and visually appealing user experiences.
+        With a proven track record at industry giants like Walmart, Apple, and
+        Facebook, I am adept at delivering comprehensive solutions that meet
+        diverse business needs.
       </motion.p>
-      <div className=" 2xl:ml-[180px] xl:ml-[100px] lg:grid lg:grid-cols-4 lg:ml-[-6px] xs:ml-[0px] sm:ml-[84px] dark:bg-black bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center ">
+      <div 
+      className=" w-full grid justify-center content-center place-content-center pt-40 gap-20 "
+      // className=" dark:xs:mt-[150px] xs:mt-[150px] 2xl:ml-[180px] xl:ml-[100px] lg:grid lg:grid-cols-4 lg:ml-[-6px] xs:ml-[0px] sm:ml-[84px] dark:bg-black bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center "
+      >
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

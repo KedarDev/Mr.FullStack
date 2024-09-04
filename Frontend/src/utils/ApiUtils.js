@@ -212,7 +212,7 @@ export const updatePublicProfileApi = async (
     console.log(err);
 } finally {
     return response;
-}
+}  
 };
 
 export const getOthersFeedsApi = async (token, pageNumber) => {

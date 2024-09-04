@@ -1,4 +1,5 @@
-import { 
+import {
+  faceBook, 
   css,
   apache,
   aws,
@@ -33,6 +34,12 @@ import {
   fullStackResume,
   frontendResume,
   backendResume,
+  microsoft,
+  twitter,
+  renoBrothers,
+  tkqpLanding,
+  shopTkqp,
+  kingPizza,
 } from '../assets';
 
 
@@ -100,16 +107,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "ThreeJS",
-    icon: threejs,
-  },
-  {
     name: "Figma",
     icon: figma,
-  },
-  {
-    name: "Java",
-    icon: java,
   },
   {
     name: "Git",
@@ -136,14 +135,6 @@ const technologies = [
     icon: eclipse,
   },
   {
-    name: "Cypress",
-    icon: cypress,
-  },
-  {
-    name: "Wordpress",
-    icon: wordpress,
-  },
-  {
     name: "Vite",
     icon: vite,
   },
@@ -161,49 +152,71 @@ const technologies = [
 const experiences = [
   {
     title: "React Developer",
-    company_name: "FutureCondos",
-    icon: futureCondos,
+    company_name: "FaceBook ",
+    icon: faceBook,
     iconBg: "#FFF",
     date: "January 2021 - December 2022",
     points: [
-      " Created designs to be used in development",
-      " Collabarated with other senior developers to create static & dynamic pages & components",
+      " Built a secure data storage system, facilitating a 20% increase in system load capacity",
+      " Developed user-friendly interfaces using J2EE and JavaScript frameworks, improving user experience and increasing system efficiency by 20%",
       " Was able to quickly adapt to new technologies and diliver quilty functions ",
-      " From design to implementation & intergration",
+      " Automated database backup processes, significantly reducing data loss",
       " Used Github for version Control",
     ],
   },
   {
     title: "Full Stack Developer",
-    company_name: "The Kings & Queens Project",
-    icon: tkqplogo,
+    company_name: "Microsoft",
+    icon: microsoft,
     iconBg: "#000000",
     date: "January 2021 - January 2022",
     points: [
-      " Created digital company presence from scratch",
-      " Created & executed online programs for users",
-      " Executed only Campaigns ",
-      " Created designs using figma",
-      " Created online Ecommerce Store",
+      " Optimized website SEO, increasing organic traffic by 20%",
+      " Consistently performed debugging and troubleshooting, improving website functionality and user retention rates by 15%",
+      " Applied data structures to optimize code performance, enhancing software speed by 15% ",
+      " Built responsive web pages using HTML5 and CSS3, improving website accessibility ",
+      " Regularly updated and debug, reducing code errors by 20%",
     ],
   },
   {
-    title: "WordPress Intern",
-    company_name: "STEM Academy Of Canada",
-    icon: STEM,
+    title: "Software Engineer",
+    company_name: "Twitter",
+    icon: twitter,
     iconBg: "#FFF",
     date: "June 2021 - Augest 2021",
     points: [
       " Team Lead",
-      " Developed web pages with WordPress",
-      " Intergrated third-party tools like Elementor to imporove developer expericance",
-      " Conducted Team meetings",
+      " Programmed and debugged software using Java",
+      " Optimized database performance using SQL, leading to 15% decrease in response time",
+      " Contributed to a team project that reduced software errors ",
       " Updated fuctionality of existing sites",
     ],
   },
 ];
 
 const projects = [
+  {
+    name: "RenoBrothers",
+    description:
+      "The RenoBrothers Renovation near you.",
+    tags: [
+      {
+        name: "REACT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SPRINGBOOT",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JAVASCRIPT",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: renoBrothers,
+    source_code_link: "https://github.com/KedarDev/RenoBrothers",
+    liveSiteButton: "https://therenobrothersdemo.netlify.app",
+  },
   {
     name: "FeedApp",
     description:
@@ -224,7 +237,7 @@ const projects = [
     ],
     image: FeedApp,
     source_code_link: "https://github.com/KedarDev/FeedApp",
-    liveSiteButton: "",
+    liveSiteButton: "https://feedappdemo.netlify.app/",
   },
   {
     name: "WeatherApp",
@@ -246,7 +259,7 @@ const projects = [
     ],
     image: WeatherApp,
     source_code_link: "https://github.com/KedarDev/WeatherApp",
-    liveSiteButton: "",
+    liveSiteButton: "https://sunnysideweatherapp.netlify.app/",
   },
   {
     name: "TKQP HomePage",
@@ -266,9 +279,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tkqplogo,
+    image: tkqpLanding,
     source_code_link: "https://github.com/KedarDev/TKQP-OFFICIAL-WEBSITE",
-    liveSiteButton: "",
+    liveSiteButton: "https://tkqp.netlify.app",
   },
   {
     name: "SHOP-TKQP",
@@ -287,9 +300,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tkqplogo,
+    image: shopTkqp,
     source_code_link: "https://github.com/KedarDev/TKQP-SHOP-M.E.R.N-STACK",
-    liveSiteButton: "",
+    liveSiteButton: "https://tkqpshop.netlify.app",
   },
   {
     name: "KINGPIZZA",
@@ -308,9 +321,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "",
+    image: kingPizza,
     source_code_link: "https://github.com/KedarDev/KING-PIZZA",
-    liveSiteButton: "",
+    liveSiteButton: "https://kingkongpizza.netlify.app",
   },
 ];
 
@@ -329,35 +342,7 @@ export const resumes = [
      thumbnail: fullStackResume,
      bigResumeImg:fullStackResume
   },
-  {
-    id:3,
-      imgURL: frontendResume,
-      name: "Frontend",
-      thumbnail: frontendResume,
-      bigResumeImg: frontendResume,
-  },
-  {
-    id:4,
-      imgURL: backendResume,
-      name: "Backend",
-      thumbnail:backendResume,
-      bigResumeImg:backendResume,
-  },
+
 ];
 
-
-// export const shoes = [
-//   {
-//       thumbnail: thumbnailShoe1,
-//       bigShoe: bigShoe1,
-//   },
-//   {
-//       thumbnail: thumbnailShoe2,
-//       bigShoe: bigShoe2,
-//   },
-//   {
-//       thumbnail: thumbnailShoe3,
-//       bigShoe: bigShoe3,
-//   },
-// ];
 export { services, technologies, experiences, projects, navLink};

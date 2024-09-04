@@ -12,7 +12,7 @@ const SectionWrapper = (Component, idName) =>
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className={`${Styles.padding} bg-white dark:bg-black max-w-7x1 mx-auto relatice z-0`}
+        className={`${Styles.padding} bg-white dark:bg-black relatice z-0`}
       >
         {/* navagate to section */}
         <span className="hash-span " id={idName}>

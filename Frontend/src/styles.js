@@ -25,7 +25,11 @@ const Styles = {
     "sm:text-[18px] text-[14px] text-[#fff] uppercase tracking-wider",
 
     contain:
-    "w-full h-full overflow-x-scroll flex items-center gap-x-28"
+    "w-full h-full overflow-x-scroll flex items-center gap-x-28",
+  
+  VideoBG:
+  "w-[100%] h-[100%] bg-cover bg-fit"
 };
+
 
 export { Styles };

@@ -87,22 +87,8 @@ resolve: {
       },
     },
   },
-
   server: {
-    // CORS: false,
        port: 3000,
-    // hostname: "mrfullstack.tech",
-    // host: "http://localhost:8089",
-    // proxy: {
-    //     "http://localhost:3000/*": {
-    //         target: "http://localhost:8081/*", // Replace with your API URL
-    //         secure: false,
-    //         changeOrigin: true,
-    //         headers: true,
-            
-    //       },
-    //     },
-        
         watch: {
           usePolling:true
         },
@@ -113,20 +99,3 @@ resolve: {
   },
 })
 
-// export default defineConfig(({ mode }) => {
-//   const env = loadEnv(mode, process.cwd(), "");
-
-//   return {
-//     plugins: [],
-//     server: {
-//       proxy: {
-//         "/user": {
-//           target: env.VITE_API_BASE_URL,
-//           changeOrigin: true,
-//           secure: false,
-//           rewrite: (path) => path.replace(/^\/user/, ""),
-//         },
-//       },
-//     },
-//   };
-// });
