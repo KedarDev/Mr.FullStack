@@ -20,10 +20,10 @@ const HomePage = () => {
   return (
     <section className="relative z-0 ">
       <section className="dark:bg-black bg-white bg-hero-patttern bg-cover  bg-center">
-      <Navbar  />
+      <Navbar  className="z-0" />
       <br />
       <br />
-      <Hero  className=""/>
+      <Hero  className="z-20"/>
       </section>
       <About  className="bg-white"/>
       <Experience />

@@ -48,13 +48,14 @@ const Navbar = () => {
 
   return (
     <nav
-    className={`${Styles.paddingX} grid grid-cols-3 w-full sticky justify-center items-center mt-2 mx-auto px-5   `} 
+    className={`${Styles.paddingX} dark:bg-white dark:p-1 dark:top-0 grid grid-cols-3 w-full  justify-center items-center mt-2 mx-auto px-5   `} 
       // className={`${Styles.paddingX} sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
       <div className=" bg-white h-fit ">
         {currentTheme === "dark" ? (
           <img
             src={darkflash}
+            className="cursor-pointer w-[30px] h-[30px] top-3 left-0 object-cover flex justify-center items-center"
             // className="sm:bg-white sm:w-[30px] xs:w-[40px] xs:h-[40px] xs:mt-[-10px] sm:h-[40px] sm:mt-[-12px] cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
             alt=""
             onClick={toggleTheme}
@@ -89,7 +90,7 @@ const Navbar = () => {
             />
           </span>
         </Link>
-        <ul className="list-none hidden lg:flex sm:hidden laptop:flex laptop-l:flex desktop:flex  flex-row gap-5">
+        <ul className=" relative z-0 list-none hidden lg:flex sm:hidden laptop:flex laptop-l:flex desktop:flex  flex-row gap-5">
           {navLink.map((Link) => (
             <li
               key={Link.id}
@@ -111,7 +112,7 @@ const Navbar = () => {
           </a>
         </ul>
         {/* Hamberger Menu */}
-        <div className="sm:w-full lg:hidden  laptop:hidden laptop-l:hidden desktop:hidden flex  justify-end items-center">
+        <div className="sm:w-full z-0 lg:hidden  laptop:hidden laptop-l:hidden desktop:hidden flex  justify-end items-center">
           <img
           className="  absolute right-2 w-[30px] h-[30px] mt-0 dark:hidden  object-contain ml-1"
             // className=" sm:w-[35px] sm:h-[35px] sm:mt-[px]  dark:hidden mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[40px] mobile-s:mt-[5px] mobile-s:pl-[3px] mobile-s:mr-[-3px] mobile-s:w-[40px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
@@ -120,7 +121,8 @@ const Navbar = () => {
             alt="lightmenu"
           />
           <img
-            className=" sm:w-[35px] sm:h-[35px]  hidden dark:block mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[30px] mobile-s:w-[30px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
+          className="  absolute z-0 right-2 w-[30px] h-[30px] mt-0 object-contain ml-1"
+            // className=" sm:w-[35px] sm:h-[35px]  hidden dark:block mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[30px] mobile-s:w-[30px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? closeMenu : menu}
             alt="menu"
             onClick={() => setToggle(!toggle)}
@@ -158,9 +160,9 @@ const Navbar = () => {
                 </li>
               ))}
               <a href="/user/Login">
-                <div className="Button w-28 h-6 relative">
-                  <div className="Buttonbox w-28 h-8 left-0 top-0 absolute mix-blend-hard-light border-[#ff0000] border-[2px] dark:bg-white bg-black rounded-[5px] shadow border-5" />
-                  <div className="Login w-28 h-8 left-[3px] top-[3px] absolute text-center dark:text-black text-white text-[18px] font-normal font-['Inter']">
+                <div className="Button z-0 w-28 h-6 relative">
+                  <div className="Buttonbox  z-0 w-28 h-8 left-0 top-0 absolute mix-blend-hard-light border-[#ff0000] border-[2px] dark:bg-white bg-black rounded-[5px] shadow border-5" />
+                  <div className="Login z-0 w-28 h-8 left-[3px] top-[3px] absolute text-center dark:text-black text-white text-[18px] font-normal font-['Inter']">
                     Login
                   </div>
                 </div>

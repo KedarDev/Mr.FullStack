@@ -73,7 +73,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="grid text-center mt-10 leading-[30px]"
+        className="grid text-center mt-10 leading-[30px] dark:text-white"
         // className=" dark:xs:mt-[100px] xs:mt-[100px] xl:p-[20px] lg:text-center lg:p-[5px] lg:ml-[-60px] lg:text-[30px] md:text-center md:ml-[-40px] md:text-[20px] xs:w-full xs:ml-[20px] xs:justify-center  sm:w-[120%] sm:ml-[10px] bg-white dark:bg-black sm:text-center dark:text-white  desktop:text-center desktop:ml-[0px] desktop:p-5 desktop:text-[70px] mobile-s:ml-[25px] mobile-m:ml-[20px] mt-4 desktop:w-[105%] laptop-l:text-[30px] desktop:leading-[100px] desktop:mt-[200px]  laptop-l:leading-[70px]  text-black text-[17px] max-w-3x1 leading-[30px] text-center"
       >
         As a seasoned Full Stack Developer, I bring a wealth of experience and

@@ -23,9 +23,11 @@ const Tech = () => {
             Technologies
           </h2>
           <img
-            className="dark:lg:h-[20px] dark:md:ml-[500px] dark:md:h-4 dark:md:mt-[-50px] dark:xs:ml-[310px] dark:xs:w-[120px] dark:xs:mt-[-30px] dark:xs:h-3  dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
-            laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  
-            mobile-s:h-2 w-[45%] ml-2 h-5 justify-center items-center content-center "
+          className=" ml-[22em] w-[150px] h-[12px] mt-[-25px] "
+
+            // className="dark:lg:h-[20px] dark:md:ml-[500px] dark:md:h-4 dark:md:mt-[-50px] dark:xs:ml-[310px] dark:xs:w-[120px] dark:xs:mt-[-30px] dark:xs:h-3  dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
+            // laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  
+            // mobile-s:h-2 w-[45%] ml-2 h-5 justify-center items-center content-center "
             src={WhiteArrow}
             alt="whitearrow"
           />

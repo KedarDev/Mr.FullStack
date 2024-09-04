@@ -16,7 +16,7 @@ const ExperienceCard = ({ experience }) => (
     className="  desktop:w-[50em] desktop:left-[-10.4em] laptop-l:text-[20px] desktop:text-[40px]"
     style={{ color: "#000" }}
     contentStyle={{ background: "#020202", color: "#FFF" }}
-    contentArrowStyle={{ borderRight: "15px solid #000" }}
+    contentArrowStyle={{ borderRight: "15px solid #000"}}
     // date={experience.date}
     iconStyle={{ background: "#090909" }}
     icon={
@@ -30,7 +30,7 @@ const ExperienceCard = ({ experience }) => (
     }
   >
     <section
-      className=""
+      className="p-5"
       //  className="p-5 desktop:w-[600px] desktop:h-[600px]"
     >
       <h3
@@ -58,7 +58,8 @@ const ExperienceCard = ({ experience }) => (
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
-          className="text-white desktop:ml-[20px] desktop:text-[50px] desktop:mt-[-220px] laptop-l:text-[22px] text-[14px] pl-1 tracking-wider"
+          className="text-white text-[14px] pl-1 tracking-wider"
+          // className="text-white desktop:ml-[20px] desktop:text-[50px] desktop:mt-[-220px] laptop-l:text-[22px] text-[14px] pl-1 tracking-wider"
         >
           {point}
         </li>
@@ -90,9 +91,12 @@ const Experience = () => {
           Work Experience
         </h2>
       </motion.div>
-      <div className=" xs:mt-[200px] xl:ml-[150px] desktop:ml-[20em] mt-20 flex flex-col">
+      <div
+      className="mt-20 flex flex-col"
+      // className=" xs:mt-[200px] xl:ml-[150px] desktop:ml-[20em] mt-20 flex flex-col"
+      >
         <VerticalTimeline
-          lineColor="black"
+          lineColor="#808080"
           className=" 2xl:ml-[100px] desktop:w-full mobile-s:w-full  laptop-l:text-[40px]"
         >
           {experiences.map((experience, index) => (

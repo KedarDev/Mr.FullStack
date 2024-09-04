@@ -26,7 +26,10 @@ className="dark:bg-black absolute  w-full flex justify-center items-center"
       className="w-[30px] shadow-2xl  drop-shadow-2xl h-[30px] mt-[-20px]" src={upArrowDark} alt="" 
       // className='desktop:ml-[6.5em] laptop-l:ml-[24px] laptop:ml-[24px] tablet:ml-[26px] mobile-l:ml-[14px]  mobile-m:ml-[22px] mobile-s:ml-[25px] w-[30px] desktop:w-[60px] desktop:h-[60px] laptop:w-[40px]  shadow-2xl  drop-shadow-2xl h-[30px]   ' src={upArrowDark} alt="" /
       />
-    <img src={upArrow} alt="" className="xl:ml-[60px]  lg:ml-[10px] desktop:ml-[6.5em] laptop-l:ml-[24px] laptop:ml-[24px] tablet:ml-[26px] mobile-l:ml-[14px]  mobile-m:ml-[22px] mobile-s:ml-[25px] w-[30px] desktop:w-[60px] desktop:h-[60px] laptop:w-[40px]  shadow-2xl  drop-shadow-2xl h-[30px]  " />
+    <img src={upArrow} alt=""
+    className="shadow-2xl  drop-shadow-2xl h-[30px]  " 
+    // className="xl:ml-[60px]  lg:ml-[10px] desktop:ml-[6.5em] laptop-l:ml-[24px] laptop:ml-[24px] tablet:ml-[26px] mobile-l:ml-[14px]  mobile-m:ml-[22px] mobile-s:ml-[25px] w-[30px] desktop:w-[60px] desktop:h-[60px] laptop:w-[40px]  shadow-2xl  drop-shadow-2xl h-[30px]  " 
+    />
     </motion.div>
   </div>
 </a>

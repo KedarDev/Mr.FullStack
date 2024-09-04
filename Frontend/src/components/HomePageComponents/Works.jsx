@@ -129,9 +129,10 @@ const Works = () => {
             <h2 className="text-[41px]">Enter Website</h2>
           </h2>
           <img
-            className="dark:lg:h-[20px] dark:lg:ml-[-150px] hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
-            mobile-l:w-[41%] mobile-l:h-3  mobile-m:w-[41%] mobile-m:ml-[2.5px] mobile-m:h-3 mobile-s:h-2 relative w-[45%] 
-            ml- h-5 justify-center items-center content-center "
+          className="ml-[20px] w-[150px] h-[12px]"
+            // className="dark:lg:h-[20px] dark:lg:ml-[-150px] hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
+            // mobile-l:w-[41%] mobile-l:h-3  mobile-m:w-[41%] mobile-m:ml-[2.5px] mobile-m:h-3 mobile-s:h-2 relative w-[45%] 
+            // ml- h-5 justify-center items-center content-center "
             src={WhiteArrow}
             alt="whitearrow"
           />
