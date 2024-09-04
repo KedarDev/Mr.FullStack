@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 
 const Tech = () => {
   return (
-    <div className="dark:bg-black w-full xs:h-[700px] mt-[300px]">
-      <motion.div className="relative dark:xs:mt-[300px] desktop-s:top-[500px] laptop:top-[150px] top-[120px]">
+    <div className="dark:bg-black w-full xs:h-[700px] mt-[300px] mx-auto">
+      <motion.div className="relative  dark:xs:mt-[300px] desktop-s:top-[500px] laptop:top-[150px] top-[120px]">
         <p
           className={`${Styles.sectionSubText} md:text-[25px] dark:text-white xs:text-[25px] desktop:text-[80px] laptop-l:text-[60px] laptop:text-[50px] tablet:text-[30px]`}
         >
@@ -32,7 +32,7 @@ const Tech = () => {
             alt="whitearrow"
           />
           <img
-          className="rotate-[270deg] ml-[22em] mt-[-6.6em]  w-[100px] h-[130px]"
+          className=" dark:hidden rotate-[270deg] ml-[22em] mt-[-55px]  w-[100px]"
             // className="md:ml-[500px] dark:hidden rotate-[270deg] xs:ml-[330px] xs:mt-[-110px] ml-[10px] w-[100px] h-[130px]"
             src={arrowDark}
             alt="darkarrow"
@@ -41,7 +41,7 @@ const Tech = () => {
       </motion.div>
 
       <div
-        className=" bg-iPhoneProMax top-[150px] z-[0] p-3 relative h-screen mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden"
+        className=" bg-iPhoneProMax dark:mt-[50px] top-[150px] z-[0] p-3 relative h-screen mx-auto  justify-center  bg-contain   bg-no-repeat my-auto  overflow-hidden"
 
         // className=" bg-iPhoneProMax  mobile-s:w-[320px] xs:w-[450px]  xs:ml-[60px] dark:xs:w-[470px] dark:2xl:ml-[300px] dark:2xl:mt-[100px] xl:ml-[120px] lg:w-[1024px] lg:ml-[-35px] md:w-[800px] sm:w-[460px] sm:ml-[-60px] desktop-s:top-[600px] desktop-s:w-[1900px] desktop-s:ml-[50px]  laptop:top-[200px] laptop:h-[800px]  desktop:w-[2600px] laptop-l:w-[1440px] laptop-l:ml-[-24px] laptop:w-[1035px] laptop:ml-[-18px]  top-[150px]
         // mobile-l:w-[425px] tablet:w-[785px] mobile-m:w-[394px] mobile-l:ml-[-23px] tablet:ml-[-20px]   mobile-m:ml-[-25px]
