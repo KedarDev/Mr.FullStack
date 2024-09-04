@@ -23,7 +23,7 @@ const Tech = () => {
             Technologies
           </h2>
           <img
-          className=" ml-[22em] w-[150px] h-[12px] mt-[-25px] "
+          className="relative w-[150px] tablet:mt-[-40px] ml-[22em] tablet:ml-[28em] h-[12px] mt-[-25px] "
 
             // className="dark:lg:h-[20px] dark:md:ml-[500px] dark:md:h-4 dark:md:mt-[-50px] dark:xs:ml-[310px] dark:xs:w-[120px] dark:xs:mt-[-30px] dark:xs:h-3  dark:block sm:hidden sm:w-[60px] sm:h-[8px]  desktop:ml-[10em]  desktop:w-[50em] desktop:h-10 laptop-l:h-7 laptop-l:ml-[80px] laptop-l:w-[600px] relative mobile-m:w-[40%] tablet:w-full 
             // laptop:w-full mobile-m:h-3 tablet:ml-[30px] laptop:h-7 laptop:ml-[50px] mobile-l:h-3  mobile-s:w-[25%]  
@@ -32,7 +32,7 @@ const Tech = () => {
             alt="whitearrow"
           />
           <img
-          className=" dark:hidden rotate-[270deg] ml-[22em] mt-[-55px]  w-[100px]"
+          className=" dark:hidden rotate-[270deg] ml-[22em] mt-[-55px]  w-[100px] tablet:w-[120px] tablet:ml-[460px] tablet:mt-[-80px]"
             // className="md:ml-[500px] dark:hidden rotate-[270deg] xs:ml-[330px] xs:mt-[-110px] ml-[10px] w-[100px] h-[130px]"
             src={arrowDark}
             alt="darkarrow"
@@ -55,7 +55,7 @@ const Tech = () => {
           alt="iphoneicons"
         />
         <div
-          className="relative shrink-0 z-50  gap-[100px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex 
+          className="relative tablet:mt-[-320px] shrink-0 z-50  gap-[100px] w-full mt-[-300px] overflow-x-auto no-scrollbar flex 
         justify-start items-center content-center"
         >
           {technologies.map((technology) => (

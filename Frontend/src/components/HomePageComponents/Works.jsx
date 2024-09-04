@@ -32,7 +32,7 @@ const Works = () => {
           // tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] desktop-s:w-[800px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
           <div
-               className="relative w-[240px] h-[200px] "
+               className="relative w-[240px] h-[250px] tablet:mt-[-550px] tablet:w-[300px]"
 
 
           //   className="xl:w-[400px] dark:xs:h-[140px] xl:h-[400px] lg:w-[300px] lg:h-[300px] lg:mt-[-800px]  md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px] 
@@ -63,7 +63,7 @@ const Works = () => {
                   className=" mobile-s:w-[25px] h-[70px] xs:w-[80%] xs:ml-[-20px]     mobile-s:mt-[-10px] mobile-s:ml-1  w-full   justify-center items-center cursor-pointer left-0"
                 >
                   <button 
-                  className="h-fit bg-black border-[1px] rounded-[2%] border-red-700  text-[#FFF] font-semibold justify-center  w-full text-center mt-[100px]"
+                  className="h-fit bg-black border-[1px] rounded-[2%] border-red-700  text-[#FFF] font-semibold justify-center  w-full text-center mt-[100px] tablet:mt-[160px]"
                   // className=" dark:xs:ml-[14px] dark:xs:mt-[100px]  xs:mt-[-90px] xs:w-[60px] xs:ml-[-20px] xs:text-[8px]  h-fit mobile-s:text-[5px] bg-black border-[1px] rounded-[2%] border-red-700 mobile-s:mr-[35px] mobile-s:w-5 mobile-s:h-2 text-[#FFF]  font-semibold"
                   >
                     ENTER
@@ -113,7 +113,7 @@ const Works = () => {
 
   return (
     <>
-      <div className="mt-[-300px] xs:w-screen xs:mt-[600px]"></div>
+      <div className="mt-[-300px] tablet:mt-[200px] xs:w-screen xs:mt-[600px]"></div>
       <motion.div className="md:mt-[400px] xs:mt-[200px] mt-[200px]  relative sm:mt-[-500px] desktop-s:mt-[-600px] laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
         <p
           className={`${Styles.sectionSubText} md:text-[25px] relative xs:text-[25px]  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]  laptop:text-[50px] tablet:text-[30px] `}
@@ -126,10 +126,10 @@ const Works = () => {
             tablet:text-[50px] mobile-m:text-[25px] mobile-l:text-[23px] mobile-m:p-1 mobile-s:text-[20.6px]  w-full mobile-s:p-3 
             p-5 inline-flex pl-10 mx-auto`}
           >
-            <h2 className="text-[41px]">Enter Website</h2>
+            <h2 className="text-[41px] tablet:text-[50px]">Enter Website</h2>
           </h2>
           <img
-          className="ml-[20px] w-[150px] h-[12px]  mt-[-25px]"
+          className="ml-[20px] w-[150px] h-[12px]  mt-[-25px] tablet:mt-[-0px] tablet:ml-[50px]"
             // className="dark:lg:h-[20px] dark:lg:ml-[-150px] hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7 
             // mobile-l:w-[41%] mobile-l:h-3  mobile-m:w-[41%] mobile-m:ml-[2.5px] mobile-m:h-3 mobile-s:h-2 relative w-[45%] 
             // ml- h-5 justify-center items-center content-center "
@@ -137,7 +137,7 @@ const Works = () => {
             alt="whitearrow"
           />
           <img
-            className="dark:hidden rotate-[270deg] ml-[-150px] w-[100px]"
+            className="dark:hidden rotate-[270deg] ml-[-150px] w-[100px] tablet:w-[120px] tablet:ml-[-90px]"
             src={arrowDark}
             alt="darkarrow"
           />
@@ -158,7 +158,7 @@ const Works = () => {
       // justify-center  bg-contain bg-no-repeat overflow-hidden"
       >
         <div
-          className=" lg:gap-[200px] md:ml-[10px] md:w-[98%] laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
+          className="tablet:ml-[20px] lg:gap-[200px] md:ml-[10px] md:w-[98%] laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
         mobile-s:gap-x-24 gap-x-20"
         >
           {projects.map((project, index) => (
