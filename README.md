@@ -1,4 +1,4 @@
-
+															
 <div align="center">
  
   <br>
@@ -27,7 +27,6 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 
 ## <h3>Built With 🏗️</h3>
 
- #
  
 ![My Skills](https://skillicons.dev/icons?i=aws,bootstrap,css,cypress,express,figma,github,hibernate,html,java,js,jenkins,jest,maven,nextjs,nginx,nodejs,npm,postgres,postman,react,spring,stackoverflow,tailwind,threejs,vite,vscode)
 
