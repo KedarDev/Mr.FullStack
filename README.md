@@ -69,7 +69,7 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 #
 
 <br>
-
+<!--
 > [!IMPORTANT]  
 > <div align="center"><h3> BEST VIEWED ON DEVICES WITH  🧑🏿‍💻</h3></div>
 >   <h4> - xs: 450px</h4> 
@@ -84,12 +84,12 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 >   <h4> - laptop-l: 1440px</h4>
 >   <h4> - desktop-s: 2045px</h4>
 >   <h4> - desktop: 2560px</h4>
-
+-->
 <br>
-
+<!--
 > [!TIP]
 > <h4> If you would like to add your device to the project, scroll down to the Whats Next? section follow steps 1-5 to add your contribution.</h4>
-
+  -->
 ##  
 
 <h2>
