@@ -52,16 +52,16 @@ return (
   <div className="bg-white">
     <div className="flex justify-center h-screen">
       <div
-      className=" mobile:hidden bg-cover  w-full h-screen Landingpage-container"
+      className=" mobile:hidden laptop:block bg-cover  w-full h-screen Landingpage-container"
       // className=" mobile-s:hidden mobile-m:hidden mobile-l:hidden desktop:w-[50%] desktop-s:w-[60em] bg-cover  w-full h-screen Landingpage-container"
       >
         {/* {#Section 1 Çontent} */}
-        <div className="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
+        <div className="flex items-center h-full px-20 mt-[220px]  bg-opacity-40">
           <div>
             <h2 className="text-4xl font-bold text-white">Welcome,</h2>
 
-            <p className="max-w-xl mt-3 text-gray-300">
-              Let's Connect! Share your memories with the world.
+            <p className="max-w-xl mt-4 text-[32px] font-bold  leading-[60px] w-[400px] text-center text-gray-300">
+              Share your AI Portfolio With Hiring Managers & recive feed back from your peers. Become A MEMBER today!
             </p>
           </div>
         </div>

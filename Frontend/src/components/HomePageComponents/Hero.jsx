@@ -9,7 +9,7 @@ import ReactVideoPlayer from "./ReactVideoPlayer";
 const Hero = () => {
   return (
     <section 
-    className="w-full h-screen mx-auto mt-5"
+    className=" dark:laptop:ml-[0px] w-full h-screen mx-auto mt-5 laptop:w-full laptop:mt-[200px]"
     // className="dark:2xl:ml-[-20px] 2xl:ml-[10px] 2xl:h-screen w-screen dark:md:ml-[-45px] dark:xs:ml-[-px]  sm:ml-[-24px] dark:bg-black mobile-s:w-screen sticky h-fit mx-auto"
     >
       <video
@@ -45,13 +45,13 @@ const Hero = () => {
               <img
                 src={arrowDark} 
                 alt=""
-                className="w-10 ml-[62px] mt-[-50px] "
+                className="w-10 ml-[62px] mt-[-50px] laptop:w-16 laptop:h-[80px] laptop:mt-[100px] laptop:ml-[92px] "
                 // className="dark:xs:mt-[90px] mobile-s:mt-[-460px] mobile-s:ml-[-1px]  xs:mt-[-580px] xs:ml-[20px]  2xl:h-[50px] 2xl:mt-[200px] dark:md:mt-[-10px] dark:md:ml-[-90px] md:mt-[10px] md:h-10 sm:mt-[50px] desktop:ml-[55px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-fit  shadow-2xl  drop-shadow-2xl h-[30px]"
               />
               <img
                 src={arrow}
                 alt=""
-                className="hidden dark:block w-[12px] shadow-2xl drop-shadow-2xl h-[30px] ml-[75px]"
+                className=" laptop:h-16 laptop:w-[25px] laptop:ml-[116px] laptop:mt-[-80px] hidden dark:block w-[12px] shadow-2xl drop-shadow-2xl h-[30px] ml-[75px]"
                 // className="hidden xs:ml-[20px] dark:xs:mt-[-910px] dark:xs:ml-[30px] dark:lg:h-[50px] dark:lg:ml-[70px]  dark:block desktop:ml-[55px] mobile-s:ml-[25px] laptop-l:mt-[100em] desktop:mt-[200em] desktop:w-fit laptop-l:w-full desktop:h-[80px] laptop-l:h-[60px] w-[12px]  shadow-2xl  drop-shadow-2xl h-[30px]"
               />
             </motion.div>

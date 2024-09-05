@@ -34,7 +34,7 @@ const ExperienceCard = ({ experience }) => (
       //  className="p-5 desktop:w-[600px] desktop:h-[600px]"
     >
       <h3
-        className="font-bold w-full text-[25px] p-5"
+        className="font-bold w-full laptop:text-[35px] text-[25px] p-5"
         // className=" mobile-s:text-[15px] mobile-s:ml-[-30px] mobile-s:w-[250px] p-5 desktop:text-[70px] laptop-l:text-[40px] desktop:mt-[-60px] laptop-l:mt-[-20px] text-white text-[24px] font-bold"
       >
         {experience.title}
@@ -44,7 +44,7 @@ const ExperienceCard = ({ experience }) => (
         style={{ margin: 0 }}
       >
         <section
-          className="font-bold w-full text-[18px] ml-5"
+          className="font-bold w-full text-[18px] ml-5 laptop:text-[25px]"
           // className=" desktop:text-[50px] laptop-l:text-[30px]"
         >
           {experience.company_name}
@@ -58,14 +58,14 @@ const ExperienceCard = ({ experience }) => (
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
-          className="text-white text-[14px] pl-1 tracking-wider"
+          className=" laptop:text-[20px] text-white text-[14px] pl-1 tracking-wider"
           // className="text-white desktop:ml-[20px] desktop:text-[50px] desktop:mt-[-220px] laptop-l:text-[22px] text-[14px] pl-1 tracking-wider"
         >
           {point}
         </li>
       ))}
     </ul>
-    <div className="mt-[20px] ml-8 text-[12px] font-bold">
+    <div className="mt-[20px] ml-8 text-[12px] font-bold laptop:text-[18px]">
       {experience.date}
     </div>
   </VerticalTimelineElement>
@@ -76,17 +76,17 @@ const Experience = () => {
     <>
       <motion.div
         variants={textVariant()}
-        className="mt-[400px]"
+        className="mt-[400px] laptop:mt-[600px]"
         // className=" dark:xs:mt-[300px] xs:mt-[300px]  desktop:mt-[500px] laptop-l:mt-[200px]"
       >
         <p
-          className={`${Styles.sectionSubText}  `}
+          className={`${Styles.sectionSubText} laptop:text-[50px] `}
           // className={`${Styles.sectionSubText} md:text-[25px] xs:text-[25px] desktop:text-[70px] laptop-l:text-[50px] dark:text-white `}
         >
           My Work So Far
         </p>
         <h2
-          className={`${Styles.sectionHeadText} desktop:text-[100px] laptop-l:text-[70px] dark:text-white `}
+          className={`${Styles.sectionHeadText} laptop:text-[70px] desktop:text-[100px] laptop-l:text-[70px] dark:text-white `}
         >
           Work Experience
         </h2>

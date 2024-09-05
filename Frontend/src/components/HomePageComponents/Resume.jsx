@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <section
       id="resume"
-      className="dark:mt-[100px] md:mt-[-500px] xs:mt-[-400px] mobile-s:top-[500px] bg-white  dark:bg-black laptop-l:mt-[-100px] laptop:mt-[-800px] tablet:mt-[-200px] mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container mx-auto "
+      className="dark:mt-[100px] md:mt-[-500px] xs:mt-[-400px] mobile-s:top-[500px] bg-white  dark:bg-black laptop-l:mt-[-100px] laptop:mt-[-200px] tablet:mt-[-200px] mobile-s:mt-[-400px] mobile-m:mt-[-500px] mt-[-35%] flex w-full p-2 xl:flex-row flex-col justify-center min-h-screen gap-10 max-container mx-auto "
     >
       <motion.div variants={textVariant()} className="ml-[30px]">
         <div className="absolute">
@@ -26,7 +26,7 @@ const Resume = () => {
         className="mt-4 text-white text-[17px] max-w-3x1 leading-[30px] text-center"
       ></motion.p>
       {/* NOTE: This is the start */}
-      <div className="dark:lg:w-screen lg:w-screen dark:md:w-[800px] md:w-[800px] dark:xs:w-[450px] xs:mt-[50px] laptop-l:ml-[10px] laptop:w-[1030px] laptop:ml-[2px] mobile-m:w-[385px]  mobile-m:ml-[-3.5px] mobile-l:ml-[-3px]  mobile-s:w-[335px] mobile-l:w-[425px] relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
+      <div className="dark:lg:w-screen laptop:mt-[200px] lg:w-screen dark:md:w-[800px] md:w-[800px] dark:xs:w-[450px] xs:mt-[50px] laptop-l:ml-[10px] laptop:w-full laptop:ml-[2px] mobile-m:w-[385px]  mobile-m:ml-[-3.5px] mobile-l:ml-[-3px]  mobile-s:w-[335px] mobile-l:w-[425px] relative flex-1 justify-center items-center min-h-screen bg-hero bg-center">
         <img
           src={Macbook}
           alt="macbook"
@@ -39,7 +39,7 @@ const Resume = () => {
             alt="resume collection"
             width={430}
             height={200}
-            className="object-contain relative z-10 w-[262px] tablet:w-[300px] tablet:mt-[60px] mt-24"
+            className="object-contain relative z-10 w-[262px] tablet:w-[300px] laptop:w-[400px] laptop:mt-[20px] tablet:mt-[60px] mt-24"
             // className="dark:xs:w-[230px] dark:xs:h-[230px] dark:xs:mt-[-25px] 2xl:mt-[-300px] 2xl:w-[600px] xl:w-[480px] lg:w-[450px] lg:mt-[140px] md:w-[320px] md:mt-[130px] xs:w-[180px] xs:mt-[60px] desktop-s:w-[850px] desktop-s:mt-[-400px] desktop:w-[1200px] desktop:h-[1300px] laptop-l:w-[600px] mobile-s:w-[150px] mobile-m:w-[150px] mobile-l:w-[160px] tablet:w-[300px] object-contain relative z-10"
           />
         </div>
@@ -48,7 +48,7 @@ const Resume = () => {
         // className=" 2xl:w-screen lg:w-[1024px] 2xl:ml-[-120px] lg:mt-[250px] md:w-screen md:ml-[10px] xs:w-full xs:ml-[10px] dark:bg-black desktop-s:mt-[20em] desktop:mt-[40em]   tablet:mt-[150px] laptop:mt-[300px] mobile-s:absoulte  flex sm:gap-6 gap-4 absoulte bottom-[5%]  mt-[100px] justify-center items-center content-center   max-sm:px-6 "
         >
           {resumes.map((resume, id) => (
-            <div   key={id} className=" 2xl:w-[153px] 2xl:ml-[200px]  xl:w-[1280px] xl:ml-[150px]  xl:mt-[-500px] lg:w-[200px] lg:ml-[20px] align-middle content-center lg:justify-center md:mt-[80px] md:w-screen desktop:ml-[100px] desktop-s:w-full desktop:w-full desktop:h-[400px] laptop-l:mt-[150px] laptop:mt-[50px] tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] ">
+            <div   key={id} className="2xl:w-[153px] 2xl:ml-[200px]  xl:w-[1280px] xl:ml-[150px]  xl:mt-[-500px] lg:w-[200px] lg:ml-[20px] align-middle content-center lg:justify-center md:mt-[80px] md:w-screen desktop:ml-[100px] desktop-s:w-full desktop:w-full desktop:h-[400px] laptop-l:mt-[150px] laptop:mt-[100px] tablet:w-[20%] mobile-s:w-[20%] mobile-m:w-[20%] ">
               <ResumeCard
                 imgURL={resume}
                 changeBigResumeImage={(resume) => setBigResumeImg(resume)}
