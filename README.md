@@ -89,7 +89,7 @@ Mr.Fullstack is an [Open-Source](https://opensource.guide/starting-a-project/)  
 > [!TIP]
 > <h4> If you would like to add your device to the project, scroll down to the Whats Next? section follow steps 1-5 to add your contribution.</h4>
   -->
-##  
+
 
 <h2>
 	
