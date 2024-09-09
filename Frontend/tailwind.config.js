@@ -33,6 +33,9 @@ module.exports = {
       // 'desktop-s':{'min': '2045px', 'max':'2559px'},
       // 'desktop':{'min':'2560px'},
       
+      'mobile-s': '320px', // sm
+      // => @media (min-width: 320px) { ... }
+
       'mobile': '640px', // sm
       // => @media (min-width: 640px) { ... }
 

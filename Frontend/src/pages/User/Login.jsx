@@ -52,7 +52,7 @@ return (
   <div className="bg-white">
     <div className="flex justify-center h-screen">
       <div
-      className=" mobile:hidden laptop:block bg-cover  w-full h-screen Landingpage-container"
+      className=" mobile-s:hidden   mobile:hidden laptop:block bg-cover  w-full h-screen Landingpage-container"
       // className=" mobile-s:hidden mobile-m:hidden mobile-l:hidden desktop:w-[50%] desktop-s:w-[60em] bg-cover  w-full h-screen Landingpage-container"
       >
         {/* {#Section 1 Çontent} */}

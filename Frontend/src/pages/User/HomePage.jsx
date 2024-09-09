@@ -15,22 +15,20 @@ const HomePage = () => {
     document.title = "MRFULLSTACK | Portfolio APP";
   }, []);
 
-  
-
   return (
     <section className="relative z-0 ">
       <section className="dark:bg-black bg-white bg-hero-patttern bg-cover  bg-center">
-      <Navbar  className="z-0" />
+      <Navbar  className="" />
       <br />
       <br />
-      <Hero  className="z-20"/>
+      <Hero  className=""/>
       </section>
       <About  className="bg-white"/>
       <Experience />
       <Tech  />
       <Works /> 
       <Resume  className="bg-black"/>
-      <section className="relative z-0">
+      <section className="">
       <Contact />
       <ScrollToTop />
       </section>

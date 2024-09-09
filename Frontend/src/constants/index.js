@@ -220,7 +220,7 @@ const projects = [
   {
     name: "FeedApp",
     description:
-      "Web-based Feed application that allows users to set up a profile, post, comment, and like what ever they want.",
+      "Web-based Feed application set up a profile, post, comment, and like.",
     tags: [
       {
         name: "REACT",
