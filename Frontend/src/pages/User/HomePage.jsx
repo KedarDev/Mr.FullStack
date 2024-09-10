@@ -17,17 +17,17 @@ const HomePage = () => {
 
   return (
     <section className="relative z-0 ">
-      <section className="dark:bg-black bg-white bg-hero-patttern bg-cover  bg-center">
+      <section className="  bg-hero-patttern bg-cover  bg-center">
       <Navbar  className="" />
       <br />
       <br />
       <Hero  className=""/>
       </section>
-      <About  className="bg-white"/>
+      <About  className=""/>
       <Experience />
       <Tech  />
       <Works /> 
-      <Resume  className="bg-black"/>
+      <Resume  className=""/>
       <section className="">
       <Contact />
       <ScrollToTop />

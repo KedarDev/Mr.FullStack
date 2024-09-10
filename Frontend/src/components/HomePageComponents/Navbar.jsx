@@ -48,14 +48,14 @@ const Navbar = () => {
 
   return (
     <nav
-    className={`${Styles.paddingX} dark:mobile:w-[680px]  mobile-s:w-[343px] laptop:grid laptop:grid-cols-3  dark:bg-white dark:p-1 dark:top-0 grid grid-cols-3 w-full  justify-center items-center mt-2 mx-auto px-5   `} 
+    className={`${Styles.paddingX} dark:  dark:mobile:w-[680px]  mobile-s:w-[343px] laptop:grid laptop:grid-cols-3  dark:p-1 dark:top-0 grid grid-cols-3 w-full  justify-center items-center mt-2 mx-auto px-5   `} 
       // className={`${Styles.paddingX} sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
-      <div className=" bg-white h-fit">
+      <div className=" bg-white w-screen h-fit dark:tablet:h-[60px] dark:tablet:w-[740px] ">
         {currentTheme === "dark" ? (
           <img
             src={darkflash}
-            className="cursor-pointer mobile:w-[40px] mobile:h-[40px] w-[30px] h-[30px] top-3 left-0 object-cover flex justify-center items-center"
+            className="cursor-pointer dark:tablet:w-[52px] dark:tablet:h-[59.5px] dark:tablet:ml-[-50px] dark:bg-white mobile:w-[40px] mobile:h-[40px] w-[30px] h-[30px] top-3 left-0 object-cover flex justify-center items-center"
             // className="sm:bg-white sm:w-[30px] xs:w-[40px] xs:h-[40px] xs:mt-[-10px] sm:h-[40px] sm:mt-[-12px] cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
             alt=""
             onClick={toggleTheme}
@@ -63,7 +63,7 @@ const Navbar = () => {
         ) : (
           <img
             src={lightFlash}
-            className=" mobile:w-[40px] mobile:h-[40px]  w-[30px] mobile:left-0 absolute mobile:ml-[10px] mobile:mt-[-20px] h-[30px] mt-0  ml-[-20px] desktop:w-[40px] desktop:h-[40px] desktop:mt-[-5px]"
+            className=" mobile:w-[40px] tablet:w-[52px] tablet:h-[59.5px] tablet:mt-[-34px] tablet:ml-[-2px] mobile:h-[40px]  w-[30px] mobile:left-0 absolute mobile:ml-[10px] mobile:mt-[-20px] h-[30px] mt-0  ml-[-20px] desktop:w-[40px] desktop:h-[40px] desktop:mt-[-5px]"
             // className="xs:w-[40px] xs:h-[40px] xs:mt-[-10px]  sm:bg-white sm:w-[30px] sm:h-[40px] sm:mt-[-12px]  cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
             alt=""
             onClick={toggleTheme}

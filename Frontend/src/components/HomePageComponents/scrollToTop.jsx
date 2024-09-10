@@ -6,7 +6,7 @@ import { upArrowDark } from '../../assets/index';
 const ScrollToTop = () => {
   return (
 <div
-className=" dark:bg-black absolute w-full mobile:ml-[21px] flex justify-center items-center mobile-s:ml-[12px]"
+className=" dark:bg-black  absolute w-full tablet:ml-[14px] mobile:ml-[21px] flex justify-center items-center mobile-s:ml-[12px]"
 // className=" dark:lg:w-screen dark:2xl:ml-[100px] 2xl:ml-[50px]  dark:xl:ml-[75px] dark:md:ml-[23px] md:ml-[21px] dark:xs:ml-[3px] xs:ml-[15px] dark:bg-black desktop:ml-[-1px]  tablet:ml-[-2px] mobile-m:ml-[-1%] mobile-l:ml-[-1%] mobile-s:mt-[0px] mobile-s:left-[-0px] tablet:left-0.5 mobile-m:left-[3px] mobile-l:left-[2px] absolute  w-full flex justify-center items-center"
 >
 <a href="#hero" className="">

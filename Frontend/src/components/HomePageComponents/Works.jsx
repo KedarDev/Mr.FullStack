@@ -32,7 +32,7 @@ const Works = () => {
           // tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] desktop-s:w-[800px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
           <div
-            className="relative mobile:w-[200px] mobile:h-[200px] mobile:mt-[-830px] mobile-s:mt-[-100px] mobile-s:w-[180px] mobile-s:h-[100px] laptop:mt-[-720px] laptop:w-[500px] laptop:h-[350px] w-[240px] h-[250px] tablet:mt-[-550px] tablet:w-[300px]"
+            className="relative tablet:w-[400px] tablet:mt-[-848px] tablet:h-[300px] mobile:w-[200px] mobile:h-[200px] mobile:mt-[-830px] mobile-s:mt-[-100px] mobile-s:w-[180px] mobile-s:h-[100px] laptop:mt-[-720px] laptop:w-[500px] laptop:h-[350px] w-[240px] h-[250px]  "
             //   className="xl:w-[400px] dark:xs:h-[140px] xl:h-[400px] lg:w-[300px] lg:h-[300px] lg:mt-[-800px]  md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px]
             // xs:h-[120px] xs:mt-[-500px] desktop-s:mt-[-1100px] desktop-s:h-[600px] desktop:h-[800px] desktop:w-[800px] laptop-l:h-[400px]
             // relative w-full mobile-s:p-1 mobile-m:p-1 mobile-s:w-[130px] mobile-m:w-[200px] mobile-l:w-[200px] mobile-l:h-[110px]
@@ -47,12 +47,12 @@ const Works = () => {
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient absolute z-10  mobile-s:w-[30px] mobile-s:h-[30px] laptop:w-[80px] laptop:h-[80px]  desktop:w-[100px] desktop:h-fit mobile-l:mt-[-8px] mobile-l:w-6 mobile-l:h-6 mobile-m:w-6 mobile-m:h-6 mobile-s:mt-[-6px] mobile-s:mr-[-4px] w-10 h-10 rounded-full justify-center items-center cursor-pointer"
+                className="black-gradient absolute z-10   tablet:w-[60px] tablet:h-[60px]   mobile-s:w-[30px] mobile-s:h-[30px] laptop:w-[80px] laptop:h-[80px]  desktop:w-[100px] desktop:h-fit mobile-l:mt-[-8px] mobile-l:w-6 mobile-l:h-6 mobile-m:w-6 mobile-m:h-6 mobile-s:mt-[-6px] mobile-s:mr-[-4px] w-10 h-10 rounded-full justify-center items-center cursor-pointer"
               >
                 <img
                   src={githublogo}
                   alt="gitlogo"
-                  className=" relative w-full mobile-s:w-[30px] mobile-s:h-[30px]  laptop:w-[80px] laptop:h-[80px]  object-contain mobile-l:w-[35px]   "
+                  className=" relative w-full  tablet:w-[60px] tablet:h-[60px]  mobile-s:w-[30px] mobile-s:h-[30px]  laptop:w-[80px] laptop:h-[80px]  object-contain mobile-l:w-[35px]   "
                 />
               </div>
               <div 
@@ -62,11 +62,11 @@ const Works = () => {
                 <div
                 // className=""
                   onClick={() => window.open(liveSiteButton, "_blank")}
-                  className=" laptop:mt-[100px]  h-[70px] mobile:h-fit   mobile-s:mt-[50px] mobile-s:ml-1  w-screen   justify-center items-center cursor-pointer "
+                  className=" laptop:mt-[100px] h-[70px] mobile:h-fit  mobile-s:mt-[50px] mobile-s:ml-1 w-screen justify-center items-center cursor-pointer "
                 >
                   <button
                   // className=""
-                    className="h-fit mobile:mt-[100px] mobile-s:w-[160px] mobile-s:h-[25px] laptop:text-[20px] bg-black border-[1px] rounded-[2%] border-red-700  text-[#FFF] font-semibold  text-center mt-[0px] tablet:mt-[px]"
+                    className="h-fit tablet:w-[380px] tablet:mt-[180px] mobile:mt-[100px] mobile-s:w-[160px] mobile-s:h-[25px] laptop:text-[20px] bg-black border-[1px] rounded-[2%] border-red-700  text-[#FFF] font-semibold  text-center mt-[0px]"
                     // className=" dark:xs:ml-[14px] dark:xs:mt-[100px]  xs:mt-[-90px] xs:w-[60px] xs:ml-[-20px] xs:text-[8px]  h-fit mobile-s:text-[5px] bg-black border-[1px] rounded-[2%] border-red-700 mobile-s:mr-[35px] mobile-s:w-5 mobile-s:h-2 text-[#FFF]  font-semibold"
                   >
                     ENTER
@@ -134,7 +134,7 @@ const Works = () => {
             </h2>
           </h2>
           <img
-            className="hidden dark:mobile-s:ml-[40px] dark:mobile-s:h-[12px] dark:mobile-s:w-[80px] dark:mobile-s:mt-[60px]  dark:laptop:w-[250px] dark:laptop:h-[25px] dark:laptop:ml-[100px]  dark:block ml-[20px] w-[150px] h-[12px]  mt-[-25px] tablet:mt-[-0px] tablet:ml-[50px]"
+            className="hidden dark:mobile:w-[200px] dark:mobile:ml-[30px]  dark:mobile-s:ml-[40px] dark:mobile-s:h-[12px] dark:mobile-s:w-[80px] dark:mobile-s:mt-[10px] dark:mobile:h-[20px]   dark:laptop:w-[250px] dark:laptop:h-[25px] dark:laptop:ml-[100px]  dark:block ml-[20px] w-[150px] h-[12px]  mt-[-25px] tablet:mt-[-0px] tablet:ml-[50px]"
             // className="dark:lg:h-[20px] dark:lg:ml-[-150px] hidden dark:block dark:xs:w-[120px] dark:xs:ml-[-20px] dark:xs:h-3 desktop:ml-[-18em]  desktop:w-[80em] desktop:h-10  laptop-l:h-7 laptop-l:ml-[-200px] laptop-l:w-[800px] laptop:w-[50%] laptop:ml-[40px] laptop:h-7
             // mobile-l:w-[41%] mobile-l:h-3  mobile-m:w-[41%] mobile-m:ml-[2.5px] mobile-m:h-3 mobile-s:h-2 relative w-[45%]
             // ml- h-5 justify-center items-center content-center "
@@ -154,7 +154,7 @@ const Works = () => {
       </motion.div>
       <div></div>
       <div
-        className="bg-iPad mobile-s:w-screen mobile-s:ml-[-14px] dark:laptop:mt-[100px]  w-full dark:bg-black flex p-5 gap-16 items-center no-scrollbar z-[100] relative h-screen     
+        className="bg-iPad tablet:ml-[-16px] dark:mobile:mt-[100px] mobile:ml-[-5px] mobile-s:w-screen mobile-s:ml-[-14px] dark:laptop:mt-[100px]  w-full dark:bg-black flex p-5 gap-16 items-center no-scrollbar z-[100] relative h-screen     
        justify-center  bg-contain bg-no-repeat overflow-hidden"
 
         // className="bg-iPad mobile-s:w-[320px] dark:2xl:mt-[100px]  xl:ml-[1px] xl:w-screen lg:w-[1070px] sm:w-[460px]  md:w-[810px] dark:xs:w-[450px]   dark:xs:ml-[-15px] sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px]
