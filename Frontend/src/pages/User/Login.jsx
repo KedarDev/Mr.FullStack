@@ -61,7 +61,7 @@ return (
             <h2 className="text-4xl font-bold text-white">Welcome,</h2>
 
             <p className="max-w-xl mt-4 text-[32px] font-bold  leading-[60px] w-[400px] text-center text-gray-300">
-              Share your AI Portfolio With Hiring Managers & recive feed back from your peers. Become A MEMBER today!
+              Share your AI Portfolio With Hiring Managers & receive feed back from your peers. Become A MEMBER today!
             </p>
           </div>
         </div>

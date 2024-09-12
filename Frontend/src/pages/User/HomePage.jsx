@@ -17,7 +17,7 @@ const HomePage = () => {
 
   return (
     <section className="relative z-0 ">
-      <section className="  bg-hero-patttern bg-cover  bg-center">
+      <section className="dark:bg-white  dark:h-[66px] dark:w-screen  bg-hero-patttern bg-cover  bg-center">
       <Navbar  className="" />
       <br />
       <br />

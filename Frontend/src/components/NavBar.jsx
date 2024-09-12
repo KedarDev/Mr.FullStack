@@ -69,7 +69,7 @@ const logout = () => {
             }`}
           >
             <ul
-            className=" mobile-s:grid mobile-s:w-screen mobile-s:mt-[-40px] mobile-s:ml-[20px] mobile-s:space-x-[-60px]  laptop:ml-[480px] mt-[-80px] ml-[290px]    grid grid-cols-4 w-[45%] space-y-0 text-center justify-center align-middle items-center"
+            className=" laptop:ml-[80px] mobile-s:grid mobile-s:w-screen mobile-s:mt-[-40px] mobile-s:ml-[20px] mobile-s:space-x-[-60px]   mt-[-80px] ml-[290px]    grid grid-cols-4 w-[45%] space-y-0 text-center justify-center align-middle items-center"
             // className=" desktop:ml-[700px] desktop:mt-[20px] desktop-s:ml-[604px] laptop-l:ml-[400px] laptop-l:mt-[.2px] mobile-s:grid mobile-m:grid mobile-l:grid mobile-l:w-[120%] mobile-m:w-[115%] mobile-s:w-[110%] mobile-s:mt-[20px] mobile-m:mt-[-20px] mobile-l:mt-[-20px] mobile-l:ml-[-28px] mobile-m:ml-[-25px]  mobile-s:ml-[-20px] mt-[-80px] pl-[40px] ml-[250px] grid grid-cols-4 w-[50%]  items-center justify-center space-y-0 md:flex md:space-x-6  md:space-y-0"
             
             >

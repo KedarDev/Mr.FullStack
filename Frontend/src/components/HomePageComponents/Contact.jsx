@@ -67,7 +67,7 @@ const Contact = () => {
 
   return (
     <div 
-    className="mt-[300px] tablet:ml-[] mobile:mt-[-300px] mobile:h-[1000px]  mobile-s:mt-[-300px] mobile-s:ml-[20px] laptop:mt-[-400px] laptop:w-[800px] laptop:ml-[100px]   dark:bg-black h-screen flex-col-reverse flex overflow-hidden"
+    className=" desktop:mt-[600px] desktop:ml-[240px] desktop:h-screen mt-[300px] tablet:ml-[] mobile:mt-[-300px] mobile:h-[1000px]  mobile-s:mt-[-300px] mobile-s:ml-[20px] laptop:mt-[-400px] laptop:w-[800px] laptop:ml-[100px]   dark:bg-black h-screen flex-col-reverse flex overflow-hidden"
     // className="dark:xs:mt-[200px]  2xl:ml-[480px] 2xl:w- 2xl:w- dark:xl:mt-[400px] lg:h-fit lg:ml-[400px] dark:lg:mt-[-500px] lg:mt-[-800px] md:ml-[50px] md:mt-[100px] xs:mt-[-900px] dark:bg-black laptop-l:ml-[25px] laptop:ml-[25px] mobile-s:ml-[28px] mobile-m:ml-[24px] mobile-l:ml-[10px] desktop:mt-[-50em] desktop:w-[60%] desktop:h-[80%] desktop-s:h-fit laptop-l:mt-[-900px] desktop:ml-[35em]  laptop:mt-[-750px] tablet:mt-[-200px] mobile-s:mt-[-400px] mt-[-80%]  h-screen xl:mt-12 xl:flex-row flex-col-reverse flex  overflow-hidden"
     >
       <motion.div

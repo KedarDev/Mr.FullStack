@@ -26,13 +26,13 @@ const Works = () => {
             scale: 0.8,
             speed: 450,
           }}
-          className=" w-full relative left-[20px] mt-[-400px] mobile-s:mt-[-410px] object-contain flex-wrap  bg-rounded-2xl "
+          className="  w-full relative left-[20px] mt-[-400px] mobile-s:mt-[-410px] object-contain flex-wrap  bg-rounded-2xl "
           // className="relative xl:mt-[5px] dark:xs:mt-[100px]   left-[20px] desktop:mt-[-90em] laptop-l:mt-[-800px] laptop:mt-[-680px] mobile-m:mt-[-415px]
           // mobile-l:mt-[-390px] mobile-s:mt-[-415px] mt-[-510px] object-contain flex-wrap  bg-rounded-2xl mobile-m:w-[200px]
           // tablet:w-[200px] laptop:w-[450px] laptop-l:w-[500px] desktop-s:w-[800px] mobile-s:w-[50px]  mobile-s:h-[50px] sm:w-[250px] sm:h-[250px]"
         >
           <div
-            className="relative tablet:w-[400px] tablet:mt-[-848px] tablet:h-[300px] mobile:w-[200px] mobile:h-[200px] mobile:mt-[-830px] mobile-s:mt-[-100px] mobile-s:w-[180px] mobile-s:h-[100px] laptop:mt-[-720px] laptop:w-[500px] laptop:h-[350px] w-[240px] h-[250px]  "
+            className="relative desktop:w-[600px] desktop:h-[400px] tablet:w-[400px] tablet:mt-[-848px] tablet:h-[300px] mobile:w-[200px] mobile:h-[200px] mobile:mt-[-830px] mobile-s:mt-[-100px] mobile-s:w-[180px] mobile-s:h-[100px] laptop:mt-[-720px] laptop:w-[500px] laptop:h-[350px] w-[240px] h-[250px]  "
             //   className="xl:w-[400px] dark:xs:h-[140px] xl:h-[400px] lg:w-[300px] lg:h-[300px] lg:mt-[-800px]  md:mt-[20px] md:w-[240px] md:h-[240px]  xs:w-[180px]
             // xs:h-[120px] xs:mt-[-500px] desktop-s:mt-[-1100px] desktop-s:h-[600px] desktop:h-[800px] desktop:w-[800px] laptop-l:h-[400px]
             // relative w-full mobile-s:p-1 mobile-m:p-1 mobile-s:w-[130px] mobile-m:w-[200px] mobile-l:w-[200px] mobile-l:h-[110px]
@@ -47,12 +47,12 @@ const Works = () => {
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient absolute z-10   tablet:w-[60px] tablet:h-[60px]   mobile-s:w-[30px] mobile-s:h-[30px] laptop:w-[80px] laptop:h-[80px]  desktop:w-[100px] desktop:h-fit mobile-l:mt-[-8px] mobile-l:w-6 mobile-l:h-6 mobile-m:w-6 mobile-m:h-6 mobile-s:mt-[-6px] mobile-s:mr-[-4px] w-10 h-10 rounded-full justify-center items-center cursor-pointer"
+                className="black-gradient absolute z-10   tablet:w-[60px] tablet:h-[60px]   mobile-s:w-[30px] mobile-s:h-[30px] laptop:w-[80px] laptop:h-[80px]   desktop:h-fit mobile-l:mt-[-8px] mobile-l:w-6 mobile-l:h-6 mobile-m:w-6 mobile-m:h-6 mobile-s:mt-[-6px] mobile-s:mr-[-4px] w-10 h-10 rounded-full justify-center items-center cursor-pointer"
               >
                 <img
                   src={githublogo}
                   alt="gitlogo"
-                  className=" relative w-full  tablet:w-[60px] tablet:h-[60px]  mobile-s:w-[30px] mobile-s:h-[30px]  laptop:w-[80px] laptop:h-[80px]  object-contain mobile-l:w-[35px]   "
+                  className="relative w-full desktop:w-[]  tablet:w-[60px] tablet:h-[60px]  mobile-s:w-[30px] mobile-s:h-[30px]  laptop:w-[80px] laptop:h-[80px]  object-contain mobile-l:w-[35px]   "
                 />
               </div>
               <div 
@@ -79,14 +79,14 @@ const Works = () => {
               // className=" dark:mt-[28px] mt-5 w-full xs:mt-0 mobile-s:m-0   mobile-m:m-0 mobile-s:mt-[10px] mobile-m:mt-[-10px]  mobile-s:w-full"
             >
               <h3
-                className="text-white mobile:text-[22px] font-bold text-[24px] mt-[-20px] mobile-s:text-[14px] laptop:text-[40px] laptop:mt-[px]"
+                className=" laptop:text-[55px] text-white mobile:text-[22px] font-bold text-[24px] mt-[-20px] mobile-s:text-[14px] laptop:mt-[px]"
                 //   className="lg:text-[35px] xs:text-[18px] md:text-[25px]  text-white font-bold mobile-s:text-[10px] mobile-m:mt-[20px] mobile-l:mt-[-18px] laptop:text-[30px] laptop-l:text-[30px] desktop:text-[80px]
                 // mobile-m:text-[12px] mobile-l:text-[12px] tablet:mt-[-18px] tablet:text-[20px] text-[24px]"
               >
                 {name}
               </h3>
               <p
-                className="text-white mobile:text-[18px] mobile:leading-[20px] text-[14px] mobile-s:text-[10px] laptop:text-[25px] leading-4"
+                className="laptop:leading-[40px] text-white mobile:text-[18px] mobile:leading-[20px] text-[14px] mobile-s:text-[10px] laptop:text-[25px] leading-4"
                 //   className=" lg:text-[25px] xs:text-[10px] md:text-[14px]  mobile-s:text-[8px] mobile-m:text-[11px]  mobile-l:text-[11px] mobile-m:mt-[-1px] laptop:text-[25px] laptop-l:text-[30px]
                 // mobile-l:mt-[-1px] mobile-s:mt-1 mt-2 text-white text-[14px] desktop:text-[45px]"
               >
@@ -154,7 +154,7 @@ const Works = () => {
       </motion.div>
       <div></div>
       <div
-        className="bg-iPad tablet:ml-[-16px] dark:mobile:mt-[100px] mobile:ml-[-5px] mobile-s:w-screen mobile-s:ml-[-14px] dark:laptop:mt-[100px]  w-full dark:bg-black flex p-5 gap-16 items-center no-scrollbar z-[100] relative h-screen     
+        className="bg-iPad dark:desktop:w-[1260px] dark:desktop:ml-[10px] dark:laptop:ml-[-8px] dark:laptop:w-[1000px] tablet:ml-[-16px] dark:mobile:mt-[100px] mobile:ml-[-5px] mobile-s:w-screen mobile-s:ml-[-14px] dark:laptop:mt-[100px]  w-full dark:bg-black flex p-5 gap-16 items-center no-scrollbar z-[100] relative h-screen     
        justify-center  bg-contain bg-no-repeat overflow-hidden"
 
         // className="bg-iPad mobile-s:w-[320px] dark:2xl:mt-[100px]  xl:ml-[1px] xl:w-screen lg:w-[1070px] sm:w-[460px]  md:w-[810px] dark:xs:w-[450px]   dark:xs:ml-[-15px] sm:ml-[-65px] dark:bg-black desktop-s:w-[2045px] desktop:w-[2640px] desktop:ml-[-14px] laptop-l:w-[1440px] laptop-l:ml-[-25px] laptop:mt-[40px] laptop:w-[1040px] laptop:ml-[-25px] mobile-m:w-[394px] mobile-l:w-[425px] mobile-l:ml-[-25px]
@@ -163,7 +163,7 @@ const Works = () => {
         // justify-center  bg-contain bg-no-repeat overflow-hidden"
       >
         <div
-          className="tablet:ml-[20px] lg:gap-[200px] md:ml-[10px] md:w-[98%] laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
+          className=" desktop:mt-[100px] tablet:ml-[20px] lg:gap-[200px] md:ml-[10px] md:w-[98%] desktop:w-[94%] laptop:mt-[-185px] tablet:mt-[80px] mobile-m:mt-[20px] mobile-m:ml-[5px] w-full h-full overflow-x-scroll no-scrollbar flex items-center mobile-m:gap-x-[45px] tablet:gap-x-[140px] desktop:gap-x-[250px]
         mobile-s:gap-x-10 gap-x-20"
         >
           {projects.map((project, index) => (
