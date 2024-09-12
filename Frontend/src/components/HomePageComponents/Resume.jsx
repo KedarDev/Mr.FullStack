@@ -30,16 +30,16 @@ const Resume = () => {
         <img
           src={Macbook}
           alt="macbook"
-          className="relative dark:desktop:w-screen dark:laptop:ml-[20px]  dark:laptop:w-[1000px] tablet:ml-[8px] mobile:ml-[18px] object-contain   mobile-s:w-screen mobile-s:ml-[3px] z-10 desktop:w-[1260px] desktop:ml-[10px]"
+          className="relative wideScreen:w-screen dark:desktop:w-screen dark:laptop:ml-[20px]  dark:laptop:w-[1000px] tablet:ml-[8px] mobile:ml-[18px] object-contain   mobile-s:w-screen mobile-s:ml-[3px] z-10 desktop:w-[1260px] desktop:ml-[10px]"
           // className=" dark:xs:w-[450px] xl:mt-[150px] lg:ml-[20px] lg:w-screen desktop:w-[2560px] desktop:ml-[50px] desktop-s:w-[2045px] desktop-s:ml-[5px]  relative object-contain z-10 "
         />
-        <div  className="  desktop:w-[800px] desktop:h-[440px] mobile:w-[500px] mobile:ml-[180px]   laptop-l:mt-[-900px]  laptop:mt-[-650px] mobile-s:w-[140px] mobile-s:ml-[105px] mobile-s:mt-[-210px] mobile-m:mt-[-235px] mobile-l:mt-[-255px] tablet:mt-[-525px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
+        <div  className="wideScreen:w-[900px]    desktop:w-[800px] desktop:h-[440px] mobile:w-[500px] mobile:ml-[180px]   laptop-l:mt-[-900px]  laptop:mt-[-650px] mobile-s:w-[140px] mobile-s:ml-[105px] mobile-s:mt-[-210px] mobile-m:mt-[-235px] mobile-l:mt-[-255px] tablet:mt-[-525px] relative mt-[-78%] flex-1 flex justify-center items-center xl:min-h-screen max-xl:py-40 bg-primary bg-cover bg-center">
           <img
             src={bigResumeImg}
             alt="resume collection"
             width={430}
             height={200}
-            className="object-contain  laptop:w-[700px] laptop:ml-[160px] laptop:h-[500px] tablet:ml-[-60px] relative z-10  mobile:w-[300px] mobile:h-[340px] mobile:ml-[-200px] mobile:mt-[-200px] mobile-s:w-[140px] mobile-s:mt-[2px] mobile-s:ml-[-26px]   w-[262px] tablet:w-[300px]  laptop:mt-[20px] tablet:mt-[60px] mt-24"
+            className="object-contain wideScreen:mt-[-220px]  wideScreen:object-fit wideScreen:h-[800px] wideScreen:ml-[300px] laptop:w-[700px] laptop:ml-[160px] laptop:h-[500px] tablet:ml-[-60px] relative z-10  mobile:w-[300px] mobile:h-[340px] mobile:ml-[-200px] mobile:mt-[-200px] mobile-s:w-[140px] mobile-s:mt-[2px] mobile-s:ml-[-26px]   w-[262px] tablet:w-[300px]  laptop:mt-[20px] tablet:mt-[60px] mt-24"
             // className="dark:xs:w-[230px] dark:xs:h-[230px] dark:xs:mt-[-25px] 2xl:mt-[-300px] 2xl:w-[600px] xl:w-[480px] lg:w-[450px] lg:mt-[140px] md:w-[320px] md:mt-[130px] xs:w-[180px] xs:mt-[60px] desktop-s:w-[850px] desktop-s:mt-[-400px] desktop:w-[1200px] desktop:h-[1300px] laptop-l:w-[600px] mobile-s:w-[150px] mobile-m:w-[150px] mobile-l:w-[160px] tablet:w-[300px] object-contain relative z-10"
           />
         </div>

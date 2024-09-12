@@ -32,7 +32,7 @@ const Tech = () => {
             alt="whitearrow"
           />
           <img
-          className=" mobile:ml-[-200px] mobile:w-[120px] mobile:mt-[-80px] mobile-s:w-[50px] mobile-s:mt-[-46px] dark:hidden rotate-[270deg] laptop:right-56 absolute mobile:right-36 right-0 mt-[-55px] desktop:mt-[-150px]  w-[100px] tablet:w-[120px] laptop:w-[150px] laptop:mt-[-120px] tablet:ml-[460px] tablet:mt-[-80px]"
+          className=" wideScreen:w-[200px] wideScreen:mt-[-170px] mobile:ml-[-200px] mobile:w-[120px] mobile:mt-[-80px] mobile-s:w-[50px] mobile-s:mt-[-46px] dark:hidden rotate-[270deg] laptop:right-56 absolute mobile:right-36 right-0 mt-[-55px] desktop:mt-[-150px]  w-[100px] tablet:w-[120px] laptop:w-[150px] laptop:mt-[-120px] tablet:ml-[460px] tablet:mt-[-80px]"
             // className="md:ml-[500px] dark:hidden rotate-[270deg] xs:ml-[330px] xs:mt-[-110px] ml-[10px] w-[100px] h-[130px]"
             src={arrowDark}
             alt="darkarrow"
@@ -64,7 +64,7 @@ const Tech = () => {
               key={technology.name}
             >
               <img
-                className="relative justify-center grid mobile:w-[200px] mobile:h-[200px] mobile:mt-[80px] mobile-s:mt-[190px] mobile-s:w-[100px] mobile-s:h-[100px]  desktop:w-[280px] desktop:h-[260px] desktop:mt-[-350px] w-[160px] laptop:w-[200px] laptop:mt-10  mt-24 mx-auto"
+                className="relative wideScreen:h-fit justify-center grid mobile:w-[200px] mobile:h-[200px] mobile:mt-[80px] mobile-s:mt-[190px] mobile-s:w-[100px] mobile-s:h-[100px]  desktop:w-[280px] desktop:h-[260px] desktop:mt-[-350px] w-[160px] laptop:w-[200px] laptop:mt-10  mt-24 mx-auto"
               //   className=" dark:xs:mt-[150px] dark:xs:h-[120px] lg:w-[220px] lg:h-[220px] lg:mt-[-2px]   md:w-[200px] md:h-[200px] md:mt-[30px]  xs:w-[150px] xs:h-[150px] xs:mt-[130px] sm:w-[120px] sm:h-[120px] sm:mt-[150px]  shrink-0 mobile-m:w-[100px] desktop:w-[600px] desktop:h-[]  laptop-l:w-[350px] mobile-s:w-[80px] mobile-l:w-[120px] 
               // tablet:w-[190px] tablet:mt-[40px] mobile-l:mt-[150px] mobile-s:h-[80px]  mobile-s:mt-[195px]"
                 src={technology.icon}

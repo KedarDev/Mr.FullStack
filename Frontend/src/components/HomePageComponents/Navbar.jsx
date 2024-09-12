@@ -48,7 +48,7 @@ const Navbar = () => {
 
   return (
     <nav
-    className={`${Styles.paddingX} dark:desktop:grid dark:desktop:w-screen dark:desktop:bg-white dark:desktop:ml-[50px] dark:desktop:h-[66px]  desktop:grid desktop:grid-cols-4  dark:w-full dark:grid dark:grid-cols-4 laptop:w-full  dark:mobile:w-[680px]  mobile-s:w-[343px] laptop:grid laptop:grid-cols-3  dark:p-1 dark:top-0 grid grid-cols-3 w-full  justify-center items-center mt-2 mx-auto px-5   `} 
+    className={`${Styles.paddingX} wideScreen:w-screen dark:desktop:grid dark:desktop:w-screen dark:desktop:bg-white dark:desktop:ml-[50px] dark:desktop:h-[66px]  desktop:grid desktop:grid-cols-4  dark:w-full dark:grid dark:grid-cols-4 laptop:w-full  dark:mobile:w-[680px]  mobile-s:w-[343px] laptop:grid laptop:grid-cols-3  dark:p-1 dark:top-0 grid grid-cols-3 w-full  justify-center items-center mt-2 mx-auto px-5   `} 
       // className={`${Styles.paddingX} sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
       <div className=" dark:bg-white  bg-white laptop:w-[1200px] w-screen h-fit dark:tablet:h-[60px] dark:tablet:w-[740px] ">
@@ -85,12 +85,12 @@ const Navbar = () => {
               // onClick={}
               src={mflogo}
               alt="mflogo"
-              className=" dark:desktop:w-[380px] dark:desktop:ml-[120px] desktop:w-[380px] dark:laptop:w-[360px]  mobile:w-[380px] dark:mobile:ml-[-20px] mobile:ml-[30px] w-[200px] mt-0 h-auto laptop:w-[300px] desktop:ml-[160px]"
+              className=" wideScreen:w-[400px] wideScreen:ml-[180px] dark:desktop:w-[380px] dark:desktop:ml-[120px] desktop:w-[380px] dark:laptop:w-[360px]  mobile:w-[380px] dark:mobile:ml-[-20px] mobile:ml-[30px] w-[200px] mt-0 h-auto laptop:w-[300px] desktop:ml-[160px]"
               // className="lg:ml-[200px] sm:w-[1000px] sm:ml-[20px]   desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-[90%] flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
-        <ul className="relative laptop:ml-[260px] z-0 list-none hidden lg:flex sm:hidden laptop:flex laptop-l:flex desktop:ml-[380px]  flex-row gap-5">
+        <ul className="relative wideScreen:ml-[540px] laptop:ml-[260px] z-0 list-none hidden lg:flex sm:hidden laptop:flex laptop-l:flex desktop:ml-[380px]  flex-row gap-5">
           {navLink.map((Link) => (
             <li
               key={Link.id}

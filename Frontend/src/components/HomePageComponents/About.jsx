@@ -90,7 +90,7 @@ const About = () => {
         diverse business needs.
       </motion.p>
       <div 
-      className=" dark:desktop:ml-[60px] dark:tablet:ml-[103px] laptop:gap-[20px] mobile:mt-[100px] dark:mobile:ml-[20px] mobile:ml-[14px] mobile-s:mt-[100px] mobile-s:ml-[12px] desktop:ml-[58px] laptop:mt-[200px] w-full tablet:w-fit tablet:ml-[110px] laptop:ml-[12px] dark:laptop:ml-[0px] grid tablet:grid-cols-2 laptop:grid-cols-4  items-center align-middle justify-center content-center place-content-center pt-40 gap-20 tablet:justify-center tablet:items-center "
+      className=" dark:wideScreen:ml-[200px] wideScreen:ml-[180px] dark:desktop:ml-[60px] dark:tablet:ml-[103px] laptop:gap-[20px] mobile:mt-[100px] dark:mobile:ml-[20px] mobile:ml-[14px] mobile-s:mt-[100px] mobile-s:ml-[12px] desktop:ml-[58px] laptop:mt-[200px] w-full tablet:w-fit tablet:ml-[110px] laptop:ml-[12px] dark:laptop:ml-[0px] grid tablet:grid-cols-2 laptop:grid-cols-4  items-center align-middle justify-center content-center place-content-center pt-40 gap-20 tablet:justify-center tablet:items-center "
       // className=" dark:xs:mt-[150px] xs:mt-[150px] 2xl:ml-[180px] xl:ml-[100px] lg:grid lg:grid-cols-4 lg:ml-[-6px] xs:ml-[0px] sm:ml-[84px] dark:bg-black bg-white desktop:w-full desktop:ml-[60px] desktop:mt-[300px] mobile-s:ml-[25px] mobile-m:ml-[15px] mobile-l:ml-[15px]  laptop-l:mt-[180px] mt-20 flex flex-wrap gap-10 tablet:gap-3 justify-center "
       >
         {services.map((service, index) => (
