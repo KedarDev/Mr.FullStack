@@ -1,4 +1,3 @@
-
 const Styles = {
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
@@ -24,12 +23,9 @@ const Styles = {
   sectionSubText1:
     "sm:text-[18px] text-[14px] text-[#fff] uppercase tracking-wider",
 
-    contain:
-    "w-full h-full overflow-x-scroll flex items-center gap-x-28",
-  
-  VideoBG:
-  "w-[100%] h-[100%] bg-cover bg-fit"
-};
+  contain: "w-full h-full overflow-x-scroll flex items-center gap-x-28",
 
+  VideoBG: "w-[100%] h-[100%] bg-cover bg-fit",
+};
 
 export { Styles };

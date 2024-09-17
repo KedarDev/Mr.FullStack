@@ -11,28 +11,6 @@ module.exports = {
       
     // OVERRIDE DEFULT SCREENS
     screens: {
-      // you can use max to effect element from device to device
-      // defult screens
-      // xs: "450px",
-      // sm: "640px",
-      // md: "768px",
-      // lg: "1024px",
-      // xl: "1280px",
-      // "2xl": "1536px",
-      // 'mobile': {'min': '640px', 'max': '767px'},
-      // 'tablet': {'min': '768px', 'max': '1023px'},
-      // 'laptop': {'min': '1024px', 'max': '1279px'},
-      // 'desktop': {'min': '1280px', 'max': '1535px'},
-      // '': {'min': '1536px'},
-      // 'mobile-s':{'min':'320px', 'max': '374px'},
-      // 'mobile-m':{'min':'375px', 'max':'424px'},
-      // 'mobile-l':{'min':'425px', 'max':'767px'},
-      // 'tablet':{'min':'768px', 'max':'1023px'},
-      // 'laptop':{'min':'1024px', 'max':'1439px'},
-      // 'laptop-l':{'min':'1440px', 'max':'2559px'},
-      // 'desktop-s':{'min': '2045px', 'max':'2559px'},
-      // 'desktop':{'min':'2560px'},
-      
       'mobile-s': '320px', // sm
       // => @media (min-width: 320px) { ... }
 

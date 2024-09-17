@@ -262,8 +262,7 @@ export const addFeedApi = async (token, content, picture) => {
   }
 };
 
-// http://localhost:8080/feeds/meta/4
-// we call this api from the backend
+
 export const addFeedMetaDataApi = async (token, feedId, isLike, comment) => {
   let response = frameResponse();
 

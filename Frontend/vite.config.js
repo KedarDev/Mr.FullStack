@@ -1,14 +1,8 @@
 import { defineConfig, transformWithEsbuild, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
-// import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import {manualChunksPlugin} from 'vite-plugin-webpackchunkname'
-// import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill'
-// import { NodeModulesPolyfillPlugin } from '@esbuild-plugins/node-modules-polyfill'
 import { fileURLToPath, URL } from 'url'
-// import { ViteS3 } from '@froxz/vite-plugin-s3'
-// import * as moment from 'moment/moment.js';
 import {esbuildCommonjs } from '@originjs/vite-plugin-commonjs';
-// const isGitIgnored = require('is-gitignored');
 
 export default defineConfig({
 
@@ -30,31 +24,7 @@ export default defineConfig({
   },
   assetsInclude: ['**/*.mov'],
   plugins: [
-    // new ViteS3(!!process.env.UPLOAD_ENABLED, {
-    //   include: [
-    //     /.*\.(css|js|jsx)/,
-    //     function(path) { return isPathOkToUpload(path); }
-    // ],
-    //   basePath: '/build',
-    // exclude: isGitIgnored,
-    //   clientConfig: {
-    //     credentials: {
-    //       accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    //       secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-    //     },
-    //     region: 'us-east-2'
-    //   },
-    //   uploadOptions: {
-    //     Bucket: 'www.mrfullstack.tech'
-    //   }
-    // }),
-    //  NodeGlobalsPolyfillPlugin({
-    //             process: true,
-    //             buffer: true
-    //         }),
-            // NodeModulesPolyfillPlugin(),
      manualChunksPlugin(),
-    // nodePolyfills(),
     {
       name: 'treat-js-files-as-jsx',
       async transform(code, id) {
@@ -74,9 +44,6 @@ export default defineConfig({
 
 resolve: {
   mainFields: ['browser', 'module', 'main'],
-    // alias: {
-    //   '@': fileURLToPath(new URL('./src', import.meta.url)),
-    // }
   },
 
   optimizeDeps: {

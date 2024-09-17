@@ -14,20 +14,3 @@ app.put("/user", (req, res) => {
 })
 
 app.listen(3000)
-
-// if (process.env.VITE_API_BASE_URL === "staging") {
-//  app.use(
-//     CORS(
-//         cors.Request({
-//             origin: [
-//                 "http://localhost:8081/*",
-//                 "mrfullstack.tech",
-//                 "www.mrfullstack.tech",
-//                 "http://localhost:8081/user/*",
-//                 "http://localhost:8081/app/*"
-//             ],
-//             credentials: true,
-//         })
-//     )
-//  )
-// }

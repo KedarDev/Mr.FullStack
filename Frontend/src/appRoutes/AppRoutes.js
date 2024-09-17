@@ -71,7 +71,6 @@ const getSession = async () => {
   if (isAuthenticated === false) {
     return (
       <Routes>
-        {/* <Route exact path="/visitor" element={<Visitors />} /> */}
         <Route path="*" element={<Navigate to="/Homepage" replace />} />
         <Route exact path="/HomePage" element={<HomePage />} />
         <Route exact path="/user/login" element={<Login />} />

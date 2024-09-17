@@ -49,14 +49,12 @@ const Navbar = () => {
   return (
     <nav
     className={`${Styles.paddingX} wideScreen:w-screen dark:desktop:grid dark:desktop:w-screen dark:desktop:bg-white dark:desktop:ml-[50px] dark:desktop:h-[66px]  desktop:grid desktop:grid-cols-4  dark:w-full dark:grid dark:grid-cols-4 laptop:w-full  dark:mobile:w-[680px]  mobile-s:w-[343px] laptop:grid laptop:grid-cols-3  dark:p-1 dark:top-0 grid grid-cols-3 w-full  justify-center items-center mt-2 mx-auto px-5   `} 
-      // className={`${Styles.paddingX} sm:bg-white sm:w-full sm:h-fit sm:ml-[30px]  sticky-top-0 w-full desktop:h-[70px] laptop-l:h-[60px] h-12 flex items-center py-0 fixed top-0 bg-white z-20`}
     >
       <div className=" dark:bg-white  bg-white laptop:w-[1200px] w-screen h-fit dark:tablet:h-[60px] dark:tablet:w-[740px] ">
         {currentTheme === "dark" ? (
           <img
             src={darkflash}
             className="cursor-pointer dark:desktop:ml-[-60px] dark:laptop:ml-[-180px] dark:tablet:w-[52px] dark:tablet:h-[59.5px] dark:tablet:ml-[-50px] dark:bg-white mobile:w-[40px] mobile:h-[40px] w-[30px] h-[30px] top-3 left-0 object-cover flex justify-center items-center"
-            // className="sm:bg-white sm:w-[30px] xs:w-[40px] xs:h-[40px] xs:mt-[-10px] sm:h-[40px] sm:mt-[-12px] cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
             alt=""
             onClick={toggleTheme}
           />
@@ -64,7 +62,6 @@ const Navbar = () => {
           <img
             src={lightFlash}
             className="laptop:mt-[-28px] mobile:w-[40px] tablet:w-[52px] tablet:h-[59.5px] tablet:mt-[-34px] tablet:ml-[-2px] mobile:h-[40px]  w-[30px] mobile:left-0 absolute mobile:ml-[10px] mobile:mt-[-20px] h-[30px] mt-0  ml-[-20px] desktop:w-[40px] desktop:h-[40px]"
-            // className="xs:w-[40px] xs:h-[40px] xs:mt-[-10px]  sm:bg-white sm:w-[30px] sm:h-[40px] sm:mt-[-12px]  cursor-pointer desktop:w-[50px] desktop:h-[50px] laptop-l:w-[40px] laptop-l:h-[40px] laptop:ml-[10px] laptop:w-[40px] laptop:h-[40px] laptop-l:mt-[-3px] laptop:mt-[-8px] tablet:h-[28px] tablet:mt-[-3px] fixed w-6 h-6 top-3 left-0 object-cover flex justify-center items-center"
             alt=""
             onClick={toggleTheme}
           />
@@ -86,7 +83,6 @@ const Navbar = () => {
               src={mflogo}
               alt="mflogo"
               className=" wideScreen:w-[400px] wideScreen:ml-[180px] dark:desktop:w-[380px] dark:desktop:ml-[120px] desktop:w-[380px] dark:laptop:w-[360px]  mobile:w-[380px] dark:mobile:ml-[-20px] mobile:ml-[30px] w-[200px] mt-0 h-auto laptop:w-[300px] desktop:ml-[160px]"
-              // className="lg:ml-[200px] sm:w-[1000px] sm:ml-[20px]   desktop:ml-[26em]  destop-:w-[500px] desktop:h-[70px] laptop-l:ml-[-10px] laptop-l:w-[500px] laptop-l:h-[58px] laptop-l:mt-[2px] laptop:w-[500px] laptop:h-[50px] laptop:ml-[10px] laptop:mt-0.4 tablet:w-full tablet:h-[49px] tablet:ml-[180px] tablet:mt-[5m] mobile-m:w-[220px] mobile-m:ml-[34px] mobile-l:ml-[65px] mobile-l:w-[220px] mobile-m:mt-[2px] mobile-s:w-[200px] mobile-s:ml-[15px] w-[90%] flex h-10 mx-auto justify-content justify-center items-center object-contain"
             />
           </span>
         </Link>
@@ -115,14 +111,12 @@ const Navbar = () => {
         <div className=" z-0 lg:hidden laptop:hidden laptop-l:hidden desktop:hidden flex  justify-end items-center">
           <img
           className="  absolute right-2 mobile:w-[40px] mobile:h-[40px] w-[30px] h-[30px] mt-0 dark:hidden  object-contain ml-1"
-            // className=" sm:w-[35px] sm:h-[35px] sm:mt-[px]  dark:hidden mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[40px] mobile-s:mt-[5px] mobile-s:pl-[3px] mobile-s:mr-[-3px] mobile-s:w-[40px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? lightClose : menu}
             onClick={() => setToggle(!toggle)}
             alt="lightmenu"
           />
           <img
           className="  absolute z-0 right-2 mobile:w-[40px] mobile:h-[40px]  hidden dark:block w-[30px] h-[30px] mt-0 object-contain ml-1"
-            // className=" sm:w-[35px] sm:h-[35px]  hidden dark:block mobile-m:h-[32px] mobile-l:h-[32px] mobile-s:h-[30px] mobile-s:w-[30px] h-10 w-10 top-0 left-0 object-contain cursor-pointer"
             src={toggle ? closeMenu : menu}
             alt="menu"
             onClick={() => setToggle(!toggle)}

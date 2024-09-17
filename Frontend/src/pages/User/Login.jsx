@@ -53,7 +53,6 @@ return (
     <div className="flex justify-center h-screen">
       <div
       className=" mobile-s:hidden   mobile:hidden laptop:block bg-cover  w-full h-screen Landingpage-container"
-      // className=" mobile-s:hidden mobile-m:hidden mobile-l:hidden desktop:w-[50%] desktop-s:w-[60em] bg-cover  w-full h-screen Landingpage-container"
       >
         {/* {#Section 1 Çontent} */}
         <div className="flex items-center h-full px-20 mt-[220px]  bg-opacity-40">

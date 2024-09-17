@@ -53,10 +53,7 @@ import hambergerLight from "../../src/assets/hambergerLight.png";
 import upArrowDark from "../../src/assets/upArrowDark.png";
 import arrowDark from "../../src/assets/arrowDark.png";
 import lightClose from "../../src/assets/lightClose.png";
-import Video from "../../src/assets/video/Video.webm";
-import Video1 from "../../src/assets/video/Video1.mp4";
 import AIVideo2 from "../../src/assets/video/AIVideo2.mp4";
-import AIVideo3 from "../../src/assets/video/AIVideo3.webm";
 import faceBook from "../../src/assets/facebook.png";
 import microsoft from "../../src/assets/microsoft.png";
 import twitter from "../../src/assets/twitter.png";
@@ -73,10 +70,7 @@ export {
   twitter,
   microsoft,
   faceBook,
-  AIVideo3,
   AIVideo2,
-  Video1,
-  Video,
   lightClose,
   arrowDark,
   upArrowDark,

@@ -31,11 +31,9 @@ const ExperienceCard = ({ experience }) => (
   >
     <section
       className="p-5"
-      //  className="p-5 desktop:w-[600px] desktop:h-[600px]"
     >
       <h3
         className="font-bold w-full  laptop:text-[35px] text-[25px] p-5 mobile:text-[30px]"
-        // className=" mobile-s:text-[15px] mobile-s:ml-[-30px] mobile-s:w-[250px] p-5 desktop:text-[70px] laptop-l:text-[40px] desktop:mt-[-60px] laptop-l:mt-[-20px] text-white text-[24px] font-bold"
       >
         {experience.title}
       </h3>
@@ -45,7 +43,6 @@ const ExperienceCard = ({ experience }) => (
       >
         <section
           className="font-bold w-full text-[18px] ml-5 laptop:text-[25px] mobile:text-[25px]"
-          // className=" desktop:text-[50px] laptop-l:text-[30px]"
         >
           {experience.company_name}
         </section>
@@ -53,13 +50,11 @@ const ExperienceCard = ({ experience }) => (
     </section>
     <ul
       className="list-disc space-y-2  ml-8 mt-2"
-      // className="mt-5 desktop:mt-[-10px] list-disc ml-5 space-y-2"
     >
       {experience.points.map((point, index) => (
         <li
           key={`experience-point-${index}`}
           className=" laptop:text-[20px] text-white text-[14px] pl-1 tracking-wider mobile:text-[20px]"
-          // className="text-white desktop:ml-[20px] desktop:text-[50px] desktop:mt-[-220px] laptop-l:text-[22px] text-[14px] pl-1 tracking-wider"
         >
           {point}
         </li>
@@ -77,11 +72,9 @@ const Experience = () => {
       <motion.div
         variants={textVariant()}
         className="mt-[400px] laptop:mt-[600px] w-full grid"
-        // className=" dark:xs:mt-[300px] xs:mt-[300px]  desktop:mt-[500px] laptop-l:mt-[200px]"
       >
         <p
           className={`${Styles.sectionSubText} mobile:text-[25px] laptop:text-[50px] `}
-          // className={`${Styles.sectionSubText} md:text-[25px] xs:text-[25px] desktop:text-[70px] laptop-l:text-[50px] dark:text-white `}
         >
           My Work So Far
         </p>
@@ -93,7 +86,6 @@ const Experience = () => {
       </motion.div>
       <div
       className="mt-20 flex flex-col"
-      // className=" xs:mt-[200px] xl:ml-[150px] desktop:ml-[20em] mt-20 flex flex-col"
       >
         <VerticalTimeline
           lineColor="#808080"
