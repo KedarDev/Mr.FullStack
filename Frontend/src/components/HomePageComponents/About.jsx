@@ -57,7 +57,7 @@ const About = () => {
     <>
       <motion.div
         variants={textVariant()}
-        className=" dark:desktop:mt-[140em] grid grid-cols-1 w-full mobile:mt-[300px] laptop:mt-[160em] desktop:mt-[600px]"
+        className=" dark:laptop:mt-[1800px] dark:mobile:mt-[1400px] dark:mobile-s:mt-[1000px] dark:desktop:mt-[140em] grid grid-cols-1 w-full mobile:mt-[300px] laptop:mt-[160em] desktop:mt-[600px]"
       >
         <p
           className={`${Styles.sectionSubText} mobile:text-[25px] laptop:text-[50px] text-black dark:text-white md:text-[25px] xs:text-[25px] desktop:text-[70px]  laptop-l:text-[50px]   `}

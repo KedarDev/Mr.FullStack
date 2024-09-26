@@ -30,7 +30,6 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      // ADD TO DEFUALT SCREENS
       backgroundImage: {
         "hero-pattern": "url('../src/assets/herobg.png')",
         iPhoneProMax: "url('../src/assets/iPhone15ProMax.png')",

@@ -67,7 +67,7 @@ const Contact = () => {
 
   return (
     <div 
-    className=" wideScreen:ml-[340px] desktop:mt-[600px] desktop:ml-[240px] desktop:h-screen mt-[300px] tablet:ml-[] mobile:mt-[-300px] mobile:h-[1000px]  mobile-s:mt-[-300px] mobile-s:ml-[20px] laptop:mt-[-400px] laptop:w-[800px] laptop:ml-[100px]   dark:bg-black h-screen flex-col-reverse flex overflow-hidden"
+    className=" mobile:mt-[200px] wideScreen:ml-[340px] desktop:mt-[600px] desktop:ml-[240px] desktop:h-screen mt-[300px] tablet:ml-[] mobile:h-[1000px]  mobile-s:mt-[-300px] mobile-s:ml-[20px] laptop:mt-[-400px] laptop:w-[800px] laptop:ml-[100px]   dark:bg-black h-screen flex-col-reverse flex overflow-hidden"
     >
       <motion.div
         variants={slideIn("left", "tween", 0, 2, 1)}
