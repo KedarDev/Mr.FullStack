@@ -26,10 +26,10 @@ const Works = () => {
             scale: 0.8,
             speed: 450,
           }}
-          className="  w-full relative left-[20px] mt-[-400px] mobile-s:mt-[-410px] object-contain flex-wrap  bg-rounded-2xl "
+          className=" laptop:mt-[0px] mobile:mt-[410px] tablet:mt-[300px]  w-full relative left-[20px] mt-[-400px] mobile-s:mt-[-410px] object-contain flex-wrap  bg-rounded-2xl "
         >
           <div
-            className="relative dark:wideScreen:w-[800px] dark:wideScreen:h-[500px] desktop:w-[600px] desktop:h-[400px] tablet:w-[400px] tablet:mt-[-848px] tablet:h-[300px] mobile:w-[200px] mobile:h-[200px] mobile:mt-[-830px] mobile-s:mt-[-100px] mobile-s:w-[180px] mobile-s:h-[100px] laptop:mt-[-720px] laptop:w-[500px] laptop:h-[350px] w-[240px] h-[250px]  "
+            className="relative laptop:mt-[]  dark:wideScreen:w-[800px] dark:wideScreen:h-[500px] desktop:w-[600px] desktop:h-[400px] tablet:w-[400px] tablet:mt-[-848px] tablet:h-[300px] mobile:w-[200px] mobile:h-[200px] mobile:mt-[-830px] mobile-s:mt-[-100px] mobile-s:w-[180px] mobile-s:h-[100px] laptop:mt-[-880px] laptop:w-[500px] laptop:h-[350px] w-[240px] h-[250px]  "
           >
             <img
               src={image}
@@ -96,7 +96,7 @@ const Works = () => {
 
   return (
     <>
-      <div className=" laptop:mt-[-500px] mt-[-300px] tablet:mt-[200px] xs:w-screen xs:mt-[600px]"></div>
+      <div className=" mobile:mt-[200px] laptop:mt-[-500px] mt-[-300px] tablet:mt-[200px] xs:w-screen xs:mt-[600px]"></div>
       <motion.div className="md:mt-[400px] xs:mt-[200px] mt-[200px]  relative sm:mt-[-500px] desktop-s:mt-[-600px] laptop:ml-[10px] w-full mobile-s:mt-[-400px] mobile-m:mt-[-400px] mobile-l:mt-[-400px] tablet:mt-[-400px] laptop:mt-[300px]">
         <p
           className={`${Styles.sectionSubText} wideScreen:ml-[-10px]  mobile:text-[25px] laptop:text-[50px] md:text-[25px] relative xs:text-[25px]  dark:text-white desktop:ml-[50px] desktop:text-[80px] laptop-l:text-[60px]   tablet:text-[30px] `}
