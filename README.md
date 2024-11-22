@@ -596,7 +596,7 @@ Don't forget to give the project a star ⭐ Thanks again!
 
 <br>
 
-- Mr.Fullstack [FIGMA design](https://www.figma.com/design/Z0LRnhclDQVDwdKpocoL94/Mr.FullStack-Design?node-id=40-2&t=yC6T0q2yIf7ftzyb-1) file. View in protoype mode for web demo.
+- Mr.Fullstack [FIGMA design](https://www.figma.com/design/Z0LRnhclDQVDwdKpocoL94/Mr.FullStack-Design?node-id=40-2&t=yC6T0q2yIf7ftzyb-1) file. View in prototype mode for web demo.
 <img src="https://imgur.com/bSJjMkk.png" width="1000" alt="mrfullstack-figma-design">
 
 <br>
